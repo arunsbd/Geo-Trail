@@ -8,5 +8,4 @@ GeoTrail is a geography game which has a first playable mode called **Border Hun
 - Alaska and Hawaii are included as isolated graph nodes, so practice targets currently come from the connected 48 states.
 - Map geometry comes from the U.S. Census Bureau's 2017 cartographic boundaries, redistributed by the ISC-licensed `us-atlas` package.
 
-
-
+[Development and GitHub Pages setup](docs/DEPLOYMENT.md)

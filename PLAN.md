@@ -534,10 +534,11 @@ Avoid introducing Redux or a database before needed.
 
 ### Hosting
 
-Initial options:
+The prototype uses GitHub Pages with a Next.js static export. Round selection
+runs in the browser, and a GitHub Actions workflow tests, builds, and deploys
+pushes to `main`. No application server or database is needed.
 
-- Vercel
-- Cloudflare Pages
+Vercel and Cloudflare Pages remain future options if hosting requirements change.
 
 ---
 

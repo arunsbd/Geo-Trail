@@ -17,10 +17,6 @@ type GuessResult = {
   feedback: DistanceFeedback;
 };
 
-type BorderHuntGameProps = {
-  initialMysteryState: StateCode;
-};
-
 function chooseNewMysteryState(previousState: StateCode): StateCode {
   let nextState = pickMysteryState();
 
@@ -31,10 +27,8 @@ function chooseNewMysteryState(previousState: StateCode): StateCode {
   return nextState;
 }
 
-export function BorderHuntGame({
-  initialMysteryState,
-}: BorderHuntGameProps) {
-  const [mysteryState, setMysteryState] = useState(initialMysteryState);
+export function BorderHuntGame() {
+  const [mysteryState, setMysteryState] = useState(pickMysteryState);
   const [guessInput, setGuessInput] = useState("");
   const [guesses, setGuesses] = useState<GuessResult[]>([]);
   const [error, setError] = useState<string | null>(null);

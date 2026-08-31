@@ -1,8 +1,5 @@
-import { BorderHuntGame } from "@/components/BorderHuntGame";
-import { pickMysteryState } from "@/lib/game";
-
-export const dynamic = "force-dynamic";
+import { BrowserBorderHunt } from "@/components/BrowserBorderHunt";
 
 export default function Home() {
-  return <BorderHuntGame initialMysteryState={pickMysteryState()} />;
+  return <BrowserBorderHunt />;
 }
