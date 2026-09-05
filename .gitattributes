@@ -1,0 +1,3 @@
+# Preserve byte-for-byte evidence and visual hashes on every operating system.
+data/clue-ladder/snapshots/**/raw/** -text
+data/clue-ladder/stable/visuals/** -text
