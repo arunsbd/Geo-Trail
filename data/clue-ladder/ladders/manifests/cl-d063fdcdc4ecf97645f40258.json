@@ -1,0 +1,32 @@
+{
+  "puzzleId": "cl-d063fdcdc4ecf97645f40258",
+  "dataContentSha256": "461e4e382d873886b8bbf29479359343484868dc824a76153261e01d725e21bd",
+  "mode": "clue_ladder",
+  "answerStateId": "US-CO",
+  "orderedClueIds": [
+    "co.population.5_5-6_5m",
+    "co.area.rank-6-10",
+    "co.highpoint.14000-15000",
+    "co.time.mountain-all",
+    "co.parks.formal-4",
+    "co.cities.top2-2025",
+    "co.silhouette"
+  ],
+  "dataSnapshotId": "us-states-2026-09-05-v2",
+  "clueSetVersion": "short-seven-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "short-seven-v1",
+  "generatedAt": "2026-09-05T02:47:47.635Z",
+  "validatorVersion": "clue-ladder-1"
+}

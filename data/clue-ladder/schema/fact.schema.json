@@ -1,0 +1,281 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/FactRecord",
+  "definitions": {
+    "FactRecord": {
+      "type": "object",
+      "properties": {
+        "suppressionCode": {
+          "type": "string"
+        },
+        "factId": {
+          "$ref": "#/definitions/FactId"
+        },
+        "subjectId": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/StateId"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "metricId": {
+          "type": "string"
+        },
+        "value": {
+          "$ref": "#/definitions/FactValue"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "referencePeriod": {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "enum": [
+                "static",
+                "point_date",
+                "calendar_year",
+                "range",
+                "legal_effective"
+              ]
+            },
+            "date": {
+              "type": "string"
+            },
+            "year": {
+              "type": "number"
+            },
+            "startDate": {
+              "type": "string"
+            },
+            "endDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind"
+          ],
+          "additionalProperties": false
+        },
+        "universe": {
+          "type": "string"
+        },
+        "sourceRefs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SourceLocator"
+          }
+        },
+        "derivation": {
+          "type": "object",
+          "properties": {
+            "method": {
+              "type": "string",
+              "enum": [
+                "rank",
+                "ratio",
+                "range_bucket",
+                "count",
+                "spatial_relation",
+                "manual_transcription"
+              ]
+            },
+            "inputFactIds": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/FactId"
+              }
+            },
+            "parameters": {
+              "type": "object",
+              "additionalProperties": {}
+            },
+            "codeVersion": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "method",
+            "inputFactIds",
+            "parameters",
+            "codeVersion"
+          ],
+          "additionalProperties": false
+        },
+        "snapshotId": {
+          "type": "string"
+        },
+        "quality": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "draft",
+                "verified",
+                "rejected",
+                "superseded"
+              ]
+            },
+            "verifiedAt": {
+              "type": "string"
+            },
+            "verificationMethod": {
+              "type": "string",
+              "enum": [
+                "second_reviewer",
+                "automated_crosscheck",
+                "both"
+              ]
+            },
+            "notes": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "factId",
+        "subjectId",
+        "metricId",
+        "value",
+        "referencePeriod",
+        "sourceRefs",
+        "snapshotId",
+        "quality"
+      ],
+      "additionalProperties": false
+    },
+    "FactId": {
+      "type": "string"
+    },
+    "StateId": {
+      "type": "string",
+      "enum": [
+        "US-AL",
+        "US-AK",
+        "US-AZ",
+        "US-AR",
+        "US-CA",
+        "US-CO",
+        "US-CT",
+        "US-DE",
+        "US-FL",
+        "US-GA",
+        "US-HI",
+        "US-ID",
+        "US-IL",
+        "US-IN",
+        "US-IA",
+        "US-KS",
+        "US-KY",
+        "US-LA",
+        "US-ME",
+        "US-MD",
+        "US-MA",
+        "US-MI",
+        "US-MN",
+        "US-MS",
+        "US-MO",
+        "US-MT",
+        "US-NE",
+        "US-NV",
+        "US-NH",
+        "US-NJ",
+        "US-NM",
+        "US-NY",
+        "US-NC",
+        "US-ND",
+        "US-OH",
+        "US-OK",
+        "US-OR",
+        "US-PA",
+        "US-RI",
+        "US-SC",
+        "US-SD",
+        "US-TN",
+        "US-TX",
+        "US-UT",
+        "US-VT",
+        "US-VA",
+        "US-WA",
+        "US-WV",
+        "US-WI",
+        "US-WY"
+      ]
+    },
+    "FactValue": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": {}
+        }
+      ]
+    },
+    "SourceLocator": {
+      "type": "object",
+      "properties": {
+        "sourceId": {
+          "$ref": "#/definitions/SourceId"
+        },
+        "sheet": {
+          "type": "string"
+        },
+        "table": {
+          "type": "string"
+        },
+        "rowKey": {
+          "type": "string"
+        },
+        "column": {
+          "type": "string"
+        },
+        "variableCode": {
+          "type": "string"
+        },
+        "page": {
+          "type": "number"
+        },
+        "section": {
+          "type": "string"
+        },
+        "featureId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceId"
+      ],
+      "additionalProperties": false
+    },
+    "SourceId": {
+      "type": "string"
+    }
+  }
+}

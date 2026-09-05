@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/AssetRecord",
+  "definitions": {
+    "AssetRecord": {
+      "type": "object",
+      "properties": {
+        "assetId": {
+          "$ref": "#/definitions/AssetId"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "silhouette",
+            "locator_map"
+          ]
+        },
+        "stateId": {
+          "$ref": "#/definitions/StateId"
+        },
+        "sourceGeometryId": {
+          "$ref": "#/definitions/SourceId"
+        },
+        "projection": {
+          "type": "string"
+        },
+        "simplificationTolerance": {
+          "type": "number"
+        },
+        "viewBox": {
+          "type": "string"
+        },
+        "filePath": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        },
+        "generatedAt": {
+          "type": "string"
+        },
+        "transformVersion": {
+          "type": "string"
+        },
+        "accessibility": {
+          "type": "object",
+          "properties": {
+            "preAnswerAlt": {
+              "type": "string",
+              "enum": [
+                "Mystery state shape",
+                "Mystery state location"
+              ]
+            },
+            "postAnswerAlt": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "preAnswerAlt",
+            "postAnswerAlt"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "assetId",
+        "kind",
+        "stateId",
+        "sourceGeometryId",
+        "projection",
+        "simplificationTolerance",
+        "viewBox",
+        "filePath",
+        "sha256",
+        "generatedAt",
+        "transformVersion",
+        "accessibility"
+      ],
+      "additionalProperties": false
+    },
+    "AssetId": {
+      "type": "string"
+    },
+    "StateId": {
+      "type": "string",
+      "enum": [
+        "US-AL",
+        "US-AK",
+        "US-AZ",
+        "US-AR",
+        "US-CA",
+        "US-CO",
+        "US-CT",
+        "US-DE",
+        "US-FL",
+        "US-GA",
+        "US-HI",
+        "US-ID",
+        "US-IL",
+        "US-IN",
+        "US-IA",
+        "US-KS",
+        "US-KY",
+        "US-LA",
+        "US-ME",
+        "US-MD",
+        "US-MA",
+        "US-MI",
+        "US-MN",
+        "US-MS",
+        "US-MO",
+        "US-MT",
+        "US-NE",
+        "US-NV",
+        "US-NH",
+        "US-NJ",
+        "US-NM",
+        "US-NY",
+        "US-NC",
+        "US-ND",
+        "US-OH",
+        "US-OK",
+        "US-OR",
+        "US-PA",
+        "US-RI",
+        "US-SC",
+        "US-SD",
+        "US-TN",
+        "US-TX",
+        "US-UT",
+        "US-VT",
+        "US-VA",
+        "US-WA",
+        "US-WV",
+        "US-WI",
+        "US-WY"
+      ]
+    },
+    "SourceId": {
+      "type": "string"
+    }
+  }
+}

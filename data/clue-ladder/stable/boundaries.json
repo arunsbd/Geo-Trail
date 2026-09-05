@@ -1,0 +1,242 @@
+[
+  {
+    "boundaryId": "US-AL:US-FL:segment:land",
+    "stateA": "US-AL",
+    "stateB": "US-FL",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-AL:US-GA:segment:land",
+    "stateA": "US-AL",
+    "stateB": "US-GA",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-AL:US-MS:segment:land",
+    "stateA": "US-AL",
+    "stateB": "US-MS",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-AL:US-TN:segment:land",
+    "stateA": "US-AL",
+    "stateB": "US-TN",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-CO:US-KS:segment:land",
+    "stateA": "US-CO",
+    "stateB": "US-KS",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-CO:US-NE:segment:land",
+    "stateA": "US-CO",
+    "stateB": "US-NE",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-CO:US-NM:segment:land",
+    "stateA": "US-CO",
+    "stateB": "US-NM",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-CO:US-OK:segment:land",
+    "stateA": "US-CO",
+    "stateB": "US-OK",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-CO:US-UT:segment:land",
+    "stateA": "US-CO",
+    "stateB": "US-UT",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-CO:US-WY:segment:land",
+    "stateA": "US-CO",
+    "stateB": "US-WY",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-CT:US-RI:segment:land",
+    "stateA": "US-CT",
+    "stateB": "US-RI",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-MA:US-RI:segment:land",
+    "stateA": "US-MA",
+    "stateB": "US-RI",
+    "topology": "segment",
+    "medium": "land",
+    "clueBorderEligible": true,
+    "borderHuntEdge": true,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-AZ:US-CO:point_contact:land",
+    "stateA": "US-AZ",
+    "stateB": "US-CO",
+    "topology": "point_contact",
+    "medium": "land",
+    "clueBorderEligible": false,
+    "borderHuntEdge": false,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-NM:US-UT:point_contact:land",
+    "stateA": "US-NM",
+    "stateB": "US-UT",
+    "topology": "point_contact",
+    "medium": "land",
+    "clueBorderEligible": false,
+    "borderHuntEdge": false,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  },
+  {
+    "boundaryId": "US-NY:US-RI:segment:lake_or_coastal_water",
+    "stateA": "US-NY",
+    "stateB": "US-RI",
+    "topology": "segment",
+    "medium": "lake_or_coastal_water",
+    "clueBorderEligible": false,
+    "borderHuntEdge": false,
+    "sourceGeometryId": "CEN-TIGER-2025",
+    "derivation": {
+      "method": "spatial_intersection",
+      "toleranceMeters": 0,
+      "codeVersion": "spec-audit-2026-08-30"
+    },
+    "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+  }
+]

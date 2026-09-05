@@ -1,0 +1,265 @@
+{
+  "snapshotId": "us-states-2026-09-05-v1",
+  "summary": {
+    "statesLoaded": 3,
+    "factsValidated": 2019,
+    "approvedClues": 45,
+    "laddersCompiled": 3,
+    "errors": 0,
+    "warnings": 5,
+    "auditedSampleLaddersValidated": 2
+  },
+  "diagnostics": [
+    {
+      "severity": "warning",
+      "code": "SUPPRESSED_VALUE",
+      "path": "us-states-2026-09-05-v1:US-HI:economy.industry_value_added_current_usd.manufacturing",
+      "message": "Official value is (D); no imputation"
+    },
+    {
+      "severity": "warning",
+      "code": "SUPPRESSED_VALUE",
+      "path": "us-states-2026-09-05-v1:place:CO:carbonate-town:place.population_estimate",
+      "message": "Official value is -; no imputation"
+    },
+    {
+      "severity": "warning",
+      "code": "CANDIDATE_COVERAGE",
+      "path": "al.industry.mfg-14-16",
+      "message": "Missing nationwide evidence: US-HI"
+    },
+    {
+      "severity": "warning",
+      "code": "EARLY_SELECTIVITY",
+      "path": "US-CO/rung-1",
+      "message": "6 candidates outside preferred 8–30; editorial review recommended"
+    },
+    {
+      "severity": "warning",
+      "code": "EARLY_SELECTIVITY",
+      "path": "US-CO/rung-3",
+      "message": "1 candidates outside preferred 2–8; editorial review recommended"
+    }
+  ],
+  "samples": [
+    {
+      "state": "AL",
+      "expectedEarlyCounts": [
+        19,
+        5,
+        2,
+        1
+      ],
+      "knownEarlyCounts": [
+        19,
+        5,
+        2,
+        1
+      ],
+      "fullyValidated": false,
+      "errors": [
+        {
+          "severity": "error",
+          "code": "LADDER_APPROVAL",
+          "path": "al.industry.mfg-14-16",
+          "message": "Compiler accepts only approved clues"
+        }
+      ]
+    },
+    {
+      "state": "CO",
+      "expectedEarlyCounts": [
+        6,
+        3,
+        2,
+        1
+      ],
+      "knownEarlyCounts": [
+        6,
+        3,
+        2,
+        1
+      ],
+      "fullyValidated": true,
+      "errors": []
+    },
+    {
+      "state": "RI",
+      "expectedEarlyCounts": [
+        19,
+        4,
+        2,
+        1
+      ],
+      "knownEarlyCounts": [
+        19,
+        4,
+        2,
+        1
+      ],
+      "fullyValidated": true,
+      "errors": []
+    }
+  ],
+  "compiled": [
+    {
+      "answerStateId": "US-AL",
+      "manifest": {
+        "puzzleId": "cl-7546a54eb02633dc43892fa1",
+        "dataContentSha256": "be2498bcad7b18f38ed0d3ef13448046a870267ca236d6f30fcbf82cfac56234",
+        "mode": "clue_ladder",
+        "answerStateId": "US-AL",
+        "orderedClueIds": [
+          "al.park.formal-0",
+          "al.history.1810s",
+          "al.gdp.300-400",
+          "al.highpoint.2000-2500",
+          "al.population.5-6m",
+          "al.time.central-all",
+          "al.borders.segment-set",
+          "al.cities.top2-2025",
+          "al.silhouette",
+          "al.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v1",
+        "clueSetVersion": "audited-examples-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400,
+            300,
+            200,
+            100
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "milestone-v1",
+        "generatedAt": "2026-09-05T02:47:47.635Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "answerStateId": "US-CO",
+      "manifest": {
+        "puzzleId": "cl-650b1901b9c3b722617562e2",
+        "dataContentSha256": "be2498bcad7b18f38ed0d3ef13448046a870267ca236d6f30fcbf82cfac56234",
+        "mode": "clue_ladder",
+        "answerStateId": "US-CO",
+        "orderedClueIds": [
+          "co.gdp.500-650",
+          "co.population.5_5-6_5m",
+          "co.area.rank-6-10",
+          "co.industry.pst-10-13",
+          "co.time.mountain-all",
+          "co.history.1865-1880",
+          "co.cities.top2-2025",
+          "co.parks.named-pair",
+          "co.locator",
+          "co.silhouette"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v1",
+        "clueSetVersion": "audited-examples-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400,
+            300,
+            200,
+            100
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "milestone-v1",
+        "generatedAt": "2026-09-05T02:47:47.635Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        6,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "answerStateId": "US-RI",
+      "manifest": {
+        "puzzleId": "cl-c2c54bffee7e2f74edf7fb88",
+        "dataContentSha256": "be2498bcad7b18f38ed0d3ef13448046a870267ca236d6f30fcbf82cfac56234",
+        "mode": "clue_ladder",
+        "answerStateId": "US-RI",
+        "orderedClueIds": [
+          "ri.park.formal-0",
+          "ri.industry.edu-health-12-15",
+          "ri.time.eastern-all",
+          "ri.history.13th",
+          "ri.area.rank-46-50",
+          "ri.cities.top2-2025",
+          "ri.landmark.touro-roger",
+          "ri.borders.typed",
+          "ri.locator",
+          "ri.silhouette"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v1",
+        "clueSetVersion": "audited-examples-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400,
+            300,
+            200,
+            100
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "milestone-v1",
+        "generatedAt": "2026-09-05T02:47:47.635Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        4,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

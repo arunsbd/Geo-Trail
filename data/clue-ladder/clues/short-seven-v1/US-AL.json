@@ -1,0 +1,846 @@
+[
+  {
+    "clueId": "al.park.formal-0",
+    "answerStateId": "US-AL",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "No NPS unit in this state is formally designated a National Park. (NPS snapshot: September 5, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 0
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL",
+        "US-CT",
+        "US-DE",
+        "US-GA",
+        "US-IA",
+        "US-KS",
+        "US-LA",
+        "US-MA",
+        "US-MD",
+        "US-MS",
+        "US-NE",
+        "US-NH",
+        "US-NJ",
+        "US-NY",
+        "US-OK",
+        "US-PA",
+        "US-RI",
+        "US-VT",
+        "US-WI"
+      ],
+      "count": 19,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 5,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 3,
+      "dependencyGroup": "US-AL:parks:2025"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "retired",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "al.industry.mfg-14-16",
+    "answerStateId": "US-AL",
+    "category": "industry",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Manufacturing accounted for 14%–16% of its 2025 current-dollar GDP."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:economy.industry_share_of_gdp.manufacturing"
+    ],
+    "predicate": {
+      "metricId": "economy.industry_share_of_gdp.manufacturing",
+      "op": "between",
+      "minInclusive": 14,
+      "maxExclusive": 16
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL",
+        "US-IA",
+        "US-KS",
+        "US-KY",
+        "US-MI",
+        "US-MS",
+        "US-WI"
+      ],
+      "count": 7,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 5,
+      "dependencyGroup": "US-AL:industry:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "retired",
+      "evidenceChecked": false,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Nationwide evaluation incomplete; candidateSet lists known true states only. Original expected count remains in audited-examples.json."
+    }
+  },
+  {
+    "clueId": "al.gdp.300-400",
+    "answerStateId": "US-AL",
+    "category": "economy",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its 2025 current-dollar GDP was between $300 billion and $400 billion."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:economy.gdp_current_usd"
+    ],
+    "predicate": {
+      "metricId": "economy.gdp_current_usd",
+      "op": "between",
+      "minInclusive": 300000000000,
+      "maxExclusive": 400000000000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL",
+        "US-CT",
+        "US-KY",
+        "US-LA",
+        "US-OR",
+        "US-SC",
+        "US-UT"
+      ],
+      "count": 7,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 5,
+      "dependencyGroup": "US-AL:economy:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "retired",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "al.population.5-6m",
+    "answerStateId": "US-AL",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 5–6 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 5000000,
+      "maxExclusive": 6000000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL",
+        "US-MN",
+        "US-SC",
+        "US-WI"
+      ],
+      "count": 4,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "US-AL:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them. Simplified wording and seven-round window reviewed for the user-requested short edition; predicate and evidence unchanged."
+    }
+  },
+  {
+    "clueId": "al.area.rank-26-30",
+    "answerStateId": "US-AL",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranked 26th–30th in land area among the 50 states using Census 2010 measurements."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 26,
+      "maxExclusive": 31
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL",
+        "US-AR",
+        "US-FL",
+        "US-NC",
+        "US-NY"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 6,
+      "dependencyGroup": "US-AL:area:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "retired",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "al.highpoint.2000-2500",
+    "answerStateId": "US-AL",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its highest point is 2,000–2,500 feet above sea level."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:physical.highest_point"
+    ],
+    "predicate": {
+      "metricId": "physical.highest_point",
+      "op": "between",
+      "minInclusive": 2000,
+      "maxExclusive": 2500
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL",
+        "US-CT",
+        "US-MN"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "US-AL:physical_geography:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them. Simplified wording and seven-round window reviewed for the user-requested short edition; predicate and evidence unchanged."
+    }
+  },
+  {
+    "clueId": "al.history.1810s",
+    "answerStateId": "US-AL",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It became a state in the 1810s."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:history.admission_year"
+    ],
+    "predicate": {
+      "metricId": "history.admission_year",
+      "op": "between",
+      "minInclusive": 1810,
+      "maxExclusive": 1820
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL",
+        "US-IL",
+        "US-IN",
+        "US-LA",
+        "US-MS"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "US-AL:history:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them. Simplified wording and seven-round window reviewed for the user-requested short edition; predicate and evidence unchanged."
+    }
+  },
+  {
+    "clueId": "al.time.central-all",
+    "answerStateId": "US-AL",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The whole state uses Central Time. (2026 time-zone rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Central"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL",
+        "US-AR",
+        "US-IA",
+        "US-IL",
+        "US-LA",
+        "US-MN",
+        "US-MO",
+        "US-MS",
+        "US-OK",
+        "US-WI"
+      ],
+      "count": 10,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "US-AL:time_zone:2025"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them. Simplified wording and seven-round window reviewed for the user-requested short edition; predicate and evidence unchanged."
+    }
+  },
+  {
+    "clueId": "al.landmark.selma-montgomery",
+    "answerStateId": "US-AL",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The Selma to Montgomery National Historic Trail is here."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:nps.associated_unit"
+    ],
+    "predicate": {
+      "metricId": "nps.associated_unit",
+      "op": "contains_all",
+      "values": [
+        "Selma to Montgomery National Historic Trail"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "named_association",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 8,
+      "dependencyGroup": "US-AL:landmark:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "retired",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "al.cities.top2-2025",
+    "answerStateId": "US-AL",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Huntsville and Mobile were its two biggest cities in 2025 (incorporated places)."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:place.audit_membership",
+      "us-states-2026-09-05-v2:US-AL:place.top_two"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.audit_membership",
+          "op": "contains_all",
+          "values": [
+            "place:AL:huntsville-city",
+            "place:AL:mobile-city"
+          ]
+        },
+        {
+          "metricId": "place.top_two",
+          "op": "contains_all",
+          "values": [
+            "place:AL:huntsville-city",
+            "place:AL:mobile-city"
+          ]
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "named_association",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "US-AL:cities:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them. Simplified wording and seven-round window reviewed for the user-requested short edition; predicate and evidence unchanged."
+    }
+  },
+  {
+    "clueId": "al.capital.montgomery",
+    "answerStateId": "US-AL",
+    "category": "capital",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its capital is Montgomery."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:place.audit_membership",
+      "us-states-2026-09-05-v2:US-AL:identity.capital"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.audit_membership",
+          "op": "contains_all",
+          "values": [
+            "place:AL:montgomery-city"
+          ]
+        },
+        {
+          "metricId": "identity.capital",
+          "op": "eq",
+          "value": "Montgomery"
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "named_association",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 9,
+      "dependencyGroup": "US-AL:capital:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "retired",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "al.borders.segment-set",
+    "answerStateId": "US-AL",
+    "category": "borders",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It borders Florida, Georgia, Mississippi, and Tennessee."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:boundary.shared_segments"
+    ],
+    "predicate": {
+      "metricId": "boundary.shared_segments",
+      "op": "contains_all",
+      "values": [
+        "US-FL",
+        "US-GA",
+        "US-MS",
+        "US-TN"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "US-AL:borders:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them. Simplified wording and seven-round window reviewed for the user-requested short edition; predicate and evidence unchanged."
+    }
+  },
+  {
+    "clueId": "al.postal",
+    "answerStateId": "US-AL",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is AL."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "AL"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 8,
+      "latestRung": 10,
+      "dependencyGroup": "US-AL:abbreviation:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "retired",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "al.silhouette",
+    "answerStateId": "US-AL",
+    "category": "silhouette",
+    "render": {
+      "kind": "image",
+      "assetId": "asset-0bf229e5187e1c50",
+      "text": {
+        "en": "Which state has this shape?"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "AL"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "US-AL:silhouette:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them. Simplified wording and seven-round window reviewed for the user-requested short edition; predicate and evidence unchanged."
+    }
+  },
+  {
+    "clueId": "al.locator",
+    "answerStateId": "US-AL",
+    "category": "map_position",
+    "render": {
+      "kind": "map",
+      "assetId": "asset-2eba04a6359c67d5"
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v2:US-AL:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "AL"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v2",
+      "stateIds": [
+        "US-AL"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 9,
+      "latestRung": 10,
+      "dependencyGroup": "US-AL:map_position:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "retired",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  }
+]

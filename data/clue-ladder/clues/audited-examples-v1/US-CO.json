@@ -1,0 +1,893 @@
+[
+  {
+    "clueId": "co.gdp.500-650",
+    "answerStateId": "US-CO",
+    "category": "economy",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its 2025 current-dollar GDP was between $500 billion and $650 billion."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:economy.gdp_current_usd"
+    ],
+    "predicate": {
+      "metricId": "economy.gdp_current_usd",
+      "op": "between",
+      "minInclusive": 500000000000,
+      "maxExclusive": 650000000000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-AZ",
+        "US-CO",
+        "US-IN",
+        "US-MD",
+        "US-MN",
+        "US-TN"
+      ],
+      "count": 6,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 5,
+      "dependencyGroup": "US-CO:economy:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.population.5_5-6_5m",
+    "answerStateId": "US-CO",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its July 1, 2025 population estimate was between 5.5 million and 6.5 million."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 5500000,
+      "maxExclusive": 6500000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO",
+        "US-MD",
+        "US-MN",
+        "US-MO",
+        "US-SC",
+        "US-WI"
+      ],
+      "count": 6,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 5,
+      "dependencyGroup": "US-CO:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.industry.pst-10-13",
+    "answerStateId": "US-CO",
+    "category": "industry",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Professional, scientific, and technical services contributed 10%–13% of its 2025 GDP."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:economy.industry_share_of_gdp.professional"
+    ],
+    "predicate": {
+      "metricId": "economy.industry_share_of_gdp.professional",
+      "op": "between",
+      "minInclusive": 10,
+      "maxExclusive": 13
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO",
+        "US-MD",
+        "US-VA"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 6,
+      "dependencyGroup": "US-CO:industry:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.area.rank-6-10",
+    "answerStateId": "US-CO",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranked 6th–10th in land area among the 50 states using Census 2010 measurements."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 6,
+      "maxExclusive": 11
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-AZ",
+        "US-CO",
+        "US-NV",
+        "US-OR",
+        "US-WY"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 6,
+      "dependencyGroup": "US-CO:area:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.highpoint.14000-15000",
+    "answerStateId": "US-CO",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its highest point is between 14,000 and 15,000 feet above sea level."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:physical.highest_point"
+    ],
+    "predicate": {
+      "metricId": "physical.highest_point",
+      "op": "between",
+      "minInclusive": 14000,
+      "maxExclusive": 15000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CA",
+        "US-CO",
+        "US-WA"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 7,
+      "dependencyGroup": "US-CO:physical_geography:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.history.1865-1880",
+    "answerStateId": "US-CO",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It was admitted to the Union between 1865 and 1880."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:history.admission_year"
+    ],
+    "predicate": {
+      "metricId": "history.admission_year",
+      "op": "between",
+      "minInclusive": 1865,
+      "maxExclusive": 1881
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO",
+        "US-NE"
+      ],
+      "count": 2,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 7,
+      "dependencyGroup": "US-CO:history:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.time.mountain-all",
+    "answerStateId": "US-CO",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The entire state is in the Mountain standard time zone. (49 CFR snapshot: August 30, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Mountain"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-AZ",
+        "US-CO",
+        "US-MT",
+        "US-NM",
+        "US-UT",
+        "US-WY"
+      ],
+      "count": 6,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 7,
+      "dependencyGroup": "US-CO:time_zone:2025"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.parks.formal-4",
+    "answerStateId": "US-CO",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It contains four units formally designated National Park. (NPS snapshot: September 5, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 4
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 8,
+      "dependencyGroup": "US-CO:parks:2025",
+      "incompatibleClueIds": [
+        "co.parks.named-pair"
+      ]
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.parks.named-pair",
+    "answerStateId": "US-CO",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Black Canyon of the Gunnison and Mesa Verde National Parks are here. (NPS snapshot: September 5, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:nps.formal_unit_ids"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_unit_ids",
+      "op": "contains_all",
+      "values": [
+        "black-canyon-of-the-gunnison-national-park",
+        "mesa-verde-national-park"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "named_association",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 8,
+      "dependencyGroup": "US-CO:landmark:2025",
+      "incompatibleClueIds": [
+        "co.parks.formal-4"
+      ]
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.cities.top2-2025",
+    "answerStateId": "US-CO",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Denver and Colorado Springs were its two largest incorporated places in the 2025 Census estimates."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:place.audit_membership",
+      "us-states-2026-09-05-v1:US-CO:place.top_two"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.audit_membership",
+          "op": "contains_all",
+          "values": [
+            "place:CO:denver-city",
+            "place:CO:colorado-springs-city"
+          ]
+        },
+        {
+          "metricId": "place.top_two",
+          "op": "contains_all",
+          "values": [
+            "place:CO:denver-city",
+            "place:CO:colorado-springs-city"
+          ]
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "named_association",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 8,
+      "dependencyGroup": "US-CO:cities:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.capital.denver",
+    "answerStateId": "US-CO",
+    "category": "capital",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its capital is Denver."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:place.audit_membership",
+      "us-states-2026-09-05-v1:US-CO:identity.capital"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.audit_membership",
+          "op": "contains_all",
+          "values": [
+            "place:CO:denver-city"
+          ]
+        },
+        {
+          "metricId": "identity.capital",
+          "op": "eq",
+          "value": "Denver"
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "named_association",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 9,
+      "dependencyGroup": "US-CO:capital:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.borders.segment-set",
+    "answerStateId": "US-CO",
+    "category": "borders",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It shares boundary segments with Wyoming, Nebraska, Kansas, Oklahoma, New Mexico, and Utah."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:boundary.shared_segments"
+    ],
+    "predicate": {
+      "metricId": "boundary.shared_segments",
+      "op": "contains_all",
+      "values": [
+        "US-WY",
+        "US-NE",
+        "US-KS",
+        "US-OK",
+        "US-NM",
+        "US-UT"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 9,
+      "dependencyGroup": "US-CO:borders:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.point.arizona",
+    "answerStateId": "US-CO",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It meets Arizona at a point but shares no boundary segment with it."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:boundary.point_contacts",
+      "us-states-2026-09-05-v1:US-CO:boundary.shared_segments"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "boundary.point_contacts",
+          "op": "contains_all",
+          "values": [
+            "US-AZ"
+          ]
+        },
+        {
+          "metricId": "boundary.shared_segments",
+          "op": "eq",
+          "value": [
+            "US-KS",
+            "US-NE",
+            "US-NM",
+            "US-OK",
+            "US-UT",
+            "US-WY"
+          ]
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 8,
+      "dependencyGroup": "US-CO:physical_geography:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.postal",
+    "answerStateId": "US-CO",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is CO."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "CO"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 8,
+      "latestRung": 10,
+      "dependencyGroup": "US-CO:abbreviation:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.silhouette",
+    "answerStateId": "US-CO",
+    "category": "silhouette",
+    "render": {
+      "kind": "image",
+      "assetId": "asset-3225a770a53968d9"
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "CO"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 9,
+      "latestRung": 10,
+      "dependencyGroup": "US-CO:silhouette:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  },
+  {
+    "clueId": "co.locator",
+    "answerStateId": "US-CO",
+    "category": "map_position",
+    "render": {
+      "kind": "map",
+      "assetId": "asset-6da1eb5773914395"
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v1:US-CO:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "CO"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v1",
+      "stateIds": [
+        "US-CO"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-05T02:47:47.635Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 9,
+      "latestRung": 10,
+      "dependencyGroup": "US-CO:map_position:2025"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Supplied audited wording/tier/windows retained, candidate evaluation crosschecked. Prior and dependency group are editorial implementation metadata where the specimen omitted them."
+    }
+  }
+]

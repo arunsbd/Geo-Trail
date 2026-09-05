@@ -1,0 +1,1337 @@
+[
+  {
+    "factId": "us-states-2026-09-05-v1:US-AK:history.admission_year",
+    "subjectId": "US-AK",
+    "metricId": "history.admission_year",
+    "value": 1959,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Alaska",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:history.admission_date",
+    "subjectId": "US-AL",
+    "metricId": "history.admission_date",
+    "value": "1819-12-14",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-GUIDE-2010",
+        "section": "Supplied AL profile: history"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:history.admission_order",
+    "subjectId": "US-AL",
+    "metricId": "history.admission_order",
+    "value": 22,
+    "unit": "rank",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-GUIDE-2010",
+        "section": "Supplied AL profile: admission order"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:history.admission_year",
+    "subjectId": "US-AL",
+    "metricId": "history.admission_year",
+    "value": 1819,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Alabama",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AR:history.admission_year",
+    "subjectId": "US-AR",
+    "metricId": "history.admission_year",
+    "value": 1836,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Arkansas",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AZ:history.admission_year",
+    "subjectId": "US-AZ",
+    "metricId": "history.admission_year",
+    "value": 1912,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Arizona",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CA:history.admission_year",
+    "subjectId": "US-CA",
+    "metricId": "history.admission_year",
+    "value": 1850,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "California",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:history.admission_date",
+    "subjectId": "US-CO",
+    "metricId": "history.admission_date",
+    "value": "1876-08-01",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-GUIDE-2010",
+        "section": "Supplied CO profile: history"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:history.admission_order",
+    "subjectId": "US-CO",
+    "metricId": "history.admission_order",
+    "value": 38,
+    "unit": "rank",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-GUIDE-2010",
+        "section": "Supplied CO profile: admission order"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:history.admission_year",
+    "subjectId": "US-CO",
+    "metricId": "history.admission_year",
+    "value": 1876,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Colorado",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CT:history.admission_year",
+    "subjectId": "US-CT",
+    "metricId": "history.admission_year",
+    "value": 1788,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Connecticut",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-DE:history.admission_year",
+    "subjectId": "US-DE",
+    "metricId": "history.admission_year",
+    "value": 1787,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Delaware",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-FL:history.admission_year",
+    "subjectId": "US-FL",
+    "metricId": "history.admission_year",
+    "value": 1845,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Florida",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-GA:history.admission_year",
+    "subjectId": "US-GA",
+    "metricId": "history.admission_year",
+    "value": 1788,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Georgia",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-HI:history.admission_year",
+    "subjectId": "US-HI",
+    "metricId": "history.admission_year",
+    "value": 1959,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Hawaii",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IA:history.admission_year",
+    "subjectId": "US-IA",
+    "metricId": "history.admission_year",
+    "value": 1846,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Iowa",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ID:history.admission_year",
+    "subjectId": "US-ID",
+    "metricId": "history.admission_year",
+    "value": 1890,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Idaho",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IL:history.admission_year",
+    "subjectId": "US-IL",
+    "metricId": "history.admission_year",
+    "value": 1818,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Illinois",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IN:history.admission_year",
+    "subjectId": "US-IN",
+    "metricId": "history.admission_year",
+    "value": 1816,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Indiana",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KS:history.admission_year",
+    "subjectId": "US-KS",
+    "metricId": "history.admission_year",
+    "value": 1861,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Kansas",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KY:history.admission_year",
+    "subjectId": "US-KY",
+    "metricId": "history.admission_year",
+    "value": 1792,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Kentucky",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-LA:history.admission_year",
+    "subjectId": "US-LA",
+    "metricId": "history.admission_year",
+    "value": 1812,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Louisiana",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MA:history.admission_year",
+    "subjectId": "US-MA",
+    "metricId": "history.admission_year",
+    "value": 1788,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Massachusetts",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MD:history.admission_year",
+    "subjectId": "US-MD",
+    "metricId": "history.admission_year",
+    "value": 1788,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Maryland",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ME:history.admission_year",
+    "subjectId": "US-ME",
+    "metricId": "history.admission_year",
+    "value": 1820,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Maine",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MI:history.admission_year",
+    "subjectId": "US-MI",
+    "metricId": "history.admission_year",
+    "value": 1837,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Michigan",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MN:history.admission_year",
+    "subjectId": "US-MN",
+    "metricId": "history.admission_year",
+    "value": 1858,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Minnesota",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MO:history.admission_year",
+    "subjectId": "US-MO",
+    "metricId": "history.admission_year",
+    "value": 1821,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Missouri",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MS:history.admission_year",
+    "subjectId": "US-MS",
+    "metricId": "history.admission_year",
+    "value": 1817,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Mississippi",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MT:history.admission_year",
+    "subjectId": "US-MT",
+    "metricId": "history.admission_year",
+    "value": 1889,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Montana",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NC:history.admission_year",
+    "subjectId": "US-NC",
+    "metricId": "history.admission_year",
+    "value": 1789,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "North Carolina",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ND:history.admission_year",
+    "subjectId": "US-ND",
+    "metricId": "history.admission_year",
+    "value": 1889,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "North Dakota",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NE:history.admission_year",
+    "subjectId": "US-NE",
+    "metricId": "history.admission_year",
+    "value": 1867,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Nebraska",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NH:history.admission_year",
+    "subjectId": "US-NH",
+    "metricId": "history.admission_year",
+    "value": 1788,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "New Hampshire",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NJ:history.admission_year",
+    "subjectId": "US-NJ",
+    "metricId": "history.admission_year",
+    "value": 1787,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "New Jersey",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NM:history.admission_year",
+    "subjectId": "US-NM",
+    "metricId": "history.admission_year",
+    "value": 1912,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "New Mexico",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NV:history.admission_year",
+    "subjectId": "US-NV",
+    "metricId": "history.admission_year",
+    "value": 1864,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Nevada",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NY:history.admission_year",
+    "subjectId": "US-NY",
+    "metricId": "history.admission_year",
+    "value": 1788,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "New York",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OH:history.admission_year",
+    "subjectId": "US-OH",
+    "metricId": "history.admission_year",
+    "value": 1803,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Ohio",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OK:history.admission_year",
+    "subjectId": "US-OK",
+    "metricId": "history.admission_year",
+    "value": 1907,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Oklahoma",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OR:history.admission_year",
+    "subjectId": "US-OR",
+    "metricId": "history.admission_year",
+    "value": 1859,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Oregon",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-PA:history.admission_year",
+    "subjectId": "US-PA",
+    "metricId": "history.admission_year",
+    "value": 1787,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Pennsylvania",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:history.admission_date",
+    "subjectId": "US-RI",
+    "metricId": "history.admission_date",
+    "value": "1790-05-29",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-GUIDE-2010",
+        "section": "Supplied RI profile: history"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:history.admission_order",
+    "subjectId": "US-RI",
+    "metricId": "history.admission_order",
+    "value": 13,
+    "unit": "rank",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-GUIDE-2010",
+        "section": "Supplied RI profile: admission order"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:history.admission_year",
+    "subjectId": "US-RI",
+    "metricId": "history.admission_year",
+    "value": 1790,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Rhode Island",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SC:history.admission_year",
+    "subjectId": "US-SC",
+    "metricId": "history.admission_year",
+    "value": 1788,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "South Carolina",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SD:history.admission_year",
+    "subjectId": "US-SD",
+    "metricId": "history.admission_year",
+    "value": 1889,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "South Dakota",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TN:history.admission_year",
+    "subjectId": "US-TN",
+    "metricId": "history.admission_year",
+    "value": 1796,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Tennessee",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TX:history.admission_year",
+    "subjectId": "US-TX",
+    "metricId": "history.admission_year",
+    "value": 1845,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Texas",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-UT:history.admission_year",
+    "subjectId": "US-UT",
+    "metricId": "history.admission_year",
+    "value": 1896,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Utah",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VA:history.admission_year",
+    "subjectId": "US-VA",
+    "metricId": "history.admission_year",
+    "value": 1788,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Virginia",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VT:history.admission_year",
+    "subjectId": "US-VT",
+    "metricId": "history.admission_year",
+    "value": 1791,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Vermont",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WA:history.admission_year",
+    "subjectId": "US-WA",
+    "metricId": "history.admission_year",
+    "value": 1889,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Washington",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WI:history.admission_year",
+    "subjectId": "US-WI",
+    "metricId": "history.admission_year",
+    "value": 1848,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Wisconsin",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WV:history.admission_year",
+    "subjectId": "US-WV",
+    "metricId": "history.admission_year",
+    "value": 1863,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "West Virginia",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WY:history.admission_year",
+    "subjectId": "US-WY",
+    "metricId": "history.admission_year",
+    "value": 1890,
+    "unit": "year",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "rowKey": "Wyoming",
+        "column": "Year of statehood"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  }
+]

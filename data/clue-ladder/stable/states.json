@@ -1,0 +1,68 @@
+[
+  {
+    "stateId": "US-AL",
+    "name": "Alabama",
+    "slug": "alabama",
+    "postalCode": "AL",
+    "censusFips": "01",
+    "censusRegion": "South",
+    "censusDivision": "East South Central",
+    "mapAssetId": "asset-2eba04a6359c67d5",
+    "identitySourceRefs": [
+      {
+        "sourceId": "CEN-PEP-STATE-V2025",
+        "rowKey": "Alabama",
+        "column": "STATE,REGION,DIVISION"
+      },
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "AL"
+      }
+    ]
+  },
+  {
+    "stateId": "US-CO",
+    "name": "Colorado",
+    "slug": "colorado",
+    "postalCode": "CO",
+    "censusFips": "08",
+    "censusRegion": "West",
+    "censusDivision": "Mountain",
+    "mapAssetId": "asset-6da1eb5773914395",
+    "identitySourceRefs": [
+      {
+        "sourceId": "CEN-PEP-STATE-V2025",
+        "rowKey": "Colorado",
+        "column": "STATE,REGION,DIVISION"
+      },
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "CO"
+      }
+    ]
+  },
+  {
+    "stateId": "US-RI",
+    "name": "Rhode Island",
+    "slug": "rhode-island",
+    "postalCode": "RI",
+    "censusFips": "44",
+    "censusRegion": "Northeast",
+    "censusDivision": "New England",
+    "mapAssetId": "asset-c2aad0cb92d4e360",
+    "identitySourceRefs": [
+      {
+        "sourceId": "CEN-PEP-STATE-V2025",
+        "rowKey": "Rhode Island",
+        "column": "STATE,REGION,DIVISION"
+      },
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "RI"
+      }
+    ]
+  }
+]

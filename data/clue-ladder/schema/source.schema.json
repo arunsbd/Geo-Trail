@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/SourceRecord",
+  "definitions": {
+    "SourceRecord": {
+      "type": "object",
+      "properties": {
+        "sourceId": {
+          "$ref": "#/definitions/SourceId"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "landingPageUrl": {
+          "type": "string"
+        },
+        "downloadUrl": {
+          "type": "string"
+        },
+        "datasetId": {
+          "type": "string"
+        },
+        "tableId": {
+          "type": "string"
+        },
+        "editionOrVintage": {
+          "type": "string"
+        },
+        "releaseDate": {
+          "type": "string"
+        },
+        "retrievedAt": {
+          "type": "string"
+        },
+        "coverage": {
+          "type": "object",
+          "properties": {
+            "referenceDate": {
+              "type": "string"
+            },
+            "startDate": {
+              "type": "string"
+            },
+            "endDate": {
+              "type": "string"
+            },
+            "boundaryDate": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "authorityTier": {
+          "type": "number",
+          "enum": [
+            1,
+            2,
+            3
+          ]
+        },
+        "updateClass": {
+          "type": "string",
+          "enum": [
+            "static",
+            "annual",
+            "quarterly",
+            "regulatory",
+            "event_driven"
+          ]
+        },
+        "mimeType": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceId",
+        "publisher",
+        "title",
+        "landingPageUrl",
+        "retrievedAt",
+        "coverage",
+        "authorityTier",
+        "updateClass"
+      ],
+      "additionalProperties": false
+    },
+    "SourceId": {
+      "type": "string"
+    }
+  }
+}

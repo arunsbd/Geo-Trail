@@ -1,0 +1,3672 @@
+[
+  {
+    "factId": "us-states-2026-09-05-v1:US-AK:boundary.audited_water",
+    "subjectId": "US-AK",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AK:boundary.point_contacts",
+    "subjectId": "US-AK",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "02",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AK:boundary.shared_segments",
+    "subjectId": "US-AK",
+    "metricId": "boundary.shared_segments",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "02",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:boundary.audited_water",
+    "subjectId": "US-AL",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:boundary.point_contacts",
+    "subjectId": "US-AL",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "01",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:boundary.shared_segments",
+    "subjectId": "US-AL",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-FL",
+      "US-GA",
+      "US-MS",
+      "US-TN"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "01",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AR:boundary.audited_water",
+    "subjectId": "US-AR",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AR:boundary.point_contacts",
+    "subjectId": "US-AR",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "05",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AR:boundary.shared_segments",
+    "subjectId": "US-AR",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-LA",
+      "US-MO",
+      "US-MS",
+      "US-OK",
+      "US-TN",
+      "US-TX"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "05",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AZ:boundary.audited_water",
+    "subjectId": "US-AZ",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AZ:boundary.point_contacts",
+    "subjectId": "US-AZ",
+    "metricId": "boundary.point_contacts",
+    "value": [
+      "US-CO"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "04",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AZ:boundary.shared_segments",
+    "subjectId": "US-AZ",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-CA",
+      "US-NM",
+      "US-NV",
+      "US-UT"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "04",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CA:boundary.audited_water",
+    "subjectId": "US-CA",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CA:boundary.point_contacts",
+    "subjectId": "US-CA",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "06",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CA:boundary.shared_segments",
+    "subjectId": "US-CA",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AZ",
+      "US-NV",
+      "US-OR"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "06",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:boundary.audited_water",
+    "subjectId": "US-CO",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:boundary.point_contacts",
+    "subjectId": "US-CO",
+    "metricId": "boundary.point_contacts",
+    "value": [
+      "US-AZ"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "08",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:boundary.shared_segments",
+    "subjectId": "US-CO",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-KS",
+      "US-NE",
+      "US-NM",
+      "US-OK",
+      "US-UT",
+      "US-WY"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "08",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CT:boundary.audited_water",
+    "subjectId": "US-CT",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CT:boundary.point_contacts",
+    "subjectId": "US-CT",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "09",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CT:boundary.shared_segments",
+    "subjectId": "US-CT",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-MA",
+      "US-NY",
+      "US-RI"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "09",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-DE:boundary.audited_water",
+    "subjectId": "US-DE",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-DE:boundary.point_contacts",
+    "subjectId": "US-DE",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "10",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-DE:boundary.shared_segments",
+    "subjectId": "US-DE",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-MD",
+      "US-NJ",
+      "US-PA"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "10",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-FL:boundary.audited_water",
+    "subjectId": "US-FL",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-FL:boundary.point_contacts",
+    "subjectId": "US-FL",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "12",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-FL:boundary.shared_segments",
+    "subjectId": "US-FL",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AL",
+      "US-GA"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "12",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-GA:boundary.audited_water",
+    "subjectId": "US-GA",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-GA:boundary.point_contacts",
+    "subjectId": "US-GA",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "13",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-GA:boundary.shared_segments",
+    "subjectId": "US-GA",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AL",
+      "US-FL",
+      "US-NC",
+      "US-SC",
+      "US-TN"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "13",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-HI:boundary.audited_water",
+    "subjectId": "US-HI",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-HI:boundary.point_contacts",
+    "subjectId": "US-HI",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "15",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-HI:boundary.shared_segments",
+    "subjectId": "US-HI",
+    "metricId": "boundary.shared_segments",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "15",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IA:boundary.audited_water",
+    "subjectId": "US-IA",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IA:boundary.point_contacts",
+    "subjectId": "US-IA",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "19",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IA:boundary.shared_segments",
+    "subjectId": "US-IA",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-IL",
+      "US-MN",
+      "US-MO",
+      "US-NE",
+      "US-SD",
+      "US-WI"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "19",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ID:boundary.audited_water",
+    "subjectId": "US-ID",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ID:boundary.point_contacts",
+    "subjectId": "US-ID",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "16",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ID:boundary.shared_segments",
+    "subjectId": "US-ID",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-MT",
+      "US-NV",
+      "US-OR",
+      "US-UT",
+      "US-WA",
+      "US-WY"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "16",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IL:boundary.audited_water",
+    "subjectId": "US-IL",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IL:boundary.point_contacts",
+    "subjectId": "US-IL",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "17",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IL:boundary.shared_segments",
+    "subjectId": "US-IL",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-IA",
+      "US-IN",
+      "US-KY",
+      "US-MO",
+      "US-WI"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "17",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IN:boundary.audited_water",
+    "subjectId": "US-IN",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IN:boundary.point_contacts",
+    "subjectId": "US-IN",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "18",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IN:boundary.shared_segments",
+    "subjectId": "US-IN",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-IL",
+      "US-KY",
+      "US-MI",
+      "US-OH"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "18",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KS:boundary.audited_water",
+    "subjectId": "US-KS",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KS:boundary.point_contacts",
+    "subjectId": "US-KS",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "20",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KS:boundary.shared_segments",
+    "subjectId": "US-KS",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-CO",
+      "US-MO",
+      "US-NE",
+      "US-OK"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "20",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KY:boundary.audited_water",
+    "subjectId": "US-KY",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KY:boundary.point_contacts",
+    "subjectId": "US-KY",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "21",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KY:boundary.shared_segments",
+    "subjectId": "US-KY",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-IL",
+      "US-IN",
+      "US-MO",
+      "US-OH",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "21",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-LA:boundary.audited_water",
+    "subjectId": "US-LA",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-LA:boundary.point_contacts",
+    "subjectId": "US-LA",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "22",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-LA:boundary.shared_segments",
+    "subjectId": "US-LA",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AR",
+      "US-MS",
+      "US-TX"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "22",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MA:boundary.audited_water",
+    "subjectId": "US-MA",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MA:boundary.point_contacts",
+    "subjectId": "US-MA",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "25",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MA:boundary.shared_segments",
+    "subjectId": "US-MA",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-CT",
+      "US-NH",
+      "US-NY",
+      "US-RI",
+      "US-VT"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "25",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MD:boundary.audited_water",
+    "subjectId": "US-MD",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MD:boundary.point_contacts",
+    "subjectId": "US-MD",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "24",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MD:boundary.shared_segments",
+    "subjectId": "US-MD",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-DE",
+      "US-PA",
+      "US-VA",
+      "US-WV"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "24",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ME:boundary.audited_water",
+    "subjectId": "US-ME",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ME:boundary.point_contacts",
+    "subjectId": "US-ME",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "23",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ME:boundary.shared_segments",
+    "subjectId": "US-ME",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-NH"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "23",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MI:boundary.audited_water",
+    "subjectId": "US-MI",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MI:boundary.point_contacts",
+    "subjectId": "US-MI",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "26",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MI:boundary.shared_segments",
+    "subjectId": "US-MI",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-IN",
+      "US-OH",
+      "US-WI"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "26",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MN:boundary.audited_water",
+    "subjectId": "US-MN",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MN:boundary.point_contacts",
+    "subjectId": "US-MN",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "27",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MN:boundary.shared_segments",
+    "subjectId": "US-MN",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-IA",
+      "US-ND",
+      "US-SD",
+      "US-WI"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "27",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MO:boundary.audited_water",
+    "subjectId": "US-MO",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MO:boundary.point_contacts",
+    "subjectId": "US-MO",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "29",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MO:boundary.shared_segments",
+    "subjectId": "US-MO",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AR",
+      "US-IA",
+      "US-IL",
+      "US-KS",
+      "US-KY",
+      "US-NE",
+      "US-OK",
+      "US-TN"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "29",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MS:boundary.audited_water",
+    "subjectId": "US-MS",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MS:boundary.point_contacts",
+    "subjectId": "US-MS",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "28",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MS:boundary.shared_segments",
+    "subjectId": "US-MS",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AL",
+      "US-AR",
+      "US-LA",
+      "US-TN"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "28",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MT:boundary.audited_water",
+    "subjectId": "US-MT",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MT:boundary.point_contacts",
+    "subjectId": "US-MT",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "30",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MT:boundary.shared_segments",
+    "subjectId": "US-MT",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-ID",
+      "US-ND",
+      "US-SD",
+      "US-WY"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "30",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NC:boundary.audited_water",
+    "subjectId": "US-NC",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NC:boundary.point_contacts",
+    "subjectId": "US-NC",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "37",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NC:boundary.shared_segments",
+    "subjectId": "US-NC",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-GA",
+      "US-SC",
+      "US-TN",
+      "US-VA"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "37",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ND:boundary.audited_water",
+    "subjectId": "US-ND",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ND:boundary.point_contacts",
+    "subjectId": "US-ND",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "38",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ND:boundary.shared_segments",
+    "subjectId": "US-ND",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-MN",
+      "US-MT",
+      "US-SD"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "38",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NE:boundary.audited_water",
+    "subjectId": "US-NE",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NE:boundary.point_contacts",
+    "subjectId": "US-NE",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "31",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NE:boundary.shared_segments",
+    "subjectId": "US-NE",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-CO",
+      "US-IA",
+      "US-KS",
+      "US-MO",
+      "US-SD",
+      "US-WY"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "31",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NH:boundary.audited_water",
+    "subjectId": "US-NH",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NH:boundary.point_contacts",
+    "subjectId": "US-NH",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "33",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NH:boundary.shared_segments",
+    "subjectId": "US-NH",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-MA",
+      "US-ME",
+      "US-VT"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "33",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NJ:boundary.audited_water",
+    "subjectId": "US-NJ",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NJ:boundary.point_contacts",
+    "subjectId": "US-NJ",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "34",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NJ:boundary.shared_segments",
+    "subjectId": "US-NJ",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-DE",
+      "US-NY",
+      "US-PA"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "34",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NM:boundary.audited_water",
+    "subjectId": "US-NM",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NM:boundary.point_contacts",
+    "subjectId": "US-NM",
+    "metricId": "boundary.point_contacts",
+    "value": [
+      "US-UT"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "35",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NM:boundary.shared_segments",
+    "subjectId": "US-NM",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AZ",
+      "US-CO",
+      "US-OK",
+      "US-TX"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "35",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NV:boundary.audited_water",
+    "subjectId": "US-NV",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NV:boundary.point_contacts",
+    "subjectId": "US-NV",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "32",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NV:boundary.shared_segments",
+    "subjectId": "US-NV",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AZ",
+      "US-CA",
+      "US-ID",
+      "US-OR",
+      "US-UT"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "32",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NY:boundary.audited_water",
+    "subjectId": "US-NY",
+    "metricId": "boundary.audited_water",
+    "value": [
+      "US-RI"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NY:boundary.point_contacts",
+    "subjectId": "US-NY",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "36",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NY:boundary.shared_segments",
+    "subjectId": "US-NY",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-CT",
+      "US-MA",
+      "US-NJ",
+      "US-PA",
+      "US-VT"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "36",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OH:boundary.audited_water",
+    "subjectId": "US-OH",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OH:boundary.point_contacts",
+    "subjectId": "US-OH",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "39",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OH:boundary.shared_segments",
+    "subjectId": "US-OH",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-IN",
+      "US-KY",
+      "US-MI",
+      "US-PA",
+      "US-WV"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "39",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OK:boundary.audited_water",
+    "subjectId": "US-OK",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OK:boundary.point_contacts",
+    "subjectId": "US-OK",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "40",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OK:boundary.shared_segments",
+    "subjectId": "US-OK",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AR",
+      "US-CO",
+      "US-KS",
+      "US-MO",
+      "US-NM",
+      "US-TX"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "40",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OR:boundary.audited_water",
+    "subjectId": "US-OR",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OR:boundary.point_contacts",
+    "subjectId": "US-OR",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "41",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OR:boundary.shared_segments",
+    "subjectId": "US-OR",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-CA",
+      "US-ID",
+      "US-NV",
+      "US-WA"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "41",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-PA:boundary.audited_water",
+    "subjectId": "US-PA",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-PA:boundary.point_contacts",
+    "subjectId": "US-PA",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "42",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-PA:boundary.shared_segments",
+    "subjectId": "US-PA",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-DE",
+      "US-MD",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-WV"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "42",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:boundary.audited_water",
+    "subjectId": "US-RI",
+    "metricId": "boundary.audited_water",
+    "value": [
+      "US-NY"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:boundary.point_contacts",
+    "subjectId": "US-RI",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "44",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:boundary.shared_segments",
+    "subjectId": "US-RI",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-CT",
+      "US-MA"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "44",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SC:boundary.audited_water",
+    "subjectId": "US-SC",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SC:boundary.point_contacts",
+    "subjectId": "US-SC",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "45",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SC:boundary.shared_segments",
+    "subjectId": "US-SC",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-GA",
+      "US-NC"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "45",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SD:boundary.audited_water",
+    "subjectId": "US-SD",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SD:boundary.point_contacts",
+    "subjectId": "US-SD",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "46",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SD:boundary.shared_segments",
+    "subjectId": "US-SD",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-IA",
+      "US-MN",
+      "US-MT",
+      "US-ND",
+      "US-NE",
+      "US-WY"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "46",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TN:boundary.audited_water",
+    "subjectId": "US-TN",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TN:boundary.point_contacts",
+    "subjectId": "US-TN",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "47",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TN:boundary.shared_segments",
+    "subjectId": "US-TN",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AL",
+      "US-AR",
+      "US-GA",
+      "US-KY",
+      "US-MO",
+      "US-MS",
+      "US-NC",
+      "US-VA"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "47",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TX:boundary.audited_water",
+    "subjectId": "US-TX",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TX:boundary.point_contacts",
+    "subjectId": "US-TX",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "48",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TX:boundary.shared_segments",
+    "subjectId": "US-TX",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AR",
+      "US-LA",
+      "US-NM",
+      "US-OK"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "48",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-UT:boundary.audited_water",
+    "subjectId": "US-UT",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-UT:boundary.point_contacts",
+    "subjectId": "US-UT",
+    "metricId": "boundary.point_contacts",
+    "value": [
+      "US-NM"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "49",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-UT:boundary.shared_segments",
+    "subjectId": "US-UT",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-AZ",
+      "US-CO",
+      "US-ID",
+      "US-NV",
+      "US-WY"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "49",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VA:boundary.audited_water",
+    "subjectId": "US-VA",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VA:boundary.point_contacts",
+    "subjectId": "US-VA",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "51",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VA:boundary.shared_segments",
+    "subjectId": "US-VA",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-KY",
+      "US-MD",
+      "US-NC",
+      "US-TN",
+      "US-WV"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "51",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VT:boundary.audited_water",
+    "subjectId": "US-VT",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VT:boundary.point_contacts",
+    "subjectId": "US-VT",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "50",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VT:boundary.shared_segments",
+    "subjectId": "US-VT",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-MA",
+      "US-NH",
+      "US-NY"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "50",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WA:boundary.audited_water",
+    "subjectId": "US-WA",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WA:boundary.point_contacts",
+    "subjectId": "US-WA",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "53",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WA:boundary.shared_segments",
+    "subjectId": "US-WA",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-ID",
+      "US-OR"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "53",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WI:boundary.audited_water",
+    "subjectId": "US-WI",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WI:boundary.point_contacts",
+    "subjectId": "US-WI",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "55",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WI:boundary.shared_segments",
+    "subjectId": "US-WI",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-IA",
+      "US-IL",
+      "US-MI",
+      "US-MN"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "55",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WV:boundary.audited_water",
+    "subjectId": "US-WV",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WV:boundary.point_contacts",
+    "subjectId": "US-WV",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "54",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WV:boundary.shared_segments",
+    "subjectId": "US-WV",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-KY",
+      "US-MD",
+      "US-OH",
+      "US-PA",
+      "US-VA"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "54",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WY:boundary.audited_water",
+    "subjectId": "US-WY",
+    "metricId": "boundary.audited_water",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "section": "Specification 13.1; restricted RI–NY relation"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WY:boundary.point_contacts",
+    "subjectId": "US-WY",
+    "metricId": "boundary.point_contacts",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-TIGER-2025",
+        "featureId": "56",
+        "section": "Specification audited Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WY:boundary.shared_segments",
+    "subjectId": "US-WY",
+    "metricId": "boundary.shared_segments",
+    "value": [
+      "US-CO",
+      "US-ID",
+      "US-MT",
+      "US-NE",
+      "US-SD",
+      "US-UT"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "featureId": "56",
+        "section": "Tested shared-arc adjacency, excluding Four Corners contacts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  }
+]

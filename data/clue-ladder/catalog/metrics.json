@@ -1,0 +1,519 @@
+[
+  {
+    "metricId": "population.resident_estimate",
+    "label": "July 1 resident estimate, Census Vintage 2025; 50 states.",
+    "definition": "July 1 resident estimate, Census Vintage 2025; 50 states.",
+    "valueType": "number",
+    "unit": "persons",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": true,
+    "rankable": true,
+    "rankDirection": "descending",
+    "allowedClueCategories": [
+      "population"
+    ]
+  },
+  {
+    "metricId": "population.state_rank",
+    "label": "Descending competition rank among 50 states.",
+    "definition": "Descending competition rank among 50 states.",
+    "valueType": "number",
+    "unit": "rank",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "population"
+    ]
+  },
+  {
+    "metricId": "area.land_sq_mi",
+    "label": "Census 2010 land area at HTML displayed precision.",
+    "definition": "Census 2010 land area at HTML displayed precision.",
+    "valueType": "number",
+    "unit": "square_miles",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": true,
+    "rankDirection": "descending",
+    "allowedClueCategories": [
+      "area"
+    ]
+  },
+  {
+    "metricId": "area.water_sq_mi",
+    "label": "Census 2010 water area at HTML displayed precision.",
+    "definition": "Census 2010 water area at HTML displayed precision.",
+    "valueType": "number",
+    "unit": "square_miles",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": true,
+    "rankDirection": "descending",
+    "allowedClueCategories": [
+      "area"
+    ]
+  },
+  {
+    "metricId": "area.total_sq_mi",
+    "label": "Census 2010 total area at HTML displayed precision.",
+    "definition": "Census 2010 total area at HTML displayed precision.",
+    "valueType": "number",
+    "unit": "square_miles",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": true,
+    "rankDirection": "descending",
+    "allowedClueCategories": [
+      "area"
+    ]
+  },
+  {
+    "metricId": "area.land_rank",
+    "label": "Descending land-area competition rank.",
+    "definition": "Descending land-area competition rank.",
+    "valueType": "number",
+    "unit": "rank",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "area"
+    ]
+  },
+  {
+    "metricId": "economy.gdp_current_usd",
+    "label": "Annual current-dollar GDP; SAGDP1 line 3, not real/per-capita GDP.",
+    "definition": "Annual current-dollar GDP; SAGDP1 line 3, not real/per-capita GDP.",
+    "valueType": "number",
+    "unit": "USD",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "Bureau of Economic Analysis",
+    "timeSensitive": true,
+    "rankable": true,
+    "rankDirection": "descending",
+    "allowedClueCategories": [
+      "economy"
+    ]
+  },
+  {
+    "metricId": "economy.gdp_state_rank",
+    "label": "Descending current-dollar GDP competition rank.",
+    "definition": "Descending current-dollar GDP competition rank.",
+    "valueType": "number",
+    "unit": "rank",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "Bureau of Economic Analysis",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "economy"
+    ]
+  },
+  {
+    "metricId": "economy.industry_value_added_current_usd.manufacturing",
+    "label": "manufacturing value added in annual current dollars.",
+    "definition": "manufacturing value added in annual current dollars.",
+    "valueType": "number",
+    "unit": "USD",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "Bureau of Economic Analysis",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "industry"
+    ]
+  },
+  {
+    "metricId": "economy.industry_share_of_gdp.manufacturing",
+    "label": "manufacturing numerator / same-state annual current-dollar GDP * 100; unrounded.",
+    "definition": "manufacturing numerator / same-state annual current-dollar GDP * 100; unrounded.",
+    "valueType": "number",
+    "unit": "percent",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "Bureau of Economic Analysis",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "industry"
+    ]
+  },
+  {
+    "metricId": "economy.industry_value_added_current_usd.professional",
+    "label": "professional value added in annual current dollars.",
+    "definition": "professional value added in annual current dollars.",
+    "valueType": "number",
+    "unit": "USD",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "Bureau of Economic Analysis",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "industry"
+    ]
+  },
+  {
+    "metricId": "economy.industry_share_of_gdp.professional",
+    "label": "professional numerator / same-state annual current-dollar GDP * 100; unrounded.",
+    "definition": "professional numerator / same-state annual current-dollar GDP * 100; unrounded.",
+    "valueType": "number",
+    "unit": "percent",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "Bureau of Economic Analysis",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "industry"
+    ]
+  },
+  {
+    "metricId": "economy.industry_value_added_current_usd.education_health",
+    "label": "education_health value added in annual current dollars.",
+    "definition": "education_health value added in annual current dollars.",
+    "valueType": "number",
+    "unit": "USD",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "Bureau of Economic Analysis",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "industry"
+    ]
+  },
+  {
+    "metricId": "economy.industry_share_of_gdp.education_health",
+    "label": "education_health numerator / same-state annual current-dollar GDP * 100; unrounded.",
+    "definition": "education_health numerator / same-state annual current-dollar GDP * 100; unrounded.",
+    "valueType": "number",
+    "unit": "percent",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "Bureau of Economic Analysis",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "industry"
+    ]
+  },
+  {
+    "metricId": "physical.highest_point",
+    "label": "Highest-point elevation in cited historical USGS table.",
+    "definition": "Highest-point elevation in cited historical USGS table.",
+    "valueType": "number",
+    "unit": "feet",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Geological Survey",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "physical_geography"
+    ]
+  },
+  {
+    "metricId": "history.admission_year",
+    "label": "Year of statehood.",
+    "definition": "Year of statehood.",
+    "valueType": "number",
+    "unit": "year",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "history"
+    ]
+  },
+  {
+    "metricId": "history.admission_date",
+    "label": "Date of admission/ratification.",
+    "definition": "Date of admission/ratification.",
+    "valueType": "date",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "history"
+    ]
+  },
+  {
+    "metricId": "history.admission_order",
+    "label": "Order of admission/ratification under current Constitution.",
+    "definition": "Order of admission/ratification under current Constitution.",
+    "valueType": "number",
+    "unit": "rank",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "history"
+    ]
+  },
+  {
+    "metricId": "time.standard_zone",
+    "label": "All legal standard zones intersecting a state under 49 CFR 71, excluding DST inference.",
+    "definition": "All legal standard zones intersecting a state under 49 CFR 71, excluding DST inference.",
+    "valueType": "id_list",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Department of Transportation",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "time_zone"
+    ]
+  },
+  {
+    "metricId": "nps.formal_unit_ids",
+    "label": "Complete formal National Park enumeration.",
+    "definition": "Complete formal National Park enumeration.",
+    "valueType": "id_list",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "National Park Service",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "parks",
+      "landmark"
+    ]
+  },
+  {
+    "metricId": "nps.formal_national_park_count",
+    "label": "Count of distinct formal National Parks intersecting the state.",
+    "definition": "Count of distinct formal National Parks intersecting the state.",
+    "valueType": "number",
+    "unit": "units",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "National Park Service",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "parks"
+    ]
+  },
+  {
+    "metricId": "nps.associated_unit",
+    "label": "Membership only for the named landmark entities in the three-state audit; not all NPS sites.",
+    "definition": "Membership only for the named landmark entities in the three-state audit; not all NPS sites.",
+    "valueType": "id_list",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "National Park Service",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "landmark"
+    ]
+  },
+  {
+    "metricId": "identity.postal_code",
+    "label": "USPS postal abbreviation.",
+    "definition": "USPS postal abbreviation.",
+    "valueType": "string",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Postal Service",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "abbreviation",
+      "silhouette",
+      "map_position"
+    ]
+  },
+  {
+    "metricId": "identity.capital",
+    "label": "Capital name.",
+    "definition": "Capital name.",
+    "valueType": "string",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "capital"
+    ]
+  },
+  {
+    "metricId": "place.population_estimate",
+    "label": "Incorporated-place July 1, 2025 population estimate.",
+    "definition": "Incorporated-place July 1, 2025 population estimate.",
+    "valueType": "number",
+    "unit": "persons",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "cities"
+    ]
+  },
+  {
+    "metricId": "place.within_state_rank",
+    "label": "Descending incorporated-place population rank among published 2025 estimates.",
+    "definition": "Descending incorporated-place population rank among published 2025 estimates.",
+    "valueType": "number",
+    "unit": "rank",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "cities"
+    ]
+  },
+  {
+    "metricId": "place.top_two",
+    "label": "Two largest incorporated places with published 2025 estimates.",
+    "definition": "Two largest incorporated places with published 2025 estimates.",
+    "valueType": "id_list",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "cities"
+    ]
+  },
+  {
+    "metricId": "place.audit_membership",
+    "label": "Complete inverse assignment of entities in the AL/CO/RI Census place workbooks to their containing state; not nationwide city rankings.",
+    "definition": "Complete inverse assignment of entities in the AL/CO/RI Census place workbooks to their containing state; not nationwide city rankings.",
+    "valueType": "id_list",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "cities",
+      "capital"
+    ]
+  },
+  {
+    "metricId": "boundary.shared_segments",
+    "label": "Existing tested land/river shared-arc neighbors, point contacts excluded.",
+    "definition": "Existing tested land/river shared-arc neighbors, point contacts excluded.",
+    "valueType": "id_list",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "borders",
+      "physical_geography"
+    ]
+  },
+  {
+    "metricId": "boundary.point_contacts",
+    "label": "Audited Four Corners point contacts.",
+    "definition": "Audited Four Corners point contacts.",
+    "valueType": "id_list",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "physical_geography"
+    ]
+  },
+  {
+    "metricId": "boundary.audited_water",
+    "label": "Restricted to RI–NY water-only relationship; other water boundaries outside scope.",
+    "definition": "Restricted to RI–NY water-only relationship; other water boundaries outside scope.",
+    "valueType": "id_list",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "borders"
+    ]
+  },
+  {
+    "metricId": "climate.annual_precipitation_average",
+    "label": "NOAA 2022 summary research values; not approved for nationwide comparison.",
+    "definition": "NOAA 2022 summary research values; not approved for nationwide comparison.",
+    "valueType": "number",
+    "unit": "inches",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "NOAA/NESDIS",
+    "timeSensitive": false,
+    "rankable": false,
+    "allowedClueCategories": [
+      "climate"
+    ]
+  },
+  {
+    "metricId": "economy.gdp_real_chained_usd",
+    "label": "Reserved metric: economy.gdp_real_chained_usd; no invented observations.",
+    "definition": "Reserved metric: economy.gdp_real_chained_usd; no invented observations.",
+    "valueType": "number",
+    "unit": "chained_USD",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "Bureau of Economic Analysis",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "economy"
+    ]
+  },
+  {
+    "metricId": "economy.industry_value_added_current_usd",
+    "label": "Reserved metric: economy.industry_value_added_current_usd; no invented observations.",
+    "definition": "Reserved metric: economy.industry_value_added_current_usd; no invented observations.",
+    "valueType": "number",
+    "unit": "USD",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "Bureau of Economic Analysis",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "industry"
+    ]
+  },
+  {
+    "metricId": "economy.industry_share_of_gdp",
+    "label": "Reserved metric: economy.industry_share_of_gdp; no invented observations.",
+    "definition": "Reserved metric: economy.industry_share_of_gdp; no invented observations.",
+    "valueType": "number",
+    "unit": "percent",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "Bureau of Economic Analysis",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "industry"
+    ]
+  },
+  {
+    "metricId": "transport.rail_line_miles",
+    "label": "Reserved metric: transport.rail_line_miles; no invented observations.",
+    "definition": "Reserved metric: transport.rail_line_miles; no invented observations.",
+    "valueType": "number",
+    "unit": "miles",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "transportation"
+    ]
+  },
+  {
+    "metricId": "transport.interstate_miles",
+    "label": "Reserved metric: transport.interstate_miles; no invented observations.",
+    "definition": "Reserved metric: transport.interstate_miles; no invented observations.",
+    "valueType": "number",
+    "unit": "miles",
+    "defaultUniverse": "us-50-states",
+    "preferredPublisher": "U.S. Census Bureau",
+    "timeSensitive": true,
+    "rankable": false,
+    "allowedClueCategories": [
+      "transportation"
+    ]
+  }
+]

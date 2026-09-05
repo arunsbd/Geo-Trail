@@ -1,0 +1,1316 @@
+[
+  {
+    "factId": "us-states-2026-09-05-v1:US-AK:time.standard_zone",
+    "subjectId": "US-AK",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Alaska",
+      "Hawaii-Aleutian"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Alaska"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:time.standard_zone",
+    "subjectId": "US-AL",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Alabama"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AR:time.standard_zone",
+    "subjectId": "US-AR",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Arkansas"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AZ:time.standard_zone",
+    "subjectId": "US-AZ",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Mountain"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Arizona"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CA:time.standard_zone",
+    "subjectId": "US-CA",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Pacific"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "California"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:time.standard_zone",
+    "subjectId": "US-CO",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Mountain"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Colorado"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CT:time.standard_zone",
+    "subjectId": "US-CT",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Connecticut"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-DE:time.standard_zone",
+    "subjectId": "US-DE",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Delaware"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-FL:time.standard_zone",
+    "subjectId": "US-FL",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern",
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Florida"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-GA:time.standard_zone",
+    "subjectId": "US-GA",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Georgia"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-HI:time.standard_zone",
+    "subjectId": "US-HI",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Hawaii-Aleutian"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Hawaii"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IA:time.standard_zone",
+    "subjectId": "US-IA",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Iowa"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ID:time.standard_zone",
+    "subjectId": "US-ID",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Mountain",
+      "Pacific"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Idaho"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IL:time.standard_zone",
+    "subjectId": "US-IL",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Illinois"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IN:time.standard_zone",
+    "subjectId": "US-IN",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern",
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Indiana"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KS:time.standard_zone",
+    "subjectId": "US-KS",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central",
+      "Mountain"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Kansas"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KY:time.standard_zone",
+    "subjectId": "US-KY",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern",
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Kentucky"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-LA:time.standard_zone",
+    "subjectId": "US-LA",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Louisiana"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MA:time.standard_zone",
+    "subjectId": "US-MA",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Massachusetts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MD:time.standard_zone",
+    "subjectId": "US-MD",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Maryland"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ME:time.standard_zone",
+    "subjectId": "US-ME",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Maine"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MI:time.standard_zone",
+    "subjectId": "US-MI",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern",
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Michigan"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MN:time.standard_zone",
+    "subjectId": "US-MN",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Minnesota"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MO:time.standard_zone",
+    "subjectId": "US-MO",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Missouri"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MS:time.standard_zone",
+    "subjectId": "US-MS",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Mississippi"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MT:time.standard_zone",
+    "subjectId": "US-MT",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Mountain"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Montana"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NC:time.standard_zone",
+    "subjectId": "US-NC",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "North Carolina"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ND:time.standard_zone",
+    "subjectId": "US-ND",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central",
+      "Mountain"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "North Dakota"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NE:time.standard_zone",
+    "subjectId": "US-NE",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central",
+      "Mountain"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Nebraska"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NH:time.standard_zone",
+    "subjectId": "US-NH",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "New Hampshire"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NJ:time.standard_zone",
+    "subjectId": "US-NJ",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "New Jersey"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NM:time.standard_zone",
+    "subjectId": "US-NM",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Mountain"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "New Mexico"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NV:time.standard_zone",
+    "subjectId": "US-NV",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Mountain",
+      "Pacific"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Nevada"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NY:time.standard_zone",
+    "subjectId": "US-NY",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "New York"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OH:time.standard_zone",
+    "subjectId": "US-OH",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Ohio"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OK:time.standard_zone",
+    "subjectId": "US-OK",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Oklahoma"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OR:time.standard_zone",
+    "subjectId": "US-OR",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Mountain",
+      "Pacific"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Oregon"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-PA:time.standard_zone",
+    "subjectId": "US-PA",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Pennsylvania"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:time.standard_zone",
+    "subjectId": "US-RI",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Rhode Island"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SC:time.standard_zone",
+    "subjectId": "US-SC",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "South Carolina"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SD:time.standard_zone",
+    "subjectId": "US-SD",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central",
+      "Mountain"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "South Dakota"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TN:time.standard_zone",
+    "subjectId": "US-TN",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern",
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Tennessee"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TX:time.standard_zone",
+    "subjectId": "US-TX",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central",
+      "Mountain"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Texas"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-UT:time.standard_zone",
+    "subjectId": "US-UT",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Mountain"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Utah"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VA:time.standard_zone",
+    "subjectId": "US-VA",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Virginia"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VT:time.standard_zone",
+    "subjectId": "US-VT",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Vermont"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WA:time.standard_zone",
+    "subjectId": "US-WA",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Pacific"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Washington"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WI:time.standard_zone",
+    "subjectId": "US-WI",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Central"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Wisconsin"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WV:time.standard_zone",
+    "subjectId": "US-WV",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Eastern"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "West Virginia"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WY:time.standard_zone",
+    "subjectId": "US-WY",
+    "metricId": "time.standard_zone",
+    "value": [
+      "Mountain"
+    ],
+    "referencePeriod": {
+      "kind": "legal_effective",
+      "date": "2026-08-30"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "DOT-TIME-2026",
+        "section": "49 CFR 71.4–71.12",
+        "rowKey": "Wyoming"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  }
+]

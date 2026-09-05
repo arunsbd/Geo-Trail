@@ -1,0 +1,302 @@
+[
+  {
+    "stateId": "US-AL",
+    "name": "Alabama",
+    "postalCode": "AL",
+    "censusFips": "01"
+  },
+  {
+    "stateId": "US-AK",
+    "name": "Alaska",
+    "postalCode": "AK",
+    "censusFips": "02"
+  },
+  {
+    "stateId": "US-AZ",
+    "name": "Arizona",
+    "postalCode": "AZ",
+    "censusFips": "04"
+  },
+  {
+    "stateId": "US-AR",
+    "name": "Arkansas",
+    "postalCode": "AR",
+    "censusFips": "05"
+  },
+  {
+    "stateId": "US-CA",
+    "name": "California",
+    "postalCode": "CA",
+    "censusFips": "06"
+  },
+  {
+    "stateId": "US-CO",
+    "name": "Colorado",
+    "postalCode": "CO",
+    "censusFips": "08"
+  },
+  {
+    "stateId": "US-CT",
+    "name": "Connecticut",
+    "postalCode": "CT",
+    "censusFips": "09"
+  },
+  {
+    "stateId": "US-DE",
+    "name": "Delaware",
+    "postalCode": "DE",
+    "censusFips": "10"
+  },
+  {
+    "stateId": "US-FL",
+    "name": "Florida",
+    "postalCode": "FL",
+    "censusFips": "12"
+  },
+  {
+    "stateId": "US-GA",
+    "name": "Georgia",
+    "postalCode": "GA",
+    "censusFips": "13"
+  },
+  {
+    "stateId": "US-HI",
+    "name": "Hawaii",
+    "postalCode": "HI",
+    "censusFips": "15"
+  },
+  {
+    "stateId": "US-ID",
+    "name": "Idaho",
+    "postalCode": "ID",
+    "censusFips": "16"
+  },
+  {
+    "stateId": "US-IL",
+    "name": "Illinois",
+    "postalCode": "IL",
+    "censusFips": "17"
+  },
+  {
+    "stateId": "US-IN",
+    "name": "Indiana",
+    "postalCode": "IN",
+    "censusFips": "18"
+  },
+  {
+    "stateId": "US-IA",
+    "name": "Iowa",
+    "postalCode": "IA",
+    "censusFips": "19"
+  },
+  {
+    "stateId": "US-KS",
+    "name": "Kansas",
+    "postalCode": "KS",
+    "censusFips": "20"
+  },
+  {
+    "stateId": "US-KY",
+    "name": "Kentucky",
+    "postalCode": "KY",
+    "censusFips": "21"
+  },
+  {
+    "stateId": "US-LA",
+    "name": "Louisiana",
+    "postalCode": "LA",
+    "censusFips": "22"
+  },
+  {
+    "stateId": "US-ME",
+    "name": "Maine",
+    "postalCode": "ME",
+    "censusFips": "23"
+  },
+  {
+    "stateId": "US-MD",
+    "name": "Maryland",
+    "postalCode": "MD",
+    "censusFips": "24"
+  },
+  {
+    "stateId": "US-MA",
+    "name": "Massachusetts",
+    "postalCode": "MA",
+    "censusFips": "25"
+  },
+  {
+    "stateId": "US-MI",
+    "name": "Michigan",
+    "postalCode": "MI",
+    "censusFips": "26"
+  },
+  {
+    "stateId": "US-MN",
+    "name": "Minnesota",
+    "postalCode": "MN",
+    "censusFips": "27"
+  },
+  {
+    "stateId": "US-MS",
+    "name": "Mississippi",
+    "postalCode": "MS",
+    "censusFips": "28"
+  },
+  {
+    "stateId": "US-MO",
+    "name": "Missouri",
+    "postalCode": "MO",
+    "censusFips": "29"
+  },
+  {
+    "stateId": "US-MT",
+    "name": "Montana",
+    "postalCode": "MT",
+    "censusFips": "30"
+  },
+  {
+    "stateId": "US-NE",
+    "name": "Nebraska",
+    "postalCode": "NE",
+    "censusFips": "31"
+  },
+  {
+    "stateId": "US-NV",
+    "name": "Nevada",
+    "postalCode": "NV",
+    "censusFips": "32"
+  },
+  {
+    "stateId": "US-NH",
+    "name": "New Hampshire",
+    "postalCode": "NH",
+    "censusFips": "33"
+  },
+  {
+    "stateId": "US-NJ",
+    "name": "New Jersey",
+    "postalCode": "NJ",
+    "censusFips": "34"
+  },
+  {
+    "stateId": "US-NM",
+    "name": "New Mexico",
+    "postalCode": "NM",
+    "censusFips": "35"
+  },
+  {
+    "stateId": "US-NY",
+    "name": "New York",
+    "postalCode": "NY",
+    "censusFips": "36"
+  },
+  {
+    "stateId": "US-NC",
+    "name": "North Carolina",
+    "postalCode": "NC",
+    "censusFips": "37"
+  },
+  {
+    "stateId": "US-ND",
+    "name": "North Dakota",
+    "postalCode": "ND",
+    "censusFips": "38"
+  },
+  {
+    "stateId": "US-OH",
+    "name": "Ohio",
+    "postalCode": "OH",
+    "censusFips": "39"
+  },
+  {
+    "stateId": "US-OK",
+    "name": "Oklahoma",
+    "postalCode": "OK",
+    "censusFips": "40"
+  },
+  {
+    "stateId": "US-OR",
+    "name": "Oregon",
+    "postalCode": "OR",
+    "censusFips": "41"
+  },
+  {
+    "stateId": "US-PA",
+    "name": "Pennsylvania",
+    "postalCode": "PA",
+    "censusFips": "42"
+  },
+  {
+    "stateId": "US-RI",
+    "name": "Rhode Island",
+    "postalCode": "RI",
+    "censusFips": "44"
+  },
+  {
+    "stateId": "US-SC",
+    "name": "South Carolina",
+    "postalCode": "SC",
+    "censusFips": "45"
+  },
+  {
+    "stateId": "US-SD",
+    "name": "South Dakota",
+    "postalCode": "SD",
+    "censusFips": "46"
+  },
+  {
+    "stateId": "US-TN",
+    "name": "Tennessee",
+    "postalCode": "TN",
+    "censusFips": "47"
+  },
+  {
+    "stateId": "US-TX",
+    "name": "Texas",
+    "postalCode": "TX",
+    "censusFips": "48"
+  },
+  {
+    "stateId": "US-UT",
+    "name": "Utah",
+    "postalCode": "UT",
+    "censusFips": "49"
+  },
+  {
+    "stateId": "US-VT",
+    "name": "Vermont",
+    "postalCode": "VT",
+    "censusFips": "50"
+  },
+  {
+    "stateId": "US-VA",
+    "name": "Virginia",
+    "postalCode": "VA",
+    "censusFips": "51"
+  },
+  {
+    "stateId": "US-WA",
+    "name": "Washington",
+    "postalCode": "WA",
+    "censusFips": "53"
+  },
+  {
+    "stateId": "US-WV",
+    "name": "West Virginia",
+    "postalCode": "WV",
+    "censusFips": "54"
+  },
+  {
+    "stateId": "US-WI",
+    "name": "Wisconsin",
+    "postalCode": "WI",
+    "censusFips": "55"
+  },
+  {
+    "stateId": "US-WY",
+    "name": "Wyoming",
+    "postalCode": "WY",
+    "censusFips": "56"
+  }
+]

@@ -1,0 +1,3858 @@
+[
+  {
+    "factId": "us-states-2026-09-05-v1:US-AK:nps.associated_unit",
+    "subjectId": "US-AK",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AK:nps.formal_national_park_count",
+    "subjectId": "US-AK",
+    "metricId": "nps.formal_national_park_count",
+    "value": 8,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-AK:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AK:nps.formal_unit_ids",
+    "subjectId": "US-AK",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "denali-national-park",
+      "gates-of-the-arctic-national-park",
+      "glacier-bay-national-park",
+      "katmai-national-park",
+      "kenai-fjords-national-park",
+      "kobuk-valley-national-park",
+      "lake-clark-national-park",
+      "wrangell-st-elias-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Alaska"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:nps.associated_unit",
+    "subjectId": "US-AL",
+    "metricId": "nps.associated_unit",
+    "value": [
+      "Selma to Montgomery National Historic Trail",
+      "Birmingham Civil Rights National Monument",
+      "Little River Canyon National Preserve",
+      "Russell Cave National Monument"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:nps.formal_national_park_count",
+    "subjectId": "US-AL",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-AL:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:nps.formal_unit_ids",
+    "subjectId": "US-AL",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Alabama"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AR:nps.associated_unit",
+    "subjectId": "US-AR",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AR:nps.formal_national_park_count",
+    "subjectId": "US-AR",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-AR:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AR:nps.formal_unit_ids",
+    "subjectId": "US-AR",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "hot-springs-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Arkansas"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AZ:nps.associated_unit",
+    "subjectId": "US-AZ",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AZ:nps.formal_national_park_count",
+    "subjectId": "US-AZ",
+    "metricId": "nps.formal_national_park_count",
+    "value": 3,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-AZ:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AZ:nps.formal_unit_ids",
+    "subjectId": "US-AZ",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "grand-canyon-national-park",
+      "petrified-forest-national-park",
+      "saguaro-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Arizona"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CA:nps.associated_unit",
+    "subjectId": "US-CA",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CA:nps.formal_national_park_count",
+    "subjectId": "US-CA",
+    "metricId": "nps.formal_national_park_count",
+    "value": 9,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-CA:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CA:nps.formal_unit_ids",
+    "subjectId": "US-CA",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "channel-islands-national-park",
+      "death-valley-national-park",
+      "joshua-tree-national-park",
+      "kings-canyon-national-park",
+      "lassen-volcanic-national-park",
+      "pinnacles-national-park",
+      "redwood-national-park",
+      "sequoia-national-park",
+      "yosemite-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "California"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:nps.associated_unit",
+    "subjectId": "US-CO",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:nps.formal_national_park_count",
+    "subjectId": "US-CO",
+    "metricId": "nps.formal_national_park_count",
+    "value": 4,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-CO:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:nps.formal_unit_ids",
+    "subjectId": "US-CO",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "black-canyon-of-the-gunnison-national-park",
+      "great-sand-dunes-national-park",
+      "mesa-verde-national-park",
+      "rocky-mountain-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Colorado"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CT:nps.associated_unit",
+    "subjectId": "US-CT",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CT:nps.formal_national_park_count",
+    "subjectId": "US-CT",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-CT:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CT:nps.formal_unit_ids",
+    "subjectId": "US-CT",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Connecticut"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-DE:nps.associated_unit",
+    "subjectId": "US-DE",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-DE:nps.formal_national_park_count",
+    "subjectId": "US-DE",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-DE:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-DE:nps.formal_unit_ids",
+    "subjectId": "US-DE",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Delaware"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-FL:nps.associated_unit",
+    "subjectId": "US-FL",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-FL:nps.formal_national_park_count",
+    "subjectId": "US-FL",
+    "metricId": "nps.formal_national_park_count",
+    "value": 3,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-FL:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-FL:nps.formal_unit_ids",
+    "subjectId": "US-FL",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "biscayne-national-park",
+      "dry-tortugas-national-park",
+      "everglades-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Florida"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-GA:nps.associated_unit",
+    "subjectId": "US-GA",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-GA:nps.formal_national_park_count",
+    "subjectId": "US-GA",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-GA:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-GA:nps.formal_unit_ids",
+    "subjectId": "US-GA",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Georgia"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-HI:nps.associated_unit",
+    "subjectId": "US-HI",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-HI:nps.formal_national_park_count",
+    "subjectId": "US-HI",
+    "metricId": "nps.formal_national_park_count",
+    "value": 2,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-HI:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-HI:nps.formal_unit_ids",
+    "subjectId": "US-HI",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "haleakal-national-park",
+      "hawai-i-volcanoes-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Hawaii"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IA:nps.associated_unit",
+    "subjectId": "US-IA",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IA:nps.formal_national_park_count",
+    "subjectId": "US-IA",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-IA:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IA:nps.formal_unit_ids",
+    "subjectId": "US-IA",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Iowa"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ID:nps.associated_unit",
+    "subjectId": "US-ID",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ID:nps.formal_national_park_count",
+    "subjectId": "US-ID",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-ID:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ID:nps.formal_unit_ids",
+    "subjectId": "US-ID",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "yellowstone-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Idaho"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IL:nps.associated_unit",
+    "subjectId": "US-IL",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IL:nps.formal_national_park_count",
+    "subjectId": "US-IL",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-IL:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IL:nps.formal_unit_ids",
+    "subjectId": "US-IL",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "gateway-arch-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Illinois"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IN:nps.associated_unit",
+    "subjectId": "US-IN",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IN:nps.formal_national_park_count",
+    "subjectId": "US-IN",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-IN:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IN:nps.formal_unit_ids",
+    "subjectId": "US-IN",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "indiana-dunes-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Indiana"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KS:nps.associated_unit",
+    "subjectId": "US-KS",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KS:nps.formal_national_park_count",
+    "subjectId": "US-KS",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-KS:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KS:nps.formal_unit_ids",
+    "subjectId": "US-KS",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Kansas"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KY:nps.associated_unit",
+    "subjectId": "US-KY",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KY:nps.formal_national_park_count",
+    "subjectId": "US-KY",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-KY:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KY:nps.formal_unit_ids",
+    "subjectId": "US-KY",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "mammoth-cave-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Kentucky"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-LA:nps.associated_unit",
+    "subjectId": "US-LA",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-LA:nps.formal_national_park_count",
+    "subjectId": "US-LA",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-LA:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-LA:nps.formal_unit_ids",
+    "subjectId": "US-LA",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Louisiana"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MA:nps.associated_unit",
+    "subjectId": "US-MA",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MA:nps.formal_national_park_count",
+    "subjectId": "US-MA",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-MA:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MA:nps.formal_unit_ids",
+    "subjectId": "US-MA",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Massachusetts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MD:nps.associated_unit",
+    "subjectId": "US-MD",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MD:nps.formal_national_park_count",
+    "subjectId": "US-MD",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-MD:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MD:nps.formal_unit_ids",
+    "subjectId": "US-MD",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Maryland"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ME:nps.associated_unit",
+    "subjectId": "US-ME",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ME:nps.formal_national_park_count",
+    "subjectId": "US-ME",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-ME:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ME:nps.formal_unit_ids",
+    "subjectId": "US-ME",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "acadia-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Maine"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MI:nps.associated_unit",
+    "subjectId": "US-MI",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MI:nps.formal_national_park_count",
+    "subjectId": "US-MI",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-MI:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MI:nps.formal_unit_ids",
+    "subjectId": "US-MI",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "isle-royale-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Michigan"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MN:nps.associated_unit",
+    "subjectId": "US-MN",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MN:nps.formal_national_park_count",
+    "subjectId": "US-MN",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-MN:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MN:nps.formal_unit_ids",
+    "subjectId": "US-MN",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "voyageurs-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Minnesota"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MO:nps.associated_unit",
+    "subjectId": "US-MO",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MO:nps.formal_national_park_count",
+    "subjectId": "US-MO",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-MO:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MO:nps.formal_unit_ids",
+    "subjectId": "US-MO",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "gateway-arch-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Missouri"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MS:nps.associated_unit",
+    "subjectId": "US-MS",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MS:nps.formal_national_park_count",
+    "subjectId": "US-MS",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-MS:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MS:nps.formal_unit_ids",
+    "subjectId": "US-MS",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Mississippi"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MT:nps.associated_unit",
+    "subjectId": "US-MT",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MT:nps.formal_national_park_count",
+    "subjectId": "US-MT",
+    "metricId": "nps.formal_national_park_count",
+    "value": 2,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-MT:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MT:nps.formal_unit_ids",
+    "subjectId": "US-MT",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "glacier-national-park",
+      "yellowstone-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Montana"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NC:nps.associated_unit",
+    "subjectId": "US-NC",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NC:nps.formal_national_park_count",
+    "subjectId": "US-NC",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-NC:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NC:nps.formal_unit_ids",
+    "subjectId": "US-NC",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "great-smoky-mountains-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "North Carolina"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ND:nps.associated_unit",
+    "subjectId": "US-ND",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ND:nps.formal_national_park_count",
+    "subjectId": "US-ND",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-ND:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ND:nps.formal_unit_ids",
+    "subjectId": "US-ND",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "theodore-roosevelt-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "North Dakota"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NE:nps.associated_unit",
+    "subjectId": "US-NE",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NE:nps.formal_national_park_count",
+    "subjectId": "US-NE",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-NE:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NE:nps.formal_unit_ids",
+    "subjectId": "US-NE",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Nebraska"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NH:nps.associated_unit",
+    "subjectId": "US-NH",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NH:nps.formal_national_park_count",
+    "subjectId": "US-NH",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-NH:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NH:nps.formal_unit_ids",
+    "subjectId": "US-NH",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "New Hampshire"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NJ:nps.associated_unit",
+    "subjectId": "US-NJ",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NJ:nps.formal_national_park_count",
+    "subjectId": "US-NJ",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-NJ:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NJ:nps.formal_unit_ids",
+    "subjectId": "US-NJ",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "New Jersey"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NM:nps.associated_unit",
+    "subjectId": "US-NM",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NM:nps.formal_national_park_count",
+    "subjectId": "US-NM",
+    "metricId": "nps.formal_national_park_count",
+    "value": 2,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-NM:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NM:nps.formal_unit_ids",
+    "subjectId": "US-NM",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "carlsbad-caverns-national-park",
+      "white-sands-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "New Mexico"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NV:nps.associated_unit",
+    "subjectId": "US-NV",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NV:nps.formal_national_park_count",
+    "subjectId": "US-NV",
+    "metricId": "nps.formal_national_park_count",
+    "value": 2,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-NV:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NV:nps.formal_unit_ids",
+    "subjectId": "US-NV",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "death-valley-national-park",
+      "great-basin-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Nevada"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NY:nps.associated_unit",
+    "subjectId": "US-NY",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NY:nps.formal_national_park_count",
+    "subjectId": "US-NY",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-NY:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NY:nps.formal_unit_ids",
+    "subjectId": "US-NY",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "New York"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OH:nps.associated_unit",
+    "subjectId": "US-OH",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OH:nps.formal_national_park_count",
+    "subjectId": "US-OH",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-OH:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OH:nps.formal_unit_ids",
+    "subjectId": "US-OH",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "cuyahoga-valley-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Ohio"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OK:nps.associated_unit",
+    "subjectId": "US-OK",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OK:nps.formal_national_park_count",
+    "subjectId": "US-OK",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-OK:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OK:nps.formal_unit_ids",
+    "subjectId": "US-OK",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Oklahoma"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OR:nps.associated_unit",
+    "subjectId": "US-OR",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OR:nps.formal_national_park_count",
+    "subjectId": "US-OR",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-OR:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OR:nps.formal_unit_ids",
+    "subjectId": "US-OR",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "crater-lake-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Oregon"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-PA:nps.associated_unit",
+    "subjectId": "US-PA",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-PA:nps.formal_national_park_count",
+    "subjectId": "US-PA",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-PA:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-PA:nps.formal_unit_ids",
+    "subjectId": "US-PA",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Pennsylvania"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:nps.associated_unit",
+    "subjectId": "US-RI",
+    "metricId": "nps.associated_unit",
+    "value": [
+      "Touro Synagogue National Historic Site",
+      "Roger Williams National Memorial",
+      "Blackstone River Valley National Historical Park"
+    ],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:nps.formal_national_park_count",
+    "subjectId": "US-RI",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-RI:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:nps.formal_unit_ids",
+    "subjectId": "US-RI",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Rhode Island"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SC:nps.associated_unit",
+    "subjectId": "US-SC",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SC:nps.formal_national_park_count",
+    "subjectId": "US-SC",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-SC:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SC:nps.formal_unit_ids",
+    "subjectId": "US-SC",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "congaree-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "South Carolina"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SD:nps.associated_unit",
+    "subjectId": "US-SD",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SD:nps.formal_national_park_count",
+    "subjectId": "US-SD",
+    "metricId": "nps.formal_national_park_count",
+    "value": 2,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-SD:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SD:nps.formal_unit_ids",
+    "subjectId": "US-SD",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "badlands-national-park",
+      "wind-cave-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "South Dakota"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TN:nps.associated_unit",
+    "subjectId": "US-TN",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TN:nps.formal_national_park_count",
+    "subjectId": "US-TN",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-TN:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TN:nps.formal_unit_ids",
+    "subjectId": "US-TN",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "great-smoky-mountains-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Tennessee"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TX:nps.associated_unit",
+    "subjectId": "US-TX",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TX:nps.formal_national_park_count",
+    "subjectId": "US-TX",
+    "metricId": "nps.formal_national_park_count",
+    "value": 2,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-TX:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TX:nps.formal_unit_ids",
+    "subjectId": "US-TX",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "big-bend-national-park",
+      "guadalupe-mountains-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Texas"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-UT:nps.associated_unit",
+    "subjectId": "US-UT",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-UT:nps.formal_national_park_count",
+    "subjectId": "US-UT",
+    "metricId": "nps.formal_national_park_count",
+    "value": 5,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-UT:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-UT:nps.formal_unit_ids",
+    "subjectId": "US-UT",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "arches-national-park",
+      "bryce-canyon-national-park",
+      "canyonlands-national-park",
+      "capitol-reef-national-park",
+      "zion-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Utah"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VA:nps.associated_unit",
+    "subjectId": "US-VA",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VA:nps.formal_national_park_count",
+    "subjectId": "US-VA",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-VA:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VA:nps.formal_unit_ids",
+    "subjectId": "US-VA",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "shenandoah-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Virginia"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VT:nps.associated_unit",
+    "subjectId": "US-VT",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VT:nps.formal_national_park_count",
+    "subjectId": "US-VT",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-VT:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VT:nps.formal_unit_ids",
+    "subjectId": "US-VT",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Vermont"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WA:nps.associated_unit",
+    "subjectId": "US-WA",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WA:nps.formal_national_park_count",
+    "subjectId": "US-WA",
+    "metricId": "nps.formal_national_park_count",
+    "value": 3,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-WA:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WA:nps.formal_unit_ids",
+    "subjectId": "US-WA",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "mount-rainier-national-park",
+      "north-cascades-national-park",
+      "olympic-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Washington"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WI:nps.associated_unit",
+    "subjectId": "US-WI",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WI:nps.formal_national_park_count",
+    "subjectId": "US-WI",
+    "metricId": "nps.formal_national_park_count",
+    "value": 0,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-WI:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WI:nps.formal_unit_ids",
+    "subjectId": "US-WI",
+    "metricId": "nps.formal_unit_ids",
+    "value": [],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Wisconsin"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WV:nps.associated_unit",
+    "subjectId": "US-WV",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WV:nps.formal_national_park_count",
+    "subjectId": "US-WV",
+    "metricId": "nps.formal_national_park_count",
+    "value": 1,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-WV:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WV:nps.formal_unit_ids",
+    "subjectId": "US-WV",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "new-river-gorge-national-park-and-preserve"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "West Virginia"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WY:nps.associated_unit",
+    "subjectId": "US-WY",
+    "metricId": "nps.associated_unit",
+    "value": [],
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Closed set of named-unit entities in three audited profiles; no assertion about other NPS units"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WY:nps.formal_national_park_count",
+    "subjectId": "US-WY",
+    "metricId": "nps.formal_national_park_count",
+    "value": 2,
+    "unit": "units",
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    },
+    "derivation": {
+      "method": "count",
+      "inputFactIds": [
+        "us-states-2026-09-05-v1:US-WY:nps.formal_unit_ids"
+      ],
+      "parameters": {
+        "distinct": true
+      },
+      "codeVersion": "clue-ladder-1"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WY:nps.formal_unit_ids",
+    "subjectId": "US-WY",
+    "metricId": "nps.formal_unit_ids",
+    "value": [
+      "grand-teton-national-park",
+      "yellowstone-national-park"
+    ],
+    "referencePeriod": {
+      "kind": "point_date",
+      "date": "2026-09-05"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Wyoming"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  }
+]

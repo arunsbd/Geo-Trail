@@ -1,0 +1,468 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/ClueRecord",
+  "definitions": {
+    "ClueRecord": {
+      "type": "object",
+      "properties": {
+        "clueId": {
+          "$ref": "#/definitions/ClueId"
+        },
+        "answerStateId": {
+          "$ref": "#/definitions/StateId"
+        },
+        "category": {
+          "$ref": "#/definitions/ClueCategory"
+        },
+        "render": {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "enum": [
+                "text",
+                "image",
+                "map"
+              ]
+            },
+            "text": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "en"
+              ],
+              "additionalProperties": false
+            },
+            "assetId": {
+              "$ref": "#/definitions/AssetId"
+            }
+          },
+          "required": [
+            "kind"
+          ],
+          "additionalProperties": false
+        },
+        "factRefs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FactId"
+          }
+        },
+        "predicate": {
+          "$ref": "#/definitions/Predicate"
+        },
+        "candidateSet": {
+          "type": "object",
+          "properties": {
+            "snapshotId": {
+              "type": "string"
+            },
+            "stateIds": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/StateId"
+              }
+            },
+            "count": {
+              "type": "number"
+            },
+            "computedAt": {
+              "type": "string"
+            },
+            "evaluatorVersion": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "snapshotId",
+            "stateIds",
+            "count",
+            "computedAt",
+            "evaluatorVersion"
+          ],
+          "additionalProperties": false
+        },
+        "difficulty": {
+          "type": "object",
+          "properties": {
+            "seedTier": {
+              "type": "number",
+              "enum": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            "knowledgePrior": {
+              "type": "string",
+              "enum": [
+                "iconic",
+                "general",
+                "specialized",
+                "obscure"
+              ]
+            },
+            "directness": {
+              "type": "string",
+              "enum": [
+                "indirect",
+                "named_association",
+                "one_to_one",
+                "direct_identifier"
+              ]
+            },
+            "calibrationStatus": {
+              "type": "string",
+              "enum": [
+                "editorial_seed",
+                "playtest_calibrated"
+              ]
+            },
+            "standaloneSolveRate": {
+              "type": "number"
+            },
+            "sampleSize": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "seedTier",
+            "knowledgePrior",
+            "directness",
+            "calibrationStatus"
+          ],
+          "additionalProperties": false
+        },
+        "ladderPolicy": {
+          "type": "object",
+          "properties": {
+            "earliestRung": {
+              "type": "number"
+            },
+            "latestRung": {
+              "type": "number"
+            },
+            "dependencyGroup": {
+              "type": "string"
+            },
+            "incompatibleClueIds": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ClueId"
+              }
+            },
+            "requiresEarlierCategory": {
+              "$ref": "#/definitions/ClueCategory"
+            }
+          },
+          "required": [
+            "earliestRung",
+            "latestRung",
+            "dependencyGroup"
+          ],
+          "additionalProperties": false
+        },
+        "freshness": {
+          "type": "object",
+          "properties": {
+            "class": {
+              "type": "string",
+              "enum": [
+                "static",
+                "annual",
+                "regulatory",
+                "event_driven"
+              ]
+            },
+            "referenceLabelRequired": {
+              "type": "boolean"
+            },
+            "reviewBy": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "class",
+            "referenceLabelRequired"
+          ],
+          "additionalProperties": false
+        },
+        "review": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "draft",
+                "approved",
+                "rejected",
+                "retired"
+              ]
+            },
+            "evidenceChecked": {
+              "type": "boolean"
+            },
+            "wordingChecked": {
+              "type": "boolean"
+            },
+            "fairnessChecked": {
+              "type": "boolean"
+            },
+            "notes": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "evidenceChecked",
+            "wordingChecked",
+            "fairnessChecked"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "clueId",
+        "answerStateId",
+        "category",
+        "render",
+        "factRefs",
+        "predicate",
+        "candidateSet",
+        "difficulty",
+        "ladderPolicy",
+        "freshness",
+        "review"
+      ],
+      "additionalProperties": false
+    },
+    "ClueId": {
+      "type": "string"
+    },
+    "StateId": {
+      "type": "string",
+      "enum": [
+        "US-AL",
+        "US-AK",
+        "US-AZ",
+        "US-AR",
+        "US-CA",
+        "US-CO",
+        "US-CT",
+        "US-DE",
+        "US-FL",
+        "US-GA",
+        "US-HI",
+        "US-ID",
+        "US-IL",
+        "US-IN",
+        "US-IA",
+        "US-KS",
+        "US-KY",
+        "US-LA",
+        "US-ME",
+        "US-MD",
+        "US-MA",
+        "US-MI",
+        "US-MN",
+        "US-MS",
+        "US-MO",
+        "US-MT",
+        "US-NE",
+        "US-NV",
+        "US-NH",
+        "US-NJ",
+        "US-NM",
+        "US-NY",
+        "US-NC",
+        "US-ND",
+        "US-OH",
+        "US-OK",
+        "US-OR",
+        "US-PA",
+        "US-RI",
+        "US-SC",
+        "US-SD",
+        "US-TN",
+        "US-TX",
+        "US-UT",
+        "US-VT",
+        "US-VA",
+        "US-WA",
+        "US-WV",
+        "US-WI",
+        "US-WY"
+      ]
+    },
+    "ClueCategory": {
+      "type": "string",
+      "enum": [
+        "population",
+        "area",
+        "cities",
+        "capital",
+        "borders",
+        "economy",
+        "industry",
+        "transportation",
+        "parks",
+        "physical_geography",
+        "climate",
+        "landmark",
+        "history",
+        "time_zone",
+        "abbreviation",
+        "silhouette",
+        "map_position"
+      ]
+    },
+    "AssetId": {
+      "type": "string"
+    },
+    "FactId": {
+      "type": "string"
+    },
+    "Predicate": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "metricId": {
+              "type": "string"
+            },
+            "op": {
+              "type": "string",
+              "enum": [
+                "eq",
+                "lt",
+                "lte",
+                "gt",
+                "gte"
+              ]
+            },
+            "value": {
+              "$ref": "#/definitions/FactValue"
+            }
+          },
+          "required": [
+            "metricId",
+            "op",
+            "value"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "metricId": {
+              "type": "string"
+            },
+            "op": {
+              "type": "string",
+              "const": "between"
+            },
+            "minInclusive": {
+              "type": "number"
+            },
+            "maxExclusive": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "metricId",
+            "op",
+            "minInclusive",
+            "maxExclusive"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "metricId": {
+              "type": "string"
+            },
+            "op": {
+              "type": "string",
+              "const": "contains_all"
+            },
+            "values": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "metricId",
+            "op",
+            "values"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "all": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Predicate"
+              }
+            }
+          },
+          "required": [
+            "all"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "any": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Predicate"
+              }
+            }
+          },
+          "required": [
+            "any"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "FactValue": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": {}
+        }
+      ]
+    }
+  }
+}

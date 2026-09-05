@@ -1,0 +1,38 @@
+{
+  "puzzleId": "cl-c2c54bffee7e2f74edf7fb88",
+  "dataContentSha256": "be2498bcad7b18f38ed0d3ef13448046a870267ca236d6f30fcbf82cfac56234",
+  "mode": "clue_ladder",
+  "answerStateId": "US-RI",
+  "orderedClueIds": [
+    "ri.park.formal-0",
+    "ri.industry.edu-health-12-15",
+    "ri.time.eastern-all",
+    "ri.history.13th",
+    "ri.area.rank-46-50",
+    "ri.cities.top2-2025",
+    "ri.landmark.touro-roger",
+    "ri.borders.typed",
+    "ri.locator",
+    "ri.silhouette"
+  ],
+  "dataSnapshotId": "us-states-2026-09-05-v1",
+  "clueSetVersion": "audited-examples-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400,
+      300,
+      200,
+      100
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "milestone-v1",
+  "generatedAt": "2026-09-05T02:47:47.635Z",
+  "validatorVersion": "clue-ladder-1"
+}

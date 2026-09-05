@@ -1,0 +1,104 @@
+[
+  {
+    "assetId": "asset-0bf229e5187e1c50",
+    "kind": "silhouette",
+    "stateId": "US-AL",
+    "sourceGeometryId": "CEN-ATLAS-3.0.1",
+    "projection": "us-atlas Albers USA composite",
+    "simplificationTolerance": 0,
+    "viewBox": "0 0 975 610",
+    "filePath": "stable/visuals/0bf229e5187e1c50eed75a0a943fa0ded5af706b8edf232ca988c8e641ad2a50.svg",
+    "sha256": "0bf229e5187e1c50eed75a0a943fa0ded5af706b8edf232ca988c8e641ad2a50",
+    "generatedAt": "2026-09-05T02:47:47.635Z",
+    "transformVersion": "existing-map-paths-1",
+    "accessibility": {
+      "preAnswerAlt": "Mystery state shape",
+      "postAnswerAlt": "Alabama shape"
+    }
+  },
+  {
+    "assetId": "asset-2eba04a6359c67d5",
+    "kind": "locator_map",
+    "stateId": "US-AL",
+    "sourceGeometryId": "CEN-ATLAS-3.0.1",
+    "projection": "us-atlas Albers USA composite",
+    "simplificationTolerance": 0,
+    "viewBox": "0 0 975 610",
+    "filePath": "stable/visuals/2eba04a6359c67d5a0f53f6905aa6a17673e2401dd63830605b553007ecd4379.svg",
+    "sha256": "2eba04a6359c67d5a0f53f6905aa6a17673e2401dd63830605b553007ecd4379",
+    "generatedAt": "2026-09-05T02:47:47.635Z",
+    "transformVersion": "existing-map-paths-1",
+    "accessibility": {
+      "preAnswerAlt": "Mystery state location",
+      "postAnswerAlt": "Alabama location"
+    }
+  },
+  {
+    "assetId": "asset-3225a770a53968d9",
+    "kind": "silhouette",
+    "stateId": "US-CO",
+    "sourceGeometryId": "CEN-ATLAS-3.0.1",
+    "projection": "us-atlas Albers USA composite",
+    "simplificationTolerance": 0,
+    "viewBox": "0 0 975 610",
+    "filePath": "stable/visuals/3225a770a53968d982fe6ca440319af306fd959e78a31d4e90fc5cf4cf87244a.svg",
+    "sha256": "3225a770a53968d982fe6ca440319af306fd959e78a31d4e90fc5cf4cf87244a",
+    "generatedAt": "2026-09-05T02:47:47.635Z",
+    "transformVersion": "existing-map-paths-1",
+    "accessibility": {
+      "preAnswerAlt": "Mystery state shape",
+      "postAnswerAlt": "Colorado shape"
+    }
+  },
+  {
+    "assetId": "asset-6da1eb5773914395",
+    "kind": "locator_map",
+    "stateId": "US-CO",
+    "sourceGeometryId": "CEN-ATLAS-3.0.1",
+    "projection": "us-atlas Albers USA composite",
+    "simplificationTolerance": 0,
+    "viewBox": "0 0 975 610",
+    "filePath": "stable/visuals/6da1eb5773914395ff98173f1c47ba58f614d785c28922ad93d78ae10d3733c6.svg",
+    "sha256": "6da1eb5773914395ff98173f1c47ba58f614d785c28922ad93d78ae10d3733c6",
+    "generatedAt": "2026-09-05T02:47:47.635Z",
+    "transformVersion": "existing-map-paths-1",
+    "accessibility": {
+      "preAnswerAlt": "Mystery state location",
+      "postAnswerAlt": "Colorado location"
+    }
+  },
+  {
+    "assetId": "asset-7bf062246f72fcf3",
+    "kind": "silhouette",
+    "stateId": "US-RI",
+    "sourceGeometryId": "CEN-ATLAS-3.0.1",
+    "projection": "us-atlas Albers USA composite",
+    "simplificationTolerance": 0,
+    "viewBox": "0 0 975 610",
+    "filePath": "stable/visuals/7bf062246f72fcf3b44302f2c646c8fd7e4a03b4217abe887789206bef47b0ca.svg",
+    "sha256": "7bf062246f72fcf3b44302f2c646c8fd7e4a03b4217abe887789206bef47b0ca",
+    "generatedAt": "2026-09-05T02:47:47.635Z",
+    "transformVersion": "existing-map-paths-1",
+    "accessibility": {
+      "preAnswerAlt": "Mystery state shape",
+      "postAnswerAlt": "Rhode Island shape"
+    }
+  },
+  {
+    "assetId": "asset-c2aad0cb92d4e360",
+    "kind": "locator_map",
+    "stateId": "US-RI",
+    "sourceGeometryId": "CEN-ATLAS-3.0.1",
+    "projection": "us-atlas Albers USA composite",
+    "simplificationTolerance": 0,
+    "viewBox": "0 0 975 610",
+    "filePath": "stable/visuals/c2aad0cb92d4e360f105d79d94009881c17b511e3a1cdcc81f8682cf5da28697.svg",
+    "sha256": "c2aad0cb92d4e360f105d79d94009881c17b511e3a1cdcc81f8682cf5da28697",
+    "generatedAt": "2026-09-05T02:47:47.635Z",
+    "transformVersion": "existing-map-paths-1",
+    "accessibility": {
+      "preAnswerAlt": "Mystery state location",
+      "postAnswerAlt": "Rhode Island location"
+    }
+  }
+]

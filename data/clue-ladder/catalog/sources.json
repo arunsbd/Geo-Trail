@@ -1,0 +1,222 @@
+[
+  {
+    "sourceId": "CEN-PEP-STATE-V2025",
+    "publisher": "U.S. Census Bureau",
+    "title": "Vintage 2025 state population",
+    "landingPageUrl": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+    "downloadUrl": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+    "retrievedAt": "2026-09-05T02:39:59.759Z",
+    "coverage": {
+      "referenceDate": "2025-07-01"
+    },
+    "authorityTier": 1,
+    "updateClass": "annual",
+    "sha256": "92188e29cb0a67dcf95afa7d6c47359409782f086478b70ea4128eb70e223ca9",
+    "datasetId": "NST-EST2025-ALLDATA",
+    "editionOrVintage": "Vintage 2025"
+  },
+  {
+    "sourceId": "BEA-SAGDP-2025",
+    "publisher": "Bureau of Economic Analysis",
+    "title": "Annual current-dollar GDP",
+    "landingPageUrl": "https://apps.bea.gov/regional/zip/SAGDP.zip",
+    "downloadUrl": "https://apps.bea.gov/regional/zip/SAGDP.zip",
+    "retrievedAt": "2026-09-05T02:42:50.713Z",
+    "coverage": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31"
+    },
+    "authorityTier": 1,
+    "updateClass": "annual",
+    "sha256": "5a90e0e6e03082089048d8f78e8a4df9993465c4f34f9de471258fed2a908183",
+    "tableId": "SAGDP1 / SAGDP2",
+    "releaseDate": "2026-04-09"
+  },
+  {
+    "sourceId": "CEN-AREA-2010",
+    "publisher": "U.S. Census Bureau",
+    "title": "2010 state area measurements",
+    "landingPageUrl": "https://www.census.gov/geographies/reference-files/2010/geo/state-area.html",
+    "downloadUrl": "https://www.census.gov/geographies/reference-files/2010/geo/state-area.html",
+    "retrievedAt": "2026-09-05T02:41:14.588Z",
+    "coverage": {
+      "boundaryDate": "2010-01-01"
+    },
+    "authorityTier": 1,
+    "updateClass": "static",
+    "sha256": "bbfda0aa509458c547bdd7cefdfdd40751174dccd5008377587a5ff91e5445b5",
+    "notes": "HTML rounds square miles to integers. RI research value 1,033.8 retained separately; both rank 50."
+  },
+  {
+    "sourceId": "USGS-ELEV",
+    "publisher": "U.S. Geological Survey",
+    "title": "Highest and Lowest Elevations",
+    "landingPageUrl": "https://www.usgs.gov/educational-resources/highest-and-lowest-elevations",
+    "downloadUrl": "https://www.usgs.gov/educational-resources/highest-and-lowest-elevations",
+    "retrievedAt": "2026-09-05T02:41:16.788Z",
+    "coverage": {},
+    "authorityTier": 1,
+    "updateClass": "static",
+    "sha256": "9cecdf99279e19e0d78824c9a1a7013c8aa932b050f151e6cb7b69160650c99a",
+    "notes": "Historical table elevations retained; footnote markers removed, not treated as digits. No modern datum substitutions."
+  },
+  {
+    "sourceId": "NPS-SYSTEM-2026-09",
+    "publisher": "National Park Service",
+    "title": "Formal designation enumeration",
+    "landingPageUrl": "https://www.nps.gov/aboutus/national-park-system.htm",
+    "downloadUrl": "https://www.nps.gov/aboutus/national-park-system.htm",
+    "retrievedAt": "2026-09-05T02:41:16.974Z",
+    "coverage": {
+      "referenceDate": "2026-09-05"
+    },
+    "authorityTier": 1,
+    "updateClass": "event_driven",
+    "sha256": "f26c2d6a86233be39bb189db172b70d09f48f5dfbb299bed21c71c21d68f0c61",
+    "notes": "Fresh September retrieval, not a July archive. All 63 formal units retained before filtering states."
+  },
+  {
+    "sourceId": "CEN-STATEHOOD-2013",
+    "publisher": "U.S. Census Bureau",
+    "title": "Statehood years",
+    "landingPageUrl": "https://www.census.gov/dataviz/visualizations/048/508.php",
+    "downloadUrl": "https://www.census.gov/dataviz/visualizations/048/508.php",
+    "retrievedAt": "2026-09-05T02:46:28.378Z",
+    "coverage": {},
+    "authorityTier": 1,
+    "updateClass": "static",
+    "sha256": "0ba210d2cf23ab30eb0a2daae0be6e44faa1d4e989a55357aec9e62eacad3a0a",
+    "releaseDate": "2013-02-21"
+  },
+  {
+    "sourceId": "DOT-TIME-2026",
+    "publisher": "U.S. Department of Transportation / eCFR",
+    "title": "49 CFR Part 71",
+    "landingPageUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-30/title-49.xml?part=71",
+    "downloadUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-30/title-49.xml?part=71",
+    "retrievedAt": "2026-09-05T02:46:28.751Z",
+    "coverage": {
+      "referenceDate": "2026-08-30"
+    },
+    "authorityTier": 1,
+    "updateClass": "regulatory",
+    "sha256": "7ca9e8d7c57b52295e5793276370f47ae128afce5fcc2d35def7d35788eba6d8",
+    "notes": "Legal standard zones; informal local observance and DST separate. Includes West Wendover, Nevada."
+  },
+  {
+    "sourceId": "CEN-PEP-PLACE-V2025-01",
+    "publisher": "U.S. Census Bureau",
+    "title": "Incorporated places: AL",
+    "landingPageUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-01.xlsx",
+    "downloadUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-01.xlsx",
+    "retrievedAt": "2026-09-05T02:47:46.787Z",
+    "coverage": {
+      "referenceDate": "2025-07-01"
+    },
+    "authorityTier": 1,
+    "updateClass": "annual",
+    "sha256": "701bab5243506d8a2921ac154ce80c0adad2ec5a2997b9c99e8870f723e86471",
+    "datasetId": "SUB-IP-EST2025-POP-01",
+    "editionOrVintage": "Vintage 2025"
+  },
+  {
+    "sourceId": "CEN-PEP-PLACE-V2025-08",
+    "publisher": "U.S. Census Bureau",
+    "title": "Incorporated places: CO",
+    "landingPageUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-08.xlsx",
+    "downloadUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-08.xlsx",
+    "retrievedAt": "2026-09-05T02:47:47.467Z",
+    "coverage": {
+      "referenceDate": "2025-07-01"
+    },
+    "authorityTier": 1,
+    "updateClass": "annual",
+    "sha256": "f6eb8426d8d9561a4fd690bb0e3e1a8824869194958586ef2b04e93ab4f8a236",
+    "datasetId": "SUB-IP-EST2025-POP-08",
+    "editionOrVintage": "Vintage 2025"
+  },
+  {
+    "sourceId": "CEN-PEP-PLACE-V2025-44",
+    "publisher": "U.S. Census Bureau",
+    "title": "Incorporated places: RI",
+    "landingPageUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-44.xlsx",
+    "downloadUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-44.xlsx",
+    "retrievedAt": "2026-09-05T02:47:47.635Z",
+    "coverage": {
+      "referenceDate": "2025-07-01"
+    },
+    "authorityTier": 1,
+    "updateClass": "annual",
+    "sha256": "2988cb6c9ef81aae4b622003a233d36eec768a561697d7e74715c54c3bd11b1e",
+    "datasetId": "SUB-IP-EST2025-POP-44",
+    "editionOrVintage": "Vintage 2025"
+  },
+  {
+    "sourceId": "CEN-ATLAS-3.0.1",
+    "publisher": "U.S. Census Bureau via us-atlas",
+    "title": "Existing Border Hunt display geometry",
+    "landingPageUrl": "https://github.com/topojson/us-atlas/tree/v3.0.1",
+    "downloadUrl": "https://github.com/topojson/us-atlas/tree/v3.0.1",
+    "retrievedAt": "2026-09-05T18:05:22.184Z",
+    "coverage": {},
+    "authorityTier": 1,
+    "updateClass": "static",
+    "sha256": "6e7bb086a3c791490361968a3094f377f7726c5d0c4900fec03cc42db2305a3d",
+    "notes": "Pinned existing display geometry; not 2025 TIGER legal geometry."
+  },
+  {
+    "sourceId": "CEN-GUIDE-2010",
+    "publisher": "U.S. Census Bureau",
+    "title": "State geography guides",
+    "landingPageUrl": "https://www.census.gov/geographies/reference-files/2010/geo/state-local-geo-guides-2010.html",
+    "retrievedAt": "2026-09-05T02:47:47.635Z",
+    "coverage": {},
+    "authorityTier": 1,
+    "updateClass": "static",
+    "notes": "Source reference from supplied 2026-08-30 audit. retrievedAt records receipt of that reference, not an original source download. See specification."
+  },
+  {
+    "sourceId": "CEN-TIGER-2025",
+    "publisher": "U.S. Census Bureau",
+    "title": "2025 TIGER/Line",
+    "landingPageUrl": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
+    "retrievedAt": "2026-09-05T02:47:47.635Z",
+    "coverage": {},
+    "authorityTier": 1,
+    "updateClass": "static",
+    "notes": "Source reference from supplied 2026-08-30 audit. retrievedAt records receipt of that reference, not an original source download. See specification."
+  },
+  {
+    "sourceId": "NPS-STATE-2026",
+    "publisher": "National Park Service",
+    "title": "State unit associations in supplied audit",
+    "landingPageUrl": "https://www.nps.gov/state/index.htm",
+    "retrievedAt": "2026-09-05T02:47:47.635Z",
+    "coverage": {},
+    "authorityTier": 1,
+    "updateClass": "static",
+    "notes": "Source reference from supplied 2026-08-30 audit. retrievedAt records receipt of that reference, not an original source download. See specification."
+  },
+  {
+    "sourceId": "USPS-PUB28-2024",
+    "publisher": "U.S. Postal Service",
+    "title": "Publication 28 Appendix B",
+    "landingPageUrl": "https://pe.usps.com/text/pub28/28apb.htm",
+    "retrievedAt": "2026-09-05T02:47:47.635Z",
+    "coverage": {},
+    "authorityTier": 1,
+    "updateClass": "static",
+    "notes": "Source reference from supplied 2026-08-30 audit. retrievedAt records receipt of that reference, not an original source download. See specification."
+  },
+  {
+    "sourceId": "NOAA-SCS-2022",
+    "publisher": "NOAA/NESDIS",
+    "title": "State Climate Summaries 2022",
+    "landingPageUrl": "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state",
+    "retrievedAt": "2026-09-05T02:47:47.635Z",
+    "coverage": {},
+    "authorityTier": 1,
+    "updateClass": "static",
+    "notes": "Source reference from supplied 2026-08-30 audit. retrievedAt records receipt of that reference, not an original source download. See specification."
+  }
+]

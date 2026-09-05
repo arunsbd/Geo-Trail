@@ -1,0 +1,38 @@
+{
+  "puzzleId": "cl-7546a54eb02633dc43892fa1",
+  "dataContentSha256": "be2498bcad7b18f38ed0d3ef13448046a870267ca236d6f30fcbf82cfac56234",
+  "mode": "clue_ladder",
+  "answerStateId": "US-AL",
+  "orderedClueIds": [
+    "al.park.formal-0",
+    "al.history.1810s",
+    "al.gdp.300-400",
+    "al.highpoint.2000-2500",
+    "al.population.5-6m",
+    "al.time.central-all",
+    "al.borders.segment-set",
+    "al.cities.top2-2025",
+    "al.silhouette",
+    "al.postal"
+  ],
+  "dataSnapshotId": "us-states-2026-09-05-v1",
+  "clueSetVersion": "audited-examples-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400,
+      300,
+      200,
+      100
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "milestone-v1",
+  "generatedAt": "2026-09-05T02:47:47.635Z",
+  "validatorVersion": "clue-ladder-1"
+}

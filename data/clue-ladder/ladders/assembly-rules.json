@@ -1,0 +1,39 @@
+{
+  "length": 10,
+  "allowedDependencyGroups": [],
+  "prohibitedDuplicateCategories": [
+    "abbreviation",
+    "silhouette",
+    "map_position",
+    "population",
+    "area",
+    "cities",
+    "capital",
+    "borders",
+    "economy",
+    "industry",
+    "parks",
+    "history",
+    "time_zone",
+    "physical_geography",
+    "landmark"
+  ],
+  "preferredEarlyCounts": [
+    [
+      8,
+      30
+    ],
+    [
+      3,
+      15
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      1,
+      5
+    ]
+  ]
+}

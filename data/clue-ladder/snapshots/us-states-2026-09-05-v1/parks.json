@@ -1,0 +1,189 @@
+[
+  {
+    "associationId": "CO:black-canyon-of-the-gunnison-national-park",
+    "stateId": "US-CO",
+    "npsUnitId": "black-canyon-of-the-gunnison-national-park",
+    "unitName": "Black Canyon of the Gunnison National Park",
+    "formalDesignation": "National Park",
+    "isFormallyNationalPark": true,
+    "relationship": "inside",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Black Canyon of the Gunnison National Park"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1"
+  },
+  {
+    "associationId": "CO:great-sand-dunes-national-park",
+    "stateId": "US-CO",
+    "npsUnitId": "great-sand-dunes-national-park",
+    "unitName": "Great Sand Dunes National Park",
+    "formalDesignation": "National Park",
+    "isFormallyNationalPark": true,
+    "relationship": "inside",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Great Sand Dunes National Park"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1"
+  },
+  {
+    "associationId": "CO:mesa-verde-national-park",
+    "stateId": "US-CO",
+    "npsUnitId": "mesa-verde-national-park",
+    "unitName": "Mesa Verde National Park",
+    "formalDesignation": "National Park",
+    "isFormallyNationalPark": true,
+    "relationship": "inside",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Mesa Verde National Park"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1"
+  },
+  {
+    "associationId": "CO:rocky-mountain-national-park",
+    "stateId": "US-CO",
+    "npsUnitId": "rocky-mountain-national-park",
+    "unitName": "Rocky Mountain National Park",
+    "formalDesignation": "National Park",
+    "isFormallyNationalPark": true,
+    "relationship": "inside",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "section": "National Parks (63)",
+        "rowKey": "Rocky Mountain National Park"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1"
+  },
+  {
+    "associationId": "AL:Selma to Montgomery National Historic Trail",
+    "stateId": "US-AL",
+    "npsUnitId": "Selma to Montgomery National Historic Trail",
+    "unitName": "Selma to Montgomery National Historic Trail",
+    "formalDesignation": "National Historic Trail",
+    "isFormallyNationalPark": false,
+    "relationship": "trail_crosses",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Supplied AL example NPS units",
+        "rowKey": "Selma to Montgomery National Historic Trail"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1"
+  },
+  {
+    "associationId": "AL:Birmingham Civil Rights National Monument",
+    "stateId": "US-AL",
+    "npsUnitId": "Birmingham Civil Rights National Monument",
+    "unitName": "Birmingham Civil Rights National Monument",
+    "formalDesignation": "National Monument",
+    "isFormallyNationalPark": false,
+    "relationship": "inside",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Supplied AL example NPS units",
+        "rowKey": "Birmingham Civil Rights National Monument"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1"
+  },
+  {
+    "associationId": "AL:Little River Canyon National Preserve",
+    "stateId": "US-AL",
+    "npsUnitId": "Little River Canyon National Preserve",
+    "unitName": "Little River Canyon National Preserve",
+    "formalDesignation": "National Preserve",
+    "isFormallyNationalPark": false,
+    "relationship": "inside",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Supplied AL example NPS units",
+        "rowKey": "Little River Canyon National Preserve"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1"
+  },
+  {
+    "associationId": "AL:Russell Cave National Monument",
+    "stateId": "US-AL",
+    "npsUnitId": "Russell Cave National Monument",
+    "unitName": "Russell Cave National Monument",
+    "formalDesignation": "National Monument",
+    "isFormallyNationalPark": false,
+    "relationship": "inside",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Supplied AL example NPS units",
+        "rowKey": "Russell Cave National Monument"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1"
+  },
+  {
+    "associationId": "RI:Touro Synagogue National Historic Site",
+    "stateId": "US-RI",
+    "npsUnitId": "Touro Synagogue National Historic Site",
+    "unitName": "Touro Synagogue National Historic Site",
+    "formalDesignation": "National Historic Site",
+    "isFormallyNationalPark": false,
+    "relationship": "inside",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Supplied RI example NPS units",
+        "rowKey": "Touro Synagogue National Historic Site"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1"
+  },
+  {
+    "associationId": "RI:Roger Williams National Memorial",
+    "stateId": "US-RI",
+    "npsUnitId": "Roger Williams National Memorial",
+    "unitName": "Roger Williams National Memorial",
+    "formalDesignation": "National Memorial",
+    "isFormallyNationalPark": false,
+    "relationship": "inside",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Supplied RI example NPS units",
+        "rowKey": "Roger Williams National Memorial"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1"
+  },
+  {
+    "associationId": "RI:Blackstone River Valley National Historical Park",
+    "stateId": "US-RI",
+    "npsUnitId": "Blackstone River Valley National Historical Park",
+    "unitName": "Blackstone River Valley National Historical Park",
+    "formalDesignation": "National Historical Park",
+    "isFormallyNationalPark": false,
+    "relationship": "inside",
+    "sourceRefs": [
+      {
+        "sourceId": "NPS-STATE-2026",
+        "section": "Supplied RI example NPS units",
+        "rowKey": "Blackstone River Valley National Historical Park"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1"
+  }
+]

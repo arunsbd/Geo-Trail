@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/SourceLocator",
+  "definitions": {
+    "SourceLocator": {
+      "type": "object",
+      "properties": {
+        "sourceId": {
+          "$ref": "#/definitions/SourceId"
+        },
+        "sheet": {
+          "type": "string"
+        },
+        "table": {
+          "type": "string"
+        },
+        "rowKey": {
+          "type": "string"
+        },
+        "column": {
+          "type": "string"
+        },
+        "variableCode": {
+          "type": "string"
+        },
+        "page": {
+          "type": "number"
+        },
+        "section": {
+          "type": "string"
+        },
+        "featureId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceId"
+      ],
+      "additionalProperties": false
+    },
+    "SourceId": {
+      "type": "string"
+    }
+  }
+}

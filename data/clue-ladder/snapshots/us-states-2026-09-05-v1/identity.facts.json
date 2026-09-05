@@ -1,0 +1,1218 @@
+[
+  {
+    "factId": "us-states-2026-09-05-v1:US-AK:identity.postal_code",
+    "subjectId": "US-AK",
+    "metricId": "identity.postal_code",
+    "value": "AK",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Alaska"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:identity.capital",
+    "subjectId": "US-AL",
+    "metricId": "identity.capital",
+    "value": "Montgomery",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-GUIDE-2010",
+        "section": "Supplied AL profile: capital"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:identity.postal_code",
+    "subjectId": "US-AL",
+    "metricId": "identity.postal_code",
+    "value": "AL",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Alabama"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AR:identity.postal_code",
+    "subjectId": "US-AR",
+    "metricId": "identity.postal_code",
+    "value": "AR",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Arkansas"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AZ:identity.postal_code",
+    "subjectId": "US-AZ",
+    "metricId": "identity.postal_code",
+    "value": "AZ",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Arizona"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CA:identity.postal_code",
+    "subjectId": "US-CA",
+    "metricId": "identity.postal_code",
+    "value": "CA",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "California"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:identity.capital",
+    "subjectId": "US-CO",
+    "metricId": "identity.capital",
+    "value": "Denver",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-GUIDE-2010",
+        "section": "Supplied CO profile: capital"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:identity.postal_code",
+    "subjectId": "US-CO",
+    "metricId": "identity.postal_code",
+    "value": "CO",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Colorado"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CT:identity.postal_code",
+    "subjectId": "US-CT",
+    "metricId": "identity.postal_code",
+    "value": "CT",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Connecticut"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-DE:identity.postal_code",
+    "subjectId": "US-DE",
+    "metricId": "identity.postal_code",
+    "value": "DE",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Delaware"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-FL:identity.postal_code",
+    "subjectId": "US-FL",
+    "metricId": "identity.postal_code",
+    "value": "FL",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Florida"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-GA:identity.postal_code",
+    "subjectId": "US-GA",
+    "metricId": "identity.postal_code",
+    "value": "GA",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Georgia"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-HI:identity.postal_code",
+    "subjectId": "US-HI",
+    "metricId": "identity.postal_code",
+    "value": "HI",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Hawaii"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IA:identity.postal_code",
+    "subjectId": "US-IA",
+    "metricId": "identity.postal_code",
+    "value": "IA",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Iowa"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ID:identity.postal_code",
+    "subjectId": "US-ID",
+    "metricId": "identity.postal_code",
+    "value": "ID",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Idaho"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IL:identity.postal_code",
+    "subjectId": "US-IL",
+    "metricId": "identity.postal_code",
+    "value": "IL",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Illinois"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IN:identity.postal_code",
+    "subjectId": "US-IN",
+    "metricId": "identity.postal_code",
+    "value": "IN",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Indiana"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KS:identity.postal_code",
+    "subjectId": "US-KS",
+    "metricId": "identity.postal_code",
+    "value": "KS",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Kansas"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KY:identity.postal_code",
+    "subjectId": "US-KY",
+    "metricId": "identity.postal_code",
+    "value": "KY",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Kentucky"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-LA:identity.postal_code",
+    "subjectId": "US-LA",
+    "metricId": "identity.postal_code",
+    "value": "LA",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Louisiana"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MA:identity.postal_code",
+    "subjectId": "US-MA",
+    "metricId": "identity.postal_code",
+    "value": "MA",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Massachusetts"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MD:identity.postal_code",
+    "subjectId": "US-MD",
+    "metricId": "identity.postal_code",
+    "value": "MD",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Maryland"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ME:identity.postal_code",
+    "subjectId": "US-ME",
+    "metricId": "identity.postal_code",
+    "value": "ME",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Maine"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MI:identity.postal_code",
+    "subjectId": "US-MI",
+    "metricId": "identity.postal_code",
+    "value": "MI",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Michigan"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MN:identity.postal_code",
+    "subjectId": "US-MN",
+    "metricId": "identity.postal_code",
+    "value": "MN",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Minnesota"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MO:identity.postal_code",
+    "subjectId": "US-MO",
+    "metricId": "identity.postal_code",
+    "value": "MO",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Missouri"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MS:identity.postal_code",
+    "subjectId": "US-MS",
+    "metricId": "identity.postal_code",
+    "value": "MS",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Mississippi"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MT:identity.postal_code",
+    "subjectId": "US-MT",
+    "metricId": "identity.postal_code",
+    "value": "MT",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Montana"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NC:identity.postal_code",
+    "subjectId": "US-NC",
+    "metricId": "identity.postal_code",
+    "value": "NC",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "North Carolina"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ND:identity.postal_code",
+    "subjectId": "US-ND",
+    "metricId": "identity.postal_code",
+    "value": "ND",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "North Dakota"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NE:identity.postal_code",
+    "subjectId": "US-NE",
+    "metricId": "identity.postal_code",
+    "value": "NE",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Nebraska"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NH:identity.postal_code",
+    "subjectId": "US-NH",
+    "metricId": "identity.postal_code",
+    "value": "NH",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "New Hampshire"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NJ:identity.postal_code",
+    "subjectId": "US-NJ",
+    "metricId": "identity.postal_code",
+    "value": "NJ",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "New Jersey"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NM:identity.postal_code",
+    "subjectId": "US-NM",
+    "metricId": "identity.postal_code",
+    "value": "NM",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "New Mexico"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NV:identity.postal_code",
+    "subjectId": "US-NV",
+    "metricId": "identity.postal_code",
+    "value": "NV",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Nevada"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NY:identity.postal_code",
+    "subjectId": "US-NY",
+    "metricId": "identity.postal_code",
+    "value": "NY",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "New York"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OH:identity.postal_code",
+    "subjectId": "US-OH",
+    "metricId": "identity.postal_code",
+    "value": "OH",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Ohio"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OK:identity.postal_code",
+    "subjectId": "US-OK",
+    "metricId": "identity.postal_code",
+    "value": "OK",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Oklahoma"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OR:identity.postal_code",
+    "subjectId": "US-OR",
+    "metricId": "identity.postal_code",
+    "value": "OR",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Oregon"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-PA:identity.postal_code",
+    "subjectId": "US-PA",
+    "metricId": "identity.postal_code",
+    "value": "PA",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Pennsylvania"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:identity.capital",
+    "subjectId": "US-RI",
+    "metricId": "identity.capital",
+    "value": "Providence",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "CEN-GUIDE-2010",
+        "section": "Supplied RI profile: capital"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:identity.postal_code",
+    "subjectId": "US-RI",
+    "metricId": "identity.postal_code",
+    "value": "RI",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Rhode Island"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SC:identity.postal_code",
+    "subjectId": "US-SC",
+    "metricId": "identity.postal_code",
+    "value": "SC",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "South Carolina"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SD:identity.postal_code",
+    "subjectId": "US-SD",
+    "metricId": "identity.postal_code",
+    "value": "SD",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "South Dakota"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TN:identity.postal_code",
+    "subjectId": "US-TN",
+    "metricId": "identity.postal_code",
+    "value": "TN",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Tennessee"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TX:identity.postal_code",
+    "subjectId": "US-TX",
+    "metricId": "identity.postal_code",
+    "value": "TX",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Texas"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-UT:identity.postal_code",
+    "subjectId": "US-UT",
+    "metricId": "identity.postal_code",
+    "value": "UT",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Utah"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VA:identity.postal_code",
+    "subjectId": "US-VA",
+    "metricId": "identity.postal_code",
+    "value": "VA",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Virginia"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VT:identity.postal_code",
+    "subjectId": "US-VT",
+    "metricId": "identity.postal_code",
+    "value": "VT",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Vermont"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WA:identity.postal_code",
+    "subjectId": "US-WA",
+    "metricId": "identity.postal_code",
+    "value": "WA",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Washington"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WI:identity.postal_code",
+    "subjectId": "US-WI",
+    "metricId": "identity.postal_code",
+    "value": "WI",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Wisconsin"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WV:identity.postal_code",
+    "subjectId": "US-WV",
+    "metricId": "identity.postal_code",
+    "value": "WV",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "West Virginia"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WY:identity.postal_code",
+    "subjectId": "US-WY",
+    "metricId": "identity.postal_code",
+    "value": "WY",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USPS-PUB28-2024",
+        "section": "Appendix B",
+        "rowKey": "Wyoming"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "notes": "Transcribed from the supplied audited specification; not independently re-retrieved."
+    }
+  }
+]

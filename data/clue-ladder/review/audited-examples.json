@@ -1,0 +1,525 @@
+{
+  "clues": [
+    {
+      "clueId": "al.park.formal-0",
+      "answerStateId": "US-AL",
+      "text": "No NPS unit in this state is formally designated a National Park. *(NPS snapshot: July 2026)*",
+      "category": "parks",
+      "expectedCount": 19,
+      "tier": 5,
+      "earliest": 1,
+      "latest": 3
+    },
+    {
+      "clueId": "al.industry.mfg-14-16",
+      "answerStateId": "US-AL",
+      "text": "Manufacturing accounted for 14%\u201316% of its 2025 current-dollar GDP.",
+      "category": "industry",
+      "expectedCount": 7,
+      "tier": 4,
+      "earliest": 1,
+      "latest": 5
+    },
+    {
+      "clueId": "al.gdp.300-400",
+      "answerStateId": "US-AL",
+      "text": "Its 2025 current-dollar GDP was between $300 billion and $400 billion.",
+      "category": "economy",
+      "expectedCount": 7,
+      "tier": 4,
+      "earliest": 1,
+      "latest": 5
+    },
+    {
+      "clueId": "al.population.5-6m",
+      "answerStateId": "US-AL",
+      "text": "Its July 1, 2025 population estimate was between 5.0 million and 6.0 million.",
+      "category": "population",
+      "expectedCount": 4,
+      "tier": 3,
+      "earliest": 2,
+      "latest": 6
+    },
+    {
+      "clueId": "al.area.rank-26-30",
+      "answerStateId": "US-AL",
+      "text": "It ranked 26th\u201330th in land area among the 50 states using Census 2010 measurements.",
+      "category": "area",
+      "expectedCount": 5,
+      "tier": 4,
+      "earliest": 2,
+      "latest": 6
+    },
+    {
+      "clueId": "al.highpoint.2000-2500",
+      "answerStateId": "US-AL",
+      "text": "Its highest point is between 2,000 and 2,500 feet above sea level.",
+      "category": "physical_geography",
+      "expectedCount": 3,
+      "tier": 3,
+      "earliest": 3,
+      "latest": 7
+    },
+    {
+      "clueId": "al.history.1810s",
+      "answerStateId": "US-AL",
+      "text": "It joined the Union during the 1810s.",
+      "category": "history",
+      "expectedCount": 5,
+      "tier": 4,
+      "earliest": 2,
+      "latest": 6
+    },
+    {
+      "clueId": "al.time.central-all",
+      "answerStateId": "US-AL",
+      "text": "The entire state is in the Central standard time zone.",
+      "category": "time_zone",
+      "expectedCount": 10,
+      "tier": 3,
+      "earliest": 4,
+      "latest": 7
+    },
+    {
+      "clueId": "al.landmark.selma-montgomery",
+      "answerStateId": "US-AL",
+      "text": "The Selma to Montgomery National Historic Trail is here.",
+      "category": "landmark",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 5,
+      "latest": 8
+    },
+    {
+      "clueId": "al.cities.top2-2025",
+      "answerStateId": "US-AL",
+      "text": "Huntsville and Mobile were its two largest incorporated places in the 2025 Census estimates.",
+      "category": "cities",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 6,
+      "latest": 8
+    },
+    {
+      "clueId": "al.capital.montgomery",
+      "answerStateId": "US-AL",
+      "text": "Its capital is Montgomery.",
+      "category": "capital",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 6,
+      "latest": 9
+    },
+    {
+      "clueId": "al.borders.segment-set",
+      "answerStateId": "US-AL",
+      "text": "It shares boundary segments with Florida, Georgia, Mississippi, and Tennessee.",
+      "category": "borders",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 6,
+      "latest": 9
+    },
+    {
+      "clueId": "al.postal",
+      "answerStateId": "US-AL",
+      "text": "Its postal abbreviation is **AL**.",
+      "category": "abbreviation",
+      "expectedCount": 1,
+      "tier": 1,
+      "earliest": 8,
+      "latest": 10
+    },
+    {
+      "clueId": "al.silhouette",
+      "answerStateId": "US-AL",
+      "text": "*Mystery state silhouette*",
+      "category": "silhouette",
+      "expectedCount": 1,
+      "tier": 1,
+      "earliest": 9,
+      "latest": 10
+    },
+    {
+      "clueId": "al.locator",
+      "answerStateId": "US-AL",
+      "text": "*Mystery state highlighted on an unlabeled U.S. map*",
+      "category": "map_position",
+      "expectedCount": 1,
+      "tier": 1,
+      "earliest": 9,
+      "latest": 10
+    },
+    {
+      "clueId": "co.gdp.500-650",
+      "answerStateId": "US-CO",
+      "text": "Its 2025 current-dollar GDP was between $500 billion and $650 billion.",
+      "category": "economy",
+      "expectedCount": 6,
+      "tier": 4,
+      "earliest": 1,
+      "latest": 5
+    },
+    {
+      "clueId": "co.population.5_5-6_5m",
+      "answerStateId": "US-CO",
+      "text": "Its July 1, 2025 population estimate was between 5.5 million and 6.5 million.",
+      "category": "population",
+      "expectedCount": 6,
+      "tier": 4,
+      "earliest": 1,
+      "latest": 5
+    },
+    {
+      "clueId": "co.industry.pst-10-13",
+      "answerStateId": "US-CO",
+      "text": "Professional, scientific, and technical services contributed 10%\u201313% of its 2025 GDP.",
+      "category": "industry",
+      "expectedCount": 3,
+      "tier": 3,
+      "earliest": 2,
+      "latest": 6
+    },
+    {
+      "clueId": "co.area.rank-6-10",
+      "answerStateId": "US-CO",
+      "text": "It ranked 6th\u201310th in land area among the 50 states using Census 2010 measurements.",
+      "category": "area",
+      "expectedCount": 5,
+      "tier": 4,
+      "earliest": 2,
+      "latest": 6
+    },
+    {
+      "clueId": "co.highpoint.14000-15000",
+      "answerStateId": "US-CO",
+      "text": "Its highest point is between 14,000 and 15,000 feet above sea level.",
+      "category": "physical_geography",
+      "expectedCount": 3,
+      "tier": 2,
+      "earliest": 3,
+      "latest": 7
+    },
+    {
+      "clueId": "co.history.1865-1880",
+      "answerStateId": "US-CO",
+      "text": "It was admitted to the Union between 1865 and 1880.",
+      "category": "history",
+      "expectedCount": 2,
+      "tier": 3,
+      "earliest": 3,
+      "latest": 7
+    },
+    {
+      "clueId": "co.time.mountain-all",
+      "answerStateId": "US-CO",
+      "text": "The entire state is in the Mountain standard time zone.",
+      "category": "time_zone",
+      "expectedCount": 6,
+      "tier": 3,
+      "earliest": 4,
+      "latest": 7
+    },
+    {
+      "clueId": "co.parks.formal-4",
+      "answerStateId": "US-CO",
+      "text": "It contains four units formally designated National Park. *(NPS snapshot: July 2026)*",
+      "category": "parks",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 5,
+      "latest": 8
+    },
+    {
+      "clueId": "co.parks.named-pair",
+      "answerStateId": "US-CO",
+      "text": "Black Canyon of the Gunnison and Mesa Verde National Parks are here.",
+      "category": "landmark",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 5,
+      "latest": 8
+    },
+    {
+      "clueId": "co.cities.top2-2025",
+      "answerStateId": "US-CO",
+      "text": "Denver and Colorado Springs were its two largest incorporated places in the 2025 Census estimates.",
+      "category": "cities",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 6,
+      "latest": 8
+    },
+    {
+      "clueId": "co.capital.denver",
+      "answerStateId": "US-CO",
+      "text": "Its capital is Denver.",
+      "category": "capital",
+      "expectedCount": 1,
+      "tier": 1,
+      "earliest": 7,
+      "latest": 9
+    },
+    {
+      "clueId": "co.borders.segment-set",
+      "answerStateId": "US-CO",
+      "text": "It shares boundary segments with Wyoming, Nebraska, Kansas, Oklahoma, New Mexico, and Utah.",
+      "category": "borders",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 6,
+      "latest": 9
+    },
+    {
+      "clueId": "co.point.arizona",
+      "answerStateId": "US-CO",
+      "text": "It meets Arizona at a point but shares no boundary segment with it.",
+      "category": "physical_geography",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 5,
+      "latest": 8
+    },
+    {
+      "clueId": "co.postal",
+      "answerStateId": "US-CO",
+      "text": "Its postal abbreviation is **CO**.",
+      "category": "abbreviation",
+      "expectedCount": 1,
+      "tier": 1,
+      "earliest": 8,
+      "latest": 10
+    },
+    {
+      "clueId": "co.silhouette",
+      "answerStateId": "US-CO",
+      "text": "*Mystery state silhouette*",
+      "category": "silhouette",
+      "expectedCount": 1,
+      "tier": 1,
+      "earliest": 9,
+      "latest": 10
+    },
+    {
+      "clueId": "co.locator",
+      "answerStateId": "US-CO",
+      "text": "*Mystery state highlighted on an unlabeled U.S. map*",
+      "category": "map_position",
+      "expectedCount": 1,
+      "tier": 1,
+      "earliest": 9,
+      "latest": 10
+    },
+    {
+      "clueId": "ri.park.formal-0",
+      "answerStateId": "US-RI",
+      "text": "No NPS unit in this state is formally designated a National Park. *(NPS snapshot: July 2026)*",
+      "category": "parks",
+      "expectedCount": 19,
+      "tier": 5,
+      "earliest": 1,
+      "latest": 3
+    },
+    {
+      "clueId": "ri.highpoint.under-1000",
+      "answerStateId": "US-RI",
+      "text": "Its highest point is below 1,000 feet above sea level.",
+      "category": "physical_geography",
+      "expectedCount": 5,
+      "tier": 4,
+      "earliest": 1,
+      "latest": 5
+    },
+    {
+      "clueId": "ri.population.1-1_5m",
+      "answerStateId": "US-RI",
+      "text": "Its July 1, 2025 population estimate was between 1.0 million and 1.5 million.",
+      "category": "population",
+      "expectedCount": 6,
+      "tier": 4,
+      "earliest": 1,
+      "latest": 5
+    },
+    {
+      "clueId": "ri.gdp.75-100",
+      "answerStateId": "US-RI",
+      "text": "Its 2025 current-dollar GDP was between $75 billion and $100 billion.",
+      "category": "economy",
+      "expectedCount": 5,
+      "tier": 4,
+      "earliest": 1,
+      "latest": 5
+    },
+    {
+      "clueId": "ri.area.rank-46-50",
+      "answerStateId": "US-RI",
+      "text": "It ranked 46th\u201350th in land area among the 50 states using Census 2010 measurements.",
+      "category": "area",
+      "expectedCount": 5,
+      "tier": 3,
+      "earliest": 2,
+      "latest": 6
+    },
+    {
+      "clueId": "ri.industry.edu-health-12-15",
+      "answerStateId": "US-RI",
+      "text": "Education, health care, and social assistance contributed 12%\u201315% of its 2025 GDP.",
+      "category": "industry",
+      "expectedCount": 6,
+      "tier": 4,
+      "earliest": 2,
+      "latest": 6
+    },
+    {
+      "clueId": "ri.history.13th",
+      "answerStateId": "US-RI",
+      "text": "It was the 13th state to join the Union under the current Constitution.",
+      "category": "history",
+      "expectedCount": 1,
+      "tier": 3,
+      "earliest": 3,
+      "latest": 7
+    },
+    {
+      "clueId": "ri.time.eastern-all",
+      "answerStateId": "US-RI",
+      "text": "The entire state is in the Eastern standard time zone.",
+      "category": "time_zone",
+      "expectedCount": 17,
+      "tier": 4,
+      "earliest": 3,
+      "latest": 7
+    },
+    {
+      "clueId": "ri.landmark.touro-roger",
+      "answerStateId": "US-RI",
+      "text": "Touro Synagogue National Historic Site and Roger Williams National Memorial are here.",
+      "category": "landmark",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 5,
+      "latest": 8
+    },
+    {
+      "clueId": "ri.cities.top2-2025",
+      "answerStateId": "US-RI",
+      "text": "Providence and Cranston were its two largest incorporated places in the 2025 Census estimates.",
+      "category": "cities",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 6,
+      "latest": 8
+    },
+    {
+      "clueId": "ri.capital.providence",
+      "answerStateId": "US-RI",
+      "text": "Its capital is Providence.",
+      "category": "capital",
+      "expectedCount": 1,
+      "tier": 1,
+      "earliest": 7,
+      "latest": 9
+    },
+    {
+      "clueId": "ri.borders.typed",
+      "answerStateId": "US-RI",
+      "text": "It has land boundaries with Connecticut and Massachusetts and a water boundary with New York.",
+      "category": "borders",
+      "expectedCount": 1,
+      "tier": 2,
+      "earliest": 6,
+      "latest": 9
+    },
+    {
+      "clueId": "ri.postal",
+      "answerStateId": "US-RI",
+      "text": "Its postal abbreviation is **RI**.",
+      "category": "abbreviation",
+      "expectedCount": 1,
+      "tier": 1,
+      "earliest": 8,
+      "latest": 10
+    },
+    {
+      "clueId": "ri.silhouette",
+      "answerStateId": "US-RI",
+      "text": "*Mystery state silhouette*",
+      "category": "silhouette",
+      "expectedCount": 1,
+      "tier": 1,
+      "earliest": 9,
+      "latest": 10
+    },
+    {
+      "clueId": "ri.locator",
+      "answerStateId": "US-RI",
+      "text": "*Mystery state highlighted on an unlabeled U.S. map*",
+      "category": "map_position",
+      "expectedCount": 1,
+      "tier": 1,
+      "earliest": 9,
+      "latest": 10
+    }
+  ],
+  "sampleLadders": {
+    "AL": [
+      "al.park.formal-0",
+      "al.industry.mfg-14-16",
+      "al.population.5-6m",
+      "al.gdp.300-400",
+      "al.highpoint.2000-2500",
+      "al.history.1810s",
+      "al.time.central-all",
+      "al.cities.top2-2025",
+      "al.postal",
+      "al.silhouette"
+    ],
+    "CO": [
+      "co.gdp.500-650",
+      "co.population.5_5-6_5m",
+      "co.industry.pst-10-13",
+      "co.highpoint.14000-15000",
+      "co.history.1865-1880",
+      "co.parks.formal-4",
+      "co.time.mountain-all",
+      "co.borders.segment-set",
+      "co.silhouette",
+      "co.postal"
+    ],
+    "RI": [
+      "ri.park.formal-0",
+      "ri.highpoint.under-1000",
+      "ri.population.1-1_5m",
+      "ri.gdp.75-100",
+      "ri.industry.edu-health-12-15",
+      "ri.history.13th",
+      "ri.time.eastern-all",
+      "ri.borders.typed",
+      "ri.capital.providence",
+      "ri.locator"
+    ]
+  },
+  "earlyCounts": {
+    "AL": [
+      19,
+      5,
+      2,
+      1
+    ],
+    "CO": [
+      6,
+      3,
+      2,
+      1
+    ],
+    "RI": [
+      19,
+      4,
+      2,
+      1
+    ]
+  },
+  "notes": [
+    "Original specification expectations retained independently of fresh evaluation."
+  ]
+}

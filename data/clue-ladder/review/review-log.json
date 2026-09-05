@@ -1,0 +1,31 @@
+{
+  "snapshotId": "us-states-2026-09-05-v1",
+  "issues": [
+    {
+      "clueId": "al.industry.mfg-14-16",
+      "expectedCount": 7,
+      "knownMatches": [
+        "US-AL",
+        "US-IA",
+        "US-KS",
+        "US-KY",
+        "US-MI",
+        "US-MS",
+        "US-WI"
+      ],
+      "unknownStateIds": [
+        "US-HI"
+      ],
+      "action": "Draft; do not claim full candidate evaluation."
+    }
+  ],
+  "notes": [
+    "NPS reference date explicitly updated to actual September 5 retrieval; original July wording retained in audited-examples.json.",
+    "Alabama 2025 top incorporated places: Huntsville, Mobile, Birmingham, Montgomery.",
+    "Census HTML RI area is rounded to 1,034 sq mi; original audit has 1,033.8. Both rank 50. No invented decimal precision.",
+    "Climate remains draft: the supplied audit does not identify a verified averaging period.",
+    "Suppressed source observations remain null with suppression codes; no imputation.",
+    "Two direct clues at the end is a soft preference: RI specimen explicitly ends capital plus locator.",
+    "Canonical boundary subset prepares the supplied audit; this milestone does not claim to have rerun legal GIS intersections."
+  ]
+}

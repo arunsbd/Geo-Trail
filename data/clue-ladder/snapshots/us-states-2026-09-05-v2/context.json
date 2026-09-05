@@ -1,0 +1,1438 @@
+{
+  "universe": [
+    "US-AL",
+    "US-AK",
+    "US-AZ",
+    "US-AR",
+    "US-CA",
+    "US-CO",
+    "US-CT",
+    "US-DE",
+    "US-FL",
+    "US-GA",
+    "US-HI",
+    "US-ID",
+    "US-IL",
+    "US-IN",
+    "US-IA",
+    "US-KS",
+    "US-KY",
+    "US-LA",
+    "US-ME",
+    "US-MD",
+    "US-MA",
+    "US-MI",
+    "US-MN",
+    "US-MS",
+    "US-MO",
+    "US-MT",
+    "US-NE",
+    "US-NV",
+    "US-NH",
+    "US-NJ",
+    "US-NM",
+    "US-NY",
+    "US-NC",
+    "US-ND",
+    "US-OH",
+    "US-OK",
+    "US-OR",
+    "US-PA",
+    "US-RI",
+    "US-SC",
+    "US-SD",
+    "US-TN",
+    "US-TX",
+    "US-UT",
+    "US-VT",
+    "US-VA",
+    "US-WA",
+    "US-WV",
+    "US-WI",
+    "US-WY"
+  ],
+  "states": [
+    {
+      "stateId": "US-AL",
+      "name": "Alabama",
+      "slug": "alabama",
+      "postalCode": "AL",
+      "censusFips": "01",
+      "censusRegion": "South",
+      "censusDivision": "East South Central",
+      "mapAssetId": "asset-2eba04a6359c67d5",
+      "identitySourceRefs": [
+        {
+          "sourceId": "CEN-PEP-STATE-V2025",
+          "rowKey": "Alabama",
+          "column": "STATE,REGION,DIVISION"
+        },
+        {
+          "sourceId": "USPS-PUB28-2024",
+          "section": "Appendix B",
+          "rowKey": "AL"
+        }
+      ]
+    },
+    {
+      "stateId": "US-CO",
+      "name": "Colorado",
+      "slug": "colorado",
+      "postalCode": "CO",
+      "censusFips": "08",
+      "censusRegion": "West",
+      "censusDivision": "Mountain",
+      "mapAssetId": "asset-6da1eb5773914395",
+      "identitySourceRefs": [
+        {
+          "sourceId": "CEN-PEP-STATE-V2025",
+          "rowKey": "Colorado",
+          "column": "STATE,REGION,DIVISION"
+        },
+        {
+          "sourceId": "USPS-PUB28-2024",
+          "section": "Appendix B",
+          "rowKey": "CO"
+        }
+      ]
+    },
+    {
+      "stateId": "US-RI",
+      "name": "Rhode Island",
+      "slug": "rhode-island",
+      "postalCode": "RI",
+      "censusFips": "44",
+      "censusRegion": "Northeast",
+      "censusDivision": "New England",
+      "mapAssetId": "asset-c2aad0cb92d4e360",
+      "identitySourceRefs": [
+        {
+          "sourceId": "CEN-PEP-STATE-V2025",
+          "rowKey": "Rhode Island",
+          "column": "STATE,REGION,DIVISION"
+        },
+        {
+          "sourceId": "USPS-PUB28-2024",
+          "section": "Appendix B",
+          "rowKey": "RI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "CEN-PEP-STATE-V2025",
+      "publisher": "U.S. Census Bureau",
+      "title": "Vintage 2025 state population",
+      "landingPageUrl": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+      "downloadUrl": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+      "retrievedAt": "2026-09-05T02:39:59.759Z",
+      "coverage": {
+        "referenceDate": "2025-07-01"
+      },
+      "authorityTier": 1,
+      "updateClass": "annual",
+      "sha256": "92188e29cb0a67dcf95afa7d6c47359409782f086478b70ea4128eb70e223ca9",
+      "datasetId": "NST-EST2025-ALLDATA",
+      "editionOrVintage": "Vintage 2025"
+    },
+    {
+      "sourceId": "BEA-SAGDP-2025",
+      "publisher": "Bureau of Economic Analysis",
+      "title": "Annual current-dollar GDP",
+      "landingPageUrl": "https://apps.bea.gov/regional/zip/SAGDP.zip",
+      "downloadUrl": "https://apps.bea.gov/regional/zip/SAGDP.zip",
+      "retrievedAt": "2026-09-05T02:42:50.713Z",
+      "coverage": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-12-31"
+      },
+      "authorityTier": 1,
+      "updateClass": "annual",
+      "sha256": "5a90e0e6e03082089048d8f78e8a4df9993465c4f34f9de471258fed2a908183",
+      "tableId": "SAGDP1 / SAGDP2",
+      "releaseDate": "2026-04-09"
+    },
+    {
+      "sourceId": "CEN-AREA-2010",
+      "publisher": "U.S. Census Bureau",
+      "title": "2010 state area measurements",
+      "landingPageUrl": "https://www.census.gov/geographies/reference-files/2010/geo/state-area.html",
+      "downloadUrl": "https://www.census.gov/geographies/reference-files/2010/geo/state-area.html",
+      "retrievedAt": "2026-09-05T02:41:14.588Z",
+      "coverage": {
+        "boundaryDate": "2010-01-01"
+      },
+      "authorityTier": 1,
+      "updateClass": "static",
+      "sha256": "bbfda0aa509458c547bdd7cefdfdd40751174dccd5008377587a5ff91e5445b5",
+      "notes": "HTML rounds square miles to integers. RI research value 1,033.8 retained separately; both rank 50."
+    },
+    {
+      "sourceId": "USGS-ELEV",
+      "publisher": "U.S. Geological Survey",
+      "title": "Highest and Lowest Elevations",
+      "landingPageUrl": "https://www.usgs.gov/educational-resources/highest-and-lowest-elevations",
+      "downloadUrl": "https://www.usgs.gov/educational-resources/highest-and-lowest-elevations",
+      "retrievedAt": "2026-09-05T02:41:16.788Z",
+      "coverage": {},
+      "authorityTier": 1,
+      "updateClass": "static",
+      "sha256": "9cecdf99279e19e0d78824c9a1a7013c8aa932b050f151e6cb7b69160650c99a",
+      "notes": "Historical table elevations retained; footnote markers removed, not treated as digits. No modern datum substitutions."
+    },
+    {
+      "sourceId": "NPS-SYSTEM-2026-09",
+      "publisher": "National Park Service",
+      "title": "Formal designation enumeration",
+      "landingPageUrl": "https://www.nps.gov/aboutus/national-park-system.htm",
+      "downloadUrl": "https://www.nps.gov/aboutus/national-park-system.htm",
+      "retrievedAt": "2026-09-05T02:41:16.974Z",
+      "coverage": {
+        "referenceDate": "2026-09-05"
+      },
+      "authorityTier": 1,
+      "updateClass": "event_driven",
+      "sha256": "f26c2d6a86233be39bb189db172b70d09f48f5dfbb299bed21c71c21d68f0c61",
+      "notes": "Fresh September retrieval, not a July archive. All 63 formal units retained before filtering states."
+    },
+    {
+      "sourceId": "CEN-STATEHOOD-2013",
+      "publisher": "U.S. Census Bureau",
+      "title": "Statehood years",
+      "landingPageUrl": "https://www.census.gov/dataviz/visualizations/048/508.php",
+      "downloadUrl": "https://www.census.gov/dataviz/visualizations/048/508.php",
+      "retrievedAt": "2026-09-05T02:46:28.378Z",
+      "coverage": {},
+      "authorityTier": 1,
+      "updateClass": "static",
+      "sha256": "0ba210d2cf23ab30eb0a2daae0be6e44faa1d4e989a55357aec9e62eacad3a0a",
+      "releaseDate": "2013-02-21"
+    },
+    {
+      "sourceId": "DOT-TIME-2026",
+      "publisher": "U.S. Department of Transportation / eCFR",
+      "title": "49 CFR Part 71",
+      "landingPageUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-30/title-49.xml?part=71",
+      "downloadUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-30/title-49.xml?part=71",
+      "retrievedAt": "2026-09-05T02:46:28.751Z",
+      "coverage": {
+        "referenceDate": "2026-08-30"
+      },
+      "authorityTier": 1,
+      "updateClass": "regulatory",
+      "sha256": "7ca9e8d7c57b52295e5793276370f47ae128afce5fcc2d35def7d35788eba6d8",
+      "notes": "Legal standard zones; informal local observance and DST separate. Includes West Wendover, Nevada."
+    },
+    {
+      "sourceId": "CEN-PEP-PLACE-V2025-01",
+      "publisher": "U.S. Census Bureau",
+      "title": "Incorporated places: AL",
+      "landingPageUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-01.xlsx",
+      "downloadUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-01.xlsx",
+      "retrievedAt": "2026-09-05T02:47:46.787Z",
+      "coverage": {
+        "referenceDate": "2025-07-01"
+      },
+      "authorityTier": 1,
+      "updateClass": "annual",
+      "sha256": "701bab5243506d8a2921ac154ce80c0adad2ec5a2997b9c99e8870f723e86471",
+      "datasetId": "SUB-IP-EST2025-POP-01",
+      "editionOrVintage": "Vintage 2025"
+    },
+    {
+      "sourceId": "CEN-PEP-PLACE-V2025-08",
+      "publisher": "U.S. Census Bureau",
+      "title": "Incorporated places: CO",
+      "landingPageUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-08.xlsx",
+      "downloadUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-08.xlsx",
+      "retrievedAt": "2026-09-05T02:47:47.467Z",
+      "coverage": {
+        "referenceDate": "2025-07-01"
+      },
+      "authorityTier": 1,
+      "updateClass": "annual",
+      "sha256": "f6eb8426d8d9561a4fd690bb0e3e1a8824869194958586ef2b04e93ab4f8a236",
+      "datasetId": "SUB-IP-EST2025-POP-08",
+      "editionOrVintage": "Vintage 2025"
+    },
+    {
+      "sourceId": "CEN-PEP-PLACE-V2025-44",
+      "publisher": "U.S. Census Bureau",
+      "title": "Incorporated places: RI",
+      "landingPageUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-44.xlsx",
+      "downloadUrl": "https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-44.xlsx",
+      "retrievedAt": "2026-09-05T02:47:47.635Z",
+      "coverage": {
+        "referenceDate": "2025-07-01"
+      },
+      "authorityTier": 1,
+      "updateClass": "annual",
+      "sha256": "2988cb6c9ef81aae4b622003a233d36eec768a561697d7e74715c54c3bd11b1e",
+      "datasetId": "SUB-IP-EST2025-POP-44",
+      "editionOrVintage": "Vintage 2025"
+    },
+    {
+      "sourceId": "CEN-ATLAS-3.0.1",
+      "publisher": "U.S. Census Bureau via us-atlas",
+      "title": "Existing Border Hunt display geometry",
+      "landingPageUrl": "https://github.com/topojson/us-atlas/tree/v3.0.1",
+      "downloadUrl": "https://github.com/topojson/us-atlas/tree/v3.0.1",
+      "retrievedAt": "2026-09-05T18:05:22.184Z",
+      "coverage": {},
+      "authorityTier": 1,
+      "updateClass": "static",
+      "sha256": "6e7bb086a3c791490361968a3094f377f7726c5d0c4900fec03cc42db2305a3d",
+      "notes": "Pinned existing display geometry; not 2025 TIGER legal geometry."
+    },
+    {
+      "sourceId": "CEN-GUIDE-2010",
+      "publisher": "U.S. Census Bureau",
+      "title": "State geography guides",
+      "landingPageUrl": "https://www.census.gov/geographies/reference-files/2010/geo/state-local-geo-guides-2010.html",
+      "retrievedAt": "2026-09-05T02:47:47.635Z",
+      "coverage": {},
+      "authorityTier": 1,
+      "updateClass": "static",
+      "notes": "Source reference from supplied 2026-08-30 audit. retrievedAt records receipt of that reference, not an original source download. See specification."
+    },
+    {
+      "sourceId": "CEN-TIGER-2025",
+      "publisher": "U.S. Census Bureau",
+      "title": "2025 TIGER/Line",
+      "landingPageUrl": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
+      "retrievedAt": "2026-09-05T02:47:47.635Z",
+      "coverage": {},
+      "authorityTier": 1,
+      "updateClass": "static",
+      "notes": "Source reference from supplied 2026-08-30 audit. retrievedAt records receipt of that reference, not an original source download. See specification."
+    },
+    {
+      "sourceId": "NPS-STATE-2026",
+      "publisher": "National Park Service",
+      "title": "State unit associations in supplied audit",
+      "landingPageUrl": "https://www.nps.gov/state/index.htm",
+      "retrievedAt": "2026-09-05T02:47:47.635Z",
+      "coverage": {},
+      "authorityTier": 1,
+      "updateClass": "static",
+      "notes": "Source reference from supplied 2026-08-30 audit. retrievedAt records receipt of that reference, not an original source download. See specification."
+    },
+    {
+      "sourceId": "USPS-PUB28-2024",
+      "publisher": "U.S. Postal Service",
+      "title": "Publication 28 Appendix B",
+      "landingPageUrl": "https://pe.usps.com/text/pub28/28apb.htm",
+      "retrievedAt": "2026-09-05T02:47:47.635Z",
+      "coverage": {},
+      "authorityTier": 1,
+      "updateClass": "static",
+      "notes": "Source reference from supplied 2026-08-30 audit. retrievedAt records receipt of that reference, not an original source download. See specification."
+    },
+    {
+      "sourceId": "NOAA-SCS-2022",
+      "publisher": "NOAA/NESDIS",
+      "title": "State Climate Summaries 2022",
+      "landingPageUrl": "https://www.ncei.noaa.gov/news/noaa-addresses-climate-each-state",
+      "retrievedAt": "2026-09-05T02:47:47.635Z",
+      "coverage": {},
+      "authorityTier": 1,
+      "updateClass": "static",
+      "notes": "Source reference from supplied 2026-08-30 audit. retrievedAt records receipt of that reference, not an original source download. See specification."
+    }
+  ],
+  "metrics": [
+    {
+      "metricId": "population.resident_estimate",
+      "label": "July 1 resident estimate, Census Vintage 2025; 50 states.",
+      "definition": "July 1 resident estimate, Census Vintage 2025; 50 states.",
+      "valueType": "number",
+      "unit": "persons",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": true,
+      "rankable": true,
+      "rankDirection": "descending",
+      "allowedClueCategories": [
+        "population"
+      ]
+    },
+    {
+      "metricId": "population.state_rank",
+      "label": "Descending competition rank among 50 states.",
+      "definition": "Descending competition rank among 50 states.",
+      "valueType": "number",
+      "unit": "rank",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "population"
+      ]
+    },
+    {
+      "metricId": "area.land_sq_mi",
+      "label": "Census 2010 land area at HTML displayed precision.",
+      "definition": "Census 2010 land area at HTML displayed precision.",
+      "valueType": "number",
+      "unit": "square_miles",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": true,
+      "rankDirection": "descending",
+      "allowedClueCategories": [
+        "area"
+      ]
+    },
+    {
+      "metricId": "area.water_sq_mi",
+      "label": "Census 2010 water area at HTML displayed precision.",
+      "definition": "Census 2010 water area at HTML displayed precision.",
+      "valueType": "number",
+      "unit": "square_miles",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": true,
+      "rankDirection": "descending",
+      "allowedClueCategories": [
+        "area"
+      ]
+    },
+    {
+      "metricId": "area.total_sq_mi",
+      "label": "Census 2010 total area at HTML displayed precision.",
+      "definition": "Census 2010 total area at HTML displayed precision.",
+      "valueType": "number",
+      "unit": "square_miles",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": true,
+      "rankDirection": "descending",
+      "allowedClueCategories": [
+        "area"
+      ]
+    },
+    {
+      "metricId": "area.land_rank",
+      "label": "Descending land-area competition rank.",
+      "definition": "Descending land-area competition rank.",
+      "valueType": "number",
+      "unit": "rank",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "area"
+      ]
+    },
+    {
+      "metricId": "economy.gdp_current_usd",
+      "label": "Annual current-dollar GDP; SAGDP1 line 3, not real/per-capita GDP.",
+      "definition": "Annual current-dollar GDP; SAGDP1 line 3, not real/per-capita GDP.",
+      "valueType": "number",
+      "unit": "USD",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "Bureau of Economic Analysis",
+      "timeSensitive": true,
+      "rankable": true,
+      "rankDirection": "descending",
+      "allowedClueCategories": [
+        "economy"
+      ]
+    },
+    {
+      "metricId": "economy.gdp_state_rank",
+      "label": "Descending current-dollar GDP competition rank.",
+      "definition": "Descending current-dollar GDP competition rank.",
+      "valueType": "number",
+      "unit": "rank",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "Bureau of Economic Analysis",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "economy"
+      ]
+    },
+    {
+      "metricId": "economy.industry_value_added_current_usd.manufacturing",
+      "label": "manufacturing value added in annual current dollars.",
+      "definition": "manufacturing value added in annual current dollars.",
+      "valueType": "number",
+      "unit": "USD",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "Bureau of Economic Analysis",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "industry"
+      ]
+    },
+    {
+      "metricId": "economy.industry_share_of_gdp.manufacturing",
+      "label": "manufacturing numerator / same-state annual current-dollar GDP * 100; unrounded.",
+      "definition": "manufacturing numerator / same-state annual current-dollar GDP * 100; unrounded.",
+      "valueType": "number",
+      "unit": "percent",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "Bureau of Economic Analysis",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "industry"
+      ]
+    },
+    {
+      "metricId": "economy.industry_value_added_current_usd.professional",
+      "label": "professional value added in annual current dollars.",
+      "definition": "professional value added in annual current dollars.",
+      "valueType": "number",
+      "unit": "USD",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "Bureau of Economic Analysis",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "industry"
+      ]
+    },
+    {
+      "metricId": "economy.industry_share_of_gdp.professional",
+      "label": "professional numerator / same-state annual current-dollar GDP * 100; unrounded.",
+      "definition": "professional numerator / same-state annual current-dollar GDP * 100; unrounded.",
+      "valueType": "number",
+      "unit": "percent",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "Bureau of Economic Analysis",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "industry"
+      ]
+    },
+    {
+      "metricId": "economy.industry_value_added_current_usd.education_health",
+      "label": "education_health value added in annual current dollars.",
+      "definition": "education_health value added in annual current dollars.",
+      "valueType": "number",
+      "unit": "USD",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "Bureau of Economic Analysis",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "industry"
+      ]
+    },
+    {
+      "metricId": "economy.industry_share_of_gdp.education_health",
+      "label": "education_health numerator / same-state annual current-dollar GDP * 100; unrounded.",
+      "definition": "education_health numerator / same-state annual current-dollar GDP * 100; unrounded.",
+      "valueType": "number",
+      "unit": "percent",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "Bureau of Economic Analysis",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "industry"
+      ]
+    },
+    {
+      "metricId": "physical.highest_point",
+      "label": "Highest-point elevation in cited historical USGS table.",
+      "definition": "Highest-point elevation in cited historical USGS table.",
+      "valueType": "number",
+      "unit": "feet",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Geological Survey",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "physical_geography"
+      ]
+    },
+    {
+      "metricId": "history.admission_year",
+      "label": "Year of statehood.",
+      "definition": "Year of statehood.",
+      "valueType": "number",
+      "unit": "year",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "history"
+      ]
+    },
+    {
+      "metricId": "history.admission_date",
+      "label": "Date of admission/ratification.",
+      "definition": "Date of admission/ratification.",
+      "valueType": "date",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "history"
+      ]
+    },
+    {
+      "metricId": "history.admission_order",
+      "label": "Order of admission/ratification under current Constitution.",
+      "definition": "Order of admission/ratification under current Constitution.",
+      "valueType": "number",
+      "unit": "rank",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "history"
+      ]
+    },
+    {
+      "metricId": "time.standard_zone",
+      "label": "All legal standard zones intersecting a state under 49 CFR 71, excluding DST inference.",
+      "definition": "All legal standard zones intersecting a state under 49 CFR 71, excluding DST inference.",
+      "valueType": "id_list",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Department of Transportation",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "time_zone"
+      ]
+    },
+    {
+      "metricId": "nps.formal_unit_ids",
+      "label": "Complete formal National Park enumeration.",
+      "definition": "Complete formal National Park enumeration.",
+      "valueType": "id_list",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "National Park Service",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "parks",
+        "landmark"
+      ]
+    },
+    {
+      "metricId": "nps.formal_national_park_count",
+      "label": "Count of distinct formal National Parks intersecting the state.",
+      "definition": "Count of distinct formal National Parks intersecting the state.",
+      "valueType": "number",
+      "unit": "units",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "National Park Service",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "parks"
+      ]
+    },
+    {
+      "metricId": "nps.associated_unit",
+      "label": "Membership only for the named landmark entities in the three-state audit; not all NPS sites.",
+      "definition": "Membership only for the named landmark entities in the three-state audit; not all NPS sites.",
+      "valueType": "id_list",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "National Park Service",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "landmark"
+      ]
+    },
+    {
+      "metricId": "identity.postal_code",
+      "label": "USPS postal abbreviation.",
+      "definition": "USPS postal abbreviation.",
+      "valueType": "string",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Postal Service",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "abbreviation",
+        "silhouette",
+        "map_position"
+      ]
+    },
+    {
+      "metricId": "identity.capital",
+      "label": "Capital name.",
+      "definition": "Capital name.",
+      "valueType": "string",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "capital"
+      ]
+    },
+    {
+      "metricId": "place.population_estimate",
+      "label": "Incorporated-place July 1, 2025 population estimate.",
+      "definition": "Incorporated-place July 1, 2025 population estimate.",
+      "valueType": "number",
+      "unit": "persons",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "cities"
+      ]
+    },
+    {
+      "metricId": "place.within_state_rank",
+      "label": "Descending incorporated-place population rank among published 2025 estimates.",
+      "definition": "Descending incorporated-place population rank among published 2025 estimates.",
+      "valueType": "number",
+      "unit": "rank",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "cities"
+      ]
+    },
+    {
+      "metricId": "place.top_two",
+      "label": "Two largest incorporated places with published 2025 estimates.",
+      "definition": "Two largest incorporated places with published 2025 estimates.",
+      "valueType": "id_list",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "cities"
+      ]
+    },
+    {
+      "metricId": "place.audit_membership",
+      "label": "Complete inverse assignment of entities in the AL/CO/RI Census place workbooks to their containing state; not nationwide city rankings.",
+      "definition": "Complete inverse assignment of entities in the AL/CO/RI Census place workbooks to their containing state; not nationwide city rankings.",
+      "valueType": "id_list",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "cities",
+        "capital"
+      ]
+    },
+    {
+      "metricId": "boundary.shared_segments",
+      "label": "Existing tested land/river shared-arc neighbors, point contacts excluded.",
+      "definition": "Existing tested land/river shared-arc neighbors, point contacts excluded.",
+      "valueType": "id_list",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "borders",
+        "physical_geography"
+      ]
+    },
+    {
+      "metricId": "boundary.point_contacts",
+      "label": "Audited Four Corners point contacts.",
+      "definition": "Audited Four Corners point contacts.",
+      "valueType": "id_list",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "physical_geography"
+      ]
+    },
+    {
+      "metricId": "boundary.audited_water",
+      "label": "Restricted to RI–NY water-only relationship; other water boundaries outside scope.",
+      "definition": "Restricted to RI–NY water-only relationship; other water boundaries outside scope.",
+      "valueType": "id_list",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "borders"
+      ]
+    },
+    {
+      "metricId": "climate.annual_precipitation_average",
+      "label": "NOAA 2022 summary research values; not approved for nationwide comparison.",
+      "definition": "NOAA 2022 summary research values; not approved for nationwide comparison.",
+      "valueType": "number",
+      "unit": "inches",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "NOAA/NESDIS",
+      "timeSensitive": false,
+      "rankable": false,
+      "allowedClueCategories": [
+        "climate"
+      ]
+    },
+    {
+      "metricId": "economy.gdp_real_chained_usd",
+      "label": "Reserved metric: economy.gdp_real_chained_usd; no invented observations.",
+      "definition": "Reserved metric: economy.gdp_real_chained_usd; no invented observations.",
+      "valueType": "number",
+      "unit": "chained_USD",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "Bureau of Economic Analysis",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "economy"
+      ]
+    },
+    {
+      "metricId": "economy.industry_value_added_current_usd",
+      "label": "Reserved metric: economy.industry_value_added_current_usd; no invented observations.",
+      "definition": "Reserved metric: economy.industry_value_added_current_usd; no invented observations.",
+      "valueType": "number",
+      "unit": "USD",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "Bureau of Economic Analysis",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "industry"
+      ]
+    },
+    {
+      "metricId": "economy.industry_share_of_gdp",
+      "label": "Reserved metric: economy.industry_share_of_gdp; no invented observations.",
+      "definition": "Reserved metric: economy.industry_share_of_gdp; no invented observations.",
+      "valueType": "number",
+      "unit": "percent",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "Bureau of Economic Analysis",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "industry"
+      ]
+    },
+    {
+      "metricId": "transport.rail_line_miles",
+      "label": "Reserved metric: transport.rail_line_miles; no invented observations.",
+      "definition": "Reserved metric: transport.rail_line_miles; no invented observations.",
+      "valueType": "number",
+      "unit": "miles",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "transportation"
+      ]
+    },
+    {
+      "metricId": "transport.interstate_miles",
+      "label": "Reserved metric: transport.interstate_miles; no invented observations.",
+      "definition": "Reserved metric: transport.interstate_miles; no invented observations.",
+      "valueType": "number",
+      "unit": "miles",
+      "defaultUniverse": "us-50-states",
+      "preferredPublisher": "U.S. Census Bureau",
+      "timeSensitive": true,
+      "rankable": false,
+      "allowedClueCategories": [
+        "transportation"
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "boundaryId": "US-AL:US-FL:segment:land",
+      "stateA": "US-AL",
+      "stateB": "US-FL",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-AL:US-GA:segment:land",
+      "stateA": "US-AL",
+      "stateB": "US-GA",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-AL:US-MS:segment:land",
+      "stateA": "US-AL",
+      "stateB": "US-MS",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-AL:US-TN:segment:land",
+      "stateA": "US-AL",
+      "stateB": "US-TN",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-CO:US-KS:segment:land",
+      "stateA": "US-CO",
+      "stateB": "US-KS",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-CO:US-NE:segment:land",
+      "stateA": "US-CO",
+      "stateB": "US-NE",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-CO:US-NM:segment:land",
+      "stateA": "US-CO",
+      "stateB": "US-NM",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-CO:US-OK:segment:land",
+      "stateA": "US-CO",
+      "stateB": "US-OK",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-CO:US-UT:segment:land",
+      "stateA": "US-CO",
+      "stateB": "US-UT",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-CO:US-WY:segment:land",
+      "stateA": "US-CO",
+      "stateB": "US-WY",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-CT:US-RI:segment:land",
+      "stateA": "US-CT",
+      "stateB": "US-RI",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-MA:US-RI:segment:land",
+      "stateA": "US-MA",
+      "stateB": "US-RI",
+      "topology": "segment",
+      "medium": "land",
+      "clueBorderEligible": true,
+      "borderHuntEdge": true,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-AZ:US-CO:point_contact:land",
+      "stateA": "US-AZ",
+      "stateB": "US-CO",
+      "topology": "point_contact",
+      "medium": "land",
+      "clueBorderEligible": false,
+      "borderHuntEdge": false,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-NM:US-UT:point_contact:land",
+      "stateA": "US-NM",
+      "stateB": "US-UT",
+      "topology": "point_contact",
+      "medium": "land",
+      "clueBorderEligible": false,
+      "borderHuntEdge": false,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    },
+    {
+      "boundaryId": "US-NY:US-RI:segment:lake_or_coastal_water",
+      "stateA": "US-NY",
+      "stateB": "US-RI",
+      "topology": "segment",
+      "medium": "lake_or_coastal_water",
+      "clueBorderEligible": false,
+      "borderHuntEdge": false,
+      "sourceGeometryId": "CEN-TIGER-2025",
+      "derivation": {
+        "method": "spatial_intersection",
+        "toleranceMeters": 0,
+        "codeVersion": "spec-audit-2026-08-30"
+      },
+      "reviewerNotes": "Audited relation transcribed from specification. Intersection not rerun; zero tolerance denotes exact-topology convention, not a measured pipeline tolerance. Canonical coverage is limited to this audited subset."
+    }
+  ],
+  "parks": [
+    {
+      "associationId": "CO:black-canyon-of-the-gunnison-national-park",
+      "stateId": "US-CO",
+      "npsUnitId": "black-canyon-of-the-gunnison-national-park",
+      "unitName": "Black Canyon of the Gunnison National Park",
+      "formalDesignation": "National Park",
+      "isFormallyNationalPark": true,
+      "relationship": "inside",
+      "sourceRefs": [
+        {
+          "sourceId": "NPS-SYSTEM-2026-09",
+          "section": "National Parks (63)",
+          "rowKey": "Black Canyon of the Gunnison National Park"
+        }
+      ],
+      "snapshotId": "us-states-2026-09-05-v2"
+    },
+    {
+      "associationId": "CO:great-sand-dunes-national-park",
+      "stateId": "US-CO",
+      "npsUnitId": "great-sand-dunes-national-park",
+      "unitName": "Great Sand Dunes National Park",
+      "formalDesignation": "National Park",
+      "isFormallyNationalPark": true,
+      "relationship": "inside",
+      "sourceRefs": [
+        {
+          "sourceId": "NPS-SYSTEM-2026-09",
+          "section": "National Parks (63)",
+          "rowKey": "Great Sand Dunes National Park"
+        }
+      ],
+      "snapshotId": "us-states-2026-09-05-v2"
+    },
+    {
+      "associationId": "CO:mesa-verde-national-park",
+      "stateId": "US-CO",
+      "npsUnitId": "mesa-verde-national-park",
+      "unitName": "Mesa Verde National Park",
+      "formalDesignation": "National Park",
+      "isFormallyNationalPark": true,
+      "relationship": "inside",
+      "sourceRefs": [
+        {
+          "sourceId": "NPS-SYSTEM-2026-09",
+          "section": "National Parks (63)",
+          "rowKey": "Mesa Verde National Park"
+        }
+      ],
+      "snapshotId": "us-states-2026-09-05-v2"
+    },
+    {
+      "associationId": "CO:rocky-mountain-national-park",
+      "stateId": "US-CO",
+      "npsUnitId": "rocky-mountain-national-park",
+      "unitName": "Rocky Mountain National Park",
+      "formalDesignation": "National Park",
+      "isFormallyNationalPark": true,
+      "relationship": "inside",
+      "sourceRefs": [
+        {
+          "sourceId": "NPS-SYSTEM-2026-09",
+          "section": "National Parks (63)",
+          "rowKey": "Rocky Mountain National Park"
+        }
+      ],
+      "snapshotId": "us-states-2026-09-05-v2"
+    },
+    {
+      "associationId": "AL:Selma to Montgomery National Historic Trail",
+      "stateId": "US-AL",
+      "npsUnitId": "Selma to Montgomery National Historic Trail",
+      "unitName": "Selma to Montgomery National Historic Trail",
+      "formalDesignation": "National Historic Trail",
+      "isFormallyNationalPark": false,
+      "relationship": "trail_crosses",
+      "sourceRefs": [
+        {
+          "sourceId": "NPS-STATE-2026",
+          "section": "Supplied AL example NPS units",
+          "rowKey": "Selma to Montgomery National Historic Trail"
+        }
+      ],
+      "snapshotId": "us-states-2026-09-05-v2"
+    },
+    {
+      "associationId": "AL:Birmingham Civil Rights National Monument",
+      "stateId": "US-AL",
+      "npsUnitId": "Birmingham Civil Rights National Monument",
+      "unitName": "Birmingham Civil Rights National Monument",
+      "formalDesignation": "National Monument",
+      "isFormallyNationalPark": false,
+      "relationship": "inside",
+      "sourceRefs": [
+        {
+          "sourceId": "NPS-STATE-2026",
+          "section": "Supplied AL example NPS units",
+          "rowKey": "Birmingham Civil Rights National Monument"
+        }
+      ],
+      "snapshotId": "us-states-2026-09-05-v2"
+    },
+    {
+      "associationId": "AL:Little River Canyon National Preserve",
+      "stateId": "US-AL",
+      "npsUnitId": "Little River Canyon National Preserve",
+      "unitName": "Little River Canyon National Preserve",
+      "formalDesignation": "National Preserve",
+      "isFormallyNationalPark": false,
+      "relationship": "inside",
+      "sourceRefs": [
+        {
+          "sourceId": "NPS-STATE-2026",
+          "section": "Supplied AL example NPS units",
+          "rowKey": "Little River Canyon National Preserve"
+        }
+      ],
+      "snapshotId": "us-states-2026-09-05-v2"
+    },
+    {
+      "associationId": "AL:Russell Cave National Monument",
+      "stateId": "US-AL",
+      "npsUnitId": "Russell Cave National Monument",
+      "unitName": "Russell Cave National Monument",
+      "formalDesignation": "National Monument",
+      "isFormallyNationalPark": false,
+      "relationship": "inside",
+      "sourceRefs": [
+        {
+          "sourceId": "NPS-STATE-2026",
+          "section": "Supplied AL example NPS units",
+          "rowKey": "Russell Cave National Monument"
+        }
+      ],
+      "snapshotId": "us-states-2026-09-05-v2"
+    },
+    {
+      "associationId": "RI:Touro Synagogue National Historic Site",
+      "stateId": "US-RI",
+      "npsUnitId": "Touro Synagogue National Historic Site",
+      "unitName": "Touro Synagogue National Historic Site",
+      "formalDesignation": "National Historic Site",
+      "isFormallyNationalPark": false,
+      "relationship": "inside",
+      "sourceRefs": [
+        {
+          "sourceId": "NPS-STATE-2026",
+          "section": "Supplied RI example NPS units",
+          "rowKey": "Touro Synagogue National Historic Site"
+        }
+      ],
+      "snapshotId": "us-states-2026-09-05-v2"
+    },
+    {
+      "associationId": "RI:Roger Williams National Memorial",
+      "stateId": "US-RI",
+      "npsUnitId": "Roger Williams National Memorial",
+      "unitName": "Roger Williams National Memorial",
+      "formalDesignation": "National Memorial",
+      "isFormallyNationalPark": false,
+      "relationship": "inside",
+      "sourceRefs": [
+        {
+          "sourceId": "NPS-STATE-2026",
+          "section": "Supplied RI example NPS units",
+          "rowKey": "Roger Williams National Memorial"
+        }
+      ],
+      "snapshotId": "us-states-2026-09-05-v2"
+    },
+    {
+      "associationId": "RI:Blackstone River Valley National Historical Park",
+      "stateId": "US-RI",
+      "npsUnitId": "Blackstone River Valley National Historical Park",
+      "unitName": "Blackstone River Valley National Historical Park",
+      "formalDesignation": "National Historical Park",
+      "isFormallyNationalPark": false,
+      "relationship": "inside",
+      "sourceRefs": [
+        {
+          "sourceId": "NPS-STATE-2026",
+          "section": "Supplied RI example NPS units",
+          "rowKey": "Blackstone River Valley National Historical Park"
+        }
+      ],
+      "snapshotId": "us-states-2026-09-05-v2"
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "asset-0bf229e5187e1c50",
+      "kind": "silhouette",
+      "stateId": "US-AL",
+      "sourceGeometryId": "CEN-ATLAS-3.0.1",
+      "projection": "us-atlas Albers USA composite",
+      "simplificationTolerance": 0,
+      "viewBox": "0 0 975 610",
+      "filePath": "stable/visuals/0bf229e5187e1c50eed75a0a943fa0ded5af706b8edf232ca988c8e641ad2a50.svg",
+      "sha256": "0bf229e5187e1c50eed75a0a943fa0ded5af706b8edf232ca988c8e641ad2a50",
+      "generatedAt": "2026-09-05T02:47:47.635Z",
+      "transformVersion": "existing-map-paths-1",
+      "accessibility": {
+        "preAnswerAlt": "Mystery state shape",
+        "postAnswerAlt": "Alabama shape"
+      }
+    },
+    {
+      "assetId": "asset-2eba04a6359c67d5",
+      "kind": "locator_map",
+      "stateId": "US-AL",
+      "sourceGeometryId": "CEN-ATLAS-3.0.1",
+      "projection": "us-atlas Albers USA composite",
+      "simplificationTolerance": 0,
+      "viewBox": "0 0 975 610",
+      "filePath": "stable/visuals/2eba04a6359c67d5a0f53f6905aa6a17673e2401dd63830605b553007ecd4379.svg",
+      "sha256": "2eba04a6359c67d5a0f53f6905aa6a17673e2401dd63830605b553007ecd4379",
+      "generatedAt": "2026-09-05T02:47:47.635Z",
+      "transformVersion": "existing-map-paths-1",
+      "accessibility": {
+        "preAnswerAlt": "Mystery state location",
+        "postAnswerAlt": "Alabama location"
+      }
+    },
+    {
+      "assetId": "asset-3225a770a53968d9",
+      "kind": "silhouette",
+      "stateId": "US-CO",
+      "sourceGeometryId": "CEN-ATLAS-3.0.1",
+      "projection": "us-atlas Albers USA composite",
+      "simplificationTolerance": 0,
+      "viewBox": "0 0 975 610",
+      "filePath": "stable/visuals/3225a770a53968d982fe6ca440319af306fd959e78a31d4e90fc5cf4cf87244a.svg",
+      "sha256": "3225a770a53968d982fe6ca440319af306fd959e78a31d4e90fc5cf4cf87244a",
+      "generatedAt": "2026-09-05T02:47:47.635Z",
+      "transformVersion": "existing-map-paths-1",
+      "accessibility": {
+        "preAnswerAlt": "Mystery state shape",
+        "postAnswerAlt": "Colorado shape"
+      }
+    },
+    {
+      "assetId": "asset-6da1eb5773914395",
+      "kind": "locator_map",
+      "stateId": "US-CO",
+      "sourceGeometryId": "CEN-ATLAS-3.0.1",
+      "projection": "us-atlas Albers USA composite",
+      "simplificationTolerance": 0,
+      "viewBox": "0 0 975 610",
+      "filePath": "stable/visuals/6da1eb5773914395ff98173f1c47ba58f614d785c28922ad93d78ae10d3733c6.svg",
+      "sha256": "6da1eb5773914395ff98173f1c47ba58f614d785c28922ad93d78ae10d3733c6",
+      "generatedAt": "2026-09-05T02:47:47.635Z",
+      "transformVersion": "existing-map-paths-1",
+      "accessibility": {
+        "preAnswerAlt": "Mystery state location",
+        "postAnswerAlt": "Colorado location"
+      }
+    },
+    {
+      "assetId": "asset-7bf062246f72fcf3",
+      "kind": "silhouette",
+      "stateId": "US-RI",
+      "sourceGeometryId": "CEN-ATLAS-3.0.1",
+      "projection": "us-atlas Albers USA composite",
+      "simplificationTolerance": 0,
+      "viewBox": "0 0 975 610",
+      "filePath": "stable/visuals/7bf062246f72fcf3b44302f2c646c8fd7e4a03b4217abe887789206bef47b0ca.svg",
+      "sha256": "7bf062246f72fcf3b44302f2c646c8fd7e4a03b4217abe887789206bef47b0ca",
+      "generatedAt": "2026-09-05T02:47:47.635Z",
+      "transformVersion": "existing-map-paths-1",
+      "accessibility": {
+        "preAnswerAlt": "Mystery state shape",
+        "postAnswerAlt": "Rhode Island shape"
+      }
+    },
+    {
+      "assetId": "asset-c2aad0cb92d4e360",
+      "kind": "locator_map",
+      "stateId": "US-RI",
+      "sourceGeometryId": "CEN-ATLAS-3.0.1",
+      "projection": "us-atlas Albers USA composite",
+      "simplificationTolerance": 0,
+      "viewBox": "0 0 975 610",
+      "filePath": "stable/visuals/c2aad0cb92d4e360f105d79d94009881c17b511e3a1cdcc81f8682cf5da28697.svg",
+      "sha256": "c2aad0cb92d4e360f105d79d94009881c17b511e3a1cdcc81f8682cf5da28697",
+      "generatedAt": "2026-09-05T02:47:47.635Z",
+      "transformVersion": "existing-map-paths-1",
+      "accessibility": {
+        "preAnswerAlt": "Mystery state location",
+        "postAnswerAlt": "Rhode Island location"
+      }
+    }
+  ],
+  "rules": {
+    "length": 7,
+    "allowedDependencyGroups": [],
+    "prohibitedDuplicateCategories": [
+      "abbreviation",
+      "silhouette",
+      "map_position",
+      "population",
+      "area",
+      "cities",
+      "capital",
+      "borders",
+      "economy",
+      "industry",
+      "parks",
+      "history",
+      "time_zone",
+      "physical_geography",
+      "landmark"
+    ],
+    "preferredEarlyCounts": [
+      [
+        8,
+        30
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "profile": "short-seven-v1"
+  }
+}

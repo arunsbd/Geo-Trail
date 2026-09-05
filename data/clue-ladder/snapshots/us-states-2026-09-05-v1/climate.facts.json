@@ -1,0 +1,68 @@
+[
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:climate.annual_precipitation_average",
+    "subjectId": "US-AL",
+    "metricId": "climate.annual_precipitation_average",
+    "value": 55.4,
+    "unit": "inches",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NOAA-SCS-2022",
+        "section": "Supplied AL research fact"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "draft",
+      "notes": "Report vintage 2022; averaging period not specified in supplied audit. No climate clue approved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:climate.annual_precipitation_average",
+    "subjectId": "US-CO",
+    "metricId": "climate.annual_precipitation_average",
+    "value": 18,
+    "unit": "inches",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NOAA-SCS-2022",
+        "section": "Supplied CO research fact"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "draft",
+      "notes": "Report vintage 2022; averaging period not specified in supplied audit. No climate clue approved."
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:climate.annual_precipitation_average",
+    "subjectId": "US-RI",
+    "metricId": "climate.annual_precipitation_average",
+    "value": 46,
+    "unit": "inches",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "NOAA-SCS-2022",
+        "section": "Supplied RI research fact"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "draft",
+      "notes": "Report vintage 2022; averaging period not specified in supplied audit. No climate clue approved."
+    }
+  }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "factId": "us-states-2026-09-05-v1:US-AK:physical.highest_point",
+    "subjectId": "US-AK",
+    "metricId": "physical.highest_point",
+    "value": 20320,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Alaska",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AL:physical.highest_point",
+    "subjectId": "US-AL",
+    "metricId": "physical.highest_point",
+    "value": 2407,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Alabama",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AR:physical.highest_point",
+    "subjectId": "US-AR",
+    "metricId": "physical.highest_point",
+    "value": 2753,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Arkansas",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-AZ:physical.highest_point",
+    "subjectId": "US-AZ",
+    "metricId": "physical.highest_point",
+    "value": 12633,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Arizona",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CA:physical.highest_point",
+    "subjectId": "US-CA",
+    "metricId": "physical.highest_point",
+    "value": 14494,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "California",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CO:physical.highest_point",
+    "subjectId": "US-CO",
+    "metricId": "physical.highest_point",
+    "value": 14433,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Colorado",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-CT:physical.highest_point",
+    "subjectId": "US-CT",
+    "metricId": "physical.highest_point",
+    "value": 2380,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Connecticut",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-DE:physical.highest_point",
+    "subjectId": "US-DE",
+    "metricId": "physical.highest_point",
+    "value": 448,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Delaware",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-FL:physical.highest_point",
+    "subjectId": "US-FL",
+    "metricId": "physical.highest_point",
+    "value": 345,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Florida",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-GA:physical.highest_point",
+    "subjectId": "US-GA",
+    "metricId": "physical.highest_point",
+    "value": 4784,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Georgia",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-HI:physical.highest_point",
+    "subjectId": "US-HI",
+    "metricId": "physical.highest_point",
+    "value": 13796,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Hawaii",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IA:physical.highest_point",
+    "subjectId": "US-IA",
+    "metricId": "physical.highest_point",
+    "value": 1670,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Iowa",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ID:physical.highest_point",
+    "subjectId": "US-ID",
+    "metricId": "physical.highest_point",
+    "value": 12662,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Idaho",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IL:physical.highest_point",
+    "subjectId": "US-IL",
+    "metricId": "physical.highest_point",
+    "value": 1235,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Illinois",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-IN:physical.highest_point",
+    "subjectId": "US-IN",
+    "metricId": "physical.highest_point",
+    "value": 1257,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Indiana",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KS:physical.highest_point",
+    "subjectId": "US-KS",
+    "metricId": "physical.highest_point",
+    "value": 4039,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Kansas",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-KY:physical.highest_point",
+    "subjectId": "US-KY",
+    "metricId": "physical.highest_point",
+    "value": 4145,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Kentucky",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-LA:physical.highest_point",
+    "subjectId": "US-LA",
+    "metricId": "physical.highest_point",
+    "value": 535,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Louisiana",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MA:physical.highest_point",
+    "subjectId": "US-MA",
+    "metricId": "physical.highest_point",
+    "value": 3491,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Massachusetts",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MD:physical.highest_point",
+    "subjectId": "US-MD",
+    "metricId": "physical.highest_point",
+    "value": 3360,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Maryland",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ME:physical.highest_point",
+    "subjectId": "US-ME",
+    "metricId": "physical.highest_point",
+    "value": 5268,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Maine",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MI:physical.highest_point",
+    "subjectId": "US-MI",
+    "metricId": "physical.highest_point",
+    "value": 1979,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Michigan",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MN:physical.highest_point",
+    "subjectId": "US-MN",
+    "metricId": "physical.highest_point",
+    "value": 2301,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Minnesota",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MO:physical.highest_point",
+    "subjectId": "US-MO",
+    "metricId": "physical.highest_point",
+    "value": 1772,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Missouri",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MS:physical.highest_point",
+    "subjectId": "US-MS",
+    "metricId": "physical.highest_point",
+    "value": 806,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Mississippi",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-MT:physical.highest_point",
+    "subjectId": "US-MT",
+    "metricId": "physical.highest_point",
+    "value": 12799,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Montana",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NC:physical.highest_point",
+    "subjectId": "US-NC",
+    "metricId": "physical.highest_point",
+    "value": 6684,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "North Carolina",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-ND:physical.highest_point",
+    "subjectId": "US-ND",
+    "metricId": "physical.highest_point",
+    "value": 3506,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "North Dakota",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NE:physical.highest_point",
+    "subjectId": "US-NE",
+    "metricId": "physical.highest_point",
+    "value": 5424,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Nebraska",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NH:physical.highest_point",
+    "subjectId": "US-NH",
+    "metricId": "physical.highest_point",
+    "value": 6288,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "New Hampshire",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NJ:physical.highest_point",
+    "subjectId": "US-NJ",
+    "metricId": "physical.highest_point",
+    "value": 1803,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "New Jersey",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NM:physical.highest_point",
+    "subjectId": "US-NM",
+    "metricId": "physical.highest_point",
+    "value": 13161,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "New Mexico",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NV:physical.highest_point",
+    "subjectId": "US-NV",
+    "metricId": "physical.highest_point",
+    "value": 13140,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Nevada",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-NY:physical.highest_point",
+    "subjectId": "US-NY",
+    "metricId": "physical.highest_point",
+    "value": 5344,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "New York",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OH:physical.highest_point",
+    "subjectId": "US-OH",
+    "metricId": "physical.highest_point",
+    "value": 1550,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Ohio",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OK:physical.highest_point",
+    "subjectId": "US-OK",
+    "metricId": "physical.highest_point",
+    "value": 4973,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Oklahoma",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-OR:physical.highest_point",
+    "subjectId": "US-OR",
+    "metricId": "physical.highest_point",
+    "value": 11239,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Oregon",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-PA:physical.highest_point",
+    "subjectId": "US-PA",
+    "metricId": "physical.highest_point",
+    "value": 3213,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Pennsylvania",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-RI:physical.highest_point",
+    "subjectId": "US-RI",
+    "metricId": "physical.highest_point",
+    "value": 812,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Rhode Island",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SC:physical.highest_point",
+    "subjectId": "US-SC",
+    "metricId": "physical.highest_point",
+    "value": 3560,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "South Carolina",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-SD:physical.highest_point",
+    "subjectId": "US-SD",
+    "metricId": "physical.highest_point",
+    "value": 7242,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "South Dakota",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TN:physical.highest_point",
+    "subjectId": "US-TN",
+    "metricId": "physical.highest_point",
+    "value": 6643,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Tennessee",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-TX:physical.highest_point",
+    "subjectId": "US-TX",
+    "metricId": "physical.highest_point",
+    "value": 8749,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Texas",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-UT:physical.highest_point",
+    "subjectId": "US-UT",
+    "metricId": "physical.highest_point",
+    "value": 13528,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Utah",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VA:physical.highest_point",
+    "subjectId": "US-VA",
+    "metricId": "physical.highest_point",
+    "value": 5729,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Virginia",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-VT:physical.highest_point",
+    "subjectId": "US-VT",
+    "metricId": "physical.highest_point",
+    "value": 4393,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Vermont",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WA:physical.highest_point",
+    "subjectId": "US-WA",
+    "metricId": "physical.highest_point",
+    "value": 14411,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Washington",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WI:physical.highest_point",
+    "subjectId": "US-WI",
+    "metricId": "physical.highest_point",
+    "value": 1951,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Wisconsin",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WV:physical.highest_point",
+    "subjectId": "US-WV",
+    "metricId": "physical.highest_point",
+    "value": 4863,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "West Virginia",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  },
+  {
+    "factId": "us-states-2026-09-05-v1:US-WY:physical.highest_point",
+    "subjectId": "US-WY",
+    "metricId": "physical.highest_point",
+    "value": 13804,
+    "unit": "feet",
+    "referencePeriod": {
+      "kind": "static"
+    },
+    "universe": "us-50-states",
+    "sourceRefs": [
+      {
+        "sourceId": "USGS-ELEV",
+        "rowKey": "Wyoming",
+        "column": "Highest point elevation feet"
+      }
+    ],
+    "snapshotId": "us-states-2026-09-05-v1",
+    "quality": {
+      "status": "verified",
+      "verifiedAt": "2026-09-05T02:47:47.635Z",
+      "verificationMethod": "automated_crosscheck"
+    }
+  }
+]

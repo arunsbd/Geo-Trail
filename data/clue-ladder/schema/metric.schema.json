@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/MetricDefinition",
+  "definitions": {
+    "MetricDefinition": {
+      "type": "object",
+      "properties": {
+        "metricId": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "definition": {
+          "type": "string"
+        },
+        "valueType": {
+          "type": "string",
+          "enum": [
+            "number",
+            "string",
+            "boolean",
+            "date",
+            "id_list",
+            "object"
+          ]
+        },
+        "unit": {
+          "type": "string"
+        },
+        "defaultUniverse": {
+          "type": "string"
+        },
+        "preferredPublisher": {
+          "type": "string"
+        },
+        "timeSensitive": {
+          "type": "boolean"
+        },
+        "rankable": {
+          "type": "boolean"
+        },
+        "rankDirection": {
+          "type": "string",
+          "enum": [
+            "ascending",
+            "descending"
+          ]
+        },
+        "allowedClueCategories": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ClueCategory"
+          }
+        },
+        "wordingRequirements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "metricId",
+        "label",
+        "definition",
+        "valueType",
+        "preferredPublisher",
+        "timeSensitive",
+        "rankable",
+        "allowedClueCategories"
+      ],
+      "additionalProperties": false
+    },
+    "ClueCategory": {
+      "type": "string",
+      "enum": [
+        "population",
+        "area",
+        "cities",
+        "capital",
+        "borders",
+        "economy",
+        "industry",
+        "transportation",
+        "parks",
+        "physical_geography",
+        "climate",
+        "landmark",
+        "history",
+        "time_zone",
+        "abbreviation",
+        "silhouette",
+        "map_position"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "puzzleId": "cl-faf19552eb3b0d6cbc2c518f",
+  "dataContentSha256": "461e4e382d873886b8bbf29479359343484868dc824a76153261e01d725e21bd",
+  "mode": "clue_ladder",
+  "answerStateId": "US-RI",
+  "orderedClueIds": [
+    "ri.population.1-1_5m",
+    "ri.highpoint.under-1000",
+    "ri.time.eastern-all",
+    "ri.history.13th",
+    "ri.borders.typed",
+    "ri.capital.providence",
+    "ri.silhouette"
+  ],
+  "dataSnapshotId": "us-states-2026-09-05-v2",
+  "clueSetVersion": "short-seven-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "short-seven-v1",
+  "generatedAt": "2026-09-05T02:47:47.635Z",
+  "validatorVersion": "clue-ladder-1"
+}

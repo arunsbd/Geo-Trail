@@ -1,0 +1,38 @@
+{
+  "puzzleId": "cl-650b1901b9c3b722617562e2",
+  "dataContentSha256": "be2498bcad7b18f38ed0d3ef13448046a870267ca236d6f30fcbf82cfac56234",
+  "mode": "clue_ladder",
+  "answerStateId": "US-CO",
+  "orderedClueIds": [
+    "co.gdp.500-650",
+    "co.population.5_5-6_5m",
+    "co.area.rank-6-10",
+    "co.industry.pst-10-13",
+    "co.time.mountain-all",
+    "co.history.1865-1880",
+    "co.cities.top2-2025",
+    "co.parks.named-pair",
+    "co.locator",
+    "co.silhouette"
+  ],
+  "dataSnapshotId": "us-states-2026-09-05-v1",
+  "clueSetVersion": "audited-examples-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400,
+      300,
+      200,
+      100
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "milestone-v1",
+  "generatedAt": "2026-09-05T02:47:47.635Z",
+  "validatorVersion": "clue-ladder-1"
+}
