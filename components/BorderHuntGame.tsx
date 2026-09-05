@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import { useRef, useState, type FormEvent } from "react";
 import { USMap } from "@/components/USMap";
 import { findState, STATES, STATE_BY_CODE, type StateCode } from "@/data/states";
@@ -109,9 +110,9 @@ export function BorderHuntGame() {
           </span>
         </a>
 
-        <span className="rounded-full border border-[var(--line)] bg-white/45 px-3 py-1.5 text-xs font-extrabold tracking-[0.12em] text-[var(--forest)] uppercase">
-          Practice · V0.1
-        </span>
+        <Link href="/clue-ladder/" className="rounded-full border border-[var(--line)] bg-white/45 px-3 py-2 text-sm font-bold text-[var(--forest)]">
+          Play Clue Ladder
+        </Link>
       </header>
 
       <section className="relative mx-auto max-w-7xl pb-5 pt-7 sm:pb-8 sm:pt-10">

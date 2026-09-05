@@ -31,3 +31,15 @@ for (const url of new Set(assetUrls)) {
 }
 
 console.log(`Static export verified for ${basePath || "/"}: ${new Set(assetUrls).size} assets found.`);
+
+// Both game routes must survive direct navigation on GitHub Pages.
+const ladderHtml = readFileSync(resolve(outputDirectory, 'clue-ladder/index.html'), 'utf8');
+assert.match(ladderHtml, /GeoTrail — Clue Ladder/);
+assert.match(ladderHtml, /Start Clue Ladder/);
+assert.ok(ladderHtml.includes(`href="${basePath}/"`), 'Clue Ladder must link back to Border Hunt');
+assert.ok(ladderHtml.includes(`href="${basePath}/clue-ladder/"`), 'Clue Ladder link must retain the Pages prefix');
+for (const match of ladderHtml.matchAll(/(?:src|href)="([^"]*\/_next\/[^\"]+)"/g)) {
+  assert.ok(match[1].startsWith(`${basePath}/_next/`));
+  assert.ok(existsSync(resolve(outputDirectory, decodeURIComponent(match[1].slice(basePath.length + 1)))));
+}
+console.log('Clue Ladder route and deployment-prefixed links verified.');
