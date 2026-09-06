@@ -1,0 +1,32 @@
+{
+  "puzzleId": "cl-16fc6f5a1b11e1797f4fc39b",
+  "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+  "mode": "clue_ladder",
+  "answerStateId": "US-AL",
+  "orderedClueIds": [
+    "al.population.5-6m",
+    "al.history.1810s",
+    "al.highpoint.2000-2500",
+    "al.time.central-all",
+    "al.borders.segment-set",
+    "al.cities.top2-2025",
+    "al.silhouette"
+  ],
+  "dataSnapshotId": "us-states-2026-09-05-v3",
+  "clueSetVersion": "short-seven-batch-01-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "short-seven-batch-01-v1",
+  "generatedAt": "2026-09-06T00:09:09.920Z",
+  "validatorVersion": "clue-ladder-1"
+}

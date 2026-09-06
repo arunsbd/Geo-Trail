@@ -167,6 +167,32 @@ implementation decisions:
 
 No Git commits or deployments are performed by the validation scripts.
 
+## Batch 01 local expansion
+
+The local game now loads `us-states-2026-09-05-v3` and the
+`short-seven-batch-01-v1` clue set: nine states, including Alaska, Arizona,
+Arkansas, California, Connecticut, and Delaware. The original three clue
+sequences and earlier snapshots remain unchanged. This batch is not deployed.
+
+The supplied research is archived unchanged in the new snapshot's `raw/` folder.
+Six complete Census place workbooks produce reproducible within-state rankings
+and top-two selections. A closed named-place membership table supports candidate
+evaluation without inventing the remaining states' city rankings. Google's
+official history supplies the California first-office clue; it makes no claim
+about the company's founding or incorporation location.
+
+`review/batch-01-integration.json` records fresh candidate sets, nine compiled
+ladders, and review decisions. These include the independently checked Alaska
+workbook hash typo and explicit corrections to conflicting sample rung windows.
+Unsupported boundary-count and cultural-association clues remain excluded.
+New states end with the researched postal-abbreviation clue; generated
+silhouettes remain draft alternatives. Capital values are attributed to the
+supplied Census-guide audit, not claimed as independently downloaded guides.
+
+Validation: 104 automated tests, TypeScript, lint, and static export passed.
+A local browser check completed all seven Arkansas clues and verified a correct
+answer at rung seven for 400 points, with no browser console errors.
+
 ## Seven-round playable preview
 
 The September 5 playtest request supersedes the original UI restriction and 8–10

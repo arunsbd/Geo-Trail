@@ -4,13 +4,14 @@ import { validateDataset, validateManifest } from './validate';
 import type { PuzzleManifest } from './types';
 import type { PlayablePuzzle } from './play';
 import { findState } from '../../data/states';
-export function loadPlayablePuzzles(): PlayablePuzzle[] {
- const data = loadDataset('us-states-2026-09-05-v2');
+export function loadPlayablePuzzles(snapshotId = 'us-states-2026-09-05-v3'): PlayablePuzzle[] {
+ const data = loadDataset(snapshotId);
  const errors = validateDataset(data, true).filter(d => d.severity === 'error');
  if (errors.length) throw new Error(JSON.stringify(errors));
  const directory = 'data/clue-ladder/ladders/manifests';
  const manifests: PuzzleManifest[] = readdirSync(directory).sort().map(f => JSON.parse(readFileSync(directory + '/' + f, 'utf8'))).filter(m => m.dataSnapshotId === data.snapshot.snapshotId);
- if (manifests.length !== 3 || new Set(manifests.map(m => m.answerStateId)).size !== 3) throw new Error('Expected three distinct playtest puzzles');
+ const answers = new Set(manifests.map(m => m.answerStateId));
+ if (manifests.length !== data.states.length || answers.size !== data.states.length || data.states.some(s => !answers.has(s.stateId))) throw new Error('Expected exactly one playtest puzzle per researched state');
  return manifests.map(manifest => {
   const invalid = validateManifest(manifest, data);
   if (invalid.length) throw new Error(JSON.stringify(invalid));

@@ -41,7 +41,7 @@ export function ClueLadderGame({puzzles}: {puzzles: PlayablePuzzle[]}) {
     <p className="mt-5 max-w-xl leading-7 text-[var(--ink-soft)]">Guess early to score more. A wrong guess or a skip reveals the next clue. You have one guess per clue.</p>
    </section>
    {!puzzle ? <section className="rounded-3xl border border-[var(--line)] bg-white/70 p-7 shadow-sm">
-    <h2 className="text-xl font-bold">Try the first three states</h2>
+    <h2 className="text-xl font-bold">Explore {puzzles.length} mystery states</h2>
     <p className="mt-3 mb-6 leading-7">A small practice collection while we fine-tune the clues. Play again to try a different mystery state.</p>
     <button className={button} onClick={start}>Start Clue Ladder</button>
     <noscript>Enable JavaScript to play Clue Ladder.</noscript>
@@ -71,7 +71,7 @@ export function ClueLadderGame({puzzles}: {puzzles: PlayablePuzzle[]}) {
     {round.rung > 0 && <details className="mt-6 rounded-xl border border-[var(--line)] p-4"><summary className="cursor-pointer font-bold">Earlier clues ({round.rung})</summary><ol className="mt-4 list-decimal space-y-3 pl-5">{puzzle.clues.slice(0, round.rung).map((c, i) => <li key={i}>{c.text}</li>)}</ol></details>}
     {round.guesses.length > 0 && <p className="mt-5 text-sm">Your guesses: {round.guesses.map(code => findState(code)!.name).join(' · ')}</p>}
    </>}
-   <footer className="mt-10 border-t border-[var(--line)] pt-5 text-sm leading-6 text-[var(--ink-soft)]">Practice preview · Three researched states · 1,000 starting points; each new clue reduces the maximum by 100, and each wrong guess costs another 50.</footer>
+   <footer className="mt-10 border-t border-[var(--line)] pt-5 text-sm leading-6 text-[var(--ink-soft)]">Practice preview · {puzzles.length} researched states · 1,000 starting points; each new clue reduces the maximum by 100, and each wrong guess costs another 50.</footer>
   </div>
  </main>;
 }

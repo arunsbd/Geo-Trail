@@ -1,10 +1,11 @@
 "use client";
 
-import Link from 'next/link';
 import { useRef, useState, type FormEvent } from "react";
+import Link from "next/link";
 import { USMap } from "@/components/USMap";
 import { findState, STATES, STATE_BY_CODE, type StateCode } from "@/data/states";
 import { shortestBorderDistance } from "@/lib/border-distance";
+import { DIFFICULTIES, type Difficulty } from "@/lib/difficulty";
 import {
   getDistanceFeedback,
   pickMysteryState,
@@ -29,6 +30,7 @@ function chooseNewMysteryState(previousState: StateCode): StateCode {
 }
 
 export function BorderHuntGame() {
+  const [difficulty, setDifficulty] = useState<Difficulty>("easy");
   const [mysteryState, setMysteryState] = useState(pickMysteryState);
   const [guessInput, setGuessInput] = useState("");
   const [guesses, setGuesses] = useState<GuessResult[]>([]);
@@ -74,6 +76,7 @@ export function BorderHuntGame() {
   }
 
   function selectMapState(code: StateCode) {
+    if (difficulty !== "easy" || isComplete) return;
     setGuessInput(STATE_BY_CODE.get(code)?.name ?? code);
     setError(null);
     inputRef.current?.focus();
@@ -92,7 +95,7 @@ export function BorderHuntGame() {
     <main className="min-h-screen overflow-hidden px-4 pb-10 sm:px-6 lg:px-8">
       <div aria-hidden="true" className="topographic-lines" />
 
-      <header className="relative mx-auto flex max-w-7xl items-center justify-between border-b border-[var(--line)] py-4 sm:py-5">
+      <header className="relative mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 border-b border-[var(--line)] py-4 sm:py-5">
         <a
           className="group flex items-center gap-3 rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--trail)]"
           href="#game"
@@ -110,9 +113,11 @@ export function BorderHuntGame() {
           </span>
         </a>
 
-        <Link href="/clue-ladder/" className="rounded-full border border-[var(--line)] bg-white/45 px-3 py-2 text-sm font-bold text-[var(--forest)]">
-          Play Clue Ladder
-        </Link>
+        <nav aria-label="Game modes" className="flex gap-4 text-sm font-bold">
+          <Link href="/" aria-current="page" className="text-[var(--trail-dark)]">Border Hunt</Link>
+          <Link href="/clue-ladder/">Clue Ladder</Link>
+        </nav>
+
       </header>
 
       <section className="relative mx-auto max-w-7xl pb-5 pt-7 sm:pb-8 sm:pt-10">
@@ -129,6 +134,28 @@ export function BorderHuntGame() {
         </div>
       </section>
 
+      <fieldset className="relative mx-auto mb-5 max-w-7xl rounded-xl border border-[var(--line)] bg-white/45 p-4">
+        <legend className="px-2 text-xs font-extrabold tracking-widest text-[var(--forest)] uppercase">Difficulty</legend>
+        <div className="flex flex-wrap gap-3">
+          {(Object.keys(DIFFICULTIES) as Difficulty[]).map((mode) => (
+            <label key={mode} className="flex cursor-pointer items-center gap-2 rounded-lg border border-[var(--line)] px-4 py-2 font-bold has-checked:bg-[var(--forest)] has-checked:text-white">
+              <input
+                type="radio"
+                name="difficulty"
+                value={mode}
+                checked={difficulty === mode}
+                onChange={() => { setDifficulty(mode); startNewRound(); }}
+                aria-describedby="difficulty-description"
+              />
+              {DIFFICULTIES[mode].label}
+            </label>
+          ))}
+        </div>
+        <p id="difficulty-description" className="mt-3 text-sm text-[color:var(--ink-soft)]" aria-live="polite">
+          {DIFFICULTIES[difficulty].description} Changing difficulty starts a new trail.
+        </p>
+      </fieldset>
+
       <section
         className="relative mx-auto grid max-w-7xl gap-4 lg:grid-cols-[minmax(0,1.65fr)_minmax(320px,0.7fr)] lg:gap-5"
         id="game"
@@ -140,7 +167,7 @@ export function BorderHuntGame() {
                 The trail map
               </p>
               <p className="mt-0.5 text-sm font-semibold text-[color:var(--ink-soft)]">
-                Tap a state or type a name below
+                {difficulty === "easy" ? "Tap a state or type a name below" : difficulty === "intermediate" ? "Read the shapes, then type your guess" : "Your guesses build the map"}
               </p>
             </div>
             <span className="map-key">
@@ -150,11 +177,17 @@ export function BorderHuntGame() {
 
           <div className="map-stage px-2 py-4 sm:px-6 sm:py-7">
             <USMap
+              difficulty={difficulty}
               disabled={isComplete}
               guesses={guesses}
               onSelectState={selectMapState}
               revealedState={isComplete ? mysteryState : null}
             />
+            {difficulty === "hard" && guesses.length === 0 && (
+              <p className="pointer-events-none absolute inset-0 flex items-center justify-center p-6 text-center font-semibold text-[color:var(--ink-soft)]">
+                Uncharted territory. Type your first guess to reveal a state.
+              </p>
+            )}
           </div>
 
           <div className="flex flex-wrap gap-x-4 gap-y-2 border-t border-[var(--line)] px-4 py-3 text-[0.68rem] font-extrabold tracking-[0.08em] text-[color:var(--ink-soft)] uppercase sm:px-6">

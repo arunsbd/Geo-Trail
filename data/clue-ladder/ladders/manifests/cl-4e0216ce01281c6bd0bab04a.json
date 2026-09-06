@@ -1,0 +1,32 @@
+{
+  "puzzleId": "cl-4e0216ce01281c6bd0bab04a",
+  "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+  "mode": "clue_ladder",
+  "answerStateId": "US-AR",
+  "orderedClueIds": [
+    "ar.parks.formal-1",
+    "ar.time.central-all",
+    "ar.population.3-3_5m",
+    "ar.history.1830s",
+    "ar.area.rank-26-30",
+    "ar.cities.top2-2025",
+    "ar.postal"
+  ],
+  "dataSnapshotId": "us-states-2026-09-05-v3",
+  "clueSetVersion": "short-seven-batch-01-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "short-seven-batch-01-v1",
+  "generatedAt": "2026-09-06T00:09:09.920Z",
+  "validatorVersion": "clue-ladder-1"
+}

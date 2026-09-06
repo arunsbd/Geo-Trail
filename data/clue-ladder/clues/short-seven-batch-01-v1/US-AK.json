@@ -1,0 +1,599 @@
+[
+  {
+    "clueId": "ak.population.0_5-1m",
+    "answerStateId": "US-AK",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 500,000–1 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AK:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 500000,
+      "maxExclusive": 1000000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK",
+        "US-ND",
+        "US-SD",
+        "US-VT",
+        "US-WY"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "AK:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff POP25 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ak.area.rank-1-5",
+    "answerStateId": "US-AK",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranks among the five largest states by land area. (2010 Census)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AK:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 1,
+      "maxExclusive": 6
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK",
+        "US-CA",
+        "US-MT",
+        "US-NM",
+        "US-TX"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "AK:area:2010"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff AREA10 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ak.highpoint.15000-plus",
+    "answerStateId": "US-AK",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its highest point is at least 15,000 feet above sea level."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AK:physical.highest_point"
+    ],
+    "predicate": {
+      "metricId": "physical.highest_point",
+      "op": "gte",
+      "value": 15000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "obscure",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "AK:elevation"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff ELEV / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ak.time.alaska-aleutian",
+    "answerStateId": "US-AK",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Parts use Alaska Time and parts use Hawaii–Aleutian Time. (2026 rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AK:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Alaska",
+        "Hawaii-Aleutian"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "AK:time:2026"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff TIME26 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ak.parks.formal-8",
+    "answerStateId": "US-AK",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has eight formally designated National Parks. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AK:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 8
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "AK:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff NPS26 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ak.history.1950s",
+    "answerStateId": "US-AK",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It became a state in the 1950s."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AK:history.admission_year"
+    ],
+    "predicate": {
+      "metricId": "history.admission_year",
+      "op": "between",
+      "minInclusive": 1950,
+      "maxExclusive": 1960
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK",
+        "US-HI"
+      ],
+      "count": 2,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "AK:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff GUIDE / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ak.parks.denali-gates",
+    "answerStateId": "US-AK",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Denali and Gates of the Arctic National Parks are here. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AK:nps.formal_unit_ids"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_unit_ids",
+      "op": "contains_all",
+      "values": [
+        "denali-national-park",
+        "gates-of-the-arctic-national-park"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "named_association",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 6,
+      "dependencyGroup": "AK:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff NPS26 / R; incompatible with park count. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "ak.cities.top2-2025",
+    "answerStateId": "US-AK",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Anchorage and Juneau were its two largest incorporated places in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AK:place.batch01_membership",
+      "us-states-2026-09-05-v3:US-AK:place.top_two"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.batch01_membership",
+          "op": "contains_all",
+          "values": [
+            "place:AK:anchorage-municipality",
+            "place:AK:juneau-city-and-borough"
+          ]
+        },
+        {
+          "metricId": "place.top_two",
+          "op": "contains_all",
+          "values": [
+            "place:AK:anchorage-municipality",
+            "place:AK:juneau-city-and-borough"
+          ]
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 6,
+      "dependencyGroup": "AK:places:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff PLACE25 / R after new facts are built. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "ak.capital.juneau",
+    "answerStateId": "US-AK",
+    "category": "capital",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its capital is Juneau."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AK:identity.capital",
+      "us-states-2026-09-05-v3:US-AK:place.batch01_membership"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.batch01_membership",
+          "op": "contains_all",
+          "values": [
+            "Juneau"
+          ]
+        },
+        {
+          "metricId": "identity.capital",
+          "op": "eq",
+          "value": "Juneau"
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 6,
+      "dependencyGroup": "AK:capital"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff GUIDE / R after new facts are built. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "ak.postal",
+    "answerStateId": "US-AK",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is AK."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AK:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "AK"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "AK:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff USPS24 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ak.silhouette",
+    "answerStateId": "US-AK",
+    "category": "silhouette",
+    "render": {
+      "kind": "image",
+      "text": {
+        "en": "Which state has this shape?"
+      },
+      "assetId": "asset-8465ecf998d9693a"
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AK:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "AK"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "AK:silhouette"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff MAP / B: asset not generated. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  }
+]

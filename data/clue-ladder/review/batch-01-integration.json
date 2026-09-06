@@ -1,0 +1,1152 @@
+{
+  "snapshotId": "us-states-2026-09-05-v3",
+  "summary": {
+    "states": 9,
+    "facts": 4753,
+    "approvedClues": 63,
+    "ladders": 9,
+    "errors": 0,
+    "warnings": 3
+  },
+  "decisions": [
+    {
+      "clueId": "ak.borders.segment-count-0",
+      "reason": "BOUND / B: nationwide legal classification incomplete; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "ak.history.russia-purchase",
+      "reason": "GUIDE / R after closed entity table is derived; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "ak.locator",
+      "reason": "MAP / B: Alaska inset policy and asset missing; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "az.population.7-8m",
+      "reason": "Research sample conflicts with 1–3 window; explicitly reviewed at rung 5 for the short edition."
+    },
+    {
+      "clueId": "az.borders.segment-count-4",
+      "reason": "BOUND / B: nationwide legal classification incomplete; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "az.history.gadsden",
+      "reason": "GUIDE AZ + NM / R after closed entity table is derived; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "ar.area.rank-26-30",
+      "reason": "Research sample conflicts with 1–4 window; explicitly reviewed at rung 5 for the short edition."
+    },
+    {
+      "clueId": "ar.borders.segment-count-6",
+      "reason": "BOUND / B: nationwide legal classification incomplete; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "ar.landmark.central-high",
+      "reason": "NPS26 / R after closed entity table is derived; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "ar.locator",
+      "reason": "MAP / B: asset missing; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "ca.borders.segment-count-3",
+      "reason": "BOUND / B: nationwide legal classification incomplete; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "ca.locator",
+      "reason": "MAP / B: asset missing; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "ct.borders.segment-count-3",
+      "reason": "BOUND / B: nationwide legal classification incomplete; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "ct.landmark.coltsville",
+      "reason": "NPS26 / R after closed entity table is derived; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "ct.landmark.weir-farm",
+      "reason": "NPS26 / R; same category, use at most one; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "ct.locator",
+      "reason": "MAP / B: asset missing; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "de.highpoint.under-500",
+      "reason": "Research sample conflicts with 2–5 window; explicitly reviewed at rung 6 for the short edition."
+    },
+    {
+      "clueId": "de.time.eastern-all",
+      "reason": "Research sample conflicts with 1–4 window; explicitly reviewed at rung 5 for the short edition."
+    },
+    {
+      "clueId": "de.borders.segment-count-3",
+      "reason": "BOUND / B: nationwide legal classification incomplete; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "de.landmark.first-state",
+      "reason": "NPS Delaware / R; preserve multi-state membership; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "de.boundary.twelve-mile",
+      "reason": "GUIDE Delaware / R after closed entity table is derived; excluded pending supporting normalized entity/topology evidence"
+    },
+    {
+      "clueId": "de.locator",
+      "reason": "MAP / B: asset missing; excluded pending supporting normalized entity/topology evidence"
+    }
+  ],
+  "reviewedCandidateSets": {
+    "ak.population.0_5-1m": [
+      "US-AK",
+      "US-ND",
+      "US-SD",
+      "US-VT",
+      "US-WY"
+    ],
+    "ak.area.rank-1-5": [
+      "US-AK",
+      "US-CA",
+      "US-MT",
+      "US-NM",
+      "US-TX"
+    ],
+    "ak.highpoint.15000-plus": [
+      "US-AK"
+    ],
+    "ak.time.alaska-aleutian": [
+      "US-AK"
+    ],
+    "ak.parks.formal-8": [
+      "US-AK"
+    ],
+    "ak.history.1950s": [
+      "US-AK",
+      "US-HI"
+    ],
+    "ak.parks.denali-gates": [
+      "US-AK"
+    ],
+    "ak.cities.top2-2025": [
+      "US-AK"
+    ],
+    "ak.capital.juneau": [
+      "US-AK"
+    ],
+    "ak.postal": [
+      "US-AK"
+    ],
+    "ak.silhouette": [
+      "US-AK"
+    ],
+    "az.population.7-8m": [
+      "US-AZ",
+      "US-MA",
+      "US-TN"
+    ],
+    "az.area.rank-6-10": [
+      "US-AZ",
+      "US-CO",
+      "US-NV",
+      "US-OR",
+      "US-WY"
+    ],
+    "az.highpoint.12000-13000": [
+      "US-AZ",
+      "US-ID",
+      "US-MT"
+    ],
+    "az.time.mountain-all": [
+      "US-AZ",
+      "US-CO",
+      "US-MT",
+      "US-NM",
+      "US-UT",
+      "US-WY"
+    ],
+    "az.parks.formal-3": [
+      "US-AZ",
+      "US-FL",
+      "US-WA"
+    ],
+    "az.history.1900-1920": [
+      "US-AZ",
+      "US-NM",
+      "US-OK"
+    ],
+    "az.point.colorado": [
+      "US-AZ"
+    ],
+    "az.parks.grand-canyon-saguaro": [
+      "US-AZ"
+    ],
+    "az.cities.top2-2025": [
+      "US-AZ"
+    ],
+    "az.capital.phoenix": [
+      "US-AZ"
+    ],
+    "az.postal": [
+      "US-AZ"
+    ],
+    "az.silhouette": [
+      "US-AZ"
+    ],
+    "ar.population.3-3_5m": [
+      "US-AR",
+      "US-IA",
+      "US-NV"
+    ],
+    "ar.area.rank-26-30": [
+      "US-AL",
+      "US-AR",
+      "US-FL",
+      "US-NC",
+      "US-NY"
+    ],
+    "ar.highpoint.2500-3000": [
+      "US-AR"
+    ],
+    "ar.time.central-all": [
+      "US-AL",
+      "US-AR",
+      "US-IA",
+      "US-IL",
+      "US-LA",
+      "US-MN",
+      "US-MO",
+      "US-MS",
+      "US-OK",
+      "US-WI"
+    ],
+    "ar.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "ar.history.1830s": [
+      "US-AR",
+      "US-MI"
+    ],
+    "ar.parks.hot-springs": [
+      "US-AR"
+    ],
+    "ar.cities.top2-2025": [
+      "US-AR"
+    ],
+    "ar.capital.little-rock": [
+      "US-AR"
+    ],
+    "ar.postal": [
+      "US-AR"
+    ],
+    "ar.silhouette": [
+      "US-AR"
+    ],
+    "ca.population.30m-plus": [
+      "US-CA",
+      "US-TX"
+    ],
+    "ca.area.rank-1-5": [
+      "US-AK",
+      "US-CA",
+      "US-MT",
+      "US-NM",
+      "US-TX"
+    ],
+    "ca.highpoint.14000-15000": [
+      "US-CA",
+      "US-CO",
+      "US-WA"
+    ],
+    "ca.time.pacific-all": [
+      "US-CA",
+      "US-WA"
+    ],
+    "ca.parks.formal-9": [
+      "US-CA"
+    ],
+    "ca.history.1840-1860": [
+      "US-CA",
+      "US-FL",
+      "US-IA",
+      "US-MN",
+      "US-OR",
+      "US-TX",
+      "US-WI"
+    ],
+    "ca.parks.yosemite-redwood": [
+      "US-CA"
+    ],
+    "ca.business.google-first-office": [
+      "US-CA"
+    ],
+    "ca.cities.top2-2025": [
+      "US-CA"
+    ],
+    "ca.capital.sacramento": [
+      "US-CA"
+    ],
+    "ca.postal": [
+      "US-CA"
+    ],
+    "ca.silhouette": [
+      "US-CA"
+    ],
+    "ct.population.3_5-4m": [
+      "US-CT",
+      "US-UT"
+    ],
+    "ct.area.rank-46-50": [
+      "US-CT",
+      "US-DE",
+      "US-HI",
+      "US-NJ",
+      "US-RI"
+    ],
+    "ct.highpoint.2000-2500": [
+      "US-AL",
+      "US-CT",
+      "US-MN"
+    ],
+    "ct.time.eastern-all": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "ct.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "ct.history.1788": [
+      "US-CT",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-NH",
+      "US-NY",
+      "US-SC",
+      "US-VA"
+    ],
+    "ct.cities.top2-2025": [
+      "US-CT"
+    ],
+    "ct.capital.hartford": [
+      "US-CT"
+    ],
+    "ct.postal": [
+      "US-CT"
+    ],
+    "ct.silhouette": [
+      "US-CT"
+    ],
+    "de.population.1-1_5m": [
+      "US-DE",
+      "US-HI",
+      "US-ME",
+      "US-MT",
+      "US-NH",
+      "US-RI"
+    ],
+    "de.area.rank-46-50": [
+      "US-CT",
+      "US-DE",
+      "US-HI",
+      "US-NJ",
+      "US-RI"
+    ],
+    "de.highpoint.under-500": [
+      "US-DE",
+      "US-FL"
+    ],
+    "de.time.eastern-all": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "de.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "de.history.1787": [
+      "US-DE",
+      "US-NJ",
+      "US-PA"
+    ],
+    "de.cities.top2-2025": [
+      "US-DE"
+    ],
+    "de.capital.dover": [
+      "US-DE"
+    ],
+    "de.postal": [
+      "US-DE"
+    ],
+    "de.silhouette": [
+      "US-DE"
+    ]
+  },
+  "diagnostics": [
+    {
+      "severity": "warning",
+      "code": "SUPPRESSED_VALUE",
+      "path": "us-states-2026-09-05-v3:place:CO:carbonate-town:place.population_estimate",
+      "message": "Official value is -; no imputation"
+    },
+    {
+      "severity": "warning",
+      "code": "SUPPRESSED_VALUE",
+      "path": "us-states-2026-09-05-v3:US-HI:economy.industry_value_added_current_usd.manufacturing",
+      "message": "Official value is (D); no imputation"
+    },
+    {
+      "severity": "warning",
+      "code": "CANDIDATE_COVERAGE",
+      "path": "al.industry.mfg-14-16",
+      "message": "Missing nationwide evidence: US-HI"
+    }
+  ],
+  "compiled": [
+    {
+      "manifest": {
+        "puzzleId": "cl-16fc6f5a1b11e1797f4fc39b",
+        "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+        "mode": "clue_ladder",
+        "answerStateId": "US-AL",
+        "orderedClueIds": [
+          "al.population.5-6m",
+          "al.history.1810s",
+          "al.highpoint.2000-2500",
+          "al.time.central-all",
+          "al.borders.segment-set",
+          "al.cities.top2-2025",
+          "al.silhouette"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v3",
+        "clueSetVersion": "short-seven-batch-01-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-batch-01-v1",
+        "generatedAt": "2026-09-06T00:09:09.920Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "clues": [
+        {
+          "clueId": "al.population.5-6m",
+          "text": "About 5–6 million people lived here in 2025."
+        },
+        {
+          "clueId": "al.history.1810s",
+          "text": "It became a state in the 1810s."
+        },
+        {
+          "clueId": "al.highpoint.2000-2500",
+          "text": "Its highest point is 2,000–2,500 feet above sea level."
+        },
+        {
+          "clueId": "al.time.central-all",
+          "text": "The whole state uses Central Time. (2026 time-zone rules)"
+        },
+        {
+          "clueId": "al.borders.segment-set",
+          "text": "It borders Florida, Georgia, Mississippi, and Tennessee."
+        },
+        {
+          "clueId": "al.cities.top2-2025",
+          "text": "Huntsville and Mobile were its two biggest cities in 2025 (incorporated places)."
+        },
+        {
+          "clueId": "al.silhouette",
+          "text": "Which state has this shape?"
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-fb4bdcc62fca0a14c97230d5",
+        "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+        "mode": "clue_ladder",
+        "answerStateId": "US-CO",
+        "orderedClueIds": [
+          "co.population.5_5-6_5m",
+          "co.area.rank-6-10",
+          "co.highpoint.14000-15000",
+          "co.time.mountain-all",
+          "co.parks.formal-4",
+          "co.cities.top2-2025",
+          "co.silhouette"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v3",
+        "clueSetVersion": "short-seven-batch-01-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-batch-01-v1",
+        "generatedAt": "2026-09-06T00:09:09.920Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        6,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "clues": [
+        {
+          "clueId": "co.population.5_5-6_5m",
+          "text": "About 5.5–6.5 million people lived here in 2025."
+        },
+        {
+          "clueId": "co.area.rank-6-10",
+          "text": "It ranks 6th–10th among states by land area. (2010 Census)"
+        },
+        {
+          "clueId": "co.highpoint.14000-15000",
+          "text": "Its highest point is 14,000–15,000 feet above sea level."
+        },
+        {
+          "clueId": "co.time.mountain-all",
+          "text": "The whole state uses Mountain Time. (2026 time-zone rules)"
+        },
+        {
+          "clueId": "co.parks.formal-4",
+          "text": "It has four National Parks. (NPS, September 2026)"
+        },
+        {
+          "clueId": "co.cities.top2-2025",
+          "text": "Denver and Colorado Springs were its two biggest cities in 2025 (incorporated places)."
+        },
+        {
+          "clueId": "co.silhouette",
+          "text": "Which state has this shape?"
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-8cef048b92b5bcda6d1bb610",
+        "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+        "mode": "clue_ladder",
+        "answerStateId": "US-RI",
+        "orderedClueIds": [
+          "ri.population.1-1_5m",
+          "ri.highpoint.under-1000",
+          "ri.time.eastern-all",
+          "ri.history.13th",
+          "ri.borders.typed",
+          "ri.capital.providence",
+          "ri.silhouette"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v3",
+        "clueSetVersion": "short-seven-batch-01-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-batch-01-v1",
+        "generatedAt": "2026-09-06T00:09:09.920Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        6,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "clues": [
+        {
+          "clueId": "ri.population.1-1_5m",
+          "text": "About 1–1.5 million people lived here in 2025."
+        },
+        {
+          "clueId": "ri.highpoint.under-1000",
+          "text": "Its highest point is less than 1,000 feet above sea level."
+        },
+        {
+          "clueId": "ri.time.eastern-all",
+          "text": "The whole state uses Eastern Time. (2026 time-zone rules)"
+        },
+        {
+          "clueId": "ri.history.13th",
+          "text": "It was the 13th state to join the Union."
+        },
+        {
+          "clueId": "ri.borders.typed",
+          "text": "It borders Connecticut and Massachusetts on land, and has a water boundary with New York."
+        },
+        {
+          "clueId": "ri.capital.providence",
+          "text": "Its capital is Providence."
+        },
+        {
+          "clueId": "ri.silhouette",
+          "text": "Which state has this shape?"
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-2176e5dceb7274187fa3a6e4",
+        "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+        "mode": "clue_ladder",
+        "answerStateId": "US-AK",
+        "orderedClueIds": [
+          "ak.population.0_5-1m",
+          "ak.history.1950s",
+          "ak.area.rank-1-5",
+          "ak.highpoint.15000-plus",
+          "ak.time.alaska-aleutian",
+          "ak.parks.formal-8",
+          "ak.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v3",
+        "clueSetVersion": "short-seven-batch-01-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-batch-01-v1",
+        "generatedAt": "2026-09-06T00:09:09.920Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "clues": [
+        {
+          "clueId": "ak.population.0_5-1m",
+          "text": "About 500,000–1 million people lived here in 2025."
+        },
+        {
+          "clueId": "ak.history.1950s",
+          "text": "It became a state in the 1950s."
+        },
+        {
+          "clueId": "ak.area.rank-1-5",
+          "text": "It ranks among the five largest states by land area. (2010 Census)"
+        },
+        {
+          "clueId": "ak.highpoint.15000-plus",
+          "text": "Its highest point is at least 15,000 feet above sea level."
+        },
+        {
+          "clueId": "ak.time.alaska-aleutian",
+          "text": "Parts use Alaska Time and parts use Hawaii–Aleutian Time. (2026 rules)"
+        },
+        {
+          "clueId": "ak.parks.formal-8",
+          "text": "It has eight formally designated National Parks. (NPS, 2026)"
+        },
+        {
+          "clueId": "ak.postal",
+          "text": "Its postal abbreviation is AK."
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-f6c46b473cf203c221e99bee",
+        "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+        "mode": "clue_ladder",
+        "answerStateId": "US-AZ",
+        "orderedClueIds": [
+          "az.time.mountain-all",
+          "az.highpoint.12000-13000",
+          "az.parks.formal-3",
+          "az.history.1900-1920",
+          "az.population.7-8m",
+          "az.cities.top2-2025",
+          "az.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v3",
+        "clueSetVersion": "short-seven-batch-01-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-batch-01-v1",
+        "generatedAt": "2026-09-06T00:09:09.920Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        6,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "clues": [
+        {
+          "clueId": "az.time.mountain-all",
+          "text": "The whole state is in the Mountain standard time zone. (2026 rules)"
+        },
+        {
+          "clueId": "az.highpoint.12000-13000",
+          "text": "Its highest point is 12,000–13,000 feet high."
+        },
+        {
+          "clueId": "az.parks.formal-3",
+          "text": "It has three formally designated National Parks. (NPS, 2026)"
+        },
+        {
+          "clueId": "az.history.1900-1920",
+          "text": "It became a state between 1900 and 1920."
+        },
+        {
+          "clueId": "az.population.7-8m",
+          "text": "About 7–8 million people lived here in 2025."
+        },
+        {
+          "clueId": "az.cities.top2-2025",
+          "text": "Phoenix and Tucson were its two largest incorporated places in 2025."
+        },
+        {
+          "clueId": "az.postal",
+          "text": "Its postal abbreviation is AZ."
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-4e0216ce01281c6bd0bab04a",
+        "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+        "mode": "clue_ladder",
+        "answerStateId": "US-AR",
+        "orderedClueIds": [
+          "ar.parks.formal-1",
+          "ar.time.central-all",
+          "ar.population.3-3_5m",
+          "ar.history.1830s",
+          "ar.area.rank-26-30",
+          "ar.cities.top2-2025",
+          "ar.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v3",
+        "clueSetVersion": "short-seven-batch-01-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-batch-01-v1",
+        "generatedAt": "2026-09-06T00:09:09.920Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "clues": [
+        {
+          "clueId": "ar.parks.formal-1",
+          "text": "It has one formally designated National Park. (NPS, 2026)"
+        },
+        {
+          "clueId": "ar.time.central-all",
+          "text": "The whole state uses Central Time. (2026 rules)"
+        },
+        {
+          "clueId": "ar.population.3-3_5m",
+          "text": "About 3–3.5 million people lived here in 2025."
+        },
+        {
+          "clueId": "ar.history.1830s",
+          "text": "It became a state in the 1830s."
+        },
+        {
+          "clueId": "ar.area.rank-26-30",
+          "text": "It ranks 26th–30th among states by land area. (2010 Census)"
+        },
+        {
+          "clueId": "ar.cities.top2-2025",
+          "text": "Little Rock and Fayetteville were its two largest incorporated places in 2025."
+        },
+        {
+          "clueId": "ar.postal",
+          "text": "Its postal abbreviation is AR."
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-17e612d8f42b57d0962c0600",
+        "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+        "mode": "clue_ladder",
+        "answerStateId": "US-CA",
+        "orderedClueIds": [
+          "ca.history.1840-1860",
+          "ca.area.rank-1-5",
+          "ca.population.30m-plus",
+          "ca.time.pacific-all",
+          "ca.business.google-first-office",
+          "ca.cities.top2-2025",
+          "ca.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v3",
+        "clueSetVersion": "short-seven-batch-01-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-batch-01-v1",
+        "generatedAt": "2026-09-06T00:09:09.920Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        7,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "clues": [
+        {
+          "clueId": "ca.history.1840-1860",
+          "text": "It became a state between 1840 and 1860."
+        },
+        {
+          "clueId": "ca.area.rank-1-5",
+          "text": "It ranks among the five largest states by land area. (2010 Census)"
+        },
+        {
+          "clueId": "ca.population.30m-plus",
+          "text": "At least 30 million people lived here in 2025."
+        },
+        {
+          "clueId": "ca.time.pacific-all",
+          "text": "The whole state uses Pacific Time. (2026 rules)"
+        },
+        {
+          "clueId": "ca.business.google-first-office",
+          "text": "Google’s first office was a garage in Menlo Park."
+        },
+        {
+          "clueId": "ca.cities.top2-2025",
+          "text": "Los Angeles and San Diego were its two largest incorporated places in 2025."
+        },
+        {
+          "clueId": "ca.postal",
+          "text": "Its postal abbreviation is CA."
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-6b60035b5dcf568777f71a2e",
+        "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+        "mode": "clue_ladder",
+        "answerStateId": "US-CT",
+        "orderedClueIds": [
+          "ct.history.1788",
+          "ct.parks.formal-0",
+          "ct.time.eastern-all",
+          "ct.area.rank-46-50",
+          "ct.highpoint.2000-2500",
+          "ct.cities.top2-2025",
+          "ct.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v3",
+        "clueSetVersion": "short-seven-batch-01-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-batch-01-v1",
+        "generatedAt": "2026-09-06T00:09:09.920Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        8,
+        6,
+        6,
+        1,
+        1,
+        1,
+        1
+      ],
+      "clues": [
+        {
+          "clueId": "ct.history.1788",
+          "text": "It joined the Union in 1788."
+        },
+        {
+          "clueId": "ct.parks.formal-0",
+          "text": "It has no formally designated National Park. (NPS, 2026)"
+        },
+        {
+          "clueId": "ct.time.eastern-all",
+          "text": "The whole state uses Eastern Time. (2026 rules)"
+        },
+        {
+          "clueId": "ct.area.rank-46-50",
+          "text": "It ranks among the five smallest states by land area. (2010 Census)"
+        },
+        {
+          "clueId": "ct.highpoint.2000-2500",
+          "text": "Its highest point is 2,000–2,500 feet high."
+        },
+        {
+          "clueId": "ct.cities.top2-2025",
+          "text": "Bridgeport and Stamford were its two largest incorporated places in 2025."
+        },
+        {
+          "clueId": "ct.postal",
+          "text": "Its postal abbreviation is CT."
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-89fa91a517b9a48647ee3521",
+        "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+        "mode": "clue_ladder",
+        "answerStateId": "US-DE",
+        "orderedClueIds": [
+          "de.parks.formal-0",
+          "de.population.1-1_5m",
+          "de.area.rank-46-50",
+          "de.history.1787",
+          "de.time.eastern-all",
+          "de.highpoint.under-500",
+          "de.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-05-v3",
+        "clueSetVersion": "short-seven-batch-01-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-batch-01-v1",
+        "generatedAt": "2026-09-06T00:09:09.920Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "clues": [
+        {
+          "clueId": "de.parks.formal-0",
+          "text": "It has no formally designated National Park. (NPS, 2026)"
+        },
+        {
+          "clueId": "de.population.1-1_5m",
+          "text": "About 1–1.5 million people lived here in 2025."
+        },
+        {
+          "clueId": "de.area.rank-46-50",
+          "text": "It ranks among the five smallest states by land area. (2010 Census)"
+        },
+        {
+          "clueId": "de.history.1787",
+          "text": "It joined the Union in 1787."
+        },
+        {
+          "clueId": "de.time.eastern-all",
+          "text": "The whole state uses Eastern Time. (2026 rules)"
+        },
+        {
+          "clueId": "de.highpoint.under-500",
+          "text": "Its highest point is below 500 feet."
+        },
+        {
+          "clueId": "de.postal",
+          "text": "Its postal abbreviation is DE."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Alaska workbook handoff hash typo: one missing f. Supplied bytes independently match Census re-download.",
+    "California rungs 5–6 use the researched Google first-office and city-pair clues; cumulative elimination remains unchanged.",
+    "Boundary-count and unnormalized cultural associations remain excluded. No nationwide capital/place/GIS collection was needed for these fully evaluated selected predicates.",
+    "New final clues are postal abbreviations as proposed; six silhouettes generated but remain draft alternatives."
+  ]
+}

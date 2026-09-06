@@ -126,5 +126,109 @@
       }
     ],
     "contextFile": "snapshots/us-states-2026-09-05-v2/context.json"
+  },
+  {
+    "snapshotId": "us-states-2026-09-05-v3",
+    "createdAt": "2026-09-06T00:09:09.920Z",
+    "clueSetVersion": "short-seven-batch-01-v1",
+    "validatorVersion": "clue-ladder-1",
+    "sourceFiles": [
+      {
+        "sourceId": "CEN-PEP-STATE-V2025",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/population.csv",
+        "sha256": "92188e29cb0a67dcf95afa7d6c47359409782f086478b70ea4128eb70e223ca9"
+      },
+      {
+        "sourceId": "BEA-SAGDP-2025",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/SAGDP.zip",
+        "sha256": "5a90e0e6e03082089048d8f78e8a4df9993465c4f34f9de471258fed2a908183"
+      },
+      {
+        "sourceId": "CEN-AREA-2010",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/area.html",
+        "sha256": "bbfda0aa509458c547bdd7cefdfdd40751174dccd5008377587a5ff91e5445b5"
+      },
+      {
+        "sourceId": "USGS-ELEV",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/elevation.html",
+        "sha256": "9cecdf99279e19e0d78824c9a1a7013c8aa932b050f151e6cb7b69160650c99a"
+      },
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/parks.html",
+        "sha256": "f26c2d6a86233be39bb189db172b70d09f48f5dfbb299bed21c71c21d68f0c61"
+      },
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/history.html",
+        "sha256": "0ba210d2cf23ab30eb0a2daae0be6e44faa1d4e989a55357aec9e62eacad3a0a"
+      },
+      {
+        "sourceId": "DOT-TIME-2026",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/time-zones.xml",
+        "sha256": "7ca9e8d7c57b52295e5793276370f47ae128afce5fcc2d35def7d35788eba6d8"
+      },
+      {
+        "sourceId": "CEN-PEP-PLACE-V2025-01",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/places-01.xlsx",
+        "sha256": "701bab5243506d8a2921ac154ce80c0adad2ec5a2997b9c99e8870f723e86471"
+      },
+      {
+        "sourceId": "CEN-PEP-PLACE-V2025-08",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/places-08.xlsx",
+        "sha256": "f6eb8426d8d9561a4fd690bb0e3e1a8824869194958586ef2b04e93ab4f8a236"
+      },
+      {
+        "sourceId": "CEN-PEP-PLACE-V2025-44",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/places-44.xlsx",
+        "sha256": "2988cb6c9ef81aae4b622003a233d36eec768a561697d7e74715c54c3bd11b1e"
+      },
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/states-albers-10m.json",
+        "sha256": "6e7bb086a3c791490361968a3094f377f7726c5d0c4900fec03cc42db2305a3d"
+      },
+      {
+        "sourceId": "BATCH-01-HANDOFF",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/batch-01-review.md",
+        "sha256": "7ccb8bc7be1ad1d1823324060238e9f738006ce1b2ecdfe6a456f861c349683d"
+      },
+      {
+        "sourceId": "GOOGLE-FIRST-OFFICE",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/google-history.html",
+        "sha256": "4e4bb435193bcdc72ef08a38bfbd4db03db406a8a5a02cb4a50e7df76e3cc815"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-AK",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-02.xlsx",
+        "sha256": "af35a8d584ecef77fe6d99d360abec2046050121c2bfffe1e7163e4416ba1164"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-AZ",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-04.xlsx",
+        "sha256": "67a5a9e24b1a7da32133397e9c8fe1c06cf291ed46452cc27cecd6889291c5e9"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-AR",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-05.xlsx",
+        "sha256": "352bb4e164aca33214507cb57bce5d41aa2921fa4e6ffda8b4c4a711c8a6df0b"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-CA",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-06.xlsx",
+        "sha256": "237d05133a1079469a2d6c2309eb3584bd2fe2400a1c586ce91d760d301c8f86"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-CT",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-09.xlsx",
+        "sha256": "2bbd8c3f5c0fa0b842f1dcd0f4f9fbf4cd490f63f9dafead7d8c0ee2701b298b"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-DE",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-10.xlsx",
+        "sha256": "af90866a2d467b8ae20141406a468a9059aa9268d18a9cc22fe259fef6084637"
+      }
+    ],
+    "contextFile": "snapshots/us-states-2026-09-05-v3/context.json"
   }
 ]

@@ -1,0 +1,581 @@
+[
+  {
+    "clueId": "de.population.1-1_5m",
+    "answerStateId": "US-DE",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 1–1.5 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-DE:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 1000000,
+      "maxExclusive": 1500000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-DE",
+        "US-HI",
+        "US-ME",
+        "US-MT",
+        "US-NH",
+        "US-RI"
+      ],
+      "count": 6,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "DE:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff POP25 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "de.area.rank-46-50",
+    "answerStateId": "US-DE",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranks among the five smallest states by land area. (2010 Census)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-DE:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 46,
+      "maxExclusive": 51
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CT",
+        "US-DE",
+        "US-HI",
+        "US-NJ",
+        "US-RI"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "DE:area:2010"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff AREA10 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "de.highpoint.under-500",
+    "answerStateId": "US-DE",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its highest point is below 500 feet."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-DE:physical.highest_point"
+    ],
+    "predicate": {
+      "metricId": "physical.highest_point",
+      "op": "lt",
+      "value": 500
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-DE",
+        "US-FL"
+      ],
+      "count": 2,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "DE:elevation"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff ELEV / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "de.time.eastern-all",
+    "answerStateId": "US-DE",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The whole state uses Eastern Time. (2026 rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-DE:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Eastern"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CT",
+        "US-DE",
+        "US-GA",
+        "US-MA",
+        "US-MD",
+        "US-ME",
+        "US-NC",
+        "US-NH",
+        "US-NJ",
+        "US-NY",
+        "US-OH",
+        "US-PA",
+        "US-RI",
+        "US-SC",
+        "US-VA",
+        "US-VT",
+        "US-WV"
+      ],
+      "count": 17,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "DE:time:2026"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff TIME26 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "de.parks.formal-0",
+    "answerStateId": "US-DE",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has no formally designated National Park. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-DE:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 0
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AL",
+        "US-CT",
+        "US-DE",
+        "US-GA",
+        "US-IA",
+        "US-KS",
+        "US-LA",
+        "US-MA",
+        "US-MD",
+        "US-MS",
+        "US-NE",
+        "US-NH",
+        "US-NJ",
+        "US-NY",
+        "US-OK",
+        "US-PA",
+        "US-RI",
+        "US-VT",
+        "US-WI"
+      ],
+      "count": 19,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 5,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "DE:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff NPS26 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "de.history.1787",
+    "answerStateId": "US-DE",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It joined the Union in 1787."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-DE:history.admission_year"
+    ],
+    "predicate": {
+      "metricId": "history.admission_year",
+      "op": "eq",
+      "value": 1787
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-DE",
+        "US-NJ",
+        "US-PA"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "DE:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff GUIDE / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "de.cities.top2-2025",
+    "answerStateId": "US-DE",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Wilmington and Dover were its two largest incorporated places in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-DE:place.batch01_membership",
+      "us-states-2026-09-05-v3:US-DE:place.top_two"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.batch01_membership",
+          "op": "contains_all",
+          "values": [
+            "place:DE:wilmington-city",
+            "place:DE:dover-city"
+          ]
+        },
+        {
+          "metricId": "place.top_two",
+          "op": "contains_all",
+          "values": [
+            "place:DE:wilmington-city",
+            "place:DE:dover-city"
+          ]
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-DE"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 6,
+      "dependencyGroup": "DE:places:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff PLACE25 / R. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "de.capital.dover",
+    "answerStateId": "US-DE",
+    "category": "capital",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its capital is Dover."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-DE:identity.capital",
+      "us-states-2026-09-05-v3:US-DE:place.batch01_membership"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.batch01_membership",
+          "op": "contains_all",
+          "values": [
+            "Dover"
+          ]
+        },
+        {
+          "metricId": "identity.capital",
+          "op": "eq",
+          "value": "Dover"
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-DE"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 6,
+      "dependencyGroup": "DE:capital"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff GUIDE / R; incompatible with city pair before final rungs. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "de.postal",
+    "answerStateId": "US-DE",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is DE."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-DE:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "DE"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-DE"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "DE:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff USPS24 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "de.silhouette",
+    "answerStateId": "US-DE",
+    "category": "silhouette",
+    "render": {
+      "kind": "image",
+      "text": {
+        "en": "Which state has this shape?"
+      },
+      "assetId": "asset-6c52b7a1d9f13467"
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-DE:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "DE"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-DE"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "DE:silhouette"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff MAP / B: asset missing. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  }
+]

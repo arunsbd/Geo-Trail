@@ -1,0 +1,655 @@
+[
+  {
+    "clueId": "ca.population.30m-plus",
+    "answerStateId": "US-CA",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "At least 30 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "gte",
+      "value": 30000000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CA",
+        "US-TX"
+      ],
+      "count": 2,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "CA:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff POP25 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ca.area.rank-1-5",
+    "answerStateId": "US-CA",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranks among the five largest states by land area. (2010 Census)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 1,
+      "maxExclusive": 6
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AK",
+        "US-CA",
+        "US-MT",
+        "US-NM",
+        "US-TX"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "CA:area:2010"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff AREA10 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ca.highpoint.14000-15000",
+    "answerStateId": "US-CA",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its highest point is 14,000–15,000 feet high."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:physical.highest_point"
+    ],
+    "predicate": {
+      "metricId": "physical.highest_point",
+      "op": "between",
+      "minInclusive": 14000,
+      "maxExclusive": 15000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CA",
+        "US-CO",
+        "US-WA"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 5,
+      "dependencyGroup": "CA:elevation"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff ELEV / R. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "ca.time.pacific-all",
+    "answerStateId": "US-CA",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The whole state uses Pacific Time. (2026 rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Pacific"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CA",
+        "US-WA"
+      ],
+      "count": 2,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "CA:time:2026"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff TIME26 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ca.parks.formal-9",
+    "answerStateId": "US-CA",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has nine formally designated National Parks. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 9
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CA"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "specialized",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 6,
+      "dependencyGroup": "CA:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff NPS26 / R. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "ca.history.1840-1860",
+    "answerStateId": "US-CA",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It became a state between 1840 and 1860."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:history.admission_year"
+    ],
+    "predicate": {
+      "metricId": "history.admission_year",
+      "op": "between",
+      "minInclusive": 1840,
+      "maxExclusive": 1860
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CA",
+        "US-FL",
+        "US-IA",
+        "US-MN",
+        "US-OR",
+        "US-TX",
+        "US-WI"
+      ],
+      "count": 7,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "CA:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff GUIDE / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ca.parks.yosemite-redwood",
+    "answerStateId": "US-CA",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Yosemite and Redwood National Parks are here. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:nps.formal_unit_ids"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_unit_ids",
+      "op": "contains_all",
+      "values": [
+        "yosemite-national-park",
+        "redwood-national-park"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CA"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "named_association",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "CA:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff NPS26 / R; incompatible with park count. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "ca.business.google-first-office",
+    "answerStateId": "US-CA",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Google’s first office was a garage in Menlo Park."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:association.google_first_office"
+    ],
+    "predicate": {
+      "metricId": "association.google_first_office",
+      "op": "contains_all",
+      "values": [
+        "google-first-office-menlo-park"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CA"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "named_association",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "CA:google"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff GOOGLE / R after closed entity table is derived. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ca.cities.top2-2025",
+    "answerStateId": "US-CA",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Los Angeles and San Diego were its two largest incorporated places in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:place.batch01_membership",
+      "us-states-2026-09-05-v3:US-CA:place.top_two"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.batch01_membership",
+          "op": "contains_all",
+          "values": [
+            "place:CA:los-angeles-city",
+            "place:CA:san-diego-city"
+          ]
+        },
+        {
+          "metricId": "place.top_two",
+          "op": "contains_all",
+          "values": [
+            "place:CA:los-angeles-city",
+            "place:CA:san-diego-city"
+          ]
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CA"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "CA:places:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff PLACE25 / R after facts are built. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ca.capital.sacramento",
+    "answerStateId": "US-CA",
+    "category": "capital",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its capital is Sacramento."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:identity.capital",
+      "us-states-2026-09-05-v3:US-CA:place.batch01_membership"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.batch01_membership",
+          "op": "contains_all",
+          "values": [
+            "Sacramento"
+          ]
+        },
+        {
+          "metricId": "identity.capital",
+          "op": "eq",
+          "value": "Sacramento"
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CA"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 6,
+      "dependencyGroup": "CA:capital"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff GUIDE / R after facts are built. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "ca.postal",
+    "answerStateId": "US-CA",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is CA."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "CA"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CA"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "CA:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff USPS24 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ca.silhouette",
+    "answerStateId": "US-CA",
+    "category": "silhouette",
+    "render": {
+      "kind": "image",
+      "text": {
+        "en": "Which state has this shape?"
+      },
+      "assetId": "asset-7214b09b7530ac16"
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-CA:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "CA"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-CA"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "CA:silhouette"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff MAP / B: asset missing. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  }
+]

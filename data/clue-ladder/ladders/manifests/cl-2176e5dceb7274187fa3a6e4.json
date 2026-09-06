@@ -1,0 +1,32 @@
+{
+  "puzzleId": "cl-2176e5dceb7274187fa3a6e4",
+  "dataContentSha256": "5d1446968d556224189f4cb52d824ad4b10586a20d52ba11de02d53ad3440fdb",
+  "mode": "clue_ladder",
+  "answerStateId": "US-AK",
+  "orderedClueIds": [
+    "ak.population.0_5-1m",
+    "ak.history.1950s",
+    "ak.area.rank-1-5",
+    "ak.highpoint.15000-plus",
+    "ak.time.alaska-aleutian",
+    "ak.parks.formal-8",
+    "ak.postal"
+  ],
+  "dataSnapshotId": "us-states-2026-09-05-v3",
+  "clueSetVersion": "short-seven-batch-01-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "short-seven-batch-01-v1",
+  "generatedAt": "2026-09-06T00:09:09.920Z",
+  "validatorVersion": "clue-ladder-1"
+}

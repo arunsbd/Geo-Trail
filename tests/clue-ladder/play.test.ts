@@ -4,7 +4,7 @@ import { choosePuzzle, newRound, play } from '../../lib/clue-ladder/play';
 import { loadDataset } from '../../lib/clue-ladder/load';
 import { compileLadder } from '../../lib/clue-ladder/compile';
 import { validateDataset, validateLadder } from '../../lib/clue-ladder/validate';
-const puzzles = loadPlayablePuzzles();
+const puzzles = loadPlayablePuzzles('us-states-2026-09-05-v2');
 describe('seven-round playable edition', () => {
  it('loads three independently validated manifests with no economy or industry clues', () => {
   const data = loadDataset('us-states-2026-09-05-v2');

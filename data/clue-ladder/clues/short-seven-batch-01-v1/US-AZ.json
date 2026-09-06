@@ -1,0 +1,659 @@
+[
+  {
+    "clueId": "az.population.7-8m",
+    "answerStateId": "US-AZ",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 7–8 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 7000000,
+      "maxExclusive": 8000000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ",
+        "US-MA",
+        "US-TN"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "AZ:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff POP25 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "az.area.rank-6-10",
+    "answerStateId": "US-AZ",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranks 6th–10th among states by land area. (2010 Census)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 6,
+      "maxExclusive": 11
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ",
+        "US-CO",
+        "US-NV",
+        "US-OR",
+        "US-WY"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 4,
+      "dependencyGroup": "AZ:area:2010"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff AREA10 / R. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "az.highpoint.12000-13000",
+    "answerStateId": "US-AZ",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its highest point is 12,000–13,000 feet high."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:physical.highest_point"
+    ],
+    "predicate": {
+      "metricId": "physical.highest_point",
+      "op": "between",
+      "minInclusive": 12000,
+      "maxExclusive": 13000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ",
+        "US-ID",
+        "US-MT"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "AZ:elevation"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff ELEV / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "az.time.mountain-all",
+    "answerStateId": "US-AZ",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The whole state is in the Mountain standard time zone. (2026 rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Mountain"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ",
+        "US-CO",
+        "US-MT",
+        "US-NM",
+        "US-UT",
+        "US-WY"
+      ],
+      "count": 6,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "AZ:time:2026"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff TIME26 / R; daylight-saving behavior deliberately omitted. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "az.parks.formal-3",
+    "answerStateId": "US-AZ",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has three formally designated National Parks. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 3
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ",
+        "US-FL",
+        "US-WA"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "AZ:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff NPS26 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "az.history.1900-1920",
+    "answerStateId": "US-AZ",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It became a state between 1900 and 1920."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:history.admission_year"
+    ],
+    "predicate": {
+      "metricId": "history.admission_year",
+      "op": "between",
+      "minInclusive": 1900,
+      "maxExclusive": 1920
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ",
+        "US-NM",
+        "US-OK"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "AZ:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff GUIDE / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "az.point.colorado",
+    "answerStateId": "US-AZ",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It meets Colorado at a point, not along a boundary segment."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:boundary.point_contacts"
+    ],
+    "predicate": {
+      "metricId": "boundary.point_contacts",
+      "op": "contains_all",
+      "values": [
+        "US-CO"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 6,
+      "dependencyGroup": "AZ:point-contact"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff supplied special-case audit / R. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "az.parks.grand-canyon-saguaro",
+    "answerStateId": "US-AZ",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Grand Canyon and Saguaro National Parks are here. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:nps.formal_unit_ids"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_unit_ids",
+      "op": "contains_all",
+      "values": [
+        "grand-canyon-national-park",
+        "saguaro-national-park"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "iconic",
+      "directness": "named_association",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 6,
+      "dependencyGroup": "AZ:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff NPS26 / R; incompatible with park count. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "az.cities.top2-2025",
+    "answerStateId": "US-AZ",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Phoenix and Tucson were its two largest incorporated places in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:place.batch01_membership",
+      "us-states-2026-09-05-v3:US-AZ:place.top_two"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.batch01_membership",
+          "op": "contains_all",
+          "values": [
+            "place:AZ:phoenix-city",
+            "place:AZ:tucson-city"
+          ]
+        },
+        {
+          "metricId": "place.top_two",
+          "op": "contains_all",
+          "values": [
+            "place:AZ:phoenix-city",
+            "place:AZ:tucson-city"
+          ]
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "AZ:places:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff PLACE25 / R after facts are built. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "az.capital.phoenix",
+    "answerStateId": "US-AZ",
+    "category": "capital",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its capital is Phoenix."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:identity.capital",
+      "us-states-2026-09-05-v3:US-AZ:place.batch01_membership"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.batch01_membership",
+          "op": "contains_all",
+          "values": [
+            "Phoenix"
+          ]
+        },
+        {
+          "metricId": "identity.capital",
+          "op": "eq",
+          "value": "Phoenix"
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "AZ:capital"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff GUIDE / R; incompatible with city pair before final rungs. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "az.postal",
+    "answerStateId": "US-AZ",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is AZ."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "AZ"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "AZ:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff USPS24 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "az.silhouette",
+    "answerStateId": "US-AZ",
+    "category": "silhouette",
+    "render": {
+      "kind": "image",
+      "text": {
+        "en": "Which state has this shape?"
+      },
+      "assetId": "asset-47fa3f6197c6385f"
+    },
+    "factRefs": [
+      "us-states-2026-09-05-v3:US-AZ:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "AZ"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-05-v3",
+      "stateIds": [
+        "US-AZ"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "AZ:silhouette"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff MAP / B: asset missing. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  }
+]
