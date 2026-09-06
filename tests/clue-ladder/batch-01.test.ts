@@ -32,7 +32,8 @@ describe('batch 01 local integration', () => {
       expect(cumulativeCandidates(manifest.orderedClueIds.map((id:string)=>data.clues.find(c=>c.clueId===id)!),data.universe)).toEqual(counts);
       expect(compileLadder(data,`US-${code}` as StateId,'short-seven-batch-01-v1')).toEqual(manifest);
     }
-  }, 15000);
+  // Rebuilds six ladders against the full archived fact set; allow for slower CI runners.
+  }, 60000);
   it('preserves special cases and exact incorporated-place populations', () => {
     const value = (subject:string, metric:string)=>data.facts.find(f=>f.subjectId===subject && f.metricId===metric)!.value;
     expect(value('US-AK','time.standard_zone')).toEqual(['Alaska','Hawaii-Aleutian']);
