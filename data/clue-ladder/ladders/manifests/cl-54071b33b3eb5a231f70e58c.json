@@ -1,0 +1,32 @@
+{
+  "puzzleId": "cl-54071b33b3eb5a231f70e58c",
+  "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+  "mode": "clue_ladder",
+  "answerStateId": "US-OH",
+  "orderedClueIds": [
+    "oh.time.eastern",
+    "oh.parks.formal-1",
+    "oh.population.9000000-12000000",
+    "oh.history.order-11-20",
+    "oh.nps.cuyahoga-valley",
+    "oh.places.top-two-2025",
+    "oh.postal"
+  ],
+  "dataSnapshotId": "us-states-2026-09-06-v1",
+  "clueSetVersion": "short-seven-all-states-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "short-seven-all-states-v1",
+  "generatedAt": "2026-09-06T16:00:00Z",
+  "validatorVersion": "clue-ladder-1"
+}

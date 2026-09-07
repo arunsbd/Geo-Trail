@@ -230,5 +230,874 @@
       }
     ],
     "contextFile": "snapshots/us-states-2026-09-05-v3/context.json"
+  },
+  {
+    "snapshotId": "us-states-2026-09-06-v1",
+    "createdAt": "2026-09-06T16:00:00Z",
+    "clueSetVersion": "short-seven-all-states-v1",
+    "validatorVersion": "clue-ladder-1",
+    "sourceFiles": [
+      {
+        "sourceId": "CEN-PEP-STATE-V2025",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/population.csv",
+        "sha256": "92188e29cb0a67dcf95afa7d6c47359409782f086478b70ea4128eb70e223ca9"
+      },
+      {
+        "sourceId": "BEA-SAGDP-2025",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/SAGDP.zip",
+        "sha256": "5a90e0e6e03082089048d8f78e8a4df9993465c4f34f9de471258fed2a908183"
+      },
+      {
+        "sourceId": "CEN-AREA-2010",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/area.html",
+        "sha256": "bbfda0aa509458c547bdd7cefdfdd40751174dccd5008377587a5ff91e5445b5"
+      },
+      {
+        "sourceId": "USGS-ELEV",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/elevation.html",
+        "sha256": "9cecdf99279e19e0d78824c9a1a7013c8aa932b050f151e6cb7b69160650c99a"
+      },
+      {
+        "sourceId": "NPS-SYSTEM-2026-09",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/parks.html",
+        "sha256": "f26c2d6a86233be39bb189db172b70d09f48f5dfbb299bed21c71c21d68f0c61"
+      },
+      {
+        "sourceId": "CEN-STATEHOOD-2013",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/history.html",
+        "sha256": "0ba210d2cf23ab30eb0a2daae0be6e44faa1d4e989a55357aec9e62eacad3a0a"
+      },
+      {
+        "sourceId": "DOT-TIME-2026",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/time-zones.xml",
+        "sha256": "7ca9e8d7c57b52295e5793276370f47ae128afce5fcc2d35def7d35788eba6d8"
+      },
+      {
+        "sourceId": "CEN-PEP-PLACE-V2025-01",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/places-01.xlsx",
+        "sha256": "701bab5243506d8a2921ac154ce80c0adad2ec5a2997b9c99e8870f723e86471"
+      },
+      {
+        "sourceId": "CEN-PEP-PLACE-V2025-08",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/places-08.xlsx",
+        "sha256": "f6eb8426d8d9561a4fd690bb0e3e1a8824869194958586ef2b04e93ab4f8a236"
+      },
+      {
+        "sourceId": "CEN-PEP-PLACE-V2025-44",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/places-44.xlsx",
+        "sha256": "2988cb6c9ef81aae4b622003a233d36eec768a561697d7e74715c54c3bd11b1e"
+      },
+      {
+        "sourceId": "CEN-ATLAS-3.0.1",
+        "path": "snapshots/us-states-2026-09-05-v1/raw/states-albers-10m.json",
+        "sha256": "6e7bb086a3c791490361968a3094f377f7726c5d0c4900fec03cc42db2305a3d"
+      },
+      {
+        "sourceId": "BATCH-01-HANDOFF",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/batch-01-review.md",
+        "sha256": "7ccb8bc7be1ad1d1823324060238e9f738006ce1b2ecdfe6a456f861c349683d"
+      },
+      {
+        "sourceId": "GOOGLE-FIRST-OFFICE",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/google-history.html",
+        "sha256": "4e4bb435193bcdc72ef08a38bfbd4db03db406a8a5a02cb4a50e7df76e3cc815"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-AK",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-02.xlsx",
+        "sha256": "af35a8d584ecef77fe6d99d360abec2046050121c2bfffe1e7163e4416ba1164"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-AZ",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-04.xlsx",
+        "sha256": "67a5a9e24b1a7da32133397e9c8fe1c06cf291ed46452cc27cecd6889291c5e9"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-AR",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-05.xlsx",
+        "sha256": "352bb4e164aca33214507cb57bce5d41aa2921fa4e6ffda8b4c4a711c8a6df0b"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-CA",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-06.xlsx",
+        "sha256": "237d05133a1079469a2d6c2309eb3584bd2fe2400a1c586ce91d760d301c8f86"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-CT",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-09.xlsx",
+        "sha256": "2bbd8c3f5c0fa0b842f1dcd0f4f9fbf4cd490f63f9dafead7d8c0ee2701b298b"
+      },
+      {
+        "sourceId": "CEN-PLACES-BATCH01-DE",
+        "path": "snapshots/us-states-2026-09-05-v3/raw/SUB-IP-EST2025-POP-10.xlsx",
+        "sha256": "af90866a2d467b8ae20141406a468a9059aa9268d18a9cc22fe259fef6084637"
+      },
+      {
+        "sourceId": "ALL50:US-AL:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-01.xlsx",
+        "sha256": "701bab5243506d8a2921ac154ce80c0adad2ec5a2997b9c99e8870f723e86471"
+      },
+      {
+        "sourceId": "ALL50:US-AL:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-AL.html",
+        "sha256": "b01ef889214822011fafbd78d54275ac210a73df5fd14b2766029ee0bf5deac4"
+      },
+      {
+        "sourceId": "ALL50:US-AL:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-AL.html",
+        "sha256": "bb78db9311e2e7be52d45d419ea4e07b33e1093157ecc2bd85fd08a5f6ec5e52"
+      },
+      {
+        "sourceId": "ALL50:US-AK:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-02.xlsx",
+        "sha256": "af35a8d584ecef77fe6d99d360abec2046050121c2bfffe1e7163e4416ba1164"
+      },
+      {
+        "sourceId": "ALL50:US-AK:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-AK.html",
+        "sha256": "d889960bcd64cbb31c33b090fdab2f40838735e96969101c75c55975de4e0694"
+      },
+      {
+        "sourceId": "ALL50:US-AK:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-AK.html",
+        "sha256": "49f2b3bd2bd2ca1307020d70397cb9216c52aaa4741ca8d2450abd9028cd54f6"
+      },
+      {
+        "sourceId": "ALL50:US-AZ:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-04.xlsx",
+        "sha256": "67a5a9e24b1a7da32133397e9c8fe1c06cf291ed46452cc27cecd6889291c5e9"
+      },
+      {
+        "sourceId": "ALL50:US-AZ:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-AZ.html",
+        "sha256": "625be3ffc555919ef1c126fc8f9627240685e0a3543c6f2ce207a50b3c17073c"
+      },
+      {
+        "sourceId": "ALL50:US-AZ:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-AZ.html",
+        "sha256": "731f09bb2b705d68313cdc858832ed2f5c4fa7dcfbc459282bf34978236495b3"
+      },
+      {
+        "sourceId": "ALL50:US-AR:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-05.xlsx",
+        "sha256": "352bb4e164aca33214507cb57bce5d41aa2921fa4e6ffda8b4c4a711c8a6df0b"
+      },
+      {
+        "sourceId": "ALL50:US-AR:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-AR.html",
+        "sha256": "377933facad52d4bf25cac130105391bf06df44bc2abb3165c132e07fb7ad778"
+      },
+      {
+        "sourceId": "ALL50:US-AR:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-AR.html",
+        "sha256": "e808452a749bd7779abc5cdf209e7854b3d26a2a80709c7cb5fddc6b71891fd4"
+      },
+      {
+        "sourceId": "ALL50:US-CA:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-06.xlsx",
+        "sha256": "237d05133a1079469a2d6c2309eb3584bd2fe2400a1c586ce91d760d301c8f86"
+      },
+      {
+        "sourceId": "ALL50:US-CA:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-CA.html",
+        "sha256": "804955d46717a97ee3d80f02f86c92529e54f7fa841cbf47bf0515e4e467756b"
+      },
+      {
+        "sourceId": "ALL50:US-CA:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-CA.html",
+        "sha256": "5860aa2806b2810d510731245f45964572f5c822c56c3ec93c5c0080c59d9e61"
+      },
+      {
+        "sourceId": "ALL50:US-CO:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-08.xlsx",
+        "sha256": "f6eb8426d8d9561a4fd690bb0e3e1a8824869194958586ef2b04e93ab4f8a236"
+      },
+      {
+        "sourceId": "ALL50:US-CO:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-CO.html",
+        "sha256": "53cc390e745b709d8c2e1cb1f99d1a2437621b7dc4148f1627d42f877a62c383"
+      },
+      {
+        "sourceId": "ALL50:US-CO:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-CO.html",
+        "sha256": "6714235a68b86dcf6843c140840c061062e8bd3561b5a01cd1c4d37d6286b28d"
+      },
+      {
+        "sourceId": "ALL50:US-CT:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-09.xlsx",
+        "sha256": "2bbd8c3f5c0fa0b842f1dcd0f4f9fbf4cd490f63f9dafead7d8c0ee2701b298b"
+      },
+      {
+        "sourceId": "ALL50:US-CT:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-CT.html",
+        "sha256": "46d9bf60e796de251c80fe026f9f5783178f48117610057aa3833c3dc57bb5e1"
+      },
+      {
+        "sourceId": "ALL50:US-CT:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-CT.html",
+        "sha256": "01425b30d153c7b8f66ba537727566006b57393d168987803bea3fa4aa15d059"
+      },
+      {
+        "sourceId": "ALL50:US-DE:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-10.xlsx",
+        "sha256": "af90866a2d467b8ae20141406a468a9059aa9268d18a9cc22fe259fef6084637"
+      },
+      {
+        "sourceId": "ALL50:US-DE:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-DE.html",
+        "sha256": "f3f3ea689d56edf74db959346f7ca61d733c08773c563c2deb906442b53b1dbb"
+      },
+      {
+        "sourceId": "ALL50:US-DE:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-DE.html",
+        "sha256": "7485ed02ab6171682fb148e60393f0d873d4b5c94a588e05b30599ca4e37699b"
+      },
+      {
+        "sourceId": "ALL50:US-FL:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-12.xlsx",
+        "sha256": "0f6d03fe309d87041b8b91a4398310c18c343f5dab148e0dee9b660705da31e1"
+      },
+      {
+        "sourceId": "ALL50:US-FL:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-FL.html",
+        "sha256": "6e7c48290ed5d46032b5f804ab00769a0a178f4819bc3ac6cb9027d9ce7af785"
+      },
+      {
+        "sourceId": "ALL50:US-FL:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-FL.html",
+        "sha256": "43531b9eeccba4c1becb95dc2bf790057ad2c4226a3d06067e3f15af9bdf2ff6"
+      },
+      {
+        "sourceId": "ALL50:US-GA:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-13.xlsx",
+        "sha256": "310d8deba5cce9f36a94ccc43d4a0202a1e937161243967c1034134caed9c38d"
+      },
+      {
+        "sourceId": "ALL50:US-GA:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-GA.html",
+        "sha256": "5abb200aeacccac4609139975725d300316b4eaba256a6a22a33753907dce047"
+      },
+      {
+        "sourceId": "ALL50:US-GA:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-GA.html",
+        "sha256": "3d3ab6d890889efd3ecd2d84a852c54336684adca1a8328ac839655e3517bdb1"
+      },
+      {
+        "sourceId": "ALL50:US-HI:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-15.xlsx",
+        "sha256": "91cd240670e54e1581142db74597cda13cd1d894061aaffd640845a1c0b3b46a"
+      },
+      {
+        "sourceId": "ALL50:US-HI:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-HI.html",
+        "sha256": "235307dd65d26c3ef403191047244e69f1c9a6907cdfcba5a536c2ec709af7dc"
+      },
+      {
+        "sourceId": "ALL50:US-HI:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-HI.html",
+        "sha256": "375a670a5b806d2738c99391fe0e12366acb51c402584775dea1b7876fcafb13"
+      },
+      {
+        "sourceId": "ALL50:US-ID:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-16.xlsx",
+        "sha256": "645fb3b1ed6d25daf7068a3bfbc374e495155f289a75424ae41d65bb7812d42e"
+      },
+      {
+        "sourceId": "ALL50:US-ID:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-ID.html",
+        "sha256": "bf014bf81dd05e3a6b4c995071ea990400a5bbd63b027a2af6a452fe9f80af60"
+      },
+      {
+        "sourceId": "ALL50:US-ID:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-ID.html",
+        "sha256": "d4ea8f2c7a8a3301ec88d8f4e775d31e990033912f7dd7a1931d1b1de1548005"
+      },
+      {
+        "sourceId": "ALL50:US-IL:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-17.xlsx",
+        "sha256": "3ae5d29d266ee8f055c75c0315856911d0f719b5d30b70f0b51890b609d5e1a6"
+      },
+      {
+        "sourceId": "ALL50:US-IL:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-IL.html",
+        "sha256": "f9003ea52b5c02664555f4a94bb51192febd5338e48a652d3298a7711f7d7f6f"
+      },
+      {
+        "sourceId": "ALL50:US-IL:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-IL.html",
+        "sha256": "07ba11aa017d32089a0d688efa41e626c6be583e6185b9f8146f7d6db1e4cfbe"
+      },
+      {
+        "sourceId": "ALL50:US-IN:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-18.xlsx",
+        "sha256": "3afd9263a126bd985e527355742574055ea3409769e22cea3d180806f693eacc"
+      },
+      {
+        "sourceId": "ALL50:US-IN:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-IN.html",
+        "sha256": "6e3517f218b7255d2db6eb4c0f0edeb3d532cc0bf8f195d13b57684d7caa530b"
+      },
+      {
+        "sourceId": "ALL50:US-IN:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-IN.html",
+        "sha256": "30fcb92e60e34cdeefc32b58e41e4bc633ffb995dfe7386562b3aba16f2219b9"
+      },
+      {
+        "sourceId": "ALL50:US-IA:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-19.xlsx",
+        "sha256": "3ee976c87e94e163ac87e0989941c0f7280e4187b2010fb0ce1b82562b06fc20"
+      },
+      {
+        "sourceId": "ALL50:US-IA:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-IA.html",
+        "sha256": "10f428de85960f36b2f1b6a61401fbfc6ab6c84ff81bc00fe5f4e7879553a551"
+      },
+      {
+        "sourceId": "ALL50:US-IA:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-IA.html",
+        "sha256": "6af3994539b6b2f015ad6475e9a5184b330050be62c550150f0e470aef2f6a7b"
+      },
+      {
+        "sourceId": "ALL50:US-KS:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-20.xlsx",
+        "sha256": "5919e01b8acc2f95319a3b4ebf6a5cded1a10f4b157c7425908b1c763458a238"
+      },
+      {
+        "sourceId": "ALL50:US-KS:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-KS.html",
+        "sha256": "e082498e42eec4ffcc22728b1400ba6c16f9f3356f93108bbb16b8619bc0268e"
+      },
+      {
+        "sourceId": "ALL50:US-KS:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-KS.html",
+        "sha256": "38c8f49e00b5e7214c78fb13b29d7b7d9a0b78bc50c0b4c1c2d21db7f0a2c4a8"
+      },
+      {
+        "sourceId": "ALL50:US-KY:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-21.xlsx",
+        "sha256": "962a4af3984131e56fc4cb073cef7fddc58615c14f5ce3ac86e4c99e3b87e0bd"
+      },
+      {
+        "sourceId": "ALL50:US-KY:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-KY.html",
+        "sha256": "fc1f0fe0a00dcdb9dffbb9bd60c529dad70761f4b329fa7af5086fea1b7789cc"
+      },
+      {
+        "sourceId": "ALL50:US-KY:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-KY.html",
+        "sha256": "004ecf068998050a773ace9d592a22f5fd8860fc57106c7b4bc4f5dac9626c51"
+      },
+      {
+        "sourceId": "ALL50:US-LA:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-22.xlsx",
+        "sha256": "d6b6136c44742512a4eea8bc601439737d34eccf6d1e716034bb0f04f721219e"
+      },
+      {
+        "sourceId": "ALL50:US-LA:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-LA.html",
+        "sha256": "3b4b4e4f951e1d7c6eac308c7a837f1385fdc5800f345129689ac4df1f93c0e2"
+      },
+      {
+        "sourceId": "ALL50:US-LA:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-LA.html",
+        "sha256": "9a95a6a5d003bdfdc1f77747e1e1fb643bfce4a914336ff4d329b3882a9b5786"
+      },
+      {
+        "sourceId": "ALL50:US-ME:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-23.xlsx",
+        "sha256": "87e484933d55048d583b5d363f4616c3992277a71aad1431f09056a659945a2e"
+      },
+      {
+        "sourceId": "ALL50:US-ME:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-ME.html",
+        "sha256": "ae0b4131f0caad3e48b0577879fffdbef02d69166b7553df6fdc983627067e76"
+      },
+      {
+        "sourceId": "ALL50:US-ME:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-ME.html",
+        "sha256": "2b7189a51a8b3945323adecb5ee0caaaf7151a2a6dbe88108673bfa5cd16de6c"
+      },
+      {
+        "sourceId": "ALL50:US-MD:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-24.xlsx",
+        "sha256": "2f6c36d79aa6bd968c287be3595e06c9be5bdcb3636ea6f91730c14efd3b18d8"
+      },
+      {
+        "sourceId": "ALL50:US-MD:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-MD.html",
+        "sha256": "9c0df17eb962395ccbb1ff7eedf2bcd7c23c28444851e187690e898efc33ff74"
+      },
+      {
+        "sourceId": "ALL50:US-MD:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-MD.html",
+        "sha256": "1a4cf0b0ff366e3156e3b4320f330d95dacaff0fc864bc6923db9dd81e735216"
+      },
+      {
+        "sourceId": "ALL50:US-MA:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-25.xlsx",
+        "sha256": "e46d7b4fc23aaeca66aad476a57f26c56e09b0df69e023960ce37dbc68651b45"
+      },
+      {
+        "sourceId": "ALL50:US-MA:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-MA.html",
+        "sha256": "aed04347004790550b70f1e3d38a21154824902b2a0ceaeb994f2f644e9cc06b"
+      },
+      {
+        "sourceId": "ALL50:US-MA:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-MA.html",
+        "sha256": "0c3d47efa395efbc61e6d7dfb0b9a8a1a59a2d55b7d6e1155b765d9ab3615591"
+      },
+      {
+        "sourceId": "ALL50:US-MI:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-26.xlsx",
+        "sha256": "cebf3908320a8d06fc811466a544fb4022bfb7d83703f8ef1e4972330bf77a79"
+      },
+      {
+        "sourceId": "ALL50:US-MI:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-MI.html",
+        "sha256": "55f532f16c01c3965116f38b6b5fe11d2b44886a54628a9b5114b1509a4189e0"
+      },
+      {
+        "sourceId": "ALL50:US-MI:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-MI.html",
+        "sha256": "f09132c9d2e2f273e09b41a4f2661d42a87570deb7dbc217d7bf7693672b5e84"
+      },
+      {
+        "sourceId": "ALL50:US-MN:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-27.xlsx",
+        "sha256": "8e87bedf4398f895aaa4c645afea4b9944a516597f85d9eb8ff6960a263fdc34"
+      },
+      {
+        "sourceId": "ALL50:US-MN:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-MN.html",
+        "sha256": "c7b51955919ad0d8fee98b86d515b972e74481b11928e264d8523cc27951d186"
+      },
+      {
+        "sourceId": "ALL50:US-MN:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-MN.html",
+        "sha256": "7b94da513f818baf0fe80d868b066361ef8be9aa1512a4d7ed1e9d7e95a54acf"
+      },
+      {
+        "sourceId": "ALL50:US-MS:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-28.xlsx",
+        "sha256": "a0cccb26079cf355e1c2e552b16902e598a7d17cf0e1516bfd75fe97e3a5a406"
+      },
+      {
+        "sourceId": "ALL50:US-MS:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-MS.html",
+        "sha256": "69bff473518e0233bbf015217feb5583789994df6e932cd3b30b32d986e3c8d6"
+      },
+      {
+        "sourceId": "ALL50:US-MS:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-MS.html",
+        "sha256": "718ab9234449038fe0f9bc1b6f021a2cb760759bbf81d9d8f1e6c4c5148d091a"
+      },
+      {
+        "sourceId": "ALL50:US-MO:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-29.xlsx",
+        "sha256": "85b04b74c605a791aa04733d03416065eacf52491243c7258ce4ac2514eb112d"
+      },
+      {
+        "sourceId": "ALL50:US-MO:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-MO.html",
+        "sha256": "3984dbcf96a21e7407fd90ab170de0dadb803b73b26d5463c2d19b232ea68fc3"
+      },
+      {
+        "sourceId": "ALL50:US-MO:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-MO.html",
+        "sha256": "ead92db80a905520193a9e8abe95db95ca8e62489b13500e60fb50b973bf2270"
+      },
+      {
+        "sourceId": "ALL50:US-MT:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-30.xlsx",
+        "sha256": "e38acedaf10d2f52f0bd1ec5e42986bcadd8ec0986b47c1fcb5c5851b4374f9c"
+      },
+      {
+        "sourceId": "ALL50:US-MT:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-MT.html",
+        "sha256": "725897e1e00eefca9428ae61f879be35a02d04990bb71e2c49eb242f8f3189e9"
+      },
+      {
+        "sourceId": "ALL50:US-MT:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-MT.html",
+        "sha256": "95154ce572939d4ea553a7dce1158ff1da8670684661b64193f0e8d5c59bbccd"
+      },
+      {
+        "sourceId": "ALL50:US-NE:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-31.xlsx",
+        "sha256": "dd185e5a4055e4f1e05d452c5d4aaa1484da9b6fcd664fa4de272dbec300222f"
+      },
+      {
+        "sourceId": "ALL50:US-NE:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-NE.html",
+        "sha256": "14521d714fcd02a99c6292de39cc388faeb2f04e26d36559bdda340befaaea8f"
+      },
+      {
+        "sourceId": "ALL50:US-NE:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-NE.html",
+        "sha256": "23983829a80ad88f61a45cd0ba7343d5fd151cee4b16b28c87f21eff9b0a6ea6"
+      },
+      {
+        "sourceId": "ALL50:US-NV:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-32.xlsx",
+        "sha256": "b5724174f53068e5d95231ea03dee13bc6baa9d01a2678d14a610a8df7ccc7de"
+      },
+      {
+        "sourceId": "ALL50:US-NV:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-NV.html",
+        "sha256": "d5f0e52550c689511cdb902cc6e1d595decaf3a01d73e2a2e38ce12a9a43e2cd"
+      },
+      {
+        "sourceId": "ALL50:US-NV:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-NV.html",
+        "sha256": "80dc4960f3bbc916a0ea63b094b6781f08407aa8b340917e75ae7d5746e9a17e"
+      },
+      {
+        "sourceId": "ALL50:US-NH:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-33.xlsx",
+        "sha256": "4e322546bc28c8beca6a92caa8f805712cfd32297584a48318746231c19c8fc4"
+      },
+      {
+        "sourceId": "ALL50:US-NH:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-NH.html",
+        "sha256": "742dd55a32076e572e02f0fb7405e8822bd5dc12992b6bb01e725c297705e91e"
+      },
+      {
+        "sourceId": "ALL50:US-NH:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-NH.html",
+        "sha256": "9609189be945abbdbcbbbf4ba643087863c66721c7ebbf58847199026c27aa85"
+      },
+      {
+        "sourceId": "ALL50:US-NJ:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-34.xlsx",
+        "sha256": "fc260bea3f2e22137c6f11d7e62b26d383db5e58ae2f8a9da90d8f0d25d468d8"
+      },
+      {
+        "sourceId": "ALL50:US-NJ:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-NJ.html",
+        "sha256": "f6616ed62690d988e5de866a11bc807509111058395621c36273500582017dd0"
+      },
+      {
+        "sourceId": "ALL50:US-NJ:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-NJ.html",
+        "sha256": "dd1e45edb36a3dcc7885b11a661fc20f017b88c3acfbc2529168df57ad13fbc1"
+      },
+      {
+        "sourceId": "ALL50:US-NM:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-35.xlsx",
+        "sha256": "65976044a26c48cc595567a4a6400fabad5ace690e8a7d8ec5a1cb56b0c32f8c"
+      },
+      {
+        "sourceId": "ALL50:US-NM:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-NM.html",
+        "sha256": "c6fac2aae7b0ae766fed10d46e8ff26f11f83fafab4e04f995d0a90b1669a794"
+      },
+      {
+        "sourceId": "ALL50:US-NM:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-NM.html",
+        "sha256": "cef4f0d98c0c1bb5fa49f9d13fd65461dd9a6bf0f1d2dda994462fe56a76c722"
+      },
+      {
+        "sourceId": "ALL50:US-NY:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-36.xlsx",
+        "sha256": "9c6b12add2b810c76fb8fb6a0f437216011029907a50cdcd31b0ac3c1b308547"
+      },
+      {
+        "sourceId": "ALL50:US-NY:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-NY.html",
+        "sha256": "f3a93db2a7e9af0f7d393b541af53553f230b2004ec4bbf4392951224b2f975a"
+      },
+      {
+        "sourceId": "ALL50:US-NY:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-NY.html",
+        "sha256": "37e2727c8b9b9f0f9ea7d829da81885f2fb1ac827d6b949b9e225e2c913aab3f"
+      },
+      {
+        "sourceId": "ALL50:US-NC:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-37.xlsx",
+        "sha256": "cfee1b1db1387c41a1d62a537fa705e27ff0c3a229fe425f28fde9415b6ebebb"
+      },
+      {
+        "sourceId": "ALL50:US-NC:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-NC.html",
+        "sha256": "c88304ace5f810b3083206274e3db9b48c1b3dc28844ab735447d9f81c3f153d"
+      },
+      {
+        "sourceId": "ALL50:US-NC:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-NC.html",
+        "sha256": "2a44543fbc10c64b87dd2c7d0f6051cdd21c61fd2bf8255f7debefdde0664e0c"
+      },
+      {
+        "sourceId": "ALL50:US-ND:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-38.xlsx",
+        "sha256": "c462fb38d2d3f2d2efb96cb3e1f857e068d762ee9aca2b8b81f7888359b2c914"
+      },
+      {
+        "sourceId": "ALL50:US-ND:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-ND.html",
+        "sha256": "3d14707cc507904486b28e23fffb856e9a4f93b3d6803dc28c4e321573c0b966"
+      },
+      {
+        "sourceId": "ALL50:US-ND:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-ND.html",
+        "sha256": "67bc15553da6e2c1d5824663093786dc73989a6fa4c52dd0a15ffc398d1751ef"
+      },
+      {
+        "sourceId": "ALL50:US-OH:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-39.xlsx",
+        "sha256": "3c0051b3305e39ce523f21c02ee0fffcdee7cab06d71222a0a2daf785389d827"
+      },
+      {
+        "sourceId": "ALL50:US-OH:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-OH.html",
+        "sha256": "c958aac373a083df9097fa8c04c1d6d25ccc62a8a7278416c70bb07656bcf6fd"
+      },
+      {
+        "sourceId": "ALL50:US-OH:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-OH.html",
+        "sha256": "fd8dde51d81b1094d7df38b0e4b69b871071f757a89715cb7ec2684f0fb6e936"
+      },
+      {
+        "sourceId": "ALL50:US-OK:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-40.xlsx",
+        "sha256": "57053fa3edc1e98bb818d67fe1d348db69057836508b04ba432d84cb545e3e3b"
+      },
+      {
+        "sourceId": "ALL50:US-OK:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-OK.html",
+        "sha256": "1184619923a1b8a4b62c797e5dddc5a81463e2e2b93ea5ea0ba53e5dc46291a6"
+      },
+      {
+        "sourceId": "ALL50:US-OK:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-OK.html",
+        "sha256": "7229ed0dacb0a7b59ece28d27ccc1b65190e159ad8947624358b7466cdc2bb6d"
+      },
+      {
+        "sourceId": "ALL50:US-OR:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-41.xlsx",
+        "sha256": "51250d2dd737ab5b08cbdaf5e5b4d6488563d7fe362c4d8827f20a525ba6338b"
+      },
+      {
+        "sourceId": "ALL50:US-OR:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-OR.html",
+        "sha256": "aa37f3b26b286c05f8c4a4091fb10a92b86d2b1ae68038073d121aee6007daf9"
+      },
+      {
+        "sourceId": "ALL50:US-OR:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-OR.html",
+        "sha256": "e8931d6bf1360d3d8fde55034f726d787584f573f2d57dcec65c03ce4713bf2c"
+      },
+      {
+        "sourceId": "ALL50:US-PA:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-42.xlsx",
+        "sha256": "a3d4cc6c7cdb7d5ff7d2de06b58c2344f8819d80b55b4bd0b09e1a86e425ae2d"
+      },
+      {
+        "sourceId": "ALL50:US-PA:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-PA.html",
+        "sha256": "b2fa34c437c8272d86c7c2d67df5ea9408cfe8648e51a2c41a7d9d46c505ce54"
+      },
+      {
+        "sourceId": "ALL50:US-PA:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-PA.html",
+        "sha256": "883dfaf760f78ff72712c29c75485b6469f79ff025faf452da898b058f150c92"
+      },
+      {
+        "sourceId": "ALL50:US-RI:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/SUB-IP-EST2025-POP-44.xlsx",
+        "sha256": "2988cb6c9ef81aae4b622003a233d36eec768a561697d7e74715c54c3bd11b1e"
+      },
+      {
+        "sourceId": "ALL50:US-RI:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/census-guide-RI.html",
+        "sha256": "70bf2169e6ada6963818afb39af6e7f7c3828bcf5091db00422465546ae11b93"
+      },
+      {
+        "sourceId": "ALL50:US-RI:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/national-support/nps-state-RI.html",
+        "sha256": "019201c99f460cb68813fc5ed54cd34b10b13df8034d9bf500be0f97614d8fd8"
+      },
+      {
+        "sourceId": "ALL50:US-SC:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-45.xlsx",
+        "sha256": "2f2086e15e4eb9b8d04ecb37435fd2b623fe78b1126dd99ffb24c2c6ce2b57b7"
+      },
+      {
+        "sourceId": "ALL50:US-SC:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-SC.html",
+        "sha256": "b4f152cdecdf665ba1eef9a2eb3acff7f55f691cb15e3c50c9af24b83ad2ea97"
+      },
+      {
+        "sourceId": "ALL50:US-SC:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-SC.html",
+        "sha256": "ce2140cedccc04bdd788ed00e700aa0ef47e733e19271c3d77472f392e8e8916"
+      },
+      {
+        "sourceId": "ALL50:US-SD:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-46.xlsx",
+        "sha256": "5fae517b87e3233fc9898565f03cc4f5b38d50c1c6f56878e835389393b97434"
+      },
+      {
+        "sourceId": "ALL50:US-SD:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-SD.html",
+        "sha256": "3d02eb387628433083783a8036dc97a744f4e2f757c1fa5626abb42a754fadb8"
+      },
+      {
+        "sourceId": "ALL50:US-SD:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-SD.html",
+        "sha256": "fa19d9919d23f1fc9e6a02356ed4bdc89c2a6bc781d6b2bee1c161808317c8c1"
+      },
+      {
+        "sourceId": "ALL50:US-TN:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-47.xlsx",
+        "sha256": "210b32e90ea3351034cf42356d7214dda7f03263286e49280e29211fbe451ddf"
+      },
+      {
+        "sourceId": "ALL50:US-TN:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-TN.html",
+        "sha256": "8c8d077ce5126f663463545f9894e162cef5bad58ddc6beaf9c0fe85de3bbf3a"
+      },
+      {
+        "sourceId": "ALL50:US-TN:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-TN.html",
+        "sha256": "01e66a3862a87231e5f9f82bec38d7a81183efe2d67ab69fb6c5854f1df07406"
+      },
+      {
+        "sourceId": "ALL50:US-TX:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-48.xlsx",
+        "sha256": "9b69d401d0ed8fd5de0b38c2a689c464a2b16d56dee0700a266e95800622215a"
+      },
+      {
+        "sourceId": "ALL50:US-TX:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-TX.html",
+        "sha256": "d5df8b26788560eb7a81d981dbaeb642a8cc86d159e4e51586f743d66ce0f99d"
+      },
+      {
+        "sourceId": "ALL50:US-TX:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-TX.html",
+        "sha256": "55c0c737ee37de839273bca51eac8832632184039f6f857db4ad9d67d235d2d0"
+      },
+      {
+        "sourceId": "ALL50:US-UT:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-49.xlsx",
+        "sha256": "77560951cd5839271614a3d9f0ee5d1431869e1126245305f6f2e955a200bbdc"
+      },
+      {
+        "sourceId": "ALL50:US-UT:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-UT.html",
+        "sha256": "e0cb6c702824c65950f23005fbc4742c06f81a6a385b439f447a25653d5006aa"
+      },
+      {
+        "sourceId": "ALL50:US-UT:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-UT.html",
+        "sha256": "173dde6fd3ba91bf662c78986f966b5af3c3497011c5414bc96ac87cef929c9d"
+      },
+      {
+        "sourceId": "ALL50:US-VT:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-50.xlsx",
+        "sha256": "5142812b91fa29020f6b686a618821394aa32f10984ab690c5540bc4002309d3"
+      },
+      {
+        "sourceId": "ALL50:US-VT:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-VT.html",
+        "sha256": "df7266a710e3546412dcecda6860715c5e42bc120e850cf46c72832b5d6d0d1f"
+      },
+      {
+        "sourceId": "ALL50:US-VT:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-VT.html",
+        "sha256": "e6bbf82c2ac68c9cad36f0a78d1f6af756b7c608a8c9f2208b76fd0763a76f48"
+      },
+      {
+        "sourceId": "ALL50:US-VA:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-51.xlsx",
+        "sha256": "d8eeadd9e7333d1b2a05441f5948d431edbf68a6618987534a85ae2026a06cd1"
+      },
+      {
+        "sourceId": "ALL50:US-VA:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-VA.html",
+        "sha256": "c0568ba28c949f1d93052dc0d0de9a6ea271f0fd1f292c9ee1001cf206d46b50"
+      },
+      {
+        "sourceId": "ALL50:US-VA:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-VA.html",
+        "sha256": "f2d8bb47785107d0aba157d0a029386ea2800a57a1106dfb0a204993abb2d8cc"
+      },
+      {
+        "sourceId": "ALL50:US-WA:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-53.xlsx",
+        "sha256": "02c709e3053adeed99dac426c42942560b6e2e34af1375f464af99490823582f"
+      },
+      {
+        "sourceId": "ALL50:US-WA:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-WA.html",
+        "sha256": "26db2e0bd5be5ec2466d6ed4d3bbbe572515034608d67d1058f8fb0dad91c9ba"
+      },
+      {
+        "sourceId": "ALL50:US-WA:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-WA.html",
+        "sha256": "8243d82efc1cb4017f43666f1aae6e78810e77c649cacbdd191454ee148ba8d1"
+      },
+      {
+        "sourceId": "ALL50:US-WV:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-54.xlsx",
+        "sha256": "32385acc9018439a58c0e72ae0d703e96aaf2889a1ea09b1bb87ae1324a53177"
+      },
+      {
+        "sourceId": "ALL50:US-WV:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-WV.html",
+        "sha256": "1d53535b87024c0e87846f4c360b9d7a715ab22219dad7b6c1dcc044e04b1b11"
+      },
+      {
+        "sourceId": "ALL50:US-WV:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-WV.html",
+        "sha256": "6a7f2e7593493b440e88b17785a905140695b5bb002acf70da23ff9c35822a8a"
+      },
+      {
+        "sourceId": "ALL50:US-WI:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-55.xlsx",
+        "sha256": "576738b19574d487a641c0b0978189f1b801d6fbf01e9d65a7da853a24965ed0"
+      },
+      {
+        "sourceId": "ALL50:US-WI:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-WI.html",
+        "sha256": "fa0b448eac8428a386144e2999b44e416b765ecf8891b99f07ac0ea0c86dd329"
+      },
+      {
+        "sourceId": "ALL50:US-WI:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-WI.html",
+        "sha256": "6d084cb5a70b89a6d64ca5b83d86931ff536423146a0cf5061a48205da607838"
+      },
+      {
+        "sourceId": "ALL50:US-WY:census_incorporated_places_2025",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/SUB-IP-EST2025-POP-56.xlsx",
+        "sha256": "245c6e9cc796b772fc9b64aca3c6af82b215d2545f0540b387817e9ec2566d5b"
+      },
+      {
+        "sourceId": "ALL50:US-WY:census_state_guide",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/census-guide-WY.html",
+        "sha256": "678084dbb241b443f4f42e9609702ca04f73ad0a485e853644e521f3ca467d07"
+      },
+      {
+        "sourceId": "ALL50:US-WY:nps_state_page",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/sources/remaining-35/nps-state-WY.html",
+        "sha256": "5a3d458d76667083b5939fd895ccff4e98905812f61a3692fc03ba20f3dc66fd"
+      },
+      {
+        "sourceId": "HANDOFF:clue-ladder-remaining-35-review.json",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/clue-ladder-remaining-35-review.json",
+        "sha256": "1ad92440c2616fa33a018ef72340d29931ae19b90157cc5e9f3f18d134b90e89"
+      },
+      {
+        "sourceId": "HANDOFF:clue-ladder-remaining-35-review.md",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/clue-ladder-remaining-35-review.md",
+        "sha256": "a4ac533f54a6ebd50371a8b0693e695e8e13dc2dddf716b092f3e2d42130599f"
+      },
+      {
+        "sourceId": "HANDOFF:clue-ladder-batch-03-review.md",
+        "path": "snapshots/us-states-2026-09-06-v1/raw/clue-ladder-batch-03-review.md",
+        "sha256": "c387444156384531bf365bdc94f81e332766fb30a3e591a1b0326b2710cb243c"
+      }
+    ],
+    "contextFile": "snapshots/us-states-2026-09-06-v1/context.json"
   }
 ]

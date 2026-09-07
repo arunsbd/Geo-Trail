@@ -1,0 +1,391 @@
+[
+  {
+    "clueId": "ks.population.2_5-3m",
+    "answerStateId": "US-KS",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 2.5–3 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KS:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 2500000,
+      "maxExclusive": 3000000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-KS",
+        "US-MS"
+      ],
+      "count": 2,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "KS:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ks.area.rank-11-15",
+    "answerStateId": "US-KS",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranks 11th–15th in land area. (2010 Census)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KS:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 11,
+      "maxExclusive": 16
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-ID",
+        "US-KS",
+        "US-MN",
+        "US-NE",
+        "US-UT"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "KS:area:2010"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ks.highpoint.4000-4500",
+    "answerStateId": "US-KS",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its highest point is 4,000–4,500 feet high."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KS:physical.highest_point"
+    ],
+    "predicate": {
+      "metricId": "physical.highest_point",
+      "op": "between",
+      "minInclusive": 4000,
+      "maxExclusive": 4500
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-KS",
+        "US-KY",
+        "US-VT"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "KS:elevation"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ks.time.central-mountain",
+    "answerStateId": "US-KS",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Parts use Central Time and parts use Mountain Time. (2026 standard-time rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KS:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Central",
+        "Mountain"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-KS",
+        "US-ND",
+        "US-NE",
+        "US-SD",
+        "US-TX"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "KS:time:2026"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ks.parks.formal-0",
+    "answerStateId": "US-KS",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has no formally designated National Park. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KS:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 0
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AL",
+        "US-CT",
+        "US-DE",
+        "US-GA",
+        "US-IA",
+        "US-KS",
+        "US-LA",
+        "US-MA",
+        "US-MD",
+        "US-MS",
+        "US-NE",
+        "US-NH",
+        "US-NJ",
+        "US-NY",
+        "US-OK",
+        "US-PA",
+        "US-RI",
+        "US-VT",
+        "US-WI"
+      ],
+      "count": 19,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 5,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "KS:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ks.history.1860s",
+    "answerStateId": "US-KS",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It became a state in the 1860s."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KS:history.admission_year"
+    ],
+    "predicate": {
+      "metricId": "history.admission_year",
+      "op": "between",
+      "minInclusive": 1860,
+      "maxExclusive": 1870
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-KS",
+        "US-NE",
+        "US-NV",
+        "US-WV"
+      ],
+      "count": 4,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "KS:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ks.postal",
+    "answerStateId": "US-KS",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is KS."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KS:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "KS"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-KS"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "KS:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  }
+]

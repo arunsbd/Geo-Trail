@@ -1,0 +1,32 @@
+{
+  "puzzleId": "cl-62d5ec9551385f036eef679d",
+  "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+  "mode": "clue_ladder",
+  "answerStateId": "US-OK",
+  "orderedClueIds": [
+    "ok.parks.formal-0",
+    "ok.time.central",
+    "ok.population.3500000-4500000",
+    "ok.area.rank-16-20",
+    "ok.nps.chickasaw",
+    "ok.places.top-two-2025",
+    "ok.postal"
+  ],
+  "dataSnapshotId": "us-states-2026-09-06-v1",
+  "clueSetVersion": "short-seven-all-states-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "short-seven-all-states-v1",
+  "generatedAt": "2026-09-06T16:00:00Z",
+  "validatorVersion": "clue-ladder-1"
+}

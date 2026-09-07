@@ -1,0 +1,4753 @@
+{
+  "snapshotId": "us-states-2026-09-06-v1",
+  "summary": {
+    "states": 50,
+    "facts": 21136,
+    "approvedClues": 350,
+    "ladders": 50,
+    "errors": 0,
+    "warnings": 6
+  },
+  "decisions": [
+    {
+      "clueId": "fl.nps.everglades",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Everglades National Park for this state. (2026)"
+    },
+    {
+      "clueId": "ga.time.eastern",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "ga.nps.martin-luther-king-jr",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Martin Luther King, Jr. National Historical Park for this state. (2026)"
+    },
+    {
+      "clueId": "hi.nps.pearl-harbor",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Pearl Harbor National Memorial for this state. (2026)"
+    },
+    {
+      "clueId": "hi.places.none-incorporated",
+      "reason": "Reference/relationship wording reviewed: Census reports no incorporated places in this state. (Census, 2025)"
+    },
+    {
+      "clueId": "id.time.mountain-pacific",
+      "reason": "Reference/relationship wording reviewed: Parts use Mountain and Pacific Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "id.nps.craters-of-the-moon",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Craters Of The Moon National Monument & Preserve for this state. (2026)"
+    },
+    {
+      "clueId": "il.nps.lincoln-home",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Lincoln Home National Historic Site for this state. (2026)"
+    },
+    {
+      "clueId": "in.time.eastern-central",
+      "reason": "Reference/relationship wording reviewed: Parts use Eastern and Central Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "in.nps.indiana-dunes",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Indiana Dunes National Park for this state. (2026)"
+    },
+    {
+      "clueId": "ma.nps.minute-man",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Minute Man National Historical Park for this state. (2026)"
+    },
+    {
+      "clueId": "mi.nps.isle-royale",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Isle Royale National Park for this state. (2026)"
+    },
+    {
+      "clueId": "mn.time.central",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Central Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "mn.nps.voyageurs",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Voyageurs National Park for this state. (2026)"
+    },
+    {
+      "clueId": "ms.time.central",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Central Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "ms.nps.vicksburg",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Vicksburg National Military Park for this state. (2026)"
+    },
+    {
+      "clueId": "mo.time.central",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Central Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "mo.nps.ozark",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Ozark National Scenic Riverways for this state. (2026)"
+    },
+    {
+      "clueId": "mt.time.mountain",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Mountain Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "mt.nps.glacier",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Glacier National Park for this state. (2026)"
+    },
+    {
+      "clueId": "ne.time.central-mountain",
+      "reason": "Reference/relationship wording reviewed: Parts use Central and Mountain Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "ne.nps.homestead",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Homestead National Historical Park for this state. (2026)"
+    },
+    {
+      "clueId": "nv.time.mountain-pacific",
+      "reason": "Reference/relationship wording reviewed: Parts use Mountain and Pacific Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "nv.nps.lake-mead",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Lake Mead National Recreation Area for this state. (2026)"
+    },
+    {
+      "clueId": "nh.time.eastern",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "nh.nps.saint-gaudens",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Saint-Gaudens National Historical Park for this state. (2026)"
+    },
+    {
+      "clueId": "nj.time.eastern",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "nj.nps.thomas-edison",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Thomas Edison National Historical Park for this state. (2026)"
+    },
+    {
+      "clueId": "nm.time.mountain",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Mountain Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "nm.nps.carlsbad-caverns",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Carlsbad Caverns National Park for this state. (2026)"
+    },
+    {
+      "clueId": "ny.time.eastern",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "ny.nps.statue-of-liberty",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Statue Of Liberty National Monument for this state. (2026)"
+    },
+    {
+      "clueId": "nc.time.eastern",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "nc.nps.wright-brothers",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Wright Brothers National Memorial for this state. (2026)"
+    },
+    {
+      "clueId": "nd.time.central-mountain",
+      "reason": "Reference/relationship wording reviewed: Parts use Central and Mountain Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "nd.nps.theodore-roosevelt",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Theodore Roosevelt National Park for this state. (2026)"
+    },
+    {
+      "clueId": "oh.time.eastern",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "oh.nps.cuyahoga-valley",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Cuyahoga Valley National Park for this state. (2026)"
+    },
+    {
+      "clueId": "ok.time.central",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Central Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "ok.nps.chickasaw",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Chickasaw National Recreation Area for this state. (2026)"
+    },
+    {
+      "clueId": "or.time.mountain-pacific",
+      "reason": "Reference/relationship wording reviewed: Parts use Mountain and Pacific Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "or.nps.crater-lake",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Crater Lake National Park for this state. (2026)"
+    },
+    {
+      "clueId": "pa.time.eastern",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "pa.nps.independence",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Independence National Historical Park for this state. (2026)"
+    },
+    {
+      "clueId": "sc.time.eastern",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "sc.nps.congaree",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Congaree National Park for this state. (2026)"
+    },
+    {
+      "clueId": "sd.time.central-mountain",
+      "reason": "Reference/relationship wording reviewed: Parts use Central and Mountain Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "sd.nps.mount-rushmore",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Mount Rushmore National Memorial for this state. (2026)"
+    },
+    {
+      "clueId": "tn.time.eastern-central",
+      "reason": "Reference/relationship wording reviewed: Parts use Eastern and Central Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "tn.nps.great-smoky-mountains",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Great Smoky Mountains National Park for this state. (2026)"
+    },
+    {
+      "clueId": "tx.time.central-mountain",
+      "reason": "Reference/relationship wording reviewed: Parts use Central and Mountain Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "tx.nps.big-bend",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Big Bend National Park for this state. (2026)"
+    },
+    {
+      "clueId": "ut.time.mountain",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Mountain Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "ut.nps.arches",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Arches National Park for this state. (2026)"
+    },
+    {
+      "clueId": "vt.time.eastern",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "vt.nps.marsh-billings-rockefeller",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Marsh - Billings - Rockefeller National Historical Park for this state. (2026)"
+    },
+    {
+      "clueId": "va.time.eastern",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "va.nps.shenandoah",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Shenandoah National Park for this state. (2026)"
+    },
+    {
+      "clueId": "wa.nps.mount-rainier",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Mount Rainier National Park for this state. (2026)"
+    },
+    {
+      "clueId": "wv.time.eastern",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "wv.nps.new-river-gorge",
+      "reason": "Reference/relationship wording reviewed: The NPS lists New River Gorge National Park & Preserve for this state. (2026)"
+    },
+    {
+      "clueId": "wi.time.central",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Central Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "wi.nps.apostle-islands",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Apostle Islands National Lakeshore for this state. (2026)"
+    },
+    {
+      "clueId": "wy.time.mountain",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Mountain Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "wy.nps.yellowstone",
+      "reason": "Reference/relationship wording reviewed: The NPS lists Yellowstone National Park for this state. (2026)"
+    },
+    {
+      "clueId": "ia.population.3-3_5m",
+      "reason": "Research sample/window conflict explicitly resolved at rung 5 for seven-round local edition."
+    },
+    {
+      "clueId": "ia.highpoint.1500-2000",
+      "reason": "Research sample/window conflict explicitly resolved at rung 6 for seven-round local edition."
+    },
+    {
+      "clueId": "ia.time.central-all",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Central Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "ks.highpoint.4000-4500",
+      "reason": "Research sample/window conflict explicitly resolved at rung 6 for seven-round local edition."
+    },
+    {
+      "clueId": "ks.time.central-mountain",
+      "reason": "Reference/relationship wording reviewed: Parts use Central Time and parts use Mountain Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "ky.highpoint.4000-4500",
+      "reason": "Research sample/window conflict explicitly resolved at rung 6 for seven-round local edition."
+    },
+    {
+      "clueId": "ky.time.eastern-central",
+      "reason": "Reference/relationship wording reviewed: Parts use Eastern Time and parts use Central Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "la.highpoint.under-1000",
+      "reason": "Research sample/window conflict explicitly resolved at rung 6 for seven-round local edition."
+    },
+    {
+      "clueId": "la.time.central-all",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Central Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "me.time.eastern-all",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "me.parks.acadia",
+      "reason": "Reference/relationship wording reviewed: Acadia National Park is here. (2026 standard-time rules)"
+    },
+    {
+      "clueId": "md.highpoint.3000-3500",
+      "reason": "Research sample/window conflict explicitly resolved at rung 6 for seven-round local edition."
+    },
+    {
+      "clueId": "md.time.eastern-all",
+      "reason": "Reference/relationship wording reviewed: The whole state uses Eastern Time. (2026 standard-time rules)"
+    }
+  ],
+  "reviewedCandidateSets": {
+    "fl.area.rank-26-30": [
+      "US-AL",
+      "US-AR",
+      "US-FL",
+      "US-NC",
+      "US-NY"
+    ],
+    "fl.history.order-21-30": [
+      "US-AL",
+      "US-AR",
+      "US-FL",
+      "US-IA",
+      "US-IL",
+      "US-ME",
+      "US-MI",
+      "US-MO",
+      "US-TX",
+      "US-WI"
+    ],
+    "fl.population.20000000-35000000": [
+      "US-FL",
+      "US-NY",
+      "US-TX"
+    ],
+    "fl.highpoint.0-1000": [
+      "US-DE",
+      "US-FL",
+      "US-LA",
+      "US-MS",
+      "US-RI"
+    ],
+    "fl.nps.everglades": [
+      "US-FL"
+    ],
+    "fl.places.top-two-2025": [
+      "US-FL"
+    ],
+    "fl.postal": [
+      "US-FL"
+    ],
+    "ga.time.eastern": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "ga.history.1780s": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-PA",
+      "US-SC",
+      "US-VA"
+    ],
+    "ga.population.9000000-12000000": [
+      "US-GA",
+      "US-MI",
+      "US-NC",
+      "US-NJ",
+      "US-OH"
+    ],
+    "ga.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "ga.nps.martin-luther-king-jr": [
+      "US-GA"
+    ],
+    "ga.places.top-two-2025": [
+      "US-GA"
+    ],
+    "ga.postal": [
+      "US-GA"
+    ],
+    "hi.parks.formal-2": [
+      "US-HI",
+      "US-MT",
+      "US-NM",
+      "US-NV",
+      "US-SD",
+      "US-TX",
+      "US-WY"
+    ],
+    "hi.history.order-41-50": [
+      "US-AK",
+      "US-AZ",
+      "US-HI",
+      "US-ID",
+      "US-MT",
+      "US-NM",
+      "US-OK",
+      "US-UT",
+      "US-WA",
+      "US-WY"
+    ],
+    "hi.population.1000000-1500000": [
+      "US-DE",
+      "US-HI",
+      "US-ME",
+      "US-MT",
+      "US-NH",
+      "US-RI"
+    ],
+    "hi.area.rank-46-50": [
+      "US-CT",
+      "US-DE",
+      "US-HI",
+      "US-NJ",
+      "US-RI"
+    ],
+    "hi.nps.pearl-harbor": [
+      "US-HI"
+    ],
+    "hi.places.none-incorporated": [
+      "US-HI"
+    ],
+    "hi.postal": [
+      "US-HI"
+    ],
+    "id.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "id.highpoint.11000-13000": [
+      "US-AZ",
+      "US-ID",
+      "US-MT",
+      "US-OR"
+    ],
+    "id.time.mountain-pacific": [
+      "US-ID",
+      "US-NV",
+      "US-OR"
+    ],
+    "id.population.1500000-2500000": [
+      "US-ID",
+      "US-NE",
+      "US-NM",
+      "US-WV"
+    ],
+    "id.nps.craters-of-the-moon": [
+      "US-ID"
+    ],
+    "id.places.top-two-2025": [
+      "US-ID"
+    ],
+    "id.postal": [
+      "US-ID"
+    ],
+    "il.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "il.history.order-21-30": [
+      "US-AL",
+      "US-AR",
+      "US-FL",
+      "US-IA",
+      "US-IL",
+      "US-ME",
+      "US-MI",
+      "US-MO",
+      "US-TX",
+      "US-WI"
+    ],
+    "il.population.10000000-13000000": [
+      "US-GA",
+      "US-IL",
+      "US-MI",
+      "US-NC",
+      "US-OH"
+    ],
+    "il.area.rank-21-25": [
+      "US-GA",
+      "US-IA",
+      "US-IL",
+      "US-MI",
+      "US-WI"
+    ],
+    "il.nps.lincoln-home": [
+      "US-IL"
+    ],
+    "il.places.top-two-2025": [
+      "US-IL"
+    ],
+    "il.postal": [
+      "US-IL"
+    ],
+    "in.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "in.history.order-11-20": [
+      "US-IN",
+      "US-KY",
+      "US-LA",
+      "US-MS",
+      "US-NC",
+      "US-NY",
+      "US-OH",
+      "US-RI",
+      "US-TN",
+      "US-VT"
+    ],
+    "in.time.eastern-central": [
+      "US-FL",
+      "US-IN",
+      "US-KY",
+      "US-MI",
+      "US-TN"
+    ],
+    "in.population.6000000-8000000": [
+      "US-AZ",
+      "US-CO",
+      "US-IN",
+      "US-MA",
+      "US-MD",
+      "US-MO",
+      "US-TN"
+    ],
+    "in.nps.indiana-dunes": [
+      "US-IN"
+    ],
+    "in.places.top-two-2025": [
+      "US-IN"
+    ],
+    "in.postal": [
+      "US-IN"
+    ],
+    "ma.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "ma.history.order-1-10": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-NH",
+      "US-NJ",
+      "US-PA",
+      "US-SC",
+      "US-VA"
+    ],
+    "ma.area.rank-41-45": [
+      "US-MA",
+      "US-MD",
+      "US-NH",
+      "US-VT",
+      "US-WV"
+    ],
+    "ma.highpoint.2500-3500": [
+      "US-AR",
+      "US-MA",
+      "US-MD",
+      "US-PA"
+    ],
+    "ma.nps.minute-man": [
+      "US-MA"
+    ],
+    "ma.places.top-two-2025": [
+      "US-MA"
+    ],
+    "ma.postal": [
+      "US-MA"
+    ],
+    "mi.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "mi.history.order-21-30": [
+      "US-AL",
+      "US-AR",
+      "US-FL",
+      "US-IA",
+      "US-IL",
+      "US-ME",
+      "US-MI",
+      "US-MO",
+      "US-TX",
+      "US-WI"
+    ],
+    "mi.area.rank-21-25": [
+      "US-GA",
+      "US-IA",
+      "US-IL",
+      "US-MI",
+      "US-WI"
+    ],
+    "mi.population.9000000-12000000": [
+      "US-GA",
+      "US-MI",
+      "US-NC",
+      "US-NJ",
+      "US-OH"
+    ],
+    "mi.nps.isle-royale": [
+      "US-MI"
+    ],
+    "mi.places.top-two-2025": [
+      "US-MI"
+    ],
+    "mi.postal": [
+      "US-MI"
+    ],
+    "mn.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "mn.time.central": [
+      "US-AL",
+      "US-AR",
+      "US-IA",
+      "US-IL",
+      "US-LA",
+      "US-MN",
+      "US-MO",
+      "US-MS",
+      "US-OK",
+      "US-WI"
+    ],
+    "mn.highpoint.2000-3000": [
+      "US-AL",
+      "US-AR",
+      "US-CT",
+      "US-MN"
+    ],
+    "mn.population.5000000-6000000": [
+      "US-AL",
+      "US-MN",
+      "US-SC",
+      "US-WI"
+    ],
+    "mn.nps.voyageurs": [
+      "US-MN"
+    ],
+    "mn.places.top-two-2025": [
+      "US-MN"
+    ],
+    "mn.postal": [
+      "US-MN"
+    ],
+    "ms.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "ms.time.central": [
+      "US-AL",
+      "US-AR",
+      "US-IA",
+      "US-IL",
+      "US-LA",
+      "US-MN",
+      "US-MO",
+      "US-MS",
+      "US-OK",
+      "US-WI"
+    ],
+    "ms.history.1810s": [
+      "US-AL",
+      "US-IL",
+      "US-IN",
+      "US-LA",
+      "US-MS"
+    ],
+    "ms.area.rank-31-35": [
+      "US-LA",
+      "US-MS",
+      "US-OH",
+      "US-PA",
+      "US-TN"
+    ],
+    "ms.nps.vicksburg": [
+      "US-LA",
+      "US-MS"
+    ],
+    "ms.places.top-two-2025": [
+      "US-MS"
+    ],
+    "ms.postal": [
+      "US-MS"
+    ],
+    "mo.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "mo.history.order-21-30": [
+      "US-AL",
+      "US-AR",
+      "US-FL",
+      "US-IA",
+      "US-IL",
+      "US-ME",
+      "US-MI",
+      "US-MO",
+      "US-TX",
+      "US-WI"
+    ],
+    "mo.time.central": [
+      "US-AL",
+      "US-AR",
+      "US-IA",
+      "US-IL",
+      "US-LA",
+      "US-MN",
+      "US-MO",
+      "US-MS",
+      "US-OK",
+      "US-WI"
+    ],
+    "mo.population.6000000-8000000": [
+      "US-AZ",
+      "US-CO",
+      "US-IN",
+      "US-MA",
+      "US-MD",
+      "US-MO",
+      "US-TN"
+    ],
+    "mo.nps.ozark": [
+      "US-MO"
+    ],
+    "mo.places.top-two-2025": [
+      "US-MO"
+    ],
+    "mo.postal": [
+      "US-MO"
+    ],
+    "mt.parks.formal-2": [
+      "US-HI",
+      "US-MT",
+      "US-NM",
+      "US-NV",
+      "US-SD",
+      "US-TX",
+      "US-WY"
+    ],
+    "mt.history.order-41-50": [
+      "US-AK",
+      "US-AZ",
+      "US-HI",
+      "US-ID",
+      "US-MT",
+      "US-NM",
+      "US-OK",
+      "US-UT",
+      "US-WA",
+      "US-WY"
+    ],
+    "mt.time.mountain": [
+      "US-AZ",
+      "US-CO",
+      "US-MT",
+      "US-NM",
+      "US-UT",
+      "US-WY"
+    ],
+    "mt.area.rank-1-5": [
+      "US-AK",
+      "US-CA",
+      "US-MT",
+      "US-NM",
+      "US-TX"
+    ],
+    "mt.nps.glacier": [
+      "US-MT"
+    ],
+    "mt.places.top-two-2025": [
+      "US-MT"
+    ],
+    "mt.postal": [
+      "US-MT"
+    ],
+    "ne.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "ne.area.rank-11-15": [
+      "US-ID",
+      "US-KS",
+      "US-MN",
+      "US-NE",
+      "US-UT"
+    ],
+    "ne.time.central-mountain": [
+      "US-KS",
+      "US-ND",
+      "US-NE",
+      "US-SD",
+      "US-TX"
+    ],
+    "ne.history.1860s": [
+      "US-KS",
+      "US-NE",
+      "US-NV",
+      "US-WV"
+    ],
+    "ne.nps.homestead": [
+      "US-NE"
+    ],
+    "ne.places.top-two-2025": [
+      "US-NE"
+    ],
+    "ne.postal": [
+      "US-NE"
+    ],
+    "nv.area.rank-6-10": [
+      "US-AZ",
+      "US-CO",
+      "US-NV",
+      "US-OR",
+      "US-WY"
+    ],
+    "nv.history.order-31-40": [
+      "US-CA",
+      "US-CO",
+      "US-KS",
+      "US-MN",
+      "US-ND",
+      "US-NE",
+      "US-NV",
+      "US-OR",
+      "US-SD",
+      "US-WV"
+    ],
+    "nv.time.mountain-pacific": [
+      "US-ID",
+      "US-NV",
+      "US-OR"
+    ],
+    "nv.population.2500000-3500000": [
+      "US-AR",
+      "US-IA",
+      "US-KS",
+      "US-MS",
+      "US-NV"
+    ],
+    "nv.nps.lake-mead": [
+      "US-AZ",
+      "US-NV"
+    ],
+    "nv.places.top-two-2025": [
+      "US-NV"
+    ],
+    "nv.postal": [
+      "US-NV"
+    ],
+    "nh.time.eastern": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "nh.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "nh.population.1000000-1500000": [
+      "US-DE",
+      "US-HI",
+      "US-ME",
+      "US-MT",
+      "US-NH",
+      "US-RI"
+    ],
+    "nh.history.1780s": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-PA",
+      "US-SC",
+      "US-VA"
+    ],
+    "nh.nps.saint-gaudens": [
+      "US-NH"
+    ],
+    "nh.places.top-two-2025": [
+      "US-NH"
+    ],
+    "nh.postal": [
+      "US-NH"
+    ],
+    "nj.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "nj.history.order-1-10": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-NH",
+      "US-NJ",
+      "US-PA",
+      "US-SC",
+      "US-VA"
+    ],
+    "nj.area.rank-46-50": [
+      "US-CT",
+      "US-DE",
+      "US-HI",
+      "US-NJ",
+      "US-RI"
+    ],
+    "nj.time.eastern": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "nj.nps.thomas-edison": [
+      "US-NJ"
+    ],
+    "nj.places.top-two-2025": [
+      "US-NJ"
+    ],
+    "nj.postal": [
+      "US-NJ"
+    ],
+    "nm.parks.formal-2": [
+      "US-HI",
+      "US-MT",
+      "US-NM",
+      "US-NV",
+      "US-SD",
+      "US-TX",
+      "US-WY"
+    ],
+    "nm.history.order-41-50": [
+      "US-AK",
+      "US-AZ",
+      "US-HI",
+      "US-ID",
+      "US-MT",
+      "US-NM",
+      "US-OK",
+      "US-UT",
+      "US-WA",
+      "US-WY"
+    ],
+    "nm.time.mountain": [
+      "US-AZ",
+      "US-CO",
+      "US-MT",
+      "US-NM",
+      "US-UT",
+      "US-WY"
+    ],
+    "nm.area.rank-1-5": [
+      "US-AK",
+      "US-CA",
+      "US-MT",
+      "US-NM",
+      "US-TX"
+    ],
+    "nm.nps.carlsbad-caverns": [
+      "US-NM"
+    ],
+    "nm.places.top-two-2025": [
+      "US-NM"
+    ],
+    "nm.postal": [
+      "US-NM"
+    ],
+    "ny.time.eastern": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "ny.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "ny.history.order-11-20": [
+      "US-IN",
+      "US-KY",
+      "US-LA",
+      "US-MS",
+      "US-NC",
+      "US-NY",
+      "US-OH",
+      "US-RI",
+      "US-TN",
+      "US-VT"
+    ],
+    "ny.population.20000000-35000000": [
+      "US-FL",
+      "US-NY",
+      "US-TX"
+    ],
+    "ny.nps.statue-of-liberty": [
+      "US-NY"
+    ],
+    "ny.places.top-two-2025": [
+      "US-NY"
+    ],
+    "ny.postal": [
+      "US-NY"
+    ],
+    "nc.time.eastern": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "nc.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "nc.population.9000000-12000000": [
+      "US-GA",
+      "US-MI",
+      "US-NC",
+      "US-NJ",
+      "US-OH"
+    ],
+    "nc.history.order-11-20": [
+      "US-IN",
+      "US-KY",
+      "US-LA",
+      "US-MS",
+      "US-NC",
+      "US-NY",
+      "US-OH",
+      "US-RI",
+      "US-TN",
+      "US-VT"
+    ],
+    "nc.nps.wright-brothers": [
+      "US-NC"
+    ],
+    "nc.places.top-two-2025": [
+      "US-NC"
+    ],
+    "nc.postal": [
+      "US-NC"
+    ],
+    "nd.time.central-mountain": [
+      "US-KS",
+      "US-ND",
+      "US-NE",
+      "US-SD",
+      "US-TX"
+    ],
+    "nd.history.order-31-40": [
+      "US-CA",
+      "US-CO",
+      "US-KS",
+      "US-MN",
+      "US-ND",
+      "US-NE",
+      "US-NV",
+      "US-OR",
+      "US-SD",
+      "US-WV"
+    ],
+    "nd.population.500000-1000000": [
+      "US-AK",
+      "US-ND",
+      "US-SD",
+      "US-VT",
+      "US-WY"
+    ],
+    "nd.area.rank-16-20": [
+      "US-MO",
+      "US-ND",
+      "US-OK",
+      "US-SD",
+      "US-WA"
+    ],
+    "nd.nps.theodore-roosevelt": [
+      "US-ND"
+    ],
+    "nd.places.top-two-2025": [
+      "US-ND"
+    ],
+    "nd.postal": [
+      "US-ND"
+    ],
+    "oh.time.eastern": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "oh.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "oh.population.9000000-12000000": [
+      "US-GA",
+      "US-MI",
+      "US-NC",
+      "US-NJ",
+      "US-OH"
+    ],
+    "oh.history.order-11-20": [
+      "US-IN",
+      "US-KY",
+      "US-LA",
+      "US-MS",
+      "US-NC",
+      "US-NY",
+      "US-OH",
+      "US-RI",
+      "US-TN",
+      "US-VT"
+    ],
+    "oh.nps.cuyahoga-valley": [
+      "US-OH"
+    ],
+    "oh.places.top-two-2025": [
+      "US-OH"
+    ],
+    "oh.postal": [
+      "US-OH"
+    ],
+    "ok.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "ok.time.central": [
+      "US-AL",
+      "US-AR",
+      "US-IA",
+      "US-IL",
+      "US-LA",
+      "US-MN",
+      "US-MO",
+      "US-MS",
+      "US-OK",
+      "US-WI"
+    ],
+    "ok.population.3500000-4500000": [
+      "US-CT",
+      "US-OK",
+      "US-OR",
+      "US-UT"
+    ],
+    "ok.area.rank-16-20": [
+      "US-MO",
+      "US-ND",
+      "US-OK",
+      "US-SD",
+      "US-WA"
+    ],
+    "ok.nps.chickasaw": [
+      "US-OK"
+    ],
+    "ok.places.top-two-2025": [
+      "US-OK"
+    ],
+    "ok.postal": [
+      "US-OK"
+    ],
+    "or.area.rank-6-10": [
+      "US-AZ",
+      "US-CO",
+      "US-NV",
+      "US-OR",
+      "US-WY"
+    ],
+    "or.history.order-31-40": [
+      "US-CA",
+      "US-CO",
+      "US-KS",
+      "US-MN",
+      "US-ND",
+      "US-NE",
+      "US-NV",
+      "US-OR",
+      "US-SD",
+      "US-WV"
+    ],
+    "or.time.mountain-pacific": [
+      "US-ID",
+      "US-NV",
+      "US-OR"
+    ],
+    "or.population.3500000-4500000": [
+      "US-CT",
+      "US-OK",
+      "US-OR",
+      "US-UT"
+    ],
+    "or.nps.crater-lake": [
+      "US-OR"
+    ],
+    "or.places.top-two-2025": [
+      "US-OR"
+    ],
+    "or.postal": [
+      "US-OR"
+    ],
+    "pa.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "pa.history.order-1-10": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-NH",
+      "US-NJ",
+      "US-PA",
+      "US-SC",
+      "US-VA"
+    ],
+    "pa.highpoint.2500-3500": [
+      "US-AR",
+      "US-MA",
+      "US-MD",
+      "US-PA"
+    ],
+    "pa.time.eastern": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "pa.nps.independence": [
+      "US-PA"
+    ],
+    "pa.places.top-two-2025": [
+      "US-PA"
+    ],
+    "pa.postal": [
+      "US-PA"
+    ],
+    "sc.time.eastern": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "sc.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "sc.area.rank-36-40": [
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-SC",
+      "US-VA"
+    ],
+    "sc.history.1780s": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-PA",
+      "US-SC",
+      "US-VA"
+    ],
+    "sc.nps.congaree": [
+      "US-SC"
+    ],
+    "sc.places.top-two-2025": [
+      "US-SC"
+    ],
+    "sc.postal": [
+      "US-SC"
+    ],
+    "sd.time.central-mountain": [
+      "US-KS",
+      "US-ND",
+      "US-NE",
+      "US-SD",
+      "US-TX"
+    ],
+    "sd.history.order-31-40": [
+      "US-CA",
+      "US-CO",
+      "US-KS",
+      "US-MN",
+      "US-ND",
+      "US-NE",
+      "US-NV",
+      "US-OR",
+      "US-SD",
+      "US-WV"
+    ],
+    "sd.population.500000-1000000": [
+      "US-AK",
+      "US-ND",
+      "US-SD",
+      "US-VT",
+      "US-WY"
+    ],
+    "sd.area.rank-16-20": [
+      "US-MO",
+      "US-ND",
+      "US-OK",
+      "US-SD",
+      "US-WA"
+    ],
+    "sd.nps.mount-rushmore": [
+      "US-SD"
+    ],
+    "sd.places.top-two-2025": [
+      "US-SD"
+    ],
+    "sd.postal": [
+      "US-SD"
+    ],
+    "tn.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "tn.history.order-11-20": [
+      "US-IN",
+      "US-KY",
+      "US-LA",
+      "US-MS",
+      "US-NC",
+      "US-NY",
+      "US-OH",
+      "US-RI",
+      "US-TN",
+      "US-VT"
+    ],
+    "tn.time.eastern-central": [
+      "US-FL",
+      "US-IN",
+      "US-KY",
+      "US-MI",
+      "US-TN"
+    ],
+    "tn.population.7000000-9000000": [
+      "US-AZ",
+      "US-MA",
+      "US-TN",
+      "US-VA",
+      "US-WA"
+    ],
+    "tn.nps.great-smoky-mountains": [
+      "US-NC",
+      "US-TN"
+    ],
+    "tn.places.top-two-2025": [
+      "US-TN"
+    ],
+    "tn.postal": [
+      "US-TN"
+    ],
+    "tx.parks.formal-2": [
+      "US-HI",
+      "US-MT",
+      "US-NM",
+      "US-NV",
+      "US-SD",
+      "US-TX",
+      "US-WY"
+    ],
+    "tx.highpoint.6000-9000": [
+      "US-NC",
+      "US-NH",
+      "US-SD",
+      "US-TN",
+      "US-TX"
+    ],
+    "tx.time.central-mountain": [
+      "US-KS",
+      "US-ND",
+      "US-NE",
+      "US-SD",
+      "US-TX"
+    ],
+    "tx.population.20000000-35000000": [
+      "US-FL",
+      "US-NY",
+      "US-TX"
+    ],
+    "tx.nps.big-bend": [
+      "US-TX"
+    ],
+    "tx.places.top-two-2025": [
+      "US-TX"
+    ],
+    "tx.postal": [
+      "US-TX"
+    ],
+    "ut.time.mountain": [
+      "US-AZ",
+      "US-CO",
+      "US-MT",
+      "US-NM",
+      "US-UT",
+      "US-WY"
+    ],
+    "ut.history.order-41-50": [
+      "US-AK",
+      "US-AZ",
+      "US-HI",
+      "US-ID",
+      "US-MT",
+      "US-NM",
+      "US-OK",
+      "US-UT",
+      "US-WA",
+      "US-WY"
+    ],
+    "ut.highpoint.13500-14000": [
+      "US-HI",
+      "US-UT",
+      "US-WY"
+    ],
+    "ut.population.3500000-4500000": [
+      "US-CT",
+      "US-OK",
+      "US-OR",
+      "US-UT"
+    ],
+    "ut.nps.arches": [
+      "US-UT"
+    ],
+    "ut.places.top-two-2025": [
+      "US-UT"
+    ],
+    "ut.postal": [
+      "US-UT"
+    ],
+    "vt.time.eastern": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "vt.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "vt.area.rank-41-45": [
+      "US-MA",
+      "US-MD",
+      "US-NH",
+      "US-VT",
+      "US-WV"
+    ],
+    "vt.population.500000-1000000": [
+      "US-AK",
+      "US-ND",
+      "US-SD",
+      "US-VT",
+      "US-WY"
+    ],
+    "vt.nps.marsh-billings-rockefeller": [
+      "US-VT"
+    ],
+    "vt.places.top-two-2025": [
+      "US-VT"
+    ],
+    "vt.postal": [
+      "US-VT"
+    ],
+    "va.time.eastern": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "va.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "va.area.rank-36-40": [
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-SC",
+      "US-VA"
+    ],
+    "va.highpoint.5000-6000": [
+      "US-ME",
+      "US-NE",
+      "US-NY",
+      "US-VA"
+    ],
+    "va.nps.shenandoah": [
+      "US-VA"
+    ],
+    "va.places.top-two-2025": [
+      "US-VA"
+    ],
+    "va.postal": [
+      "US-VA"
+    ],
+    "wa.population.7000000-9000000": [
+      "US-AZ",
+      "US-MA",
+      "US-TN",
+      "US-VA",
+      "US-WA"
+    ],
+    "wa.parks.formal-3": [
+      "US-AZ",
+      "US-FL",
+      "US-WA"
+    ],
+    "wa.history.order-41-50": [
+      "US-AK",
+      "US-AZ",
+      "US-HI",
+      "US-ID",
+      "US-MT",
+      "US-NM",
+      "US-OK",
+      "US-UT",
+      "US-WA",
+      "US-WY"
+    ],
+    "wa.area.rank-16-20": [
+      "US-MO",
+      "US-ND",
+      "US-OK",
+      "US-SD",
+      "US-WA"
+    ],
+    "wa.nps.mount-rainier": [
+      "US-WA"
+    ],
+    "wa.places.top-two-2025": [
+      "US-WA"
+    ],
+    "wa.postal": [
+      "US-WA"
+    ],
+    "wv.time.eastern": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "wv.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "wv.population.1500000-2500000": [
+      "US-ID",
+      "US-NE",
+      "US-NM",
+      "US-WV"
+    ],
+    "wv.area.rank-41-45": [
+      "US-MA",
+      "US-MD",
+      "US-NH",
+      "US-VT",
+      "US-WV"
+    ],
+    "wv.nps.new-river-gorge": [
+      "US-WV"
+    ],
+    "wv.places.top-two-2025": [
+      "US-WV"
+    ],
+    "wv.postal": [
+      "US-WV"
+    ],
+    "wi.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "wi.time.central": [
+      "US-AL",
+      "US-AR",
+      "US-IA",
+      "US-IL",
+      "US-LA",
+      "US-MN",
+      "US-MO",
+      "US-MS",
+      "US-OK",
+      "US-WI"
+    ],
+    "wi.history.order-21-30": [
+      "US-AL",
+      "US-AR",
+      "US-FL",
+      "US-IA",
+      "US-IL",
+      "US-ME",
+      "US-MI",
+      "US-MO",
+      "US-TX",
+      "US-WI"
+    ],
+    "wi.population.5000000-6000000": [
+      "US-AL",
+      "US-MN",
+      "US-SC",
+      "US-WI"
+    ],
+    "wi.nps.apostle-islands": [
+      "US-WI"
+    ],
+    "wi.places.top-two-2025": [
+      "US-WI"
+    ],
+    "wi.postal": [
+      "US-WI"
+    ],
+    "wy.parks.formal-2": [
+      "US-HI",
+      "US-MT",
+      "US-NM",
+      "US-NV",
+      "US-SD",
+      "US-TX",
+      "US-WY"
+    ],
+    "wy.history.order-41-50": [
+      "US-AK",
+      "US-AZ",
+      "US-HI",
+      "US-ID",
+      "US-MT",
+      "US-NM",
+      "US-OK",
+      "US-UT",
+      "US-WA",
+      "US-WY"
+    ],
+    "wy.time.mountain": [
+      "US-AZ",
+      "US-CO",
+      "US-MT",
+      "US-NM",
+      "US-UT",
+      "US-WY"
+    ],
+    "wy.population.500000-1000000": [
+      "US-AK",
+      "US-ND",
+      "US-SD",
+      "US-VT",
+      "US-WY"
+    ],
+    "wy.nps.yellowstone": [
+      "US-ID",
+      "US-MT",
+      "US-WY"
+    ],
+    "wy.places.top-two-2025": [
+      "US-WY"
+    ],
+    "wy.postal": [
+      "US-WY"
+    ],
+    "ia.population.3-3_5m": [
+      "US-AR",
+      "US-IA",
+      "US-NV"
+    ],
+    "ia.area.rank-21-25": [
+      "US-GA",
+      "US-IA",
+      "US-IL",
+      "US-MI",
+      "US-WI"
+    ],
+    "ia.highpoint.1500-2000": [
+      "US-IA",
+      "US-MI",
+      "US-MO",
+      "US-NJ",
+      "US-OH",
+      "US-WI"
+    ],
+    "ia.time.central-all": [
+      "US-AL",
+      "US-AR",
+      "US-IA",
+      "US-IL",
+      "US-LA",
+      "US-MN",
+      "US-MO",
+      "US-MS",
+      "US-OK",
+      "US-WI"
+    ],
+    "ia.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "ia.history.1840s": [
+      "US-FL",
+      "US-IA",
+      "US-TX",
+      "US-WI"
+    ],
+    "ia.postal": [
+      "US-IA"
+    ],
+    "ks.population.2_5-3m": [
+      "US-KS",
+      "US-MS"
+    ],
+    "ks.area.rank-11-15": [
+      "US-ID",
+      "US-KS",
+      "US-MN",
+      "US-NE",
+      "US-UT"
+    ],
+    "ks.highpoint.4000-4500": [
+      "US-KS",
+      "US-KY",
+      "US-VT"
+    ],
+    "ks.time.central-mountain": [
+      "US-KS",
+      "US-ND",
+      "US-NE",
+      "US-SD",
+      "US-TX"
+    ],
+    "ks.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "ks.history.1860s": [
+      "US-KS",
+      "US-NE",
+      "US-NV",
+      "US-WV"
+    ],
+    "ks.postal": [
+      "US-KS"
+    ],
+    "ky.population.4_5-5m": [
+      "US-KY",
+      "US-LA"
+    ],
+    "ky.area.rank-36-40": [
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-SC",
+      "US-VA"
+    ],
+    "ky.highpoint.4000-4500": [
+      "US-KS",
+      "US-KY",
+      "US-VT"
+    ],
+    "ky.time.eastern-central": [
+      "US-FL",
+      "US-IN",
+      "US-KY",
+      "US-MI",
+      "US-TN"
+    ],
+    "ky.parks.formal-1": [
+      "US-AR",
+      "US-ID",
+      "US-IL",
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-MI",
+      "US-MN",
+      "US-MO",
+      "US-NC",
+      "US-ND",
+      "US-OH",
+      "US-OR",
+      "US-SC",
+      "US-TN",
+      "US-VA",
+      "US-WV"
+    ],
+    "ky.history.1790s": [
+      "US-KY",
+      "US-RI",
+      "US-TN",
+      "US-VT"
+    ],
+    "ky.postal": [
+      "US-KY"
+    ],
+    "la.population.4_5-5m": [
+      "US-KY",
+      "US-LA"
+    ],
+    "la.area.rank-31-35": [
+      "US-LA",
+      "US-MS",
+      "US-OH",
+      "US-PA",
+      "US-TN"
+    ],
+    "la.highpoint.under-1000": [
+      "US-DE",
+      "US-FL",
+      "US-LA",
+      "US-MS",
+      "US-RI"
+    ],
+    "la.time.central-all": [
+      "US-AL",
+      "US-AR",
+      "US-IA",
+      "US-IL",
+      "US-LA",
+      "US-MN",
+      "US-MO",
+      "US-MS",
+      "US-OK",
+      "US-WI"
+    ],
+    "la.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "la.history.1810s": [
+      "US-AL",
+      "US-IL",
+      "US-IN",
+      "US-LA",
+      "US-MS"
+    ],
+    "la.postal": [
+      "US-LA"
+    ],
+    "me.population.1-1_5m": [
+      "US-DE",
+      "US-HI",
+      "US-ME",
+      "US-MT",
+      "US-NH",
+      "US-RI"
+    ],
+    "me.area.rank-36-40": [
+      "US-IN",
+      "US-KY",
+      "US-ME",
+      "US-SC",
+      "US-VA"
+    ],
+    "me.highpoint.5000-5500": [
+      "US-ME",
+      "US-NE",
+      "US-NY"
+    ],
+    "me.time.eastern-all": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "me.history.1820s": [
+      "US-ME",
+      "US-MO"
+    ],
+    "me.parks.acadia": [
+      "US-ME"
+    ],
+    "me.postal": [
+      "US-ME"
+    ],
+    "md.population.6-6_5m": [
+      "US-CO",
+      "US-MD",
+      "US-MO"
+    ],
+    "md.area.rank-41-45": [
+      "US-MA",
+      "US-MD",
+      "US-NH",
+      "US-VT",
+      "US-WV"
+    ],
+    "md.highpoint.3000-3500": [
+      "US-MA",
+      "US-MD",
+      "US-PA"
+    ],
+    "md.time.eastern-all": [
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-ME",
+      "US-NC",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OH",
+      "US-PA",
+      "US-RI",
+      "US-SC",
+      "US-VA",
+      "US-VT",
+      "US-WV"
+    ],
+    "md.parks.formal-0": [
+      "US-AL",
+      "US-CT",
+      "US-DE",
+      "US-GA",
+      "US-IA",
+      "US-KS",
+      "US-LA",
+      "US-MA",
+      "US-MD",
+      "US-MS",
+      "US-NE",
+      "US-NH",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-PA",
+      "US-RI",
+      "US-VT",
+      "US-WI"
+    ],
+    "md.history.1788": [
+      "US-CT",
+      "US-GA",
+      "US-MA",
+      "US-MD",
+      "US-NH",
+      "US-NY",
+      "US-SC",
+      "US-VA"
+    ],
+    "md.postal": [
+      "US-MD"
+    ]
+  },
+  "diagnostics": [
+    {
+      "severity": "warning",
+      "code": "SUPPRESSED_VALUE",
+      "path": "us-states-2026-09-06-v1:place:CO:carbonate-town:place.population_estimate",
+      "message": "Official value is -; no imputation"
+    },
+    {
+      "severity": "warning",
+      "code": "SUPPRESSED_VALUE",
+      "path": "us-states-2026-09-06-v1:place:KY:south-park-view-city:place.population_estimate",
+      "message": "Official value is -; no imputation"
+    },
+    {
+      "severity": "warning",
+      "code": "SUPPRESSED_VALUE",
+      "path": "us-states-2026-09-06-v1:place:MO:corning-town:place.population_estimate",
+      "message": "Official value is -; no imputation"
+    },
+    {
+      "severity": "warning",
+      "code": "SUPPRESSED_VALUE",
+      "path": "us-states-2026-09-06-v1:place:OK:mule-barn-town:place.population_estimate",
+      "message": "Official value is -; no imputation"
+    },
+    {
+      "severity": "warning",
+      "code": "SUPPRESSED_VALUE",
+      "path": "us-states-2026-09-06-v1:US-HI:economy.industry_value_added_current_usd.manufacturing",
+      "message": "Official value is (D); no imputation"
+    },
+    {
+      "severity": "warning",
+      "code": "CANDIDATE_COVERAGE",
+      "path": "al.industry.mfg-14-16",
+      "message": "Missing nationwide evidence: US-HI"
+    }
+  ],
+  "compiled": [
+    {
+      "manifest": {
+        "puzzleId": "cl-a35e6a3a7de773dfdd916caa",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-AL",
+        "orderedClueIds": [
+          "al.population.5-6m",
+          "al.history.1810s",
+          "al.highpoint.2000-2500",
+          "al.time.central-all",
+          "al.borders.segment-set",
+          "al.cities.top2-2025",
+          "al.silhouette"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-e105a2d9fd032b329f870e2d",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-CO",
+        "orderedClueIds": [
+          "co.population.5_5-6_5m",
+          "co.area.rank-6-10",
+          "co.highpoint.14000-15000",
+          "co.time.mountain-all",
+          "co.parks.formal-4",
+          "co.cities.top2-2025",
+          "co.silhouette"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        6,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-bcbc75bb605e4707b031aaa4",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-RI",
+        "orderedClueIds": [
+          "ri.population.1-1_5m",
+          "ri.highpoint.under-1000",
+          "ri.time.eastern-all",
+          "ri.history.13th",
+          "ri.borders.typed",
+          "ri.capital.providence",
+          "ri.silhouette"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        6,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-3ec0ffb7025ac8660593a07c",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-AK",
+        "orderedClueIds": [
+          "ak.population.0_5-1m",
+          "ak.history.1950s",
+          "ak.area.rank-1-5",
+          "ak.highpoint.15000-plus",
+          "ak.time.alaska-aleutian",
+          "ak.parks.formal-8",
+          "ak.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-3c163862a74a0d3b4294b9cf",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-AZ",
+        "orderedClueIds": [
+          "az.time.mountain-all",
+          "az.highpoint.12000-13000",
+          "az.parks.formal-3",
+          "az.history.1900-1920",
+          "az.population.7-8m",
+          "az.cities.top2-2025",
+          "az.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        6,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-9e670ea66c39a31af8552d46",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-AR",
+        "orderedClueIds": [
+          "ar.parks.formal-1",
+          "ar.time.central-all",
+          "ar.population.3-3_5m",
+          "ar.history.1830s",
+          "ar.area.rank-26-30",
+          "ar.cities.top2-2025",
+          "ar.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-d8f369ebd6b3366108a5e862",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-CA",
+        "orderedClueIds": [
+          "ca.history.1840-1860",
+          "ca.area.rank-1-5",
+          "ca.population.30m-plus",
+          "ca.time.pacific-all",
+          "ca.business.google-first-office",
+          "ca.cities.top2-2025",
+          "ca.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        7,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-409c872df4e831be3efa4453",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-CT",
+        "orderedClueIds": [
+          "ct.history.1788",
+          "ct.parks.formal-0",
+          "ct.time.eastern-all",
+          "ct.area.rank-46-50",
+          "ct.highpoint.2000-2500",
+          "ct.cities.top2-2025",
+          "ct.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        8,
+        6,
+        6,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-db745b91e175b910a38e94de",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-DE",
+        "orderedClueIds": [
+          "de.parks.formal-0",
+          "de.population.1-1_5m",
+          "de.area.rank-46-50",
+          "de.history.1787",
+          "de.time.eastern-all",
+          "de.highpoint.under-500",
+          "de.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-7706d575fdc0b5be47a63e8e",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-FL",
+        "orderedClueIds": [
+          "fl.area.rank-26-30",
+          "fl.history.order-21-30",
+          "fl.population.20000000-35000000",
+          "fl.highpoint.0-1000",
+          "fl.nps.everglades",
+          "fl.places.top-two-2025",
+          "fl.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        5,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-d353902e053451e4d14aa324",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-GA",
+        "orderedClueIds": [
+          "ga.time.eastern",
+          "ga.history.1780s",
+          "ga.population.9000000-12000000",
+          "ga.parks.formal-0",
+          "ga.nps.martin-luther-king-jr",
+          "ga.places.top-two-2025",
+          "ga.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        12,
+        3,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-4bb06196fc8bb58a232fae88",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-HI",
+        "orderedClueIds": [
+          "hi.parks.formal-2",
+          "hi.history.order-41-50",
+          "hi.population.1000000-1500000",
+          "hi.area.rank-46-50",
+          "hi.nps.pearl-harbor",
+          "hi.places.none-incorporated",
+          "hi.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        7,
+        4,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-8f9baf835ebcbbfb64d43506",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-ID",
+        "orderedClueIds": [
+          "id.parks.formal-1",
+          "id.highpoint.11000-13000",
+          "id.time.mountain-pacific",
+          "id.population.1500000-2500000",
+          "id.nps.craters-of-the-moon",
+          "id.places.top-two-2025",
+          "id.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-8616d2e87b86fec2ade6efb1",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-IL",
+        "orderedClueIds": [
+          "il.parks.formal-1",
+          "il.history.order-21-30",
+          "il.population.10000000-13000000",
+          "il.area.rank-21-25",
+          "il.nps.lincoln-home",
+          "il.places.top-two-2025",
+          "il.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        5,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-ec7aef26544f1c9256ee5528",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-IN",
+        "orderedClueIds": [
+          "in.parks.formal-1",
+          "in.history.order-11-20",
+          "in.time.eastern-central",
+          "in.population.6000000-8000000",
+          "in.nps.indiana-dunes",
+          "in.places.top-two-2025",
+          "in.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        5,
+        3,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-125569cbd8b1be57a714676d",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-IA",
+        "orderedClueIds": [
+          "ia.parks.formal-0",
+          "ia.time.central-all",
+          "ia.history.1840s",
+          "ia.area.rank-21-25",
+          "ia.population.3-3_5m",
+          "ia.highpoint.1500-2000",
+          "ia.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        6,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-0b8144b72aa3e8a678d887d6",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-KS",
+        "orderedClueIds": [
+          "ks.parks.formal-0",
+          "ks.population.2_5-3m",
+          "ks.area.rank-11-15",
+          "ks.time.central-mountain",
+          "ks.history.1860s",
+          "ks.highpoint.4000-4500",
+          "ks.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-1119b77414706e81fb16e96e",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-KY",
+        "orderedClueIds": [
+          "ky.parks.formal-1",
+          "ky.time.eastern-central",
+          "ky.area.rank-36-40",
+          "ky.history.1790s",
+          "ky.population.4_5-5m",
+          "ky.highpoint.4000-4500",
+          "ky.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        4,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-31130ef555c28d89eb4195a2",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-LA",
+        "orderedClueIds": [
+          "la.parks.formal-0",
+          "la.time.central-all",
+          "la.area.rank-31-35",
+          "la.history.1810s",
+          "la.population.4_5-5m",
+          "la.highpoint.under-1000",
+          "la.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        6,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-f1ae6a384294a8475e74d279",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-ME",
+        "orderedClueIds": [
+          "me.population.1-1_5m",
+          "me.time.eastern-all",
+          "me.area.rank-36-40",
+          "me.history.1820s",
+          "me.highpoint.5000-5500",
+          "me.parks.acadia",
+          "me.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        6,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-f7771a654a53f52c9581267b",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-MD",
+        "orderedClueIds": [
+          "md.parks.formal-0",
+          "md.time.eastern-all",
+          "md.history.1788",
+          "md.area.rank-41-45",
+          "md.population.6-6_5m",
+          "md.highpoint.3000-3500",
+          "md.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        11,
+        6,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-86d0a26b025aa19cdfc51a4d",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-MA",
+        "orderedClueIds": [
+          "ma.parks.formal-0",
+          "ma.history.order-1-10",
+          "ma.area.rank-41-45",
+          "ma.highpoint.2500-3500",
+          "ma.nps.minute-man",
+          "ma.places.top-two-2025",
+          "ma.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        8,
+        3,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-385ab81b5eb6f0de3aa3b448",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-MI",
+        "orderedClueIds": [
+          "mi.parks.formal-1",
+          "mi.history.order-21-30",
+          "mi.area.rank-21-25",
+          "mi.population.9000000-12000000",
+          "mi.nps.isle-royale",
+          "mi.places.top-two-2025",
+          "mi.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        5,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-841a43b9ec7252068826e609",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-MN",
+        "orderedClueIds": [
+          "mn.parks.formal-1",
+          "mn.time.central",
+          "mn.highpoint.2000-3000",
+          "mn.population.5000000-6000000",
+          "mn.nps.voyageurs",
+          "mn.places.top-two-2025",
+          "mn.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        4,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-d2ff043e929eccd6c18486f0",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-MS",
+        "orderedClueIds": [
+          "ms.parks.formal-0",
+          "ms.time.central",
+          "ms.history.1810s",
+          "ms.area.rank-31-35",
+          "ms.nps.vicksburg",
+          "ms.places.top-two-2025",
+          "ms.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        6,
+        3,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-b35a6e56c7f70102b27cb0f9",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-MO",
+        "orderedClueIds": [
+          "mo.parks.formal-1",
+          "mo.history.order-21-30",
+          "mo.time.central",
+          "mo.population.6000000-8000000",
+          "mo.nps.ozark",
+          "mo.places.top-two-2025",
+          "mo.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        5,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-7ff5287492da47d7903ea819",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-MT",
+        "orderedClueIds": [
+          "mt.parks.formal-2",
+          "mt.history.order-41-50",
+          "mt.time.mountain",
+          "mt.area.rank-1-5",
+          "mt.nps.glacier",
+          "mt.places.top-two-2025",
+          "mt.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        7,
+        4,
+        3,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-814753c95009da60d1b11f84",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-NE",
+        "orderedClueIds": [
+          "ne.parks.formal-0",
+          "ne.area.rank-11-15",
+          "ne.time.central-mountain",
+          "ne.history.1860s",
+          "ne.nps.homestead",
+          "ne.places.top-two-2025",
+          "ne.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-79e66793dd4e779214da66f0",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-NV",
+        "orderedClueIds": [
+          "nv.area.rank-6-10",
+          "nv.history.order-31-40",
+          "nv.time.mountain-pacific",
+          "nv.population.2500000-3500000",
+          "nv.nps.lake-mead",
+          "nv.places.top-two-2025",
+          "nv.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        5,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-e488654111e61417eec23f18",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-NH",
+        "orderedClueIds": [
+          "nh.time.eastern",
+          "nh.parks.formal-0",
+          "nh.population.1000000-1500000",
+          "nh.history.1780s",
+          "nh.nps.saint-gaudens",
+          "nh.places.top-two-2025",
+          "nh.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        11,
+        3,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-a6e98e202536a8ecbd45cf32",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-NJ",
+        "orderedClueIds": [
+          "nj.parks.formal-0",
+          "nj.history.order-1-10",
+          "nj.area.rank-46-50",
+          "nj.time.eastern",
+          "nj.nps.thomas-edison",
+          "nj.places.top-two-2025",
+          "nj.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        8,
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-0a7e4f3fc2886f6f83458afa",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-NM",
+        "orderedClueIds": [
+          "nm.parks.formal-2",
+          "nm.history.order-41-50",
+          "nm.time.mountain",
+          "nm.area.rank-1-5",
+          "nm.nps.carlsbad-caverns",
+          "nm.places.top-two-2025",
+          "nm.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        7,
+        4,
+        3,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-fcf5871eecc24fb90b23f2b5",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-NY",
+        "orderedClueIds": [
+          "ny.time.eastern",
+          "ny.parks.formal-0",
+          "ny.history.order-11-20",
+          "ny.population.20000000-35000000",
+          "ny.nps.statue-of-liberty",
+          "ny.places.top-two-2025",
+          "ny.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        11,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-c20fa39d46e9a686262658cb",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-NC",
+        "orderedClueIds": [
+          "nc.time.eastern",
+          "nc.parks.formal-1",
+          "nc.population.9000000-12000000",
+          "nc.history.order-11-20",
+          "nc.nps.wright-brothers",
+          "nc.places.top-two-2025",
+          "nc.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        6,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-11690871e35a974245838d14",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-ND",
+        "orderedClueIds": [
+          "nd.time.central-mountain",
+          "nd.history.order-31-40",
+          "nd.population.500000-1000000",
+          "nd.area.rank-16-20",
+          "nd.nps.theodore-roosevelt",
+          "nd.places.top-two-2025",
+          "nd.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        5,
+        4,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-54071b33b3eb5a231f70e58c",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-OH",
+        "orderedClueIds": [
+          "oh.time.eastern",
+          "oh.parks.formal-1",
+          "oh.population.9000000-12000000",
+          "oh.history.order-11-20",
+          "oh.nps.cuyahoga-valley",
+          "oh.places.top-two-2025",
+          "oh.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        6,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-62d5ec9551385f036eef679d",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-OK",
+        "orderedClueIds": [
+          "ok.parks.formal-0",
+          "ok.time.central",
+          "ok.population.3500000-4500000",
+          "ok.area.rank-16-20",
+          "ok.nps.chickasaw",
+          "ok.places.top-two-2025",
+          "ok.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        6,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-88eb70b36ea4909096fba614",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-OR",
+        "orderedClueIds": [
+          "or.area.rank-6-10",
+          "or.history.order-31-40",
+          "or.time.mountain-pacific",
+          "or.population.3500000-4500000",
+          "or.nps.crater-lake",
+          "or.places.top-two-2025",
+          "or.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        5,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-ea4814220b09c1653aab2f3a",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-PA",
+        "orderedClueIds": [
+          "pa.parks.formal-0",
+          "pa.history.order-1-10",
+          "pa.highpoint.2500-3500",
+          "pa.time.eastern",
+          "pa.nps.independence",
+          "pa.places.top-two-2025",
+          "pa.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        8,
+        3,
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-c08fd7a244077f09885d7b99",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-SC",
+        "orderedClueIds": [
+          "sc.time.eastern",
+          "sc.parks.formal-1",
+          "sc.area.rank-36-40",
+          "sc.history.1780s",
+          "sc.nps.congaree",
+          "sc.places.top-two-2025",
+          "sc.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        6,
+        3,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-4e4a735c73abd0e24694b663",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-SD",
+        "orderedClueIds": [
+          "sd.time.central-mountain",
+          "sd.history.order-31-40",
+          "sd.population.500000-1000000",
+          "sd.area.rank-16-20",
+          "sd.nps.mount-rushmore",
+          "sd.places.top-two-2025",
+          "sd.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        5,
+        4,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-d024591ff306af272639d246",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-TN",
+        "orderedClueIds": [
+          "tn.parks.formal-1",
+          "tn.history.order-11-20",
+          "tn.time.eastern-central",
+          "tn.population.7000000-9000000",
+          "tn.nps.great-smoky-mountains",
+          "tn.places.top-two-2025",
+          "tn.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        5,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-f663df5b14fa2d25f1d774e1",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-TX",
+        "orderedClueIds": [
+          "tx.parks.formal-2",
+          "tx.highpoint.6000-9000",
+          "tx.time.central-mountain",
+          "tx.population.20000000-35000000",
+          "tx.nps.big-bend",
+          "tx.places.top-two-2025",
+          "tx.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        7,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-d4972997a03b921ec28b8967",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-UT",
+        "orderedClueIds": [
+          "ut.time.mountain",
+          "ut.history.order-41-50",
+          "ut.highpoint.13500-14000",
+          "ut.population.3500000-4500000",
+          "ut.nps.arches",
+          "ut.places.top-two-2025",
+          "ut.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        6,
+        5,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-b220005739ab1d47ef91249e",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-VT",
+        "orderedClueIds": [
+          "vt.time.eastern",
+          "vt.parks.formal-0",
+          "vt.area.rank-41-45",
+          "vt.population.500000-1000000",
+          "vt.nps.marsh-billings-rockefeller",
+          "vt.places.top-two-2025",
+          "vt.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        11,
+        4,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-1528ad3dbcf16132e6b92585",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-VA",
+        "orderedClueIds": [
+          "va.time.eastern",
+          "va.parks.formal-1",
+          "va.area.rank-36-40",
+          "va.highpoint.5000-6000",
+          "va.nps.shenandoah",
+          "va.places.top-two-2025",
+          "va.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        6,
+        3,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-3cf9cff82ef0d745ad0f45c9",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-WA",
+        "orderedClueIds": [
+          "wa.population.7000000-9000000",
+          "wa.parks.formal-3",
+          "wa.history.order-41-50",
+          "wa.area.rank-16-20",
+          "wa.nps.mount-rainier",
+          "wa.places.top-two-2025",
+          "wa.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        5,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-62ccd454ad2831e2152934ca",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-WV",
+        "orderedClueIds": [
+          "wv.time.eastern",
+          "wv.parks.formal-1",
+          "wv.population.1500000-2500000",
+          "wv.area.rank-41-45",
+          "wv.nps.new-river-gorge",
+          "wv.places.top-two-2025",
+          "wv.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        17,
+        6,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-5477f35d0d1c3d9d77f9cec0",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-WI",
+        "orderedClueIds": [
+          "wi.parks.formal-0",
+          "wi.time.central",
+          "wi.history.order-21-30",
+          "wi.population.5000000-6000000",
+          "wi.nps.apostle-islands",
+          "wi.places.top-two-2025",
+          "wi.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        19,
+        6,
+        3,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "manifest": {
+        "puzzleId": "cl-8824ab6ad4beb36c88f41130",
+        "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+        "mode": "clue_ladder",
+        "answerStateId": "US-WY",
+        "orderedClueIds": [
+          "wy.parks.formal-2",
+          "wy.history.order-41-50",
+          "wy.time.mountain",
+          "wy.population.500000-1000000",
+          "wy.nps.yellowstone",
+          "wy.places.top-two-2025",
+          "wy.postal"
+        ],
+        "dataSnapshotId": "us-states-2026-09-06-v1",
+        "clueSetVersion": "short-seven-all-states-v1",
+        "scoring": {
+          "maxByRung": [
+            1000,
+            900,
+            800,
+            700,
+            600,
+            500,
+            400
+          ],
+          "wrongGuessPenalty": 50
+        },
+        "seed": "short-seven-all-states-v1",
+        "generatedAt": "2026-09-06T16:00:00Z",
+        "validatorVersion": "clue-ladder-1"
+      },
+      "cumulativeCandidateCounts": [
+        7,
+        4,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "notes": [
+    "Earlier snapshot bytes and Border Hunt topology are preserved.",
+    "Only the selected seven clues per new state are approved; all other research remains archived for future review.",
+    "Hawaii workbook Urban Honolulu CDP is excluded; explicit Census guide confirms no incorporated places.",
+    "Top-two rankings retain every published input and legal Census entity name; unused per-place rank materializations omitted in this edition.",
+    "NPS page associations remain distinct from formal park membership and preserve multistate candidates.",
+    "No new boundary or unsupported cultural clues were approved."
+  ]
+}

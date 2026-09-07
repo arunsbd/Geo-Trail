@@ -1,0 +1,32 @@
+{
+  "puzzleId": "cl-8616d2e87b86fec2ade6efb1",
+  "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+  "mode": "clue_ladder",
+  "answerStateId": "US-IL",
+  "orderedClueIds": [
+    "il.parks.formal-1",
+    "il.history.order-21-30",
+    "il.population.10000000-13000000",
+    "il.area.rank-21-25",
+    "il.nps.lincoln-home",
+    "il.places.top-two-2025",
+    "il.postal"
+  ],
+  "dataSnapshotId": "us-states-2026-09-06-v1",
+  "clueSetVersion": "short-seven-all-states-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "short-seven-all-states-v1",
+  "generatedAt": "2026-09-06T16:00:00Z",
+  "validatorVersion": "clue-ladder-1"
+}

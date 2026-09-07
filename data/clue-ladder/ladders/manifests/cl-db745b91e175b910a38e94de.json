@@ -1,0 +1,32 @@
+{
+  "puzzleId": "cl-db745b91e175b910a38e94de",
+  "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+  "mode": "clue_ladder",
+  "answerStateId": "US-DE",
+  "orderedClueIds": [
+    "de.parks.formal-0",
+    "de.population.1-1_5m",
+    "de.area.rank-46-50",
+    "de.history.1787",
+    "de.time.eastern-all",
+    "de.highpoint.under-500",
+    "de.postal"
+  ],
+  "dataSnapshotId": "us-states-2026-09-06-v1",
+  "clueSetVersion": "short-seven-all-states-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "short-seven-all-states-v1",
+  "generatedAt": "2026-09-06T16:00:00Z",
+  "validatorVersion": "clue-ladder-1"
+}

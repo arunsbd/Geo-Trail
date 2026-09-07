@@ -1,0 +1,411 @@
+[
+  {
+    "clueId": "nc.time.eastern",
+    "answerStateId": "US-NC",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The whole state uses Eastern Time. (2026 standard-time rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NC:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Eastern"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-CT",
+        "US-DE",
+        "US-GA",
+        "US-MA",
+        "US-MD",
+        "US-ME",
+        "US-NC",
+        "US-NH",
+        "US-NJ",
+        "US-NY",
+        "US-OH",
+        "US-PA",
+        "US-RI",
+        "US-SC",
+        "US-VA",
+        "US-VT",
+        "US-WV"
+      ],
+      "count": 17,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "NC:time:2026"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nc.parks.formal-1",
+    "answerStateId": "US-NC",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has 1 formally designated National Park. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NC:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 1
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR",
+        "US-ID",
+        "US-IL",
+        "US-IN",
+        "US-KY",
+        "US-ME",
+        "US-MI",
+        "US-MN",
+        "US-MO",
+        "US-NC",
+        "US-ND",
+        "US-OH",
+        "US-OR",
+        "US-SC",
+        "US-TN",
+        "US-VA",
+        "US-WV"
+      ],
+      "count": 17,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "NC:parks:formal:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nc.population.9000000-12000000",
+    "answerStateId": "US-NC",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 9 million–12 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NC:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 9000000,
+      "maxExclusive": 12000000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-GA",
+        "US-MI",
+        "US-NC",
+        "US-NJ",
+        "US-OH"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "NC:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-07-01"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nc.history.order-11-20",
+    "answerStateId": "US-NC",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It joined the Union between the 11th and 20th states."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NC:history.admission_order"
+    ],
+    "predicate": {
+      "metricId": "history.admission_order",
+      "op": "between",
+      "minInclusive": 11,
+      "maxExclusive": 21
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-IN",
+        "US-KY",
+        "US-LA",
+        "US-MS",
+        "US-NC",
+        "US-NY",
+        "US-OH",
+        "US-RI",
+        "US-TN",
+        "US-VT"
+      ],
+      "count": 10,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "NC:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nc.nps.wright-brothers",
+    "answerStateId": "US-NC",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The NPS lists Wright Brothers National Memorial for this state. (2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NC:nps.associated_unit_path"
+    ],
+    "predicate": {
+      "metricId": "nps.associated_unit_path",
+      "op": "contains_all",
+      "values": [
+        "/wrbr/"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-NC"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "NC:nps:wrbr"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nc.places.top-two-2025",
+    "answerStateId": "US-NC",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Charlotte and Raleigh were its two largest incorporated places in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NC:place.top_two"
+    ],
+    "predicate": {
+      "metricId": "place.top_two",
+      "op": "eq",
+      "value": [
+        "place:NC:charlotte-city",
+        "place:NC:raleigh-city"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-NC"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "NC:places:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-07-01"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nc.postal",
+    "answerStateId": "US-NC",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is NC."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NC:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "NC"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-NC"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "NC:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  }
+]

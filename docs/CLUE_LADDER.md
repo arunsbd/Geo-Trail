@@ -1,5 +1,16 @@
 # Clue Ladder data milestone
 
+## Current combined local preview
+
+The current game loads snapshot `us-states-2026-09-06-v1`, with all 50 states,
+350 approved clues, and 50 seven-clue manifests. It uses the existing all-state
+research integration, retaining the previous snapshots and their manifests.
+Run `node --import tsx scripts/validate-all-state-ladders.ts` to validate this
+edition. The historical milestone notes below describe earlier collections.
+
+Border Hunt retains Easy, Intermediate, and Hard. Clue Ladder has one seven-clue
+format and no difficulty selector. Both games are linked in the header.
+
 The original audited edition remains an offline data pipeline. The user-requested seven-round edition now powers the separate /clue-ladder/ practice game.
 Border Hunt and its Four Corners convention are unchanged.
 

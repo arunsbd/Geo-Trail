@@ -42,7 +42,7 @@ export function ClueLadderGame({puzzles}: {puzzles: PlayablePuzzle[]}) {
    </section>
    {!puzzle ? <section className="rounded-3xl border border-[var(--line)] bg-white/70 p-7 shadow-sm">
     <h2 className="text-xl font-bold">Explore {puzzles.length} mystery states</h2>
-    <p className="mt-3 mb-6 leading-7">A small practice collection while we fine-tune the clues. Play again to try a different mystery state.</p>
+    <p className="mt-3 mb-6 leading-7">Explore all 50 U.S. states, one mystery at a time. Play again to try a different state.</p>
     <button className={button} onClick={start}>Start Clue Ladder</button>
     <noscript>Enable JavaScript to play Clue Ladder.</noscript>
    </section> : <>

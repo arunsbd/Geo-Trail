@@ -21,10 +21,21 @@ export function compileLadder(data: Dataset, answerStateId: StateId, seed: strin
     length?: number;
     generatedAt?: string;
 } = {}): Readonly<PuzzleManifest> {
+    assertDataset(data);
+    return compileValidatedLadder(data, answerStateId, seed, options);
+}
+function assertDataset(data: Dataset) {
     const diagnostics = validateDataset(data);
     const errors = diagnostics.filter(d => d.severity === 'error');
     if (errors.length)
         throw new DataError('DATASET_INVALID', errors.map(e => `${e.path}: ${e.message}`).join('\n'));
+}
+/** Validate once for a synchronous batch; no mutable validation cache survives the call. */
+export function compileAllLadders(data: Dataset, seed: string): Readonly<PuzzleManifest>[] {
+    assertDataset(data);
+    return data.states.map(state => compileValidatedLadder(data, state.stateId, seed));
+}
+function compileValidatedLadder(data: Dataset, answerStateId: StateId, seed: string, options: {length?: number; generatedAt?: string} = {}): Readonly<PuzzleManifest> {
     if (!seed.trim())
         throw new DataError('SEED', 'A nonempty reproducible seed is required');
     const length = options.length ?? data.rules.length;

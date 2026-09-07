@@ -25,7 +25,7 @@ Identify a mystery state through seven clues, with one guess or skip per clue. A
 - Each wrong guess costs another **50 points**.
 - Solve the state before you run out of clues, then play again to try another.
 
-The current practice collection includes **nine researched states**.
+The current practice collection includes **all 50 U.S. states**, with seven clues per state. Difficulty levels apply only to Border Hunt.
 
 ## Geography conventions and sources
 

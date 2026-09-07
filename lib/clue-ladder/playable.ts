@@ -4,7 +4,7 @@ import { validateDataset, validateManifest } from './validate';
 import type { PuzzleManifest } from './types';
 import type { PlayablePuzzle } from './play';
 import { findState } from '../../data/states';
-export function loadPlayablePuzzles(snapshotId = 'us-states-2026-09-05-v3'): PlayablePuzzle[] {
+export function loadPlayablePuzzles(snapshotId = 'us-states-2026-09-06-v1'): PlayablePuzzle[] {
  const data = loadDataset(snapshotId);
  const errors = validateDataset(data, true).filter(d => d.severity === 'error');
  if (errors.length) throw new Error(JSON.stringify(errors));

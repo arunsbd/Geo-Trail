@@ -1,0 +1,399 @@
+[
+  {
+    "clueId": "ia.population.3-3_5m",
+    "answerStateId": "US-IA",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 3–3.5 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-IA:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 3000000,
+      "maxExclusive": 3500000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR",
+        "US-IA",
+        "US-NV"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "IA:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ia.area.rank-21-25",
+    "answerStateId": "US-IA",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranks 21st–25th in land area. (2010 Census)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-IA:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 21,
+      "maxExclusive": 26
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-GA",
+        "US-IA",
+        "US-IL",
+        "US-MI",
+        "US-WI"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "IA:area:2010"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ia.highpoint.1500-2000",
+    "answerStateId": "US-IA",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its highest point is 1,500–2,000 feet high."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-IA:physical.highest_point"
+    ],
+    "predicate": {
+      "metricId": "physical.highest_point",
+      "op": "between",
+      "minInclusive": 1500,
+      "maxExclusive": 2000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-IA",
+        "US-MI",
+        "US-MO",
+        "US-NJ",
+        "US-OH",
+        "US-WI"
+      ],
+      "count": 6,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "IA:elevation"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ia.time.central-all",
+    "answerStateId": "US-IA",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The whole state uses Central Time. (2026 standard-time rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-IA:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Central"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AL",
+        "US-AR",
+        "US-IA",
+        "US-IL",
+        "US-LA",
+        "US-MN",
+        "US-MO",
+        "US-MS",
+        "US-OK",
+        "US-WI"
+      ],
+      "count": 10,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "IA:time:2026"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ia.parks.formal-0",
+    "answerStateId": "US-IA",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has no formally designated National Park. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-IA:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 0
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AL",
+        "US-CT",
+        "US-DE",
+        "US-GA",
+        "US-IA",
+        "US-KS",
+        "US-LA",
+        "US-MA",
+        "US-MD",
+        "US-MS",
+        "US-NE",
+        "US-NH",
+        "US-NJ",
+        "US-NY",
+        "US-OK",
+        "US-PA",
+        "US-RI",
+        "US-VT",
+        "US-WI"
+      ],
+      "count": 19,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 5,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "IA:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ia.history.1840s",
+    "answerStateId": "US-IA",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It became a state in the 1840s."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-IA:history.admission_year"
+    ],
+    "predicate": {
+      "metricId": "history.admission_year",
+      "op": "between",
+      "minInclusive": 1840,
+      "maxExclusive": 1850
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-FL",
+        "US-IA",
+        "US-TX",
+        "US-WI"
+      ],
+      "count": 4,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "IA:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ia.postal",
+    "answerStateId": "US-IA",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is IA."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-IA:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "IA"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-IA"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "IA:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  }
+]

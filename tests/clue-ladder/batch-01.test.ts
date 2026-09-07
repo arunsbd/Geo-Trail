@@ -9,7 +9,7 @@ import { choosePuzzle, newRound, play } from '../../lib/clue-ladder/play';
 import type { StateId } from '../../lib/clue-ladder/types';
 
 const data = loadDataset('us-states-2026-09-05-v3');
-const puzzles = loadPlayablePuzzles();
+const puzzles = loadPlayablePuzzles('us-states-2026-09-05-v3');
 const report = JSON.parse(readFileSync('data/clue-ladder/review/batch-01-integration.json', 'utf8'));
 describe('batch 01 local integration', () => {
   it('validates nine states and 63 approved clues against archived sources', () => {

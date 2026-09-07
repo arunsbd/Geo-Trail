@@ -1,0 +1,385 @@
+[
+  {
+    "clueId": "hi.parks.formal-2",
+    "answerStateId": "US-HI",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has 2 formally designated National Parks. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-HI:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 2
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-HI",
+        "US-MT",
+        "US-NM",
+        "US-NV",
+        "US-SD",
+        "US-TX",
+        "US-WY"
+      ],
+      "count": 7,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "HI:parks:formal:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "hi.history.order-41-50",
+    "answerStateId": "US-HI",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It joined the Union between the 41st and 50th states."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-HI:history.admission_order"
+    ],
+    "predicate": {
+      "metricId": "history.admission_order",
+      "op": "between",
+      "minInclusive": 41,
+      "maxExclusive": 51
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AK",
+        "US-AZ",
+        "US-HI",
+        "US-ID",
+        "US-MT",
+        "US-NM",
+        "US-OK",
+        "US-UT",
+        "US-WA",
+        "US-WY"
+      ],
+      "count": 10,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "HI:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "hi.population.1000000-1500000",
+    "answerStateId": "US-HI",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 1 million–1.5 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-HI:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 1000000,
+      "maxExclusive": 1500000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-DE",
+        "US-HI",
+        "US-ME",
+        "US-MT",
+        "US-NH",
+        "US-RI"
+      ],
+      "count": 6,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "HI:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-07-01"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "hi.area.rank-46-50",
+    "answerStateId": "US-HI",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranks 46th–50th in land area. (2010 Census)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-HI:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 46,
+      "maxExclusive": 51
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-CT",
+        "US-DE",
+        "US-HI",
+        "US-NJ",
+        "US-RI"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "HI:area:2010"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "hi.nps.pearl-harbor",
+    "answerStateId": "US-HI",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The NPS lists Pearl Harbor National Memorial for this state. (2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-HI:nps.associated_unit_path"
+    ],
+    "predicate": {
+      "metricId": "nps.associated_unit_path",
+      "op": "contains_all",
+      "values": [
+        "/valr/"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-HI"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "HI:nps:valr"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "hi.places.none-incorporated",
+    "answerStateId": "US-HI",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Census reports no incorporated places in this state. (Census, 2025)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-HI:place.incorporated_place_count"
+    ],
+    "predicate": {
+      "metricId": "place.incorporated_place_count",
+      "op": "eq",
+      "value": 0
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-HI"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "HI:places:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-07-01"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "hi.postal",
+    "answerStateId": "US-HI",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is HI."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-HI:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "HI"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-HI"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "HI:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  }
+]

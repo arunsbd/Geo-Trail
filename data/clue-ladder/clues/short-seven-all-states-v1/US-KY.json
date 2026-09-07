@@ -1,0 +1,389 @@
+[
+  {
+    "clueId": "ky.population.4_5-5m",
+    "answerStateId": "US-KY",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 4.5–5 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KY:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 4500000,
+      "maxExclusive": 5000000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-KY",
+        "US-LA"
+      ],
+      "count": 2,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "KY:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ky.area.rank-36-40",
+    "answerStateId": "US-KY",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranks 36th–40th in land area. (2010 Census)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KY:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 36,
+      "maxExclusive": 41
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-IN",
+        "US-KY",
+        "US-ME",
+        "US-SC",
+        "US-VA"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "KY:area:2010"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ky.highpoint.4000-4500",
+    "answerStateId": "US-KY",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its highest point is 4,000–4,500 feet high."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KY:physical.highest_point"
+    ],
+    "predicate": {
+      "metricId": "physical.highest_point",
+      "op": "between",
+      "minInclusive": 4000,
+      "maxExclusive": 4500
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-KS",
+        "US-KY",
+        "US-VT"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "KY:elevation"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ky.time.eastern-central",
+    "answerStateId": "US-KY",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Parts use Eastern Time and parts use Central Time. (2026 standard-time rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KY:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Eastern",
+        "Central"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-FL",
+        "US-IN",
+        "US-KY",
+        "US-MI",
+        "US-TN"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "KY:time:2026"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ky.parks.formal-1",
+    "answerStateId": "US-KY",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has one formally designated National Park. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KY:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 1
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR",
+        "US-ID",
+        "US-IL",
+        "US-IN",
+        "US-KY",
+        "US-ME",
+        "US-MI",
+        "US-MN",
+        "US-MO",
+        "US-NC",
+        "US-ND",
+        "US-OH",
+        "US-OR",
+        "US-SC",
+        "US-TN",
+        "US-VA",
+        "US-WV"
+      ],
+      "count": 17,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 5,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "KY:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ky.history.1790s",
+    "answerStateId": "US-KY",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It became a state in the 1790s."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KY:history.admission_year"
+    ],
+    "predicate": {
+      "metricId": "history.admission_year",
+      "op": "between",
+      "minInclusive": 1790,
+      "maxExclusive": 1800
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-KY",
+        "US-RI",
+        "US-TN",
+        "US-VT"
+      ],
+      "count": 4,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "KY:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "ky.postal",
+    "answerStateId": "US-KY",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is KY."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-KY:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "KY"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-KY"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "KY:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  }
+]

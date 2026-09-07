@@ -1,0 +1,398 @@
+[
+  {
+    "clueId": "mi.parks.formal-1",
+    "answerStateId": "US-MI",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has 1 formally designated National Park. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-MI:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 1
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR",
+        "US-ID",
+        "US-IL",
+        "US-IN",
+        "US-KY",
+        "US-ME",
+        "US-MI",
+        "US-MN",
+        "US-MO",
+        "US-NC",
+        "US-ND",
+        "US-OH",
+        "US-OR",
+        "US-SC",
+        "US-TN",
+        "US-VA",
+        "US-WV"
+      ],
+      "count": 17,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "MI:parks:formal:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "mi.history.order-21-30",
+    "answerStateId": "US-MI",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It joined the Union between the 21st and 30th states."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-MI:history.admission_order"
+    ],
+    "predicate": {
+      "metricId": "history.admission_order",
+      "op": "between",
+      "minInclusive": 21,
+      "maxExclusive": 31
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AL",
+        "US-AR",
+        "US-FL",
+        "US-IA",
+        "US-IL",
+        "US-ME",
+        "US-MI",
+        "US-MO",
+        "US-TX",
+        "US-WI"
+      ],
+      "count": 10,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "MI:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "mi.area.rank-21-25",
+    "answerStateId": "US-MI",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranks 21st–25th in land area. (2010 Census)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-MI:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 21,
+      "maxExclusive": 26
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-GA",
+        "US-IA",
+        "US-IL",
+        "US-MI",
+        "US-WI"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "MI:area:2010"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "mi.population.9000000-12000000",
+    "answerStateId": "US-MI",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 9 million–12 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-MI:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 9000000,
+      "maxExclusive": 12000000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-GA",
+        "US-MI",
+        "US-NC",
+        "US-NJ",
+        "US-OH"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "MI:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-07-01"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "mi.nps.isle-royale",
+    "answerStateId": "US-MI",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The NPS lists Isle Royale National Park for this state. (2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-MI:nps.associated_unit_path",
+      "us-states-2026-09-06-v1:US-MI:nps.formal_unit_ids"
+    ],
+    "predicate": {
+      "metricId": "nps.associated_unit_path",
+      "op": "contains_all",
+      "values": [
+        "/isro/"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-MI"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "MI:nps:isro"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "mi.places.top-two-2025",
+    "answerStateId": "US-MI",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Detroit and Grand Rapids were its two largest incorporated places in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-MI:place.top_two"
+    ],
+    "predicate": {
+      "metricId": "place.top_two",
+      "op": "eq",
+      "value": [
+        "place:MI:detroit-city",
+        "place:MI:grand-rapids-city"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-MI"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "MI:places:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-07-01"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "mi.postal",
+    "answerStateId": "US-MI",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is MI."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-MI:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "MI"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-MI"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "MI:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  }
+]

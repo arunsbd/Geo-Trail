@@ -1,0 +1,391 @@
+[
+  {
+    "clueId": "id.parks.formal-1",
+    "answerStateId": "US-ID",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has 1 formally designated National Park. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-ID:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 1
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR",
+        "US-ID",
+        "US-IL",
+        "US-IN",
+        "US-KY",
+        "US-ME",
+        "US-MI",
+        "US-MN",
+        "US-MO",
+        "US-NC",
+        "US-ND",
+        "US-OH",
+        "US-OR",
+        "US-SC",
+        "US-TN",
+        "US-VA",
+        "US-WV"
+      ],
+      "count": 17,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "ID:parks:formal:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "id.highpoint.11000-13000",
+    "answerStateId": "US-ID",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its highest point is 11,000–13,000 feet high."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-ID:physical.highest_point"
+    ],
+    "predicate": {
+      "metricId": "physical.highest_point",
+      "op": "between",
+      "minInclusive": 11000,
+      "maxExclusive": 13000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AZ",
+        "US-ID",
+        "US-MT",
+        "US-OR"
+      ],
+      "count": 4,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "ID:elevation"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "id.time.mountain-pacific",
+    "answerStateId": "US-ID",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Parts use Mountain and Pacific Time. (2026 standard-time rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-ID:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Mountain",
+        "Pacific"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-ID",
+        "US-NV",
+        "US-OR"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "ID:time:2026"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "id.population.1500000-2500000",
+    "answerStateId": "US-ID",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 1.5 million–2.5 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-ID:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 1500000,
+      "maxExclusive": 2500000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-ID",
+        "US-NE",
+        "US-NM",
+        "US-WV"
+      ],
+      "count": 4,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "ID:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-07-01"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "id.nps.craters-of-the-moon",
+    "answerStateId": "US-ID",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The NPS lists Craters Of The Moon National Monument & Preserve for this state. (2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-ID:nps.associated_unit_path"
+    ],
+    "predicate": {
+      "metricId": "nps.associated_unit_path",
+      "op": "contains_all",
+      "values": [
+        "/crmo/"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-ID"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "ID:nps:crmo"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "id.places.top-two-2025",
+    "answerStateId": "US-ID",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Boise and Meridian were its two largest incorporated places in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-ID:place.top_two"
+    ],
+    "predicate": {
+      "metricId": "place.top_two",
+      "op": "eq",
+      "value": [
+        "place:ID:boise-city-city",
+        "place:ID:meridian-city"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-ID"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "ID:places:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-07-01"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "id.postal",
+    "answerStateId": "US-ID",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is ID."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-ID:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "ID"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-ID"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "ID:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  }
+]

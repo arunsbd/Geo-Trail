@@ -1,0 +1,412 @@
+[
+  {
+    "clueId": "nj.parks.formal-0",
+    "answerStateId": "US-NJ",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has no formally designated National Parks. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NJ:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 0
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AL",
+        "US-CT",
+        "US-DE",
+        "US-GA",
+        "US-IA",
+        "US-KS",
+        "US-LA",
+        "US-MA",
+        "US-MD",
+        "US-MS",
+        "US-NE",
+        "US-NH",
+        "US-NJ",
+        "US-NY",
+        "US-OK",
+        "US-PA",
+        "US-RI",
+        "US-VT",
+        "US-WI"
+      ],
+      "count": 19,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "NJ:parks:formal:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nj.history.order-1-10",
+    "answerStateId": "US-NJ",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It joined the Union between the 1st and 10th states."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NJ:history.admission_order"
+    ],
+    "predicate": {
+      "metricId": "history.admission_order",
+      "op": "between",
+      "minInclusive": 1,
+      "maxExclusive": 11
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-CT",
+        "US-DE",
+        "US-GA",
+        "US-MA",
+        "US-MD",
+        "US-NH",
+        "US-NJ",
+        "US-PA",
+        "US-SC",
+        "US-VA"
+      ],
+      "count": 10,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "NJ:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nj.area.rank-46-50",
+    "answerStateId": "US-NJ",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranks 46th–50th in land area. (2010 Census)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NJ:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 46,
+      "maxExclusive": 51
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-CT",
+        "US-DE",
+        "US-HI",
+        "US-NJ",
+        "US-RI"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "NJ:area:2010"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nj.time.eastern",
+    "answerStateId": "US-NJ",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The whole state uses Eastern Time. (2026 standard-time rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NJ:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Eastern"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-CT",
+        "US-DE",
+        "US-GA",
+        "US-MA",
+        "US-MD",
+        "US-ME",
+        "US-NC",
+        "US-NH",
+        "US-NJ",
+        "US-NY",
+        "US-OH",
+        "US-PA",
+        "US-RI",
+        "US-SC",
+        "US-VA",
+        "US-VT",
+        "US-WV"
+      ],
+      "count": 17,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "NJ:time:2026"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nj.nps.thomas-edison",
+    "answerStateId": "US-NJ",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The NPS lists Thomas Edison National Historical Park for this state. (2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NJ:nps.associated_unit_path"
+    ],
+    "predicate": {
+      "metricId": "nps.associated_unit_path",
+      "op": "contains_all",
+      "values": [
+        "/edis/"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-NJ"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "NJ:nps:edis"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-09-06"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nj.places.top-two-2025",
+    "answerStateId": "US-NJ",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Newark and Jersey City were its two largest incorporated places in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NJ:place.top_two"
+    ],
+    "predicate": {
+      "metricId": "place.top_two",
+      "op": "eq",
+      "value": [
+        "place:NJ:newark-city",
+        "place:NJ:jersey-city-city"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-NJ"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "NJ:places:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true,
+      "reviewBy": "2027-07-01"
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  },
+  {
+    "clueId": "nj.postal",
+    "answerStateId": "US-NJ",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is NJ."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-NJ:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "NJ"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-NJ"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T16:00:00Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "NJ:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Local editorial approval: archived sources and full-universe evaluation checked. Difficulty remains an uncalibrated editorial seed. Full draft pool and caveats retained in the archived research."
+    }
+  }
+]

@@ -56,9 +56,11 @@ export function evaluate(predicate: Predicate, subjectId: string, facts: readonl
     }
 }
 export function candidates(predicate: Predicate, universe: readonly string[], facts: readonly FactRecord[], snapshotId: string) {
+    const metrics = new Set(predicateMetrics(predicate));
+    const relevant = facts.filter(f => metrics.has(f.metricId) && f.snapshotId === snapshotId);
     const stateIds: string[] = [], unknownStateIds: string[] = [];
     for (const id of [...universe].sort()) {
-        const result = evaluate(predicate, id, facts, snapshotId);
+        const result = evaluate(predicate, id, relevant, snapshotId);
         if (result === true)
             stateIds.push(id);
         if (result === 'unknown')

@@ -1,0 +1,621 @@
+[
+  {
+    "clueId": "ar.population.3-3_5m",
+    "answerStateId": "US-AR",
+    "category": "population",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "About 3–3.5 million people lived here in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-AR:population.resident_estimate"
+    ],
+    "predicate": {
+      "metricId": "population.resident_estimate",
+      "op": "between",
+      "minInclusive": 3000000,
+      "maxExclusive": 3500000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR",
+        "US-IA",
+        "US-NV"
+      ],
+      "count": 3,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 3,
+      "dependencyGroup": "AR:population:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff POP25 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ar.area.rank-26-30",
+    "answerStateId": "US-AR",
+    "category": "area",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It ranks 26th–30th among states by land area. (2010 Census)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-AR:area.land_rank"
+    ],
+    "predicate": {
+      "metricId": "area.land_rank",
+      "op": "between",
+      "minInclusive": 26,
+      "maxExclusive": 31
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AL",
+        "US-AR",
+        "US-FL",
+        "US-NC",
+        "US-NY"
+      ],
+      "count": 5,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 5,
+      "latestRung": 5,
+      "dependencyGroup": "AR:area:2010"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff AREA10 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ar.highpoint.2500-3000",
+    "answerStateId": "US-AR",
+    "category": "physical_geography",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its highest point is 2,500–3,000 feet high."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-AR:physical.highest_point"
+    ],
+    "predicate": {
+      "metricId": "physical.highest_point",
+      "op": "between",
+      "minInclusive": 2500,
+      "maxExclusive": 3000
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "obscure",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 3,
+      "latestRung": 6,
+      "dependencyGroup": "AR:elevation"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff ELEV / R. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "ar.time.central-all",
+    "answerStateId": "US-AR",
+    "category": "time_zone",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "The whole state uses Central Time. (2026 rules)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-AR:time.standard_zone"
+    ],
+    "predicate": {
+      "metricId": "time.standard_zone",
+      "op": "eq",
+      "value": [
+        "Central"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AL",
+        "US-AR",
+        "US-IA",
+        "US-IL",
+        "US-LA",
+        "US-MN",
+        "US-MO",
+        "US-MS",
+        "US-OK",
+        "US-WI"
+      ],
+      "count": 10,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 2,
+      "latestRung": 2,
+      "dependencyGroup": "AR:time:2026"
+    },
+    "freshness": {
+      "class": "regulatory",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff TIME26 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ar.parks.formal-1",
+    "answerStateId": "US-AR",
+    "category": "parks",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It has one formally designated National Park. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-AR:nps.formal_national_park_count"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_national_park_count",
+      "op": "eq",
+      "value": 1
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR",
+        "US-ID",
+        "US-IL",
+        "US-IN",
+        "US-KY",
+        "US-ME",
+        "US-MI",
+        "US-MN",
+        "US-MO",
+        "US-NC",
+        "US-ND",
+        "US-OH",
+        "US-OR",
+        "US-SC",
+        "US-TN",
+        "US-VA",
+        "US-WV"
+      ],
+      "count": 17,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 4,
+      "knowledgePrior": "general",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 1,
+      "latestRung": 1,
+      "dependencyGroup": "AR:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff NPS26 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ar.history.1830s",
+    "answerStateId": "US-AR",
+    "category": "history",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "It became a state in the 1830s."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-AR:history.admission_year"
+    ],
+    "predicate": {
+      "metricId": "history.admission_year",
+      "op": "between",
+      "minInclusive": 1830,
+      "maxExclusive": 1840
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR",
+        "US-MI"
+      ],
+      "count": 2,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 3,
+      "knowledgePrior": "specialized",
+      "directness": "indirect",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 4,
+      "dependencyGroup": "AR:admission"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff GUIDE / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ar.parks.hot-springs",
+    "answerStateId": "US-AR",
+    "category": "landmark",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Hot Springs National Park is here. (NPS, 2026)"
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-AR:nps.formal_unit_ids"
+    ],
+    "predicate": {
+      "metricId": "nps.formal_unit_ids",
+      "op": "contains_all",
+      "values": [
+        "hot-springs-national-park"
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "named_association",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 4,
+      "latestRung": 6,
+      "dependencyGroup": "AR:parks:2026"
+    },
+    "freshness": {
+      "class": "event_driven",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff NPS26 / R; incompatible with park count. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "ar.cities.top2-2025",
+    "answerStateId": "US-AR",
+    "category": "cities",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Little Rock and Fayetteville were its two largest incorporated places in 2025."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-AR:place.batch01_membership",
+      "us-states-2026-09-06-v1:US-AR:place.top_two"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.batch01_membership",
+          "op": "contains_all",
+          "values": [
+            "place:AR:little-rock-city",
+            "place:AR:fayetteville-city"
+          ]
+        },
+        {
+          "metricId": "place.top_two",
+          "op": "contains_all",
+          "values": [
+            "place:AR:little-rock-city",
+            "place:AR:fayetteville-city"
+          ]
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 2,
+      "knowledgePrior": "general",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "AR:places:2025"
+    },
+    "freshness": {
+      "class": "annual",
+      "referenceLabelRequired": true
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff PLACE25 / R after facts are built. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ar.capital.little-rock",
+    "answerStateId": "US-AR",
+    "category": "capital",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its capital is Little Rock."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-AR:identity.capital",
+      "us-states-2026-09-06-v1:US-AR:place.batch01_membership"
+    ],
+    "predicate": {
+      "all": [
+        {
+          "metricId": "place.batch01_membership",
+          "op": "contains_all",
+          "values": [
+            "Little Rock"
+          ]
+        },
+        {
+          "metricId": "identity.capital",
+          "op": "eq",
+          "value": "Little Rock"
+        }
+      ]
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "iconic",
+      "directness": "one_to_one",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 6,
+      "latestRung": 6,
+      "dependencyGroup": "AR:capital"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff GUIDE / R; incompatible with city pair before final rungs. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  },
+  {
+    "clueId": "ar.postal",
+    "answerStateId": "US-AR",
+    "category": "abbreviation",
+    "render": {
+      "kind": "text",
+      "text": {
+        "en": "Its postal abbreviation is AR."
+      }
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-AR:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "AR"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "AR:postal"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "approved",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": true,
+      "notes": "Batch 01 handoff USPS24 / R. Fresh 50-state candidate evaluation matches. Seven-round order reviewed for local playtesting; early uniqueness is not measured player difficulty."
+    }
+  },
+  {
+    "clueId": "ar.silhouette",
+    "answerStateId": "US-AR",
+    "category": "silhouette",
+    "render": {
+      "kind": "image",
+      "text": {
+        "en": "Which state has this shape?"
+      },
+      "assetId": "asset-5deeddb9826d7ad4"
+    },
+    "factRefs": [
+      "us-states-2026-09-06-v1:US-AR:identity.postal_code"
+    ],
+    "predicate": {
+      "metricId": "identity.postal_code",
+      "op": "eq",
+      "value": "AR"
+    },
+    "candidateSet": {
+      "snapshotId": "us-states-2026-09-06-v1",
+      "stateIds": [
+        "US-AR"
+      ],
+      "count": 1,
+      "computedAt": "2026-09-06T00:09:09.920Z",
+      "evaluatorVersion": "clue-ladder-1"
+    },
+    "difficulty": {
+      "seedTier": 1,
+      "knowledgePrior": "general",
+      "directness": "direct_identifier",
+      "calibrationStatus": "editorial_seed"
+    },
+    "ladderPolicy": {
+      "earliestRung": 7,
+      "latestRung": 7,
+      "dependencyGroup": "AR:silhouette"
+    },
+    "freshness": {
+      "class": "static",
+      "referenceLabelRequired": false
+    },
+    "review": {
+      "status": "draft",
+      "evidenceChecked": true,
+      "wordingChecked": true,
+      "fairnessChecked": false,
+      "notes": "Batch 01 handoff MAP / B: asset missing. Fresh 50-state candidate evaluation matches. Alternative retained for later fairness review."
+    }
+  }
+]

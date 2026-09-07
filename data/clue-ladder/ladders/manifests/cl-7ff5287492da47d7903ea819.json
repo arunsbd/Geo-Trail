@@ -1,0 +1,32 @@
+{
+  "puzzleId": "cl-7ff5287492da47d7903ea819",
+  "dataContentSha256": "f9d1b24aa47bb4729d03963b6612b553f61e2e058581dc500773bdedfeab6287",
+  "mode": "clue_ladder",
+  "answerStateId": "US-MT",
+  "orderedClueIds": [
+    "mt.parks.formal-2",
+    "mt.history.order-41-50",
+    "mt.time.mountain",
+    "mt.area.rank-1-5",
+    "mt.nps.glacier",
+    "mt.places.top-two-2025",
+    "mt.postal"
+  ],
+  "dataSnapshotId": "us-states-2026-09-06-v1",
+  "clueSetVersion": "short-seven-all-states-v1",
+  "scoring": {
+    "maxByRung": [
+      1000,
+      900,
+      800,
+      700,
+      600,
+      500,
+      400
+    ],
+    "wrongGuessPenalty": 50
+  },
+  "seed": "short-seven-all-states-v1",
+  "generatedAt": "2026-09-06T16:00:00Z",
+  "validatorVersion": "clue-ladder-1"
+}
