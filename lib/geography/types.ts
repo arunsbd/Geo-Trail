@@ -1,0 +1,30 @@
+export type GeoTrailRegion =
+  | "United States"
+  | "North America"
+  | "South America"
+  | "Europe"
+  | "Africa"
+  | "Asia"
+  | "Oceania";
+
+export type PolygonReference = {
+  source: string;
+  featureId: string;
+};
+
+export type GeographyPlace<PlaceId extends string> = {
+  id: PlaceId;
+  name: string;
+  aliases: readonly string[];
+  polygon: PolygonReference;
+  terrestrialNeighbors: readonly PlaceId[];
+  gameRegion: GeoTrailRegion;
+};
+
+export type GeographyDataset<PlaceId extends string> = {
+  id: string;
+  version: string;
+  label: string;
+  placeKind: "state" | "country";
+  places: readonly GeographyPlace<PlaceId>[];
+};

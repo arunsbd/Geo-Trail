@@ -8,6 +8,7 @@ import { validateDataset, validateLadder } from '../../lib/clue-ladder/validate'
 import { STATE_CODES } from '../../data/states';
 import type { PuzzleManifest } from '../../lib/clue-ladder/types';
 import { loadPlayablePuzzles } from '../../lib/clue-ladder/playable';
+import { choosePuzzle } from '../../lib/clue-ladder/play';
 
 const data = loadDataset('us-states-2026-09-06-v1');
 const report = JSON.parse(readFileSync('data/clue-ladder/review/all-states-integration.json','utf8'));
@@ -18,6 +19,16 @@ describe('all-state local Clue Ladder',()=>{
     expect(puzzles.map(p=>p.answer).sort()).toEqual([...STATE_CODES].sort());
     expect(puzzles.every(p=>p.clues.length===7)).toBe(true);
   },180000);
+  it('gives every eligible state one equal selection interval and prevents immediate repeats',()=>{
+    const count=STATE_CODES.length;
+    expect(Array.from({length:count},(_,index)=>choosePuzzle(count,null,(index+.5)/count))).toEqual(Array.from({length:count},(_,index)=>index));
+    for(let previous=0;previous<count;previous++){
+      const selections=Array.from({length:count-1},(_,index)=>choosePuzzle(count,previous,(index+.5)/(count-1)));
+      expect(selections).toEqual(Array.from({length:count},(_,index)=>index).filter(index=>index!==previous));
+      expect(new Set(selections).size).toBe(count-1);
+      expect(selections).not.toContain(previous);
+    }
+  });
   it('validates all 50 fixtures, 350 approved clues and every archived source hash',()=>{
     expect(data.states.map(s=>s.postalCode).sort()).toEqual([...STATE_CODES].sort());
     expect(data.clues.filter(c=>c.review.status==='approved')).toHaveLength(350);

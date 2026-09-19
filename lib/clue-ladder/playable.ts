@@ -1,9 +1,15 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { loadDataset } from './load';
 import { validateDataset, validateManifest } from './validate';
-import type { PuzzleManifest } from './types';
-import type { PlayablePuzzle } from './play';
+import type { ClueRecord, PuzzleManifest } from './types';
+import type { MapHintTopic, PlayablePuzzle } from './play';
 import { findState } from '../../data/states';
+export function mapHintTopicsForClue(clue: Pick<ClueRecord, 'category' | 'factRefs'>): MapHintTopic[] {
+ const topics: MapHintTopic[] = [];
+ if (clue.category === 'time_zone') topics.push('time-zones');
+ if (clue.category === 'parks' || clue.factRefs.some(ref => ref.includes(':nps.formal_unit_ids'))) topics.push('parks');
+ return topics;
+}
 export function loadPlayablePuzzles(snapshotId = 'us-states-2026-09-06-v1'): PlayablePuzzle[] {
  const data = loadDataset(snapshotId);
  const errors = validateDataset(data, true).filter(d => d.severity === 'error');
@@ -18,7 +24,8 @@ export function loadPlayablePuzzles(snapshotId = 'us-states-2026-09-06-v1'): Pla
   const state = findState(manifest.answerStateId.slice(3))!;
   return {id: manifest.puzzleId, answer: state.code, name: state.name, maxByRung: manifest.scoring.maxByRung, wrongGuessPenalty: manifest.scoring.wrongGuessPenalty,
    clues: manifest.orderedClueIds.map(id => {
-    const clue = data.clues.find(c => c.clueId === id)!;
+   const clue = data.clues.find(c => c.clueId === id)!;
+    const mapHintTopics = mapHintTopicsForClue(clue);
     let image: string | undefined;
     if (clue.render.assetId) {
      const asset = data.assets.find(a => a.assetId === clue.render.assetId)!;
@@ -33,7 +40,7 @@ export function loadPlayablePuzzles(snapshotId = 'us-states-2026-09-06-v1'): Pla
      svg = svg.replace(/viewBox="[^"]+"/, `viewBox="${x-pad} ${y-pad} ${w+2*pad} ${h+2*pad}"`);
      image = 'data:image/svg+xml;base64,' + Buffer.from(svg).toString('base64');
     }
-    return {text: clue.render.text?.en ?? 'Which state has this shape?', ...(image ? {image} : {})};
+    return {text: clue.render.text?.en ?? 'Which state has this shape?', category: clue.category, mapHintTopics, ...(image ? {image} : {})};
    })};
  });
 }

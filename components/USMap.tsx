@@ -1,6 +1,6 @@
 import { US_MAP_VIEWBOX, US_STATE_SHAPES } from "@/data/map";
 import type { StateCode } from "@/data/states";
-import { getDistanceFeedback } from "@/lib/game";
+import { formatFeedbackText, getDistanceFeedback } from "@/lib/game";
 import { DIFFICULTIES, type Difficulty } from "@/lib/difficulty";
 
 type MapGuess = {
@@ -12,8 +12,11 @@ type USMapProps = {
   difficulty: Difficulty;
   guesses: readonly MapGuess[];
   revealedState: StateCode | null;
-  onSelectState: (code: StateCode) => void;
+  onSelectState?: (code: StateCode) => void;
   disabled: boolean;
+  showStateLabels?: boolean;
+  title?: string;
+  description?: string;
 };
 
 export function USMap({
@@ -22,9 +25,12 @@ export function USMap({
   revealedState,
   onSelectState,
   disabled,
+  showStateLabels = false,
+  title = "United States Border Hunt map",
+  description,
 }: USMapProps) {
   const guessByState = new Map(guesses.map((guess) => [guess.code, guess]));
-  const canSelect = difficulty === "easy" && !disabled;
+  const canSelect = difficulty === "easy" && !disabled && Boolean(onSelectState);
 
   return (
     <svg
@@ -33,9 +39,9 @@ export function USMap({
       role="group"
       viewBox={US_MAP_VIEWBOX}
     >
-      <title id="us-map-title">United States Border Hunt map</title>
+      <title id="us-map-title">{title}</title>
       <desc id="us-map-description">
-        {DIFFICULTIES[difficulty].description} Guessed states are colored by their border distance from the mystery state.
+        {description ?? `${DIFFICULTIES[difficulty].description} Guessed states are colored by their border distance from the mystery state.`}
       </desc>
 
       {US_STATE_SHAPES.map(({ code, name, path }) => {
@@ -47,8 +53,9 @@ export function USMap({
           : revealedState === code
             ? "correct"
             : "unexplored";
-        const description = guess
-          ? getDistanceFeedback(guess.distance).detail
+        const feedback = guess ? getDistanceFeedback(guess.distance) : null;
+        const description = feedback
+          ? formatFeedbackText(feedback)
           : revealedState === code
             ? "Mystery state"
             : "Not guessed";
@@ -63,21 +70,34 @@ export function USMap({
             data-state={code}
             key={code}
             onClick={() => {
-              if (canSelect) onSelectState(code);
+              if (canSelect) onSelectState?.(code);
             }}
             onKeyDown={(event) => {
               if (canSelect && (event.key === "Enter" || event.key === " ")) {
                 event.preventDefault();
-                onSelectState(code);
+                onSelectState?.(code);
               }
             }}
-            role={difficulty === "easy" ? "button" : "img"}
+            role={canSelect ? "button" : "img"}
             tabIndex={canSelect ? 0 : undefined}
           >
             {showName && <title>{`${name}: ${description}`}</title>}
           </path>
         );
       })}
+      {showStateLabels
+        ? US_STATE_SHAPES.map(({ code, labelX, labelY }) => (
+            <text
+              aria-hidden="true"
+              className="state-map-label"
+              key={`label-${code}`}
+              x={labelX}
+              y={labelY}
+            >
+              {code}
+            </text>
+          ))
+        : null}
     </svg>
   );
 }

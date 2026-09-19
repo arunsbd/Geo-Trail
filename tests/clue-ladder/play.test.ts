@@ -1,9 +1,11 @@
 import { describe, it, expect } from 'vitest';
-import { loadPlayablePuzzles } from '../../lib/clue-ladder/playable';
-import { choosePuzzle, newRound, play } from '../../lib/clue-ladder/play';
+import { readFileSync } from 'node:fs';
+import { loadPlayablePuzzles, mapHintTopicsForClue } from '../../lib/clue-ladder/playable';
+import { availableScore, choosePuzzle, hasRevealedMapHint, MAP_HINT_PENALTY, newRound, play } from '../../lib/clue-ladder/play';
 import { loadDataset } from '../../lib/clue-ladder/load';
 import { compileLadder } from '../../lib/clue-ladder/compile';
 import { validateDataset, validateLadder } from '../../lib/clue-ladder/validate';
+import type { ClueRecord } from '../../lib/clue-ladder/types';
 const puzzles = loadPlayablePuzzles('us-states-2026-09-05-v2');
 describe('seven-round playable edition', () => {
  it('loads three independently validated manifests with no economy or industry clues', () => {
@@ -45,11 +47,36 @@ describe('seven-round playable edition', () => {
   expect(round.score).toBe(0);
   expect(play(puzzle, round, puzzle.answer)).toBe(round);
  });
+ it('deducts each map reveal from both available points and the winning score', () => {
+  const puzzle = puzzles[0];
+  const fresh = newRound();
+  expect(availableScore(puzzle, fresh, MAP_HINT_PENALTY)).toBe(850);
+  expect(play(puzzle, fresh, puzzle.answer, MAP_HINT_PENALTY).score).toBe(850);
+
+  const afterWrongGuess = play(puzzle, fresh, 'CA');
+  const threeMapPenalty = MAP_HINT_PENALTY * 3;
+  const expected = puzzle.maxByRung[afterWrongGuess.rung] - puzzle.wrongGuessPenalty - threeMapPenalty;
+  expect(availableScore(puzzle, afterWrongGuess, threeMapPenalty)).toBe(expected);
+  expect(play(puzzle, afterWrongGuess, puzzle.answer, threeMapPenalty).score).toBe(expected);
+  expect(availableScore(puzzle, fresh, 2_000)).toBe(0);
+ });
  it('selects every puzzle and never repeats the previous state', () => {
   for (const random of [0, .33, .66, .9999]) for (const previous of [0, 1, 2]) {
    expect(choosePuzzle(3, previous, random)).not.toBe(previous);
    expect(choosePuzzle(3, previous, random)).toBeLessThan(3);
   }
   expect([0, .34, .67].map(r => choosePuzzle(3, null, r))).toEqual([0,1,2]);
+ });
+ it('unlocks a map layer only when its adjacent clue has been revealed', () => {
+  const puzzle = puzzles.find(candidate => candidate.clues.some(clue => clue.mapHintTopics.includes('time-zones')))!;
+  const categoryRung = puzzle.clues.findIndex(clue => clue.mapHintTopics.includes('time-zones'));
+  expect(hasRevealedMapHint(puzzle, Math.max(0, categoryRung - 1), 'time-zones')).toBe(categoryRung === 0);
+  expect(hasRevealedMapHint(puzzle, categoryRung, 'time-zones')).toBe(true);
+ });
+ it('treats Florida’s named Everglades clue as a National Parks layer unlock', () => {
+  const floridaClues = JSON.parse(readFileSync('data/clue-ladder/clues/short-seven-all-states-v1/US-FL.json', 'utf8')) as ClueRecord[];
+  const everglades = floridaClues.find(clue => clue.clueId === 'fl.nps.everglades')!;
+  expect(everglades.category).toBe('landmark');
+  expect(mapHintTopicsForClue(everglades)).toContain('parks');
  });
 });

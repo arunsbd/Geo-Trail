@@ -1,6 +1,7 @@
 import { ClueLadderGame } from '@/components/ClueLadderGame';
+import { loadClueLadderHintData } from '@/lib/clue-ladder/hints';
 import { loadPlayablePuzzles } from '@/lib/clue-ladder/playable';
 export const metadata = { title: 'GeoTrail — Clue Ladder', description: 'Guess a mystery U.S. state in seven clues. Explore all 50 states in Clue Ladder.' };
 export default function ClueLadderPage() {
- return <ClueLadderGame puzzles={loadPlayablePuzzles()} />;
+ return <ClueLadderGame hints={loadClueLadderHintData()} puzzles={loadPlayablePuzzles()} />;
 }

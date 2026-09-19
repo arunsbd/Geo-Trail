@@ -6,7 +6,9 @@ Explore U.S. geography with two guessing games: **Border Hunt** and **Clue Ladde
 
 ## Border Hunt
 
-Find the mystery state using feedback from each guess. The number tells you the fewest state-border crossings between your guess and the answer. Zero means you found it!
+Find the mystery state using feedback from each guess. The number tells you the fewest state-border crossings between your guess and the answer. GeoTrail measures how places connect, not simply how far apart they are.
+
+The locked heat scale runs from indigo/purple at 8+ borders away through blue, cyan, yellow, amber, orange, and red. A direct neighbor gets the special `🔥 BORDERING` state, and green is reserved for the correct answer. Every color also has a text label.
 
 Choose your difficulty:
 
@@ -26,6 +28,14 @@ Identify a mystery state through seven clues, with one guess or skip per clue. A
 - Solve the state before you run out of clues, then play again to try another.
 
 The current practice collection includes **all 50 U.S. states**, with seven clues per state. Difficulty levels apply only to Border Hunt.
+
+Both playable games include first-play instructions, a persistent **How to play** control, and a labeled game chooser. If a player switches games after making progress, GeoTrail warns before leaving the current round.
+
+## Continental and World roadmap
+
+Border Hunt will expand in this order: U.S. States → North America → Europe → South America → Africa → Asia → Oceania → World. The implementation uses one versioned geography model and one connection engine with region filters, rather than separate engines per continent.
+
+World gateway behavior is not yet production-approved. Difficult disconnected cases—including Sri Lanka, Japan, the United Kingdom, Madagascar, Iceland, Cuba, the Philippines, Australia, New Zealand, and Fiji—must pass an auditable fixture review before gateway claims ship. See [the architecture and gateway review plan](docs/BORDER_HUNT_WORLD_ARCHITECTURE.md).
 
 ## Geography conventions and sources
 

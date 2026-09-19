@@ -1,16 +1,19 @@
 "use client";
 
-import { useRef, useState, type FormEvent } from "react";
-import Link from "next/link";
+import { useEffect, useRef, useState, type FormEvent } from "react";
+import { GameNavigation } from "@/components/GameNavigation";
+import { OnboardingCard } from "@/components/OnboardingCard";
 import { USMap } from "@/components/USMap";
 import { findState, STATES, STATE_BY_CODE, type StateCode } from "@/data/states";
 import { shortestBorderDistance } from "@/lib/border-distance";
 import { DIFFICULTIES, type Difficulty } from "@/lib/difficulty";
 import {
   getDistanceFeedback,
+  LAND_DISTANCE_LEGEND,
   pickMysteryState,
   type DistanceFeedback,
 } from "@/lib/game";
+import { hasSeenOnboarding, markOnboardingSeen } from "@/lib/onboarding";
 
 type GuessResult = {
   code: StateCode;
@@ -36,7 +39,19 @@ export function BorderHuntGame() {
   const [guesses, setGuesses] = useState<GuessResult[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [isComplete, setIsComplete] = useState(false);
+  const [hasEnteredGame, setHasEnteredGame] = useState(false);
+  const [isIntroOpen, setIsIntroOpen] = useState(true);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (hasSeenOnboarding("border-hunt", window.localStorage)) {
+      const restoreTimer = window.setTimeout(() => {
+        setHasEnteredGame(true);
+        setIsIntroOpen(false);
+      }, 0);
+      return () => window.clearTimeout(restoreTimer);
+    }
+  }, []);
 
   const latestGuess = guesses.at(-1) ?? null;
   const mysteryStateInfo = STATE_BY_CODE.get(mysteryState);
@@ -91,6 +106,13 @@ export function BorderHuntGame() {
     window.setTimeout(() => inputRef.current?.focus(), 0);
   }
 
+  function enterGame() {
+    markOnboardingSeen("border-hunt", window.localStorage);
+    setHasEnteredGame(true);
+    setIsIntroOpen(false);
+    window.setTimeout(() => inputRef.current?.focus(), 0);
+  }
+
   return (
     <main className="min-h-screen overflow-hidden px-4 pb-10 sm:px-6 lg:px-8">
       <div aria-hidden="true" className="topographic-lines" />
@@ -113,11 +135,10 @@ export function BorderHuntGame() {
           </span>
         </a>
 
-        <nav aria-label="Game modes" className="flex gap-4 text-sm font-bold">
-          <Link href="/" aria-current="page" className="text-[var(--trail-dark)]">Border Hunt</Link>
-          <Link href="/clue-ladder/">Clue Ladder</Link>
-        </nav>
-
+        <GameNavigation
+          activeMode="border-hunt"
+          hasProgress={guesses.length > 0 && !isComplete}
+        />
       </header>
 
       <section className="relative mx-auto max-w-7xl pb-5 pt-7 sm:pb-8 sm:pt-10">
@@ -127,13 +148,34 @@ export function BorderHuntGame() {
             Find the state.
             <span className="block text-[var(--trail)]">Count the borders.</span>
           </h1>
-          <p className="max-w-md text-sm leading-6 font-semibold text-[color:var(--ink-soft)] sm:text-base">
-            Guess any state. Each result reveals the fewest land borders you’d
-            cross to reach this round’s mystery state.
-          </p>
+          <div className="max-w-md">
+            <p className="text-sm leading-6 font-semibold text-[color:var(--ink-soft)] sm:text-base">
+              Guess any state. Each result reveals the fewest land borders you’d
+              cross to reach this round’s mystery state.
+            </p>
+            <button
+              className="how-to-play"
+              onClick={() => setIsIntroOpen(true)}
+              type="button"
+            >
+              How to play
+            </button>
+          </div>
         </div>
       </section>
 
+      {isIntroOpen ? (
+        <div className="relative mx-auto mb-5 max-w-7xl">
+          <OnboardingCard
+            mode="border-hunt"
+            onClose={hasEnteredGame ? () => setIsIntroOpen(false) : undefined}
+            onStart={enterGame}
+          />
+        </div>
+      ) : null}
+
+      {hasEnteredGame ? (
+        <>
       <fieldset className="relative mx-auto mb-5 max-w-7xl rounded-xl border border-[var(--line)] bg-white/45 p-4">
         <legend className="px-2 text-xs font-extrabold tracking-widest text-[var(--forest)] uppercase">Difficulty</legend>
         <div className="flex flex-wrap gap-3">
@@ -190,11 +232,12 @@ export function BorderHuntGame() {
             )}
           </div>
 
-          <div className="flex flex-wrap gap-x-4 gap-y-2 border-t border-[var(--line)] px-4 py-3 text-[0.68rem] font-extrabold tracking-[0.08em] text-[color:var(--ink-soft)] uppercase sm:px-6">
-            <span className="legend legend--cold">Cold</span>
-            <span className="legend legend--warm">Warm</span>
-            <span className="legend legend--hot">Hot</span>
-            <span className="legend legend--correct">Found</span>
+          <div aria-label="Border distance legend" className="heat-legend border-t border-[var(--line)] px-4 py-3 sm:px-6">
+            {LAND_DISTANCE_LEGEND.map((item) => (
+              <span className={`legend legend--${item.level}`} key={item.level}>
+                <span aria-hidden="true">{item.icon}</span> {item.label}
+              </span>
+            ))}
           </div>
           <p className="border-t border-[var(--line)] px-4 py-3 text-xs leading-5 text-[color:var(--ink-soft)] sm:px-6">
             <strong className="font-extrabold text-[var(--forest)]">Four Corners counts:</strong>{" "}
@@ -224,7 +267,10 @@ export function BorderHuntGame() {
                   <div className="feedback-panel__pin" aria-hidden="true" />
                   <div>
                     <p className="feedback-kicker">{latestGuess.name}</p>
-                    <h2>{latestGuess.feedback.label}</h2>
+                    <h2>
+                      <span aria-hidden="true">{latestGuess.feedback.icon} </span>
+                      {latestGuess.feedback.label}
+                    </h2>
                     <p>{latestGuess.feedback.detail}</p>
                   </div>
                 </div>
@@ -315,7 +361,13 @@ export function BorderHuntGame() {
                     </span>
                     <span className="min-w-0 flex-1">
                       <strong>{guess.name}</strong>
-                      <small>{guess.feedback.detail}</small>
+                      <small>
+                        <strong className="guess-list__feedback">
+                          <span aria-hidden="true">{guess.feedback.icon} </span>
+                          {guess.feedback.label}
+                        </strong>{" "}
+                        · {guess.feedback.detail}
+                      </small>
                     </span>
                     <span
                       aria-label={guess.feedback.label}
@@ -329,6 +381,8 @@ export function BorderHuntGame() {
           </div>
         </aside>
       </section>
+        </>
+      ) : null}
 
       <footer className="relative mx-auto mt-5 flex max-w-7xl flex-col gap-2 border-t border-[var(--line)] pt-4 text-xs font-semibold text-[color:var(--ink-soft)] sm:flex-row sm:items-center sm:justify-between">
         <p>Land borders + Four Corners · Practice targets use the connected 48 states</p>

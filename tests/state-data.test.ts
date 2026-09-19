@@ -3,7 +3,7 @@ import { neighbors } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
 import usAtlas from "us-atlas/states-albers-10m.json";
 import { STATE_BORDERS } from "@/data/borders";
-import { STATES, STATE_CODES, STATE_CODE_BY_NAME, type StateCode } from "@/data/states";
+import { findState, formatStateOption, STATES, STATE_CODES, STATE_CODE_BY_NAME, type StateCode } from "@/data/states";
 
 function stateCodeForGeometry(geometry: { properties?: unknown }) {
   const properties = geometry.properties;
@@ -23,6 +23,17 @@ describe("state geography data", () => {
     expect(STATES).toHaveLength(50);
     expect(new Set(STATE_CODES).size).toBe(50);
     expect(new Set(STATES.map((state) => state.name)).size).toBe(50);
+  });
+
+  it("displays and resolves every state name and USPS abbreviation", () => {
+    expect(STATES.map(formatStateOption)).toHaveLength(50);
+    for (const state of STATES) {
+      expect(formatStateOption(state)).toBe(`${state.name} — ${state.code}`);
+      expect(findState(state.name)).toEqual(state);
+      expect(findState(state.name.toLowerCase())).toEqual(state);
+      expect(findState(state.code)).toEqual(state);
+      expect(findState(state.code.toLowerCase())).toEqual(state);
+    }
   });
 
   it("has one border-graph entry for every state", () => {

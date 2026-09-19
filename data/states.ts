@@ -136,3 +136,7 @@ export function findState(input: string): StateInfo | null {
   const code = STATE_CODE_BY_NAME.get(normalized.toLowerCase());
   return code ? (STATE_BY_CODE.get(code) ?? null) : null;
 }
+
+export function formatStateOption(state: StateInfo): string {
+  return `${state.name} — ${state.code}`;
+}

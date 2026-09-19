@@ -38,6 +38,20 @@ describe("difficulty map visibility", () => {
     const html = renderMap("hard", true);
     expect(html.match(/<path /g)).toHaveLength(1);
     expect(html).toContain('data-state="TX"');
-    expect(html).toContain("Texas: 2 borders away");
+    expect(html).toContain("Texas: ● Very hot; 2 borders away");
+  });
+
+  it("exposes the fire adjacency state through color-independent map text", () => {
+    const html = renderToStaticMarkup(createElement(USMap, {
+      difficulty: "easy",
+      guesses: [{ code: "TX", distance: 1 }],
+      revealedState: null,
+      disabled: false,
+      onSelectState: () => {},
+    }));
+
+    expect(html).toContain("state-shape--bordering");
+    expect(html).toContain("🔥 BORDERING");
+    expect(html).toContain("1 border away");
   });
 });
