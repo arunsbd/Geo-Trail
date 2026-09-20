@@ -15,6 +15,18 @@ export const ONBOARDING = {
   },
 } as const;
 
+export type OnboardingContent = {
+  title: string;
+  body: string;
+  action: string;
+};
+
+export const EUROPE_BORDER_HUNT_ONBOARDING: OnboardingContent = {
+  title: "Find the mystery country",
+  body: "A mystery country has been chosen. Guess a country to begin. GeoTrail follows land borders to show how closely your guess connects to the answer. Easy Mode also points in the target’s general direction.",
+  action: "Start Border Hunt",
+};
+
 type StorageReader = Pick<Storage, "getItem">;
 type StorageWriter = Pick<Storage, "setItem">;
 

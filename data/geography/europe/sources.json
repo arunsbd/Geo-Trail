@@ -1,0 +1,25 @@
+{
+  "version": "europe-beta-v1",
+  "roster": {
+    "title": "United Nations Statistics Division M49 overview",
+    "url": "https://unstats.un.org/unsd/methodology/m49/",
+    "retrieved": "2026-09-19"
+  },
+  "polygons": {
+    "title": "Eurostat GISCO Countries 2024",
+    "url": "https://gisco-services.ec.europa.eu/distribution/v2/countries/countries-2024-files.html",
+    "release": "2024",
+    "scale": "1:10 million",
+    "projection": "EPSG:4326",
+    "retrieved": "2026-09-19"
+  },
+  "adjacency": {
+    "method": "Curated from GISCO inland international boundaries, then reviewed against the explicit beta policy. Polygon contact alone never creates a connection.",
+    "url": "https://gisco-services.ec.europa.eu/distribution/v2/countries/"
+  },
+  "crossCheck": {
+    "title": "EuroGeographics EuroGlobalMap",
+    "url": "https://www.mapsforeurope.org/datasets/euro-global-map",
+    "note": "Secondary cross-check only; its coverage is not identical to the GeoTrail roster."
+  }
+}

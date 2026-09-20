@@ -14,6 +14,7 @@
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest",
+    "geography:europe": "node scripts/build-europe-geography.mjs",
     "clue-ladder:schemas": "node scripts/generate-clue-ladder-schemas.mjs",
     "clue-ladder:validate": "tsx scripts/validate-clue-ladder.ts",
     "clue-ladder:fixtures": "tsx scripts/build-clue-ladder-fixtures.ts",

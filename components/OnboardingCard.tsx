@@ -1,15 +1,17 @@
-import { ONBOARDING, type GameMode } from "@/lib/onboarding";
+import { ONBOARDING, type GameMode, type OnboardingContent } from "@/lib/onboarding";
 
 export function OnboardingCard({
   mode,
   onStart,
   onClose,
+  content: suppliedContent,
 }: {
   mode: GameMode;
   onStart: () => void;
   onClose?: () => void;
+  content?: OnboardingContent;
 }) {
-  const content = ONBOARDING[mode];
+  const content = suppliedContent ?? ONBOARDING[mode];
 
   return (
     <section

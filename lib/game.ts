@@ -45,12 +45,18 @@ export function pickMysteryState(
 
 export function getDistanceFeedback(
   distance: number | null,
+  placeKind: "state" | "country" | number = "state",
 ): DistanceFeedback {
+  // Treat Array.map's numeric index argument as the historical state default.
+  const normalizedPlaceKind = placeKind === "country" ? "country" : "state";
+  const placeLabel = normalizedPlaceKind;
   if (distance === null) {
     return {
       icon: "◇",
       label: "Connection unknown",
-      detail: "No continuous U.S. state-border trail is available.",
+      detail: normalizedPlaceKind === "state"
+        ? "No continuous U.S. state-border trail is available."
+        : "No continuous country land-border trail is available.",
       level: "no-route",
     };
   }
@@ -59,7 +65,7 @@ export function getDistanceFeedback(
     return {
       icon: "✓",
       label: "FOUND IT",
-      detail: "You found the mystery state.",
+      detail: `You found the mystery ${placeLabel}.`,
       level: "correct",
     };
   }
@@ -70,7 +76,7 @@ export function getDistanceFeedback(
     return {
       icon: "🔥",
       label: "BORDERING",
-      detail: `${crossingText} — Your guess directly borders the mystery state.`,
+      detail: `${crossingText} — Your guess directly borders the mystery ${placeLabel}.`,
       level: "bordering",
     };
   }

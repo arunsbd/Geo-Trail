@@ -37,6 +37,42 @@ export function shortestConnectionDistance<PlaceId extends string>(
   return null;
 }
 
+export function shortestConnectionPath<PlaceId extends string>(
+  start: PlaceId,
+  target: PlaceId,
+  graph: Readonly<Record<PlaceId, readonly PlaceId[]>>,
+): PlaceId[] | null {
+  if (start === target) return [start];
+
+  const previous = new Map<PlaceId, PlaceId | null>([[start, null]]);
+  const queue: PlaceId[] = [start];
+  let nextIndex = 0;
+
+  while (nextIndex < queue.length) {
+    const current = queue[nextIndex];
+    nextIndex += 1;
+
+    for (const neighbor of graph[current] ?? []) {
+      if (previous.has(neighbor)) continue;
+      previous.set(neighbor, current);
+
+      if (neighbor === target) {
+        const path: PlaceId[] = [];
+        let step: PlaceId | null = target;
+        while (step !== null) {
+          path.push(step);
+          step = previous.get(step) ?? null;
+        }
+        return path.reverse();
+      }
+
+      queue.push(neighbor);
+    }
+  }
+
+  return null;
+}
+
 export function filterPlaceIdsByRegion<PlaceId extends string>(
   dataset: GeographyDataset<PlaceId>,
   region: GeographyDataset<PlaceId>["places"][number]["gameRegion"],

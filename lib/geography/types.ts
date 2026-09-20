@@ -12,11 +12,17 @@ export type PolygonReference = {
   featureId: string;
 };
 
+export type GeographicPoint = {
+  longitude: number;
+  latitude: number;
+};
+
 export type GeographyPlace<PlaceId extends string> = {
   id: PlaceId;
   name: string;
   aliases: readonly string[];
   polygon: PolygonReference;
+  labelPoint?: GeographicPoint;
   terrestrialNeighbors: readonly PlaceId[];
   gameRegion: GeoTrailRegion;
 };

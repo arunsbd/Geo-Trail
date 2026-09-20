@@ -1018,6 +1018,205 @@ input:disabled {
   background: var(--heat-no-route);
 }
 
+.region-selector {
+  margin-top: 1.4rem;
+  border: 0;
+  padding: 0;
+}
+
+.region-selector legend {
+  margin-bottom: 0.55rem;
+  color: var(--forest);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.region-selector__options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.region-selector__option {
+  cursor: pointer;
+}
+
+.region-selector__option > input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.region-selector__option > span {
+  display: flex;
+  min-height: 2.8rem;
+  align-items: center;
+  gap: 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.6rem 0.95rem;
+  color: var(--forest);
+  background: rgb(255 253 244 / 76%);
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.region-selector__option small {
+  border-radius: 999px;
+  padding: 0.2rem 0.45rem;
+  color: var(--trail-dark);
+  background: #f8dbce;
+  font-size: 0.58rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.region-selector__option > input:checked + span {
+  border-color: var(--forest);
+  color: white;
+  background: var(--forest);
+}
+
+.region-selector__option > input:focus-visible + span {
+  outline: 3px solid rgb(36 94 80 / 30%);
+  outline-offset: 2px;
+}
+
+.region-selector__option > input:disabled + span {
+  cursor: not-allowed;
+  opacity: 0.55;
+  filter: grayscale(0.4);
+}
+
+.europe-map {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.8rem;
+}
+
+.europe-map__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.map-controls {
+  position: absolute;
+  z-index: 2;
+  top: 0.4rem;
+  right: 0.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 0.3rem;
+  max-width: 12rem;
+}
+
+.map-controls button {
+  display: grid;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  padding: 0.25rem 0.45rem;
+  color: var(--forest);
+  background: rgb(255 253 244 / 92%);
+  font-size: 0.75rem;
+  font-weight: 900;
+  box-shadow: 0 0.2rem 0.5rem rgb(51 75 62 / 12%);
+}
+
+.map-controls button:focus-visible {
+  outline: 3px solid rgb(36 94 80 / 30%);
+  outline-offset: 1px;
+}
+
+.microstate-target {
+  cursor: pointer;
+  stroke: #fffdf4;
+  stroke-width: 2.5;
+  vector-effect: non-scaling-stroke;
+}
+
+.microstate-target[aria-disabled="true"] {
+  cursor: default;
+}
+
+.microstate-target:hover:not([aria-disabled="true"]),
+.microstate-target:focus-visible {
+  stroke: var(--forest);
+  stroke-width: 3.5;
+  outline: none;
+}
+
+.microstate-shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  border-top: 1px solid var(--line);
+  padding: 0.75rem;
+}
+
+.microstate-shortcuts > span {
+  margin-right: 0.25rem;
+  color: var(--forest);
+  font-size: 0.65rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.microstate-shortcuts button {
+  min-height: 2.75rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.55rem 0.75rem;
+  color: var(--forest);
+  background: #fffef8;
+  font-size: 0.7rem;
+  font-weight: 850;
+}
+
+.microstate-shortcuts button:hover:not(:disabled) {
+  border-color: var(--forest);
+  background: var(--mist);
+}
+
+.microstate-shortcuts button:focus-visible {
+  outline: 3px solid rgb(36 94 80 / 30%);
+  outline-offset: 2px;
+}
+
+.microstate-shortcuts button:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.direction-guidance {
+  margin-top: 0.65rem !important;
+  border-top: 1px solid currentColor;
+  padding-top: 0.55rem;
+  color: inherit !important;
+  font-weight: 850 !important;
+}
+
+.direction-guidance span {
+  display: inline-grid;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-right: 0.25rem;
+  place-items: center;
+  border-radius: 50%;
+  color: white;
+  background: var(--forest);
+  font-size: 1.15rem;
+}
+
 @media (max-width: 767px) {
   .game-navigation {
     width: 100%;

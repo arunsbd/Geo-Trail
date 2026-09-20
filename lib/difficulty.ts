@@ -14,3 +14,13 @@ export const DIFFICULTIES = {
 } as const;
 
 export type Difficulty = keyof typeof DIFFICULTIES;
+
+export function getDifficultyDescription(
+  difficulty: Difficulty,
+  placeKind: "state" | "country",
+) {
+  if (placeKind === "state") return DIFFICULTIES[difficulty].description;
+  if (difficulty === "easy") return "Explore the full map. Hover for names or tap a country to guess; each result also points toward the target.";
+  if (difficulty === "intermediate") return "Use the map shapes as clues. Country names are hidden; type your guess.";
+  return "Start with a blank map. Each guess reveals only that country; earlier guesses stay visible.";
+}
