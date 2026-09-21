@@ -1,25 +1,43 @@
 {
-  "version": "europe-beta-v1",
+  "version": "europe-beta-natural-earth-5.1.1-v1",
   "roster": {
     "title": "United Nations Statistics Division M49 overview",
     "url": "https://unstats.un.org/unsd/methodology/m49/",
     "retrieved": "2026-09-19"
   },
   "polygons": {
-    "title": "Eurostat GISCO Countries 2024",
-    "url": "https://gisco-services.ec.europa.eu/distribution/v2/countries/countries-2024-files.html",
-    "release": "2024",
+    "title": "Natural Earth Admin 0 Countries, 1:10m",
+    "version": "5.1.1",
     "scale": "1:10 million",
-    "projection": "EPSG:4326",
-    "retrieved": "2026-09-19"
+    "projection": "WGS84 longitude/latitude",
+    "catalogUrl": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
+    "downloadUrl": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.1/geojson/ne_10m_admin_0_countries.geojson",
+    "sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+    "retrieved": "2026-09-20",
+    "boundaryView": "Natural Earth default de facto boundaries"
   },
+  "license": {
+    "status": "Public domain",
+    "termsUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "commercialUse": "Permitted",
+    "attributionRequired": false,
+    "voluntaryCredit": "Made with Natural Earth"
+  },
+  "processing": [
+    "Verify the pinned source SHA-256 before parsing",
+    "Select exactly the 44 existing GeoTrail UN M49 Europe roster features by ADM0_A3",
+    "Copy source geometry without simplification",
+    "Compute spherical centroids with d3-geo geoCentroid",
+    "Use Natural Earth LABEL_X and LABEL_Y as gameplay label and direction anchors",
+    "Derive Europe display bounds from source vertices inside the documented Europe display window",
+    "Derive adjacency from exact shared non-zero polygon segments",
+    "Apply reviewed GeoTrail policy exclusions after recording every raw candidate",
+    "Order generated neighbors with the established deterministic BFS tie-break order"
+  ],
   "adjacency": {
-    "method": "Curated from GISCO inland international boundaries, then reviewed against the explicit beta policy. Polygon contact alone never creates a connection.",
-    "url": "https://gisco-services.ec.europa.eu/distribution/v2/countries/"
-  },
-  "crossCheck": {
-    "title": "EuroGeographics EuroGlobalMap",
-    "url": "https://www.mapsforeurope.org/datasets/euro-global-map",
-    "note": "Secondary cross-check only; its coverage is not identical to the GeoTrail roster."
+    "source": "The same pinned Natural Earth Admin 0 Countries geometry",
+    "method": "Exact shared non-zero polygon segments; point contacts do not count",
+    "policyRejectedEdges": ["ALB-SRB", "MKD-SRB"],
+    "note": "Natural Earth produces MKD-SRB as a raw candidate but not ALB-SRB; both remain rejected by the existing Kosovo policy"
   }
 }

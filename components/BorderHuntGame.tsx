@@ -294,7 +294,7 @@ export function BorderHuntGame() {
                   <>
                     <strong className="font-extrabold text-[var(--forest)]">Beta land rules:</strong>{" "}
                     Reviewed terrestrial borders only. No ferry links or invented gateways.
-                    <span className="mt-1 block">© EuroGeographics for the administrative boundaries · Source: Eurostat/GISCO 2024</span>
+                    <span className="mt-1 block">Made with Natural Earth · Admin 0 Countries 1:10m v5.1.1</span>
                   </>
                 ) : (
                   <><strong className="font-extrabold text-[var(--forest)]">Four Corners counts:</strong>{" "}New Mexico–Utah and Arizona–Colorado are each 1 crossing apart.</>
@@ -394,7 +394,7 @@ export function BorderHuntGame() {
 
       <footer className="relative mx-auto mt-5 flex max-w-7xl flex-col gap-2 border-t border-[var(--line)] pt-4 text-xs font-semibold text-[color:var(--ink-soft)] sm:flex-row sm:items-center sm:justify-between">
         {isEurope ? (
-          <><p>Land borders only · 40 connected beta targets · 44 roster countries</p><p>© EuroGeographics for the administrative boundaries · Eurostat/GISCO 2024</p></>
+          <><p>Land borders only · 40 connected beta targets · 44 roster countries</p><p>Made with Natural Earth · Admin 0 Countries 1:10m v5.1.1</p></>
         ) : (
           <><p>Land borders + Four Corners · Practice targets use the connected 48 states</p><p>Map boundaries: U.S. Census Bureau via us-atlas</p></>
         )}

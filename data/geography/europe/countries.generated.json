@@ -1,0 +1,546 @@
+{
+  "datasetVersion": "europe-beta-natural-earth-5.1.1-v1",
+  "sourceSha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+  "displayWindow": {
+    "west": -25,
+    "south": 35,
+    "east": 45,
+    "north": 72
+  },
+  "displayBounds": {
+    "west": -24.539906,
+    "south": 35.002143,
+    "east": 44.966645,
+    "north": 71.180365
+  },
+  "countries": {
+    "ALB": {
+      "featureId": "ALB",
+      "sourceName": "Albania",
+      "centroid": {
+        "longitude": 20.055825831326057,
+        "latitude": 41.13486782151425
+      },
+      "labelPoint": {
+        "longitude": 20.11384,
+        "latitude": 40.654855
+      }
+    },
+    "AND": {
+      "featureId": "AND",
+      "sourceName": "Andorra",
+      "centroid": {
+        "longitude": 1.5607369549278272,
+        "latitude": 42.541315266169775
+      },
+      "labelPoint": {
+        "longitude": 1.539409,
+        "latitude": 42.547643
+      }
+    },
+    "AUT": {
+      "featureId": "AUT",
+      "sourceName": "Austria",
+      "centroid": {
+        "longitude": 14.11462937292017,
+        "latitude": 47.592364185857164
+      },
+      "labelPoint": {
+        "longitude": 14.130515,
+        "latitude": 47.518859
+      }
+    },
+    "BLR": {
+      "featureId": "BLR",
+      "sourceName": "Belarus",
+      "centroid": {
+        "longitude": 28.016367050873125,
+        "latitude": 53.52005483333619
+      },
+      "labelPoint": {
+        "longitude": 28.417701,
+        "latitude": 53.821888
+      }
+    },
+    "BEL": {
+      "featureId": "BEL",
+      "sourceName": "Belgium",
+      "centroid": {
+        "longitude": 4.64719414140003,
+        "latitude": 50.636746605150094
+      },
+      "labelPoint": {
+        "longitude": 4.800448,
+        "latitude": 50.785392
+      }
+    },
+    "BIH": {
+      "featureId": "BIH",
+      "sourceName": "Bosnia and Herzegovina",
+      "centroid": {
+        "longitude": 17.77950454596551,
+        "latitude": 44.16865947311059
+      },
+      "labelPoint": {
+        "longitude": 18.06841,
+        "latitude": 44.091051
+      }
+    },
+    "BGR": {
+      "featureId": "BGR",
+      "sourceName": "Bulgaria",
+      "centroid": {
+        "longitude": 25.21112397596315,
+        "latitude": 42.7708339173165
+      },
+      "labelPoint": {
+        "longitude": 25.15709,
+        "latitude": 42.508785
+      }
+    },
+    "HRV": {
+      "featureId": "HRV",
+      "sourceName": "Croatia",
+      "centroid": {
+        "longitude": 16.392517648593667,
+        "latitude": 45.06261188151292
+      },
+      "labelPoint": {
+        "longitude": 16.37241,
+        "latitude": 45.805799
+      }
+    },
+    "CZE": {
+      "featureId": "CZE",
+      "sourceName": "Czech Republic",
+      "centroid": {
+        "longitude": 15.32114225967503,
+        "latitude": 49.73702000426679
+      },
+      "labelPoint": {
+        "longitude": 15.377555,
+        "latitude": 49.882364
+      }
+    },
+    "DNK": {
+      "featureId": "DNK",
+      "sourceName": "Denmark",
+      "centroid": {
+        "longitude": 10.06600542113852,
+        "latitude": 55.95897719141272
+      },
+      "labelPoint": {
+        "longitude": 9.018163,
+        "latitude": 55.966965
+      }
+    },
+    "EST": {
+      "featureId": "EST",
+      "sourceName": "Estonia",
+      "centroid": {
+        "longitude": 25.538385156701455,
+        "latitude": 58.6719667551604
+      },
+      "labelPoint": {
+        "longitude": 25.867126,
+        "latitude": 58.724865
+      }
+    },
+    "FIN": {
+      "featureId": "FIN",
+      "sourceName": "Finland",
+      "centroid": {
+        "longitude": 26.190871013164315,
+        "latitude": 64.25166556172698
+      },
+      "labelPoint": {
+        "longitude": 27.276449,
+        "latitude": 63.252361
+      }
+    },
+    "FRA": {
+      "featureId": "FRA",
+      "sourceName": "France",
+      "centroid": {
+        "longitude": -6.662012207706556,
+        "latitude": 42.9632396905923
+      },
+      "labelPoint": {
+        "longitude": 2.552275,
+        "latitude": 46.696113
+      }
+    },
+    "DEU": {
+      "featureId": "DEU",
+      "sourceName": "Germany",
+      "centroid": {
+        "longitude": 10.3607138944916,
+        "latitude": 51.05000897686802
+      },
+      "labelPoint": {
+        "longitude": 9.678348,
+        "latitude": 50.961733
+      }
+    },
+    "GRC": {
+      "featureId": "GRC",
+      "sourceName": "Greece",
+      "centroid": {
+        "longitude": 22.984699926294077,
+        "latitude": 39.02446819091348
+      },
+      "labelPoint": {
+        "longitude": 21.72568,
+        "latitude": 39.492763
+      }
+    },
+    "VAT": {
+      "featureId": "VAT",
+      "sourceName": "Vatican City",
+      "centroid": {
+        "longitude": 12.453419354646451,
+        "latitude": 41.90331134251304
+      },
+      "labelPoint": {
+        "longitude": 12.453418,
+        "latitude": 41.903323
+      }
+    },
+    "HUN": {
+      "featureId": "HUN",
+      "sourceName": "Hungary",
+      "centroid": {
+        "longitude": 19.380446647737067,
+        "latitude": 47.16636835859988
+      },
+      "labelPoint": {
+        "longitude": 19.447867,
+        "latitude": 47.086841
+      }
+    },
+    "ISL": {
+      "featureId": "ISL",
+      "sourceName": "Iceland",
+      "centroid": {
+        "longitude": -18.601665704418227,
+        "latitude": 65.00046532258303
+      },
+      "labelPoint": {
+        "longitude": -18.673711,
+        "latitude": 64.779286
+      }
+    },
+    "IRL": {
+      "featureId": "IRL",
+      "sourceName": "Ireland",
+      "centroid": {
+        "longitude": -8.15270820977041,
+        "latitude": 53.165213115141995
+      },
+      "labelPoint": {
+        "longitude": -7.798588,
+        "latitude": 53.078726
+      }
+    },
+    "ITA": {
+      "featureId": "ITA",
+      "sourceName": "Italy",
+      "centroid": {
+        "longitude": 12.202771684013403,
+        "latitude": 42.70537687164515
+      },
+      "labelPoint": {
+        "longitude": 11.076907,
+        "latitude": 44.732482
+      }
+    },
+    "LVA": {
+      "featureId": "LVA",
+      "sourceName": "Latvia",
+      "centroid": {
+        "longitude": 24.916747782664597,
+        "latitude": 56.86048780464936
+      },
+      "labelPoint": {
+        "longitude": 25.458723,
+        "latitude": 57.066872
+      }
+    },
+    "LIE": {
+      "featureId": "LIE",
+      "sourceName": "Liechtenstein",
+      "centroid": {
+        "longitude": 9.540921650548562,
+        "latitude": 47.13815799878563
+      },
+      "labelPoint": {
+        "longitude": 9.559439,
+        "latitude": 47.111405
+      }
+    },
+    "LTU": {
+      "featureId": "LTU",
+      "sourceName": "Lithuania",
+      "centroid": {
+        "longitude": 23.898181374062606,
+        "latitude": 55.32462658720161
+      },
+      "labelPoint": {
+        "longitude": 24.089932,
+        "latitude": 55.103703
+      }
+    },
+    "LUX": {
+      "featureId": "LUX",
+      "sourceName": "Luxembourg",
+      "centroid": {
+        "longitude": 6.072101186683068,
+        "latitude": 49.76634702835911
+      },
+      "labelPoint": {
+        "longitude": 6.07762,
+        "latitude": 49.733732
+      }
+    },
+    "MLT": {
+      "featureId": "MLT",
+      "sourceName": "Malta",
+      "centroid": {
+        "longitude": 14.403898432967697,
+        "latitude": 35.92099876724839
+      },
+      "labelPoint": {
+        "longitude": 14.433005,
+        "latitude": 35.892886
+      }
+    },
+    "MDA": {
+      "featureId": "MDA",
+      "sourceName": "Moldova",
+      "centroid": {
+        "longitude": 28.47021899259796,
+        "latitude": 47.18733018511872
+      },
+      "labelPoint": {
+        "longitude": 28.487904,
+        "latitude": 47.434999
+      }
+    },
+    "MCO": {
+      "featureId": "MCO",
+      "sourceName": "Monaco",
+      "centroid": {
+        "longitude": 7.398972069166045,
+        "latitude": 43.73984587482033
+      },
+      "labelPoint": {
+        "longitude": 7.398291,
+        "latitude": 43.739652
+      }
+    },
+    "MNE": {
+      "featureId": "MNE",
+      "sourceName": "Montenegro",
+      "centroid": {
+        "longitude": 19.23827098195345,
+        "latitude": 42.784873564326865
+      },
+      "labelPoint": {
+        "longitude": 19.143727,
+        "latitude": 42.803101
+      }
+    },
+    "NLD": {
+      "featureId": "NLD",
+      "sourceName": "Netherlands",
+      "centroid": {
+        "longitude": 4.874417259188674,
+        "latitude": 52.22066974557222
+      },
+      "labelPoint": {
+        "longitude": 5.61144,
+        "latitude": 52.422211
+      }
+    },
+    "MKD": {
+      "featureId": "MKD",
+      "sourceName": "North Macedonia",
+      "centroid": {
+        "longitude": 21.68234705241595,
+        "latitude": 41.594862080718826
+      },
+      "labelPoint": {
+        "longitude": 21.555839,
+        "latitude": 41.558223
+      }
+    },
+    "NOR": {
+      "featureId": "NOR",
+      "sourceName": "Norway",
+      "centroid": {
+        "longitude": 12.800463488338071,
+        "latitude": 66.38959747296757
+      },
+      "labelPoint": {
+        "longitude": 9.679975,
+        "latitude": 61.357092
+      }
+    },
+    "POL": {
+      "featureId": "POL",
+      "sourceName": "Poland",
+      "centroid": {
+        "longitude": 19.423712813120567,
+        "latitude": 52.10900572133133
+      },
+      "labelPoint": {
+        "longitude": 19.490468,
+        "latitude": 51.990316
+      }
+    },
+    "PRT": {
+      "featureId": "PRT",
+      "sourceName": "Portugal",
+      "centroid": {
+        "longitude": -8.620203823381622,
+        "latitude": 39.60444158872939
+      },
+      "labelPoint": {
+        "longitude": -8.271754,
+        "latitude": 39.606675
+      }
+    },
+    "ROU": {
+      "featureId": "ROU",
+      "sourceName": "Romania",
+      "centroid": {
+        "longitude": 24.9831389095293,
+        "latitude": 45.8494189270457
+      },
+      "labelPoint": {
+        "longitude": 24.972624,
+        "latitude": 45.733237
+      }
+    },
+    "RUS": {
+      "featureId": "RUS",
+      "sourceName": "Russia",
+      "centroid": {
+        "longitude": 95.65302423990738,
+        "latitude": 66.03571660966088
+      },
+      "labelPoint": {
+        "longitude": 44.686469,
+        "latitude": 58.249357
+      }
+    },
+    "SMR": {
+      "featureId": "SMR",
+      "sourceName": "San Marino",
+      "centroid": {
+        "longitude": 12.442216243181779,
+        "latitude": 43.93646180900458
+      },
+      "labelPoint": {
+        "longitude": 12.441206,
+        "latitude": 43.933916
+      }
+    },
+    "SRB": {
+      "featureId": "SRB",
+      "sourceName": "Serbia",
+      "centroid": {
+        "longitude": 20.806315658074,
+        "latitude": 44.21193734883585
+      },
+      "labelPoint": {
+        "longitude": 20.787989,
+        "latitude": 44.189919
+      }
+    },
+    "SVK": {
+      "featureId": "SVK",
+      "sourceName": "Slovakia",
+      "centroid": {
+        "longitude": 19.47027202570795,
+        "latitude": 48.71073022282796
+      },
+      "labelPoint": {
+        "longitude": 19.049868,
+        "latitude": 48.734044
+      }
+    },
+    "SVN": {
+      "featureId": "SVN",
+      "sourceName": "Slovenia",
+      "centroid": {
+        "longitude": 14.804157346766194,
+        "latitude": 46.11643350926937
+      },
+      "labelPoint": {
+        "longitude": 14.915312,
+        "latitude": 46.06076
+      }
+    },
+    "ESP": {
+      "featureId": "ESP",
+      "sourceName": "Spain",
+      "centroid": {
+        "longitude": -3.710596103540043,
+        "latitude": 40.19000269943155
+      },
+      "labelPoint": {
+        "longitude": -3.464718,
+        "latitude": 40.090953
+      }
+    },
+    "SWE": {
+      "featureId": "SWE",
+      "sourceName": "Sweden",
+      "centroid": {
+        "longitude": 16.277225027563464,
+        "latitude": 62.38119406237001
+      },
+      "labelPoint": {
+        "longitude": 19.01705,
+        "latitude": 65.85918
+      }
+    },
+    "CHE": {
+      "featureId": "CHE",
+      "sourceName": "Switzerland",
+      "centroid": {
+        "longitude": 8.212907332243166,
+        "latitude": 46.79994451232248
+      },
+      "labelPoint": {
+        "longitude": 7.463965,
+        "latitude": 46.719114
+      }
+    },
+    "UKR": {
+      "featureId": "UKR",
+      "sourceName": "Ukraine",
+      "centroid": {
+        "longitude": 31.317923075424606,
+        "latitude": 49.196980973015954
+      },
+      "labelPoint": {
+        "longitude": 32.140865,
+        "latitude": 49.724739
+      }
+    },
+    "GBR": {
+      "featureId": "GBR",
+      "sourceName": "United Kingdom",
+      "centroid": {
+        "longitude": -2.7777190525817614,
+        "latitude": 54.03366945292
+      },
+      "labelPoint": {
+        "longitude": -2.116346,
+        "latitude": 54.402739
+      }
+    }
+  }
+}

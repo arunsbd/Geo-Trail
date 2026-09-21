@@ -1,0 +1,429 @@
+{
+  "datasetVersion": "europe-beta-natural-earth-5.1.1-v1",
+  "sourceSha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+  "method": "Exact shared non-zero polygon segments in Natural Earth Admin 0 Countries 1:10m, followed by explicit GeoTrail policy exclusions",
+  "candidateEdges": [
+    "ALB-GRC",
+    "ALB-MKD",
+    "ALB-MNE",
+    "AND-ESP",
+    "AND-FRA",
+    "AUT-CHE",
+    "AUT-CZE",
+    "AUT-DEU",
+    "AUT-HUN",
+    "AUT-ITA",
+    "AUT-LIE",
+    "AUT-SVK",
+    "AUT-SVN",
+    "BEL-DEU",
+    "BEL-FRA",
+    "BEL-LUX",
+    "BEL-NLD",
+    "BGR-GRC",
+    "BGR-MKD",
+    "BGR-ROU",
+    "BGR-SRB",
+    "BIH-HRV",
+    "BIH-MNE",
+    "BIH-SRB",
+    "BLR-LTU",
+    "BLR-LVA",
+    "BLR-POL",
+    "BLR-RUS",
+    "BLR-UKR",
+    "CHE-DEU",
+    "CHE-FRA",
+    "CHE-ITA",
+    "CHE-LIE",
+    "CZE-DEU",
+    "CZE-POL",
+    "CZE-SVK",
+    "DEU-DNK",
+    "DEU-FRA",
+    "DEU-LUX",
+    "DEU-NLD",
+    "DEU-POL",
+    "ESP-FRA",
+    "ESP-PRT",
+    "EST-LVA",
+    "EST-RUS",
+    "FIN-NOR",
+    "FIN-RUS",
+    "FIN-SWE",
+    "FRA-ITA",
+    "FRA-LUX",
+    "FRA-MCO",
+    "GBR-IRL",
+    "GRC-MKD",
+    "HRV-HUN",
+    "HRV-MNE",
+    "HRV-SRB",
+    "HRV-SVN",
+    "HUN-ROU",
+    "HUN-SRB",
+    "HUN-SVK",
+    "HUN-SVN",
+    "HUN-UKR",
+    "ITA-SMR",
+    "ITA-SVN",
+    "ITA-VAT",
+    "LTU-LVA",
+    "LTU-POL",
+    "LTU-RUS",
+    "LVA-RUS",
+    "MDA-ROU",
+    "MDA-UKR",
+    "MKD-SRB",
+    "MNE-SRB",
+    "NOR-RUS",
+    "NOR-SWE",
+    "POL-RUS",
+    "POL-SVK",
+    "POL-UKR",
+    "ROU-SRB",
+    "ROU-UKR",
+    "RUS-UKR",
+    "SVK-UKR"
+  ],
+  "policyRejectedEdges": [
+    "ALB-SRB",
+    "MKD-SRB"
+  ],
+  "excludedCandidateEdges": [
+    "MKD-SRB"
+  ],
+  "includedEdges": [
+    "ALB-GRC",
+    "ALB-MKD",
+    "ALB-MNE",
+    "AND-ESP",
+    "AND-FRA",
+    "AUT-CHE",
+    "AUT-CZE",
+    "AUT-DEU",
+    "AUT-HUN",
+    "AUT-ITA",
+    "AUT-LIE",
+    "AUT-SVK",
+    "AUT-SVN",
+    "BEL-DEU",
+    "BEL-FRA",
+    "BEL-LUX",
+    "BEL-NLD",
+    "BGR-GRC",
+    "BGR-MKD",
+    "BGR-ROU",
+    "BGR-SRB",
+    "BIH-HRV",
+    "BIH-MNE",
+    "BIH-SRB",
+    "BLR-LTU",
+    "BLR-LVA",
+    "BLR-POL",
+    "BLR-RUS",
+    "BLR-UKR",
+    "CHE-DEU",
+    "CHE-FRA",
+    "CHE-ITA",
+    "CHE-LIE",
+    "CZE-DEU",
+    "CZE-POL",
+    "CZE-SVK",
+    "DEU-DNK",
+    "DEU-FRA",
+    "DEU-LUX",
+    "DEU-NLD",
+    "DEU-POL",
+    "ESP-FRA",
+    "ESP-PRT",
+    "EST-LVA",
+    "EST-RUS",
+    "FIN-NOR",
+    "FIN-RUS",
+    "FIN-SWE",
+    "FRA-ITA",
+    "FRA-LUX",
+    "FRA-MCO",
+    "GBR-IRL",
+    "GRC-MKD",
+    "HRV-HUN",
+    "HRV-MNE",
+    "HRV-SRB",
+    "HRV-SVN",
+    "HUN-ROU",
+    "HUN-SRB",
+    "HUN-SVK",
+    "HUN-SVN",
+    "HUN-UKR",
+    "ITA-SMR",
+    "ITA-SVN",
+    "ITA-VAT",
+    "LTU-LVA",
+    "LTU-POL",
+    "LTU-RUS",
+    "LVA-RUS",
+    "MDA-ROU",
+    "MDA-UKR",
+    "MNE-SRB",
+    "NOR-RUS",
+    "NOR-SWE",
+    "POL-RUS",
+    "POL-SVK",
+    "POL-UKR",
+    "ROU-SRB",
+    "ROU-UKR",
+    "RUS-UKR",
+    "SVK-UKR"
+  ],
+  "neighbors": {
+    "ALB": [
+      "GRC",
+      "MKD",
+      "MNE"
+    ],
+    "AND": [
+      "ESP",
+      "FRA"
+    ],
+    "AUT": [
+      "CHE",
+      "CZE",
+      "DEU",
+      "HUN",
+      "ITA",
+      "LIE",
+      "SVK",
+      "SVN"
+    ],
+    "BLR": [
+      "LVA",
+      "LTU",
+      "POL",
+      "RUS",
+      "UKR"
+    ],
+    "BEL": [
+      "DEU",
+      "FRA",
+      "LUX",
+      "NLD"
+    ],
+    "BIH": [
+      "HRV",
+      "MNE",
+      "SRB"
+    ],
+    "BGR": [
+      "GRC",
+      "MKD",
+      "ROU",
+      "SRB"
+    ],
+    "HRV": [
+      "BIH",
+      "HUN",
+      "MNE",
+      "SRB",
+      "SVN"
+    ],
+    "CZE": [
+      "AUT",
+      "DEU",
+      "POL",
+      "SVK"
+    ],
+    "DNK": [
+      "DEU"
+    ],
+    "EST": [
+      "LVA",
+      "RUS"
+    ],
+    "FIN": [
+      "NOR",
+      "RUS",
+      "SWE"
+    ],
+    "FRA": [
+      "AND",
+      "BEL",
+      "CHE",
+      "DEU",
+      "ESP",
+      "ITA",
+      "LUX",
+      "MCO"
+    ],
+    "DEU": [
+      "AUT",
+      "BEL",
+      "CHE",
+      "CZE",
+      "DNK",
+      "FRA",
+      "LUX",
+      "NLD",
+      "POL"
+    ],
+    "GRC": [
+      "ALB",
+      "BGR",
+      "MKD"
+    ],
+    "VAT": [
+      "ITA"
+    ],
+    "HUN": [
+      "AUT",
+      "HRV",
+      "ROU",
+      "SRB",
+      "SVK",
+      "SVN",
+      "UKR"
+    ],
+    "ISL": [],
+    "IRL": [
+      "GBR"
+    ],
+    "ITA": [
+      "AUT",
+      "CHE",
+      "FRA",
+      "SMR",
+      "SVN",
+      "VAT"
+    ],
+    "LVA": [
+      "BLR",
+      "EST",
+      "LTU",
+      "RUS"
+    ],
+    "LIE": [
+      "AUT",
+      "CHE"
+    ],
+    "LTU": [
+      "BLR",
+      "LVA",
+      "POL",
+      "RUS"
+    ],
+    "LUX": [
+      "BEL",
+      "DEU",
+      "FRA"
+    ],
+    "MLT": [],
+    "MDA": [
+      "ROU",
+      "UKR"
+    ],
+    "MCO": [
+      "FRA"
+    ],
+    "MNE": [
+      "ALB",
+      "BIH",
+      "HRV",
+      "SRB"
+    ],
+    "NLD": [
+      "BEL",
+      "DEU"
+    ],
+    "MKD": [
+      "ALB",
+      "BGR",
+      "GRC"
+    ],
+    "NOR": [
+      "FIN",
+      "RUS",
+      "SWE"
+    ],
+    "POL": [
+      "BLR",
+      "CZE",
+      "DEU",
+      "LTU",
+      "RUS",
+      "SVK",
+      "UKR"
+    ],
+    "PRT": [
+      "ESP"
+    ],
+    "ROU": [
+      "BGR",
+      "HUN",
+      "MDA",
+      "SRB",
+      "UKR"
+    ],
+    "RUS": [
+      "BLR",
+      "EST",
+      "FIN",
+      "LVA",
+      "LTU",
+      "NOR",
+      "POL",
+      "UKR"
+    ],
+    "SMR": [
+      "ITA"
+    ],
+    "SRB": [
+      "BIH",
+      "BGR",
+      "HRV",
+      "HUN",
+      "MNE",
+      "ROU"
+    ],
+    "SVK": [
+      "AUT",
+      "CZE",
+      "HUN",
+      "POL",
+      "UKR"
+    ],
+    "SVN": [
+      "AUT",
+      "HRV",
+      "HUN",
+      "ITA"
+    ],
+    "ESP": [
+      "AND",
+      "FRA",
+      "PRT"
+    ],
+    "SWE": [
+      "FIN",
+      "NOR"
+    ],
+    "CHE": [
+      "AUT",
+      "DEU",
+      "FRA",
+      "ITA",
+      "LIE"
+    ],
+    "UKR": [
+      "BLR",
+      "HUN",
+      "MDA",
+      "POL",
+      "ROU",
+      "RUS",
+      "SVK"
+    ],
+    "GBR": [
+      "IRL"
+    ]
+  }
+}

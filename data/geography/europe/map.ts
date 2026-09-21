@@ -1,17 +1,37 @@
 import { geoMercator, geoPath, type GeoPermissibleObjects } from "d3-geo";
 import countryGeoJson from "./countries.geo.json";
+import generatedGeography from "./countries.generated.json";
 import { EUROPE_COUNTRY_BY_CODE, EUROPE_COUNTRY_DEFINITIONS, isEuropeCountryCode } from "./countries";
 
 type CountryFeature = GeoJSON.Feature<GeoJSON.Geometry, { code: string }>;
 
+const MAP_WIDTH = 1000;
+const MAP_HEIGHT = 700;
+const MAP_PADDING = 24;
+const { west, south, east, north } = generatedGeography.displayBounds;
+const boundsFeature: GeoJSON.Feature<GeoJSON.MultiPoint> = {
+  type: "Feature",
+  properties: {},
+  geometry: {
+    type: "MultiPoint",
+    coordinates: [
+      [west, south],
+      [east, north],
+    ],
+  },
+};
+
 const projection = geoMercator()
-  .center([15, 54])
-  .scale(620)
-  .translate([500, 345]);
+  .fitExtent(
+    [[MAP_PADDING, MAP_PADDING], [MAP_WIDTH - MAP_PADDING, MAP_HEIGHT - MAP_PADDING]],
+    boundsFeature,
+  )
+  .clipExtent([[0, 0], [MAP_WIDTH, MAP_HEIGHT]]);
 const pathGenerator = geoPath(projection);
 const features = (countryGeoJson as GeoJSON.FeatureCollection<GeoJSON.Geometry, { code: string }>).features;
 
-export const EUROPE_MAP_VIEWBOX = "0 0 1000 700";
+export const EUROPE_MAP_VIEWBOX = `0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`;
+export const EUROPE_MAP_BOUNDS = generatedGeography.displayBounds;
 
 export const EUROPE_COUNTRY_SHAPES = features.flatMap((feature) => {
   const code = feature.properties?.code;

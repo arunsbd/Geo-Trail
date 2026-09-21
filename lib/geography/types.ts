@@ -22,6 +22,7 @@ export type GeographyPlace<PlaceId extends string> = {
   name: string;
   aliases: readonly string[];
   polygon: PolygonReference;
+  centroid?: GeographicPoint;
   labelPoint?: GeographicPoint;
   terrestrialNeighbors: readonly PlaceId[];
   gameRegion: GeoTrailRegion;

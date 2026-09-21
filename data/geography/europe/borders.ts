@@ -1,3 +1,5 @@
+import adjacency from "./adjacency.generated.json";
+
 export const EUROPE_COUNTRY_CODES = [
   "ALB", "AND", "AUT", "BLR", "BEL", "BIH", "BGR", "HRV", "CZE", "DNK",
   "EST", "FIN", "FRA", "DEU", "GRC", "VAT", "HUN", "ISL", "IRL", "ITA",
@@ -8,52 +10,19 @@ export const EUROPE_COUNTRY_CODES = [
 
 export type EuropeCountryCode = (typeof EUROPE_COUNTRY_CODES)[number];
 
-export const EUROPE_LAND_BORDERS: Readonly<Record<EuropeCountryCode, readonly EuropeCountryCode[]>> = {
-  ALB: ["GRC", "MKD", "MNE"],
-  AND: ["ESP", "FRA"],
-  AUT: ["CHE", "CZE", "DEU", "HUN", "ITA", "LIE", "SVK", "SVN"],
-  BLR: ["LVA", "LTU", "POL", "RUS", "UKR"],
-  BEL: ["DEU", "FRA", "LUX", "NLD"],
-  BIH: ["HRV", "MNE", "SRB"],
-  BGR: ["GRC", "MKD", "ROU", "SRB"],
-  HRV: ["BIH", "HUN", "MNE", "SRB", "SVN"],
-  CZE: ["AUT", "DEU", "POL", "SVK"],
-  DNK: ["DEU"],
-  EST: ["LVA", "RUS"],
-  FIN: ["NOR", "RUS", "SWE"],
-  FRA: ["AND", "BEL", "CHE", "DEU", "ESP", "ITA", "LUX", "MCO"],
-  DEU: ["AUT", "BEL", "CHE", "CZE", "DNK", "FRA", "LUX", "NLD", "POL"],
-  GRC: ["ALB", "BGR", "MKD"],
-  VAT: ["ITA"],
-  HUN: ["AUT", "HRV", "ROU", "SRB", "SVK", "SVN", "UKR"],
-  ISL: [],
-  IRL: ["GBR"],
-  ITA: ["AUT", "CHE", "FRA", "SMR", "SVN", "VAT"],
-  LVA: ["BLR", "EST", "LTU", "RUS"],
-  LIE: ["AUT", "CHE"],
-  LTU: ["BLR", "LVA", "POL", "RUS"],
-  LUX: ["BEL", "DEU", "FRA"],
-  MLT: [],
-  MDA: ["ROU", "UKR"],
-  MCO: ["FRA"],
-  MNE: ["ALB", "BIH", "HRV", "SRB"],
-  NLD: ["BEL", "DEU"],
-  MKD: ["ALB", "BGR", "GRC"],
-  NOR: ["FIN", "RUS", "SWE"],
-  POL: ["BLR", "CZE", "DEU", "LTU", "RUS", "SVK", "UKR"],
-  PRT: ["ESP"],
-  ROU: ["BGR", "HUN", "MDA", "SRB", "UKR"],
-  RUS: ["BLR", "EST", "FIN", "LVA", "LTU", "NOR", "POL", "UKR"],
-  SMR: ["ITA"],
-  SRB: ["BIH", "BGR", "HRV", "HUN", "MNE", "ROU"],
-  SVK: ["AUT", "CZE", "HUN", "POL", "UKR"],
-  SVN: ["AUT", "HRV", "HUN", "ITA"],
-  ESP: ["AND", "FRA", "PRT"],
-  SWE: ["FIN", "NOR"],
-  CHE: ["AUT", "DEU", "FRA", "ITA", "LIE"],
-  UKR: ["BLR", "HUN", "MDA", "POL", "ROU", "RUS", "SVK"],
-  GBR: ["IRL"],
-};
+export const EUROPE_LAND_BORDERS = adjacency.neighbors as Readonly<
+  Record<EuropeCountryCode, readonly EuropeCountryCode[]>
+>;
+
+export const EUROPE_ADJACENCY_PROVENANCE = {
+  datasetVersion: adjacency.datasetVersion,
+  sourceSha256: adjacency.sourceSha256,
+  method: adjacency.method,
+  candidateEdges: adjacency.candidateEdges,
+  policyRejectedEdges: adjacency.policyRejectedEdges,
+  excludedCandidateEdges: adjacency.excludedCandidateEdges,
+  includedEdges: adjacency.includedEdges,
+} as const;
 
 export const EUROPE_TARGET_COUNTRY_CODES = EUROPE_COUNTRY_CODES.filter(
   (code) => !(["ISL", "IRL", "MLT", "GBR"] as const).includes(code as "ISL" | "IRL" | "MLT" | "GBR"),

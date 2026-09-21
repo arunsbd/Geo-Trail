@@ -27,13 +27,11 @@ All 44 roster countries are accepted guesses and shown on the map. Mystery targe
 ## Boundary and adjacency sources
 
 - Roster classification: [UN Statistics Division M49](https://unstats.un.org/unsd/methodology/m49/).
-- Display polygons: [Eurostat GISCO Countries 2024](https://gisco-services.ec.europa.eu/distribution/v2/countries/countries-2024-files.html), 1:10 million, WGS 84 / EPSG:4326.
-- Adjacency basis: GISCO 2024 inland international boundaries, curated into a reviewed symmetric edge list. A polygon touch is never promoted automatically into a game connection.
-- Secondary review reference: [EuroGeographics EuroGlobalMap](https://www.mapsforeurope.org/datasets/euro-global-map). It is a cross-check, not the roster authority, because its coverage differs from GeoTrail's world roster.
+- Geometry: [Natural Earth Admin 0 Countries](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/), 1:10 million, version 5.1.1, default de facto boundary view.
+- Adjacency basis: exact shared non-zero line segments in the same pinned Natural Earth geometry, followed by the explicit beta policy overrides. Point contact alone never creates a game connection.
+- Licence: [Natural Earth terms of use](https://www.naturalearthdata.com/about/terms-of-use/) place the vector data in the public domain and permit personal, educational, and commercial use. Attribution is not required; GeoTrail voluntarily displays `Made with Natural Earth`.
 
-The reproducible polygon fetch lives in `scripts/build-europe-geography.mjs`. Source metadata lives in `data/geography/europe/sources.json`.
-
-GISCO's administrative-boundary terms require visible attribution and restrict this downloaded dataset to non-commercial use. The beta map displays `© EuroGeographics for the administrative boundaries` beside the map and in the page footer. A commercial release requires an appropriate EuroGeographics licence or a replacement polygon source. The blocking technical/legal work and closure criteria are tracked in [`GISCO_COMMERCIAL_USE_FOLLOW_UP.md`](./GISCO_COMMERCIAL_USE_FOLLOW_UP.md).
+The reproducible, checksum-verified generator lives in `scripts/build-europe-geography.mjs`. Exact source metadata and processing steps live in `data/geography/europe/sources.json`. The complete replacement inventory and provenance audit live in [`EUROPE_MAP_PROVENANCE.md`](./EUROPE_MAP_PROVENANCE.md).
 
 ## Edge-case policy
 
@@ -51,7 +49,7 @@ Real internationally recognized land boundaries count regardless of whether they
 
 ### Disputed territories
 
-The beta does not add separate playable disputed-territory nodes. Kosovo is not a roster node under this M49-based policy. GISCO's inland-boundary layer attributes Kosovo-derived external boundaries to Serbia, producing Serbia–Albania and Serbia–North Macedonia candidates; the beta explicitly excludes both rather than silently turning disputed geometry into game edges. Crimea and other disputed areas are not separate nodes and do not alter the curated sovereign-country adjacency list. The display polygons are source data, while the graph remains the reviewed game authority.
+The beta does not add separate playable disputed-territory nodes. Kosovo is not a roster node under this M49-based policy. Natural Earth's default de facto polygons produce a Serbia–North Macedonia candidate but not a Serbia–Albania candidate; the beta policy continues to reject both possible Kosovo-derived pairings, so the generated game graph excludes Serbia–North Macedonia. Crimea and other disputed areas are not separate nodes and do not alter the reviewed sovereign-country adjacency list. The display polygons follow Natural Earth's default de facto view, while the graph remains the policy-reviewed game authority.
 
 ### Transcontinental countries
 
@@ -71,7 +69,7 @@ The U.S. game intentionally does not receive directional hints in this milestone
 
 - 44 unique roster IDs.
 - 40 mystery-target IDs in one connected component.
-- 44 GISCO country features.
+- 44 Natural Earth country features.
 - Symmetric land-border adjacency with no unknown IDs or self edges.
 - Five explicit microstate hit targets.
 - No gateway edges.

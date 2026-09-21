@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { EUROPE_COUNTRY_SHAPES } from "@/data/geography/europe/map";
+import countryGeoJson from "@/data/geography/europe/countries.geo.json";
+import generatedGeography from "@/data/geography/europe/countries.generated.json";
+import sources from "@/data/geography/europe/sources.json";
+import { EUROPE_COUNTRY_SHAPES, EUROPE_MAP_BOUNDS } from "@/data/geography/europe/map";
 import {
+  EUROPE_ADJACENCY_PROVENANCE,
   EUROPE_COUNTRY_CODES,
   EUROPE_LAND_BORDERS,
   EUROPE_TARGET_COUNTRY_CODES,
@@ -68,6 +72,23 @@ describe("Europe Border Hunt beta geography", () => {
     expect(EUROPE_COUNTRIES_DATASET.places.map((country) => country.name)).toEqual(EXPECTED_COUNTRY_NAMES);
   });
 
+  it("pins every generated geography artifact to Natural Earth 5.1.1", () => {
+    const checksum = "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255";
+    expect(sources.polygons.title).toBe("Natural Earth Admin 0 Countries, 1:10m");
+    expect(sources.polygons.version).toBe("5.1.1");
+    expect(sources.polygons.sha256).toBe(checksum);
+    expect(sources.license.status).toBe("Public domain");
+    expect(sources.license.commercialUse).toBe("Permitted");
+    expect(generatedGeography.sourceSha256).toBe(checksum);
+    expect(countryGeoJson.sourceSha256).toBe(checksum);
+    expect(EUROPE_ADJACENCY_PROVENANCE.sourceSha256).toBe(checksum);
+    expect(EUROPE_COUNTRIES_DATASET.version).toBe("europe-beta-natural-earth-5.1.1-v1");
+    expect(EUROPE_COUNTRIES_DATASET.places.every((country) =>
+      country.polygon.source === "Natural Earth Admin 0 Countries 1:10m v5.1.1" &&
+      country.polygon.featureId === country.id
+    )).toBe(true);
+  });
+
   it("resolves every canonical name and approved alias without cross-country collisions", () => {
     const ownerByInput = new Map<string, string>();
     for (const country of EUROPE_COUNTRIES_DATASET.places) {
@@ -92,6 +113,10 @@ describe("Europe Border Hunt beta geography", () => {
       }
     }
     expect(uniqueEdges).toHaveLength(81);
+    expect(EUROPE_ADJACENCY_PROVENANCE.candidateEdges).toHaveLength(82);
+    expect(EUROPE_ADJACENCY_PROVENANCE.includedEdges).toHaveLength(81);
+    expect(EUROPE_ADJACENCY_PROVENANCE.policyRejectedEdges).toEqual(["ALB-SRB", "MKD-SRB"]);
+    expect(EUROPE_ADJACENCY_PROVENANCE.excludedCandidateEdges).toEqual(["MKD-SRB"]);
   });
 
   it("uses the 40-country primary component for targets without gateways", () => {
@@ -185,16 +210,29 @@ describe("Europe Border Hunt beta geography", () => {
     expect(EUROPE_LAND_BORDERS.GBR).not.toContain("ESP");
   });
 
-  it("keeps all direction anchors finite and inside WGS84 bounds", () => {
+  it("regenerates finite centroids and direction anchors inside WGS84 bounds", () => {
     for (const code of EUROPE_COUNTRY_CODES) {
-      const point = EUROPE_COUNTRY_DEFINITIONS[code].labelPoint;
-      expect(Number.isFinite(point.longitude)).toBe(true);
-      expect(Number.isFinite(point.latitude)).toBe(true);
-      expect(point.longitude).toBeGreaterThanOrEqual(-180);
-      expect(point.longitude).toBeLessThanOrEqual(180);
-      expect(point.latitude).toBeGreaterThanOrEqual(-90);
-      expect(point.latitude).toBeLessThanOrEqual(90);
+      for (const point of [
+        EUROPE_COUNTRY_DEFINITIONS[code].centroid,
+        EUROPE_COUNTRY_DEFINITIONS[code].labelPoint,
+      ]) {
+        expect(Number.isFinite(point.longitude)).toBe(true);
+        expect(Number.isFinite(point.latitude)).toBe(true);
+        expect(point.longitude).toBeGreaterThanOrEqual(-180);
+        expect(point.longitude).toBeLessThanOrEqual(180);
+        expect(point.latitude).toBeGreaterThanOrEqual(-90);
+        expect(point.latitude).toBeLessThanOrEqual(90);
+      }
     }
+  });
+
+  it("derives non-empty Europe map bounds from Natural Earth geometry", () => {
+    expect(EUROPE_MAP_BOUNDS.west).toBeCloseTo(-24.539906);
+    expect(EUROPE_MAP_BOUNDS.south).toBeCloseTo(35.002143);
+    expect(EUROPE_MAP_BOUNDS.east).toBeCloseTo(44.966645);
+    expect(EUROPE_MAP_BOUNDS.north).toBeCloseTo(71.180365);
+    expect(EUROPE_MAP_BOUNDS.west).toBeLessThan(EUROPE_MAP_BOUNDS.east);
+    expect(EUROPE_MAP_BOUNDS.south).toBeLessThan(EUROPE_MAP_BOUNDS.north);
   });
 
   it("defines enhanced hit targets for all five included microstates", () => {
